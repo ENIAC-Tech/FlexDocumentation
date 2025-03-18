@@ -105,8 +105,8 @@ In the page editor, you can manage Flexbar devices, preview and edit pages. You 
 4. Undo
 5. Redo
 6. Key temporary storage: You can temporarily store keys here for later use
-7. Device overview: Select devices to download here
-8. Download configuration to device
+7. Device overview: Select devices to upload here
+8. Upload configuration to device
 9. Page scroll: When elements exceed page width, use the scroll buttons on both sides to browse the interface
 10. Drawer button: Click to open the drawer. Keys in the drawer won't change with the main page and can be used for frequently used keys
 11. Preview interface: Drag to reorder keys or drag new keys from the key library
