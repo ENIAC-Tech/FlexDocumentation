@@ -21,4 +21,5 @@ Contents
    sdk/index
    flexdesigner/index
    troubleshoting/index
+   releasenote/index
    markdown-example
