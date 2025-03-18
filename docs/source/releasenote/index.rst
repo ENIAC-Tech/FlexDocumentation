@@ -7,4 +7,4 @@ This section contains the release notes for each version of our software. Here y
    :maxdepth: 2
    :caption: Release Notes:
 
-   1.0.2.md
+   1.0.2

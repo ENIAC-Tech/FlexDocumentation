@@ -9,4 +9,5 @@ This section contains documentation for the FlexPlugin SDK.
 
    getting_started
    plugin_structure
-   flexcli 
+   flexcli
+   release_plugin
