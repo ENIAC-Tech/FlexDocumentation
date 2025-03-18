@@ -7,6 +7,6 @@ This section contains documentation for gadgets functions.
    :maxdepth: 1
    :caption: Gadgets Functions:
 
-   performance_monitor 
+   performance_chart
    audio_spectrum
    rgb_strip

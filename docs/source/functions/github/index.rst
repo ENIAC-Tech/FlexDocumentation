@@ -7,5 +7,5 @@ This section contains documentation for GitHub-related functions.
    :maxdepth: 1
    :caption: GitHub Functions:
 
-   starts
+   stars
    heatmap 
