@@ -1,5 +1,5 @@
 Release Notes
-============
+=============
 
 This section contains the release notes for each version of our software. Here you'll find information about new features, bug fixes, and other changes.
 
@@ -7,4 +7,4 @@ This section contains the release notes for each version of our software. Here y
    :maxdepth: 2
    :caption: Release Notes:
 
-   v1.0.2
+   1.0.2.md
