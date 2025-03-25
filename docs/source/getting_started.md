@@ -34,6 +34,8 @@ Install and open FlexDesigner.
 
 Simply drag and drop keys of interest from the button library on the right onto your Flexbar. Click the upload button in the top-right corner to upload your configuration to the Flexbar. The Flexbar will automatically restart and apply the changes shortly after.
 
+> In case you want to revert to the factory profile, download [factory.flexbar](../assets/factory-v1.flexbar) and open it by FlexDesigner.
+
 ## Next Steps
 
 - Check out the [SDK documentation](sdk/index.html) to learn how to create custom plugins
