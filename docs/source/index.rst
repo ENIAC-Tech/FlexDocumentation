@@ -3,8 +3,7 @@ Welcome to FlexDocumentation!
 
 **Flexbar** is a powerful and customizable tool that allows you to create custom profiles and automate tasks.
 
-Check out the :doc:`getting_started` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`getting_started` section for further information
 
 .. note::
 
@@ -21,4 +20,5 @@ Contents
    sdk/index
    flexdesigner/index
    troubleshoting/index
+   releasenote/index
    markdown-example

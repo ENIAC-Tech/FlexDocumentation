@@ -1,5 +1,5 @@
 Gadgets Functions
-================
+=================
 
 This section contains documentation for gadgets functions.
 

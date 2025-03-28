@@ -1,5 +1,5 @@
 GitHub Functions
-===============
+================
 
 This section contains documentation for GitHub-related functions.
 
