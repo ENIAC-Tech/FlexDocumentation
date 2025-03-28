@@ -1,6 +1,6 @@
 # RGB Strip
 
-The RGB strip feature displays a fullscreen dynamic RGB rainbow strip on the Flexbar.
+The RGB strip feature displays a full-screen dynamic RGB rainbow strip on the Flexbar.
 
 ## In the FlexDesigner
 
@@ -11,7 +11,7 @@ The FlexDesigner exposes several settings of the RGB strip in the function page:
 - Play Speed: Set the speed of animation
 - Color Width: Set the width/ length before the colors repeat
 
-Note: This is just an entrance to the RGB strip screen. So you can customize its apperance (background and foreground) to your own like.
+Note: This is just an entrance to the RGB strip screen. So you can customize its appearance (background and foreground) to your own like.
 
 ## On the Flexbar
 

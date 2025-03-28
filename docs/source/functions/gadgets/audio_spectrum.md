@@ -1,6 +1,6 @@
 # Audio Spectrum
 
-The audio spectrum functions displays the realtime audio spectrum on the Flexbar.
+The audio spectrum function displays the real-time audio spectrum on the Flexbar.
 
 ## In the FlexDesigner
 
@@ -11,7 +11,7 @@ There are 4 settings for this function, available in the function tab in the Fle
 - Spectrum Mode: Select between the available visual styles of the spectrum display.
 - Peak Hold Bar: Show a running peak bar for the spectrum.
 
-For macOS users: Currently it only supports microphone input. To display spectrum of the audio on your Mac, it's currently required to use third-party softwares (such as blackhole) to create virtual device for audio loopback. Check documentations of relavent third-party software for installation guides.
+For macOS users: Currently it only supports microphone input. To display spectrum of the audio on your Mac, it's currently required to use third-party software (such as blackhole) to create virtual device for audio loopback. Check documentations of relevent third-party software for installation guides.
 
 ## On the Flexbar
 

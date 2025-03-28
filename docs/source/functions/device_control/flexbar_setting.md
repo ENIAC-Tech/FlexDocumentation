@@ -1,6 +1,6 @@
 # Flexbar Setting
 
-The flexbar settings function opens the configuration page on the device. It allows controlling device options such as screen brightness, auto sleep, etc. The key needs to be added to the Flexbar first, then the settings can be accessed on the Flexbar.
+The Flexbar settings function opens the configuration page on the device. It allows controlling device options such as screen brightness, auto sleep, etc. The key needs to be added to the Flexbar first, then the settings can be accessed on the Flexbar.
 
 ## In the FlexDesigner
 
@@ -14,7 +14,7 @@ Press the key to open the settings page. From left to right, it exposes the foll
 - Screen Brightness: Set the brightness of the screen.
 - Rotate Screen: Rotate the display by 180 degrees. The home and back button assignment also follows this setting.
 - Haptic Switch: Enable or disable haptic (vibration) feedback.
-- Auto Sleep: When this feature is enabled, the flexbar would enter and exit sleep mode following your computer. Restarting the flexbar is required for this setting to take effect.
+- Auto Sleep: When this feature is enabled, the Flexbar would enter and exit sleep mode following your computer. Restarting the Flexbar is required for this setting to take effect.
 - Communication Protocol: Switch between CDC and HID USB device class. CDC is faster but exposes one additional serial port in your system. If you don't know what this means, CDC is recommended.
 
-Additionally, scroll the page to the right to reveal the reset button. This clears all settings stored on the flexbar.
+Additionally, scroll the page to the right to reveal the reset button. This clears all settings stored on the Flexbar.

@@ -1,6 +1,6 @@
 # Flexbar Sleep
 
-The flexbar sleep function allows putting the device into sleep mode manually.
+The Flexbar sleep function allows putting the device into sleep mode manually.
 
 ## In the FlexDesigner
 
