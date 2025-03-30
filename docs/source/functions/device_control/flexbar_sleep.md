@@ -1,10 +1,10 @@
 # Flexbar Sleep
 
-The Flexbar sleep function allows putting the device into sleep mode manually.
+The Flexbar sleep key allows putting the device into sleep mode manually.
 
 ## In the FlexDesigner
 
-Other than the standard visual options, this function doesn't have any additional configurable functions in the FlexDesigner.
+Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.
 
 ## On the Flexbar
 

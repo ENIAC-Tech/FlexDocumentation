@@ -1,10 +1,10 @@
-Power Control Functions
-====================
+Power Control Keys
+==================
 
-This section contains documentation for power control functions.
+This section contains documentation for power control keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Power Control Functions:
+   :caption: Power Control Keys:
 
    power_control 

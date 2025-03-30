@@ -1,6 +1,6 @@
 # Open Application
 
-The open application function opens a user defined application or folder when pressed.
+The open application key opens a user defined application or folder when pressed.
 
 ## In the FlexDesigner
 

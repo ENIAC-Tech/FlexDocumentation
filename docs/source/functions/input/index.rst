@@ -1,11 +1,11 @@
-Input Functions
-==============
+Input Keys
+==========
 
-This section contains documentation for input functions.
+This section contains documentation for input keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Input Functions:
+   :caption: Input Keys:
 
    keyboard
    mouse

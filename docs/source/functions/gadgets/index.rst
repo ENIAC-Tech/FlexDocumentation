@@ -1,11 +1,11 @@
-Gadgets Functions
-=================
+Gadgets Keys
+============
 
-This section contains documentation for gadgets functions.
+This section contains documentation for gadgets keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Gadgets Functions:
+   :caption: Gadgets Keys:
 
    performance_chart
    audio_spectrum

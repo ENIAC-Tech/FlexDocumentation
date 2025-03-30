@@ -21,4 +21,3 @@ Contents
    flexdesigner/index
    troubleshoting/index
    releasenote/index
-   markdown-example

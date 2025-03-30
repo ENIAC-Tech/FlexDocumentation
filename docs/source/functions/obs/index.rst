@@ -1,10 +1,10 @@
-OBS Functions
-============
+OBS Keys
+========
 
-This section contains documentation for OBS Studio related functions.
+This section contains documentation for OBS Studio related keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: OBS Functions:
+   :caption: OBS Keys:
 
    obs 

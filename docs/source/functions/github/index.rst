@@ -1,11 +1,11 @@
-GitHub Functions
-================
+GitHub Keys
+===========
 
-This section contains documentation for GitHub-related functions.
+This section contains documentation for GitHub-related keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: GitHub Functions:
+   :caption: GitHub Keys:
 
    stars
    heatmap 

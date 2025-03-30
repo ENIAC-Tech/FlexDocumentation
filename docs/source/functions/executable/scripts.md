@@ -1,6 +1,6 @@
 # Run Scripts
 
-The run scripts function executes user defined commands in shell when pressed.
+The run scripts key executes user defined commands in shell when pressed.
 
 ## In the FlexDesigner
 
