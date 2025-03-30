@@ -7,5 +7,6 @@ This section contains documentation for Adobe-related functions.
    :maxdepth: 1
    :caption: Adobe Functions:
 
+   get_started
    extendscript
    timeline 
