@@ -1,10 +1,11 @@
-Troubleshooting
-===============
+Troubleshooting & FAQ
+====================
 
-This section contains troubleshooting guides for common issues.
+This section contains troubleshooting guides and frequently asked questions.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Troubleshooting: 
+   :caption: Troubleshooting & FAQ
 
    navigation.md
+   content_aware_controls.md

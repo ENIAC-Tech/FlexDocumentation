@@ -2,6 +2,20 @@
 
 The performance chart function displays computer performance data charts.
 
+## Windows Setup
+
+On Windows, you need to configure the data source for Performance Chart in advance. You can find the relevant settings in `Setting->Application`:
+
+![1743732409096](image/performance_chart/1743732409096.png)
+
+- Built-in Source: The software's built-in hardware data source. Administrator privileges are required to enable this monitoring.
+- AIDA64: Obtain data from AIDA64
+
+  > You need to enable `Writing sensor values to Registry` in AIDA64's `Preferences->External Applications`
+  >
+
+    ![1743732830596](image/performance_chart/1743732830596.png)
+
 ## In the FlexDesigner
 
 There are various options in the FlexDesigner for this function. Overall, it allows configuration for:
