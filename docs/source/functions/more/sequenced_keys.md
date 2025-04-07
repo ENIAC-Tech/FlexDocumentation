@@ -1,6 +1,6 @@
 # Sequenced Keys
 
-The sequenced keys executes multiple keys when pressed, as if multiple keys are pressed sequentially. If only one key out of a list shall be executed at once, check out the 'cycled keys'.
+The sequenced-keys executes multiple keys when pressed, as if multiple keys are pressed sequentially. If only one key out of a list shall be executed at once, check out the 'cycled keys'.
 
 ## In the FlexDesigner
 
@@ -19,7 +19,7 @@ In the sequenced keys, there are two additional flow control 'key's in the 'more
 - Delay: Delay the execution of the next action by defined amount of time. The time is added on top of the global delay settings.
 - Repeat: Repeat the execution of actions within the repeat group by defined amount of times. The number of iterations and be defined at the input box right top to the repeat group. Repeat group can be nested as well.
 
-Click on the function to change its settings. The popup window is identical to the normal function tab.
+The function tab of added keys can be opened by double-clicking on the key.
 
 ## On the Flexbar
 

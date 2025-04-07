@@ -10,4 +10,5 @@ This section contains documentation for system control keys.
    audio_mixer
    volume_control 
    microphone_control
-   ddcci
+   monitor_brightness_control
+   monitor_power_control
