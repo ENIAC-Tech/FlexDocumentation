@@ -8,6 +8,10 @@ This section contains documentation for the FlexDesigner.
    :caption: FlexDesigner:
 
    getting_started
+   page_editor
+   key_editor
+   key_library
+   toolbar
    background
    foreground
    plugins 

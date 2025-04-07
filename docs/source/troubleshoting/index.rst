@@ -7,5 +7,6 @@ This section contains troubleshooting guides and frequently asked questions.
    :maxdepth: 2
    :caption: Troubleshooting & FAQ
 
-   navigation.md
-   content_aware_controls.md
+   navigation
+   content_aware_controls
+   firmware

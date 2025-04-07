@@ -26,7 +26,7 @@ Your package should contain the following items:
 - Type-C to Type-C Cable
 - Magnetic Base
 
-## Connecting Flexbar to Your Device:
+## Connecting Flexbar to Your Device
 
 Use the provided USB Type-C data cable (or any USB cable capable of data transmission, regardless of connector type) to connect your Flexbar to your device. Flexbar only requires basic USB 2.0 data communication and a 5V power supply under 500mA. Theoretically, any device supporting external USB keyboards and mice can use Flexbar, including but not limited to PCs, tablets like iPads, smartphones, and industrial control hosts.
 
@@ -34,9 +34,9 @@ Use the provided USB Type-C data cable (or any USB cable capable of data transmi
 >
 > Unfortunately, due to size constraints, Flexbar does not include a built-in battery or wireless functionality. Stay tuned for updates on future product iterations.
 
-## Using Flexbar and FlexDesigner for the First Time:
+## Using Flexbar and FlexDesigner for the First Time
 
-Flexbar comes with a simple tutorial pre-installed to help you get started. Later, you can customize your own unique shortcut profiles using our desktop software, [FlexDesigner](https://eniacelec.com/pages/software), and upload them to your Flexbar.
+Flexbar comes with a simple tutorial pre-installed to help you get started. Later, you can customize your own unique shortcut profiles using our desktop software [FlexDesigner](https://eniacelec.com/pages/software), and upload them to your Flexbar.
 
 To help you quickly get started, a factory-default profile without the tutorial is also available [factory.flexbar](../assets/factory-v1.flexbar). Additional profiles and functional key sets are provided on our online platform [FlexMarketplace](https://flexmarketplace.eniacelec.com/home/index), where you can freely download, import, and kickstart your shortcut journey.
 
@@ -44,33 +44,45 @@ To help you quickly get started, a factory-default profile without the tutorial 
 >
 > Individual pages within profiles can be separately exported and imported, allowing you to use only the parts you need.
 
-## Terminology:
+## Terminology
 
-#### FlexDesigner:
+### FlexDesigner
 
-FlexDesigner is software provided by us for customizing Flexbar functionalities, software updates, and supporting advanced features. Available for Windows, Mac, and Linux, it does not affect your ability to use basic keyboard and mouse functions on devices without FlexDesigner installed. [Download Link](https://eniacelec.com/pages/software)
+[Download](https://eniacelec.com/pages/software)
 
-#### Profile:
+FlexDesigner is software provided by us for customizing Flexbar functionalities, software updates, and supporting advanced features. Available for Windows, Mac, and Linux, it does not affect your ability to use basic keyboard and mouse functions on devices without FlexDesigner installed.
+
+> Visit the [FlexDesigner documentation](./flexdesigner/getting_started.md) to learn how to customize your Flexbar
+
+### Profile
 
 A profile contains all the keys' appearance, functionality, and page logic configured for display on the Flexbar via FlexDesigner. Profiles can be shared and edited, and uploaded to compatible Flexbar devices through FlexDesigner, but cannot be downloaded back from Flexbar to your computer.
 
-#### Keys:
+> Factory profile download: [factory.flexbar](../assets/factory-v1.flexbar) 
+>
+> *Please note that the Factory Profile is for demonstration purposes only, and some functions may not be compatible with your computer*
 
-Small square-shaped functional components displayed on Flexbar are called "keys". Depending on their specific functions, not all keys necessarily perform interactive "button-like" actions. [How to use](flexdesigner/index.html)
+### Keys
 
-#### Firmware:
+Small square-shaped functional components displayed on Flexbar are called "keys". Depending on their specific functions, not all keys necessarily perform interactive "button-like" actions.
+
+> [Add your first key to Flexbar](./flexdesigner/getting_started.md)
+
+### Firmware
 
 Firmware refers to the embedded software written into Flexbar’s internal microcontroller, pre-installed at the factory. Updates to firmware are prompted via FlexDesigner when available. We recommend regularly updating to ensure access to the latest features and improved stability. Firmware can also be manually rolled back or updated in special cases—details available at [Firmware Update and Rollback].
 
-#### FlexGate:
+### FlexMarketplace
 
-FlexGate is our official platform dedicated to sharing profiles and plug-ins for Flex series products [FlexGate Link]. Users can upload and download pre-configured shortcut sets. Officially provided sets are also available for convenience. After downloading, you can freely combine or edit them via FlexDesigner’s page import/export functions and integrate them into your Flexbar Profile. [FlexGate User Guide]
+[FlexMarketplace](https://flexmarketplace.eniacelec.com/home/index) is our official platform dedicated to sharing profiles and plug-ins for Flex series products. Users can upload and download pre-configured shortcut sets. Officially provided sets are also available for convenience. After downloading, you can freely combine or edit them via FlexDesigner’s page import/export functions and integrate them into your Flexbar Profile.
 
-#### Plug-in:
+### Plug-in
 
-The plug-in system is an open-source software platform designed to allow developers and users with additional needs to create and integrate new functionalities into Flexbar. Users can independently develop and run features alongside built-in functionalities, optionally sharing their creations on the FlexGate platform for community use.
+The plug-in system is an open-source software platform designed to allow developers and users with additional needs to create and integrate new functionalities into Flexbar. Users can independently develop and run features alongside built-in functionalities, optionally sharing their creations on the FlexMarketplace platform for community use.
 
-## FAQ:
+> Check out the [SDK documentation](sdk/index.html) to learn how to create custom plugins
+
+## FAQ
 
 **Q:** Why are Flexbar keys called "keys" instead of "buttons"?
 
@@ -94,6 +106,6 @@ The plug-in system is an open-source software platform designed to allow develop
 
 ## Next Steps
 
-- Check out the [SDK documentation](sdk/index.html) to learn how to create custom plugins
-- Explore the [Functions documentation](functions/index.html) to see what you can do with Flexbar
-- Visit the [FlexDesigner documentation](flexdesigner/index.html) to learn how to customize your Flexbar
+- Check out the [SDK documentation](sdk/getting_started.md) to learn how to create custom plugins
+- Explore the [Functions documentation](functions/index.rst) to see what you can do with Flexbar
+- Visit the [FlexDesigner documentation](flexdesigner/getting_started.md) to learn how to customize your Flexbar

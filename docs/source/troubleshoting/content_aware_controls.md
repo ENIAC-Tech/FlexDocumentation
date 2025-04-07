@@ -1,12 +1,12 @@
-## "Content Aware Controls" Setup and Usage
+# "Content Aware Controls" Setup and Usage
 
-### What is "Content Aware Controls"?
+## What is "Content Aware Controls"?
 
 To make Flexbar more convenient to use, our "Content Aware Controls" feature automatically brings up the most frequently used shortcut interface on the screen while you open specific applications. Simply follow this tutorial to complete a few easy steps and achieve the following effect:
 
 ![1743733850920](image/content_aware_controls/1743733850920.png)
 
-### How to Add
+## How to Add
 
 To make your Flexbar automatically display a specific page when using an application through "Content Aware Controls," you need to first create a page for display. You can find the "Page" key under the "Navigation" category in the Key Library on the right side. Drag it onto the virtual Flexbar to use it. For details, see the "How to Navigate on Flexbar" section.
 
@@ -20,7 +20,7 @@ You can add the shortcuts you frequently use with that application or import key
 >
 > More shortcut pre-sets will be uploaded to the Market Place for download soon. Please note that you will still need to **manually bind** these Pages to software windows, as the specific window and program names will vary on each computer.
 
-### How to Set Up "Content Aware Controls"
+## How to Set Up "Content Aware Controls"
 
 ① In Flexbar Designer, click on the Page you created for display (make sure to select the Page key itself in the parent folder, not inside the Page).
 
@@ -34,7 +34,7 @@ You can add the shortcuts you frequently use with that application or import key
 
 ![1743733975174](image/content_aware_controls/1743733975174.png)
 
-### Result
+## Result
 
 When your computer opens or focuses (foreground use) on the previously bound window, Flexbar will automatically switch to the corresponding page you bind the window to. In this example, we bound the **Excel Page** to **Microsoft Excel**. When you use Microsoft Excel, Flexbar's "Content Aware Controls" feature will **automatically** **display** the Excel Page without requiring you to search through the many Pages on Flexbar.
 
@@ -48,6 +48,6 @@ When your computer opens or focuses (foreground use) on the previously bound win
 >
 > *This feature requires Flexbar Designer to be running in the background to work.
 
-### Sub-pages
+## Sub-pages
 
 When a parent page is bound to a specific application, all sub-pages will also be automatically bound to that application. When you enter a sub-page that is bound to an application, Flexbar will automatically remember the sub-page's position, and next time it will automatically jump back to the last sub-page you visited.

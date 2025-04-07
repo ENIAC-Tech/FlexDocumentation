@@ -16,9 +16,8 @@ Contents
    :maxdepth: 2
 
    getting_started
+   flexdesigner/index
    functions/index
    sdk/index
-   flexdesigner/index
    troubleshoting/index
    releasenote/index
-   markdown-example
