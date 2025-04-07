@@ -22,3 +22,7 @@ Feature descriptions:
 In interface ④ for applying appearance settings to other keys, you can select specific appearance settings to apply and the application scope.
 
 ![1742285928034](image/getting_started/1742285928034.png)
+
+## Next Steps
+
+- Visit the [Background](background.md) and [Foreground](foreground.md) to learn how to customize a key

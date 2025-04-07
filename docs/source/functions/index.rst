@@ -7,17 +7,17 @@ This section contains documentation for all available functions in Flexbar.
    :maxdepth: 2
    :caption: Functions:
 
-   adobe/index
    device_control/index
-   executable/index
-   gadgets/index
-   github/index
    input/index
-   minecraft/index
-   more/index
+   executable/index
    navigation/index
-   obs/index
-   placeholder/index
-   power_control/index
+   more/index
    system_control/index
+   placeholder/index
    utilities/index 
+   power_control/index
+   gadgets/index
+   adobe/index
+   obs/index
+   github/index
+   minecraft/index

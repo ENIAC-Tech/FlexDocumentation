@@ -1,22 +1,47 @@
 # Firmware
 
-Firmware refers to the embedded software written into Flexbar’s internal microcontroller, pre-installed at the factory. Updates to firmware are prompted via FlexDesigner when available. We recommend regularly updating to ensure access to the latest features and improved stability.
+Firmware refers to the embedded software written into Flexbar's internal microcontroller, pre-installed at the factory. Updates to firmware are prompted via FlexDesigner when available. We recommend regularly updating to ensure access to the latest features and improved stability.
 
 ## Update your firmware
 
-**在正常情况下你不需要手动更新你的固件，如果有必要的固件更新，FlexDesigner会自动弹出更新通知。**
+### Automatic Update
+
+When a firmware update is available, FlexDesigner will display the following prompt. We recommend updating as soon as possible.
+
+![1743988092470](image/firmware/1743988092470.png)
+
+### Manual Update
+
+**Under normal circumstances, you do not need to manually update your firmware. If a necessary firmware update is available, FlexDesigner will notify you.**
 
 Go to `Setting -> Device`
 
 ![1743984789282](image/firmware/1743984789282.png)
 
-Click `UPLOAD FIRMWARE`, 等待固件上传完成并自动重启
+Click `UPLOAD FIRMWARE`, then wait for the firmware upload to complete and the device to restart automatically.
 
-**注意在更新过程中请勿断电**
+**Note: Do not disconnect power during the update process**
 
 ## Rollback
 
-如果更新后的固件无法正常工作，你可以手动回滚固件到上一个版本。
+If the updated firmware does not function properly, you can manually roll back to the previous version.
 
-- 在安全模式下回滚
-- 在设置界面内回滚
+### Rollback in Safe Mode
+
+1. Swipe left on the screen
+
+![1743988771303](image/firmware/1743988771303.png)
+
+2. Click `ROLLBACK` to revert to the previous firmware version
+
+![1743988710621](image/firmware/1743988710621.png)
+
+### Rollback from Settings Interface
+
+1. Swipe left on the screen
+
+![1743990519882](image/firmware/1743990519882.png)
+
+2. Click `ROLLBACK` to revert to the previous firmware version
+
+![1743990587111](image/firmware/1743990587111.png)
