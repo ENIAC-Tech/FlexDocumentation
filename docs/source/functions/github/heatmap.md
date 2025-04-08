@@ -8,4 +8,4 @@ To use this feature, the GitHub username needs to be configured in the FlexDesig
 
 ## On the Flexbar
 
-The heatmap would be displayed in the area allocated for this feature. This is no interactive actions for this function.
+The heatmap would be displayed in the area allocated for this feature. This is no interactive actions for this key.

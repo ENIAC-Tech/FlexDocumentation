@@ -1,10 +1,11 @@
-Placeholder Functions
-====================
+Placeholder Keys
+================
 
-This section contains documentation for placeholder functions.
+This section contains documentation for placeholder keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Placeholder Functions:
+   :caption: Placeholder Keys:
 
-   placeholder 
+   no_function_key
+   spacer

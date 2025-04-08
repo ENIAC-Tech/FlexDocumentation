@@ -1,11 +1,11 @@
-Utilities Functions
-=================
+Utilities Keys
+==============
 
-This section contains documentation for utilities functions.
+This section contains documentation for utilities keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Utilities Functions:
+   :caption: Utilities Keys:
 
    workspace 
    macro_player

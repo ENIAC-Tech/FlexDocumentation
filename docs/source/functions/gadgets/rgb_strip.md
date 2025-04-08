@@ -15,4 +15,4 @@ Note: This is just an entrance to the RGB strip screen. So you can customize its
 
 ## On the Flexbar
 
-Press the button on the Flexbar to enter the RGB strip screen. Press either the back or home button to exit.
+Press the key on the Flexbar to enter the RGB strip screen. Press either the back or home key to exit.

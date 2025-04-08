@@ -1,7 +1,7 @@
 Functions
 =========
 
-This section contains documentation for all available functions in Flexbar.
+This section contains documentation for the functions of all available keys in Flexbar.
 
 .. toctree::
    :maxdepth: 2

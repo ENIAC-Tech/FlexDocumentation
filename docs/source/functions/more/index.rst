@@ -1,11 +1,11 @@
-More Functions
-=================
+More Keys
+=========
 
-This section contains documentation for cycle button and sequence button.
+This section contains documentation for the cycle key and the sequence key.
 
 .. toctree::
    :maxdepth: 1
-   :caption: More Functions:
+   :caption: More Keys:
 
-   sequence
-   cycle_button
+   sequenced_keys
+   cycled_keys

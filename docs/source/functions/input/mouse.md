@@ -1,12 +1,12 @@
 # Mouse
 
-The mouse function sends mouse actions as if on an actual mouse.
+The mouse key sends mouse actions as if on an actual mouse.
 
 This feature emulates a standard USB mouse. It works on any devices without having FlexDesigner running.
 
 ## In the FlexDesigner
 
-The FlexDesigner exposes the following settings for this function:
+The FlexDesigner exposes the following settings for this key:
 
 - Buttons: Includes the 'Left', 'Right', 'Middle', 'Back', and 'Forward' checkboxes. These specify if any of those buttons should be pressed in the mouse event.
 - Movement: Specify how much the mouse should move when triggered. The 'wheel' and 'pan' specifies the movement of the vertical scroll wheel and the horizontal scroll wheel respectively.
@@ -16,4 +16,4 @@ The FlexDesigner exposes the following settings for this function:
 
 ## On the Flexbar
 
-Press the button on the Flexbar to trigger the defined action.
+Press the key on the Flexbar to trigger the defined action.

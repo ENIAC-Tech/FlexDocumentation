@@ -1,6 +1,6 @@
 # Open Webpage
 
-The open webpage function opens a user defined webpage using the default browser when pressed.
+The open webpage key opens a user defined webpage using the default browser when pressed.
 
 ## In the FlexDesigner
 

@@ -1,6 +1,6 @@
 # Text/ Emoji
 
-The text/ emoji function inserts text to the active input box on the computer. This function supports emoji, but requires the FlexDesigner to be running. Also see the text function which doesn't support emoji but also doesn't depend on the FlexDesigner.
+The text/ emoji key inserts text to the active input box on the computer. This key supports emoji, but requires the FlexDesigner to be running. Also see the text key which doesn't support emoji but also doesn't depend on the FlexDesigner.
 
 ## In the FlexDesigner
 
@@ -8,4 +8,4 @@ The text or emoji (or any combination of these in one or multiple lines) can be 
 
 ## On the Flexbar
 
-Press the button to insert the defined text/ emoji to the active input box.
+Press the key to insert the defined text/ emoji to the active input box.

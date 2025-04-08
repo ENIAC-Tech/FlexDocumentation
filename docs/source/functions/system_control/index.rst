@@ -1,13 +1,14 @@
-System Control Functions
-=====================
+System Control Keys
+===================
 
-This section contains documentation for system control functions.
+This section contains documentation for system control keys.
 
 .. toctree::
    :maxdepth: 1
-   :caption: System Control Functions:
+   :caption: System Control Keys:
 
    audio_mixer
    volume_control 
    microphone_control
-   ddcci
+   monitor_brightness_control
+   monitor_power_control
