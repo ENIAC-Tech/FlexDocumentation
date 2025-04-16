@@ -8,6 +8,10 @@ The commands to execute can be defined in the function tab in the FlexDesigner (
 
 On Windows platform, PowerShell commands are also supported.
 
+![1744713206695](image/scripts/1744713206695.png)
+
+![1744713170717](image/scripts/1744713170717.png)
+
 ## On the Flexbar
 
 Press the key to execute the defined commands in the FlexDesigner.
@@ -16,8 +20,8 @@ Press the key to execute the defined commands in the FlexDesigner.
 
 ### Open a new instance of an application
 
-```open -n /Applications/KiCad/KiCad.app``` (macOS)
+``open -n /Applications/KiCad/KiCad.app`` (macOS)
 
 ### Open a webpage in a specified web browser
 
-```open /Applications/Firefox.app --args www.eniacelec.com``` (macOS)
+``open /Applications/Firefox.app --args www.eniacelec.com`` (macOS)

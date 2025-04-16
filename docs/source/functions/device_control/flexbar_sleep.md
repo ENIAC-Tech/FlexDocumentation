@@ -8,6 +8,8 @@ Note that it's possible to set any page (other than the home page) or certain ke
 
 Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.
 
+![1744712724668](image/flexbar_sleep/1744712724668.png)
+
 ## On the Flexbar
 
 Press the key to put the device into sleep mode.
