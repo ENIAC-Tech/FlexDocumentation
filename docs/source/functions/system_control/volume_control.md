@@ -4,6 +4,8 @@ The volume control key allows controlling system audio output volume. The volume
 
 This key only works when the FlexDesigner is running. If this is not desired, consider using the 'Scroll Wheel' key in the 'Input' category, and bind the left/ right action to volume down/ up. The catch is that the scroll wheel key won't be able to display the current volume.
 
+![1745502370652](image/volume_control/1745502370652.png)
+
 ## In the FlexDesigner
 
 Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.

@@ -4,6 +4,8 @@ The microphone control key allows controlling system audio input volume.
 
 This key only works when the FlexDesigner is running. This key is only present in the Windows version of the FlexDesigner at the moment.
 
+![1745502389085](image/microphone_control/1745502389085.png)
+
 ## In the FlexDesigner
 
 Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.

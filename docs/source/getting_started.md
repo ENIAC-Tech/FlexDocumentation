@@ -38,7 +38,7 @@ Flexbar comes with a simple tutorial pre-installed to help you get started. Late
 
 ![1743993683833](image/getting_started/1743993683833.png)
 
-To help you quickly get started, a factory-default profile without the tutorial is also available [factory.flexbar](../assets/factory-v1.flexbar). Additional profiles and functional key sets are provided on our online platform [FlexMarketplace](https://flexmarketplace.eniacelec.com/home/index), where you can freely download, import, and kickstart your shortcut journey.
+To help you quickly get started, a factory-default profile without the tutorial is also available [factory.flexbar](../assets/factory-v1.flexbar). Additional profiles and functional key sets are provided on our online platform [FlexGate](https://flexgate.eniacelec.com/home/index), where you can freely download, import, and kickstart your shortcut journey.
 
 > Due to its multifunctional nature, we strongly recommend thoroughly reading the [FlexDesigner documentation](./flexdesigner/getting_started.md).
 >
@@ -88,41 +88,41 @@ Small square-shaped functional components displayed on Flexbar are called "keys"
 
 Firmware refers to the embedded software written into Flexbar’s internal microcontroller, pre-installed at the factory. Updates to firmware are prompted via FlexDesigner when available. We recommend regularly updating to ensure access to the latest features and improved stability. Firmware can also be manually rolled back or updated in special cases—details available at [firmware documention](troubleshoting/firmware.md).
 
-### FlexMarketplace
+### FlexGate
 
-[FlexMarketplace](https://flexmarketplace.eniacelec.com/home/index) is our official platform dedicated to sharing profiles and plug-ins for Flex series products. Users can upload and download pre-configured shortcut sets. Officially provided sets are also available for convenience. After downloading, you can freely combine or edit them via FlexDesigner’s page import/export functions and integrate them into your Flexbar Profile.
+[FlexGate](https://flexgate.eniacelec.com/home/index) is our official platform dedicated to sharing profiles and plug-ins for Flex series products. Users can upload and download pre-configured shortcut sets. Officially provided sets are also available for convenience. After downloading, you can freely combine or edit them via FlexDesigner’s page import/export functions and integrate them into your Flexbar Profile.
 
-> *FlexMarketplace is currently under development and expected to launch in late April*
+[How to use FlexGate](./troubleshoting/flexgate.md)
 
 ### Plug-in
 
-The plug-in system is an open-source software platform designed to allow developers and users with additional needs to create and integrate new functionalities into Flexbar. Users can independently develop and run features alongside built-in functionalities, optionally sharing their creations on the FlexMarketplace platform for community use.
+The plug-in system is an open-source software platform designed to allow developers and users with additional needs to create and integrate new functionalities into Flexbar. Users can independently develop and run features alongside built-in functionalities, optionally sharing their creations on the FlexGate platform for community use.
 
-> Check out the [SDK documentation](sdk/index.html) to learn how to create custom plugins
+> Check out the [SDK documentation](sdk/index.rst) to learn how to create custom plugins
 
 ## FAQ
 
-**Q:** Why are Flexbar keys called "keys" instead of "buttons"?
+**Q:** **Why are Flexbar keys called "keys" instead of "buttons"?**
 
 **A:** Because we define Flexbar as a specialized multifunctional touchscreen keyboard, rather than a "button board".
 
-**Q:** Why is it called "Flex" when Flexbar itself isn't flexible?
+**Q:** **Why is it called "Flex" when Flexbar itself isn't flexible?**
 
 **A:** Although physically rigid, Flexbar’s functionality is highly flexible, hence the name "Flexbar".
 
-**Q:** Why is there no wireless version available?
+**Q:** **Why is there no wireless version available?**
 
 **A:** Due to size limitations designed for laptop compatibility, Flexbar is already as compact as possible. With current battery technology, achieving reasonable battery life for a screen of this size is not yet feasible. However, we continue researching new forms and possibilities, potentially including a wireless version in the future.
 
-**Q:** What is ENIAC?
+**Q:** **What is ENIAC?**
 
 **A:** ENIAC (Electronic Numerical Integrator and Computer) was the world's first digital electronic general-purpose computer. Built in 1954 using vacuum tubes and relays, it weighed many tons and offered the performance of about half a modern portable calculator. It is also the longtime online pseudonym used by our founder.
 
-**Q:** Is Flexbar or the Flex series open-source?
+**Q:** **Is Flexbar or the Flex series open-source?**
 
 **A:** We are a small developer team that wishes to open-source our work, but commercial considerations prevent immediate full open-sourcing. Currently, we provide an open-source plug-in system for users to customize Flexbar functionality, and we closely collaborate with the open-source community. More components may be gradually open-sourced in the future, and possibly entirely open-source products will be released.
 
-**Q**: 2D/3D Models?
+**Q**: **2D/3D Models?**
 
 **A**: We provide a 3D reference file detailing the dimensions and magnetic positions of the Flexbar for your convenience.
 

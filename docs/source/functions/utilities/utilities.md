@@ -6,26 +6,44 @@ This page describes other on-device utilities provided in the Flexbar.
 
 This key opens a basic calculator on the device.
 
+![1745503235322](image/utilities/1745503235322.png)
+
+Click on the result area to send the result to your computer.
+
 ## Binary Calculator
 
 This key opens a binary calculator on the device with the following features:
 
 - Converts between binary, decimal, and hexadecimal
-- Touch the decimal/ hexadecimal display to switch enter mode
-- Touch to modify bit directly (up to 16-bits)
-- Left shift, right shift, bitwise invert, increment, and decrement function
+- Touch the decimal/hexadecimal display to switch input mode
+- Touch to modify bits directly (up to 16-bits)
+- Left shift, right shift, bitwise invert, increment, and decrement functions
+- Long press the result area to send the result to your computer
+
+### Binary 16 bits Mode
+
+The binary calculator operates in this mode by default, supporting 16-bit binary input
+
+![1745503682320](image/utilities/1745503682320.png)
+
+### Binary 8 bits Mode
+
+In 16 bits Mode, press the `16` button to switch to 8 bits Mode, which supports 8-bit binary input
+
+Press the `8` button again to switch back to 16-bit mode
+
+![1745504411144](image/utilities/1745504411144.png)
+
+### Hexadecimal Mode
+
+Touch the HEX result area to enter hexadecimal mode. In this mode, you can input hexadecimal values up to 4 digits. You can still press the `8` or `16` buttons to switch the bit width of the hexadecimal value
+
+![1745504457201](image/utilities/1745504457201.png)
+
+### Decimal Mode
+
+Touch the DEC result area to enter decimal mode. In this mode, you can input decimal values up to 65535. You can still press the `8` or `16` buttons to switch the bit width of the value
 
 ## Ruler
 
 This key opens a real sized ruler on the device. Touch to switch between imperial unit and metric unit.
-
-## Clock
-
-This key displays a real-time clock in the space assigned for the key. The date and time format can be customized in the function tab in the FlexDesigner. There are also a few example formats to choose from, available in the menu right to the format input box.
-
-## Timer
-
-This key displays a counter down timer in the space assigned for the key, with the following features:
-
-- A sequence of keys can be executed upon the start or the end of the count-down. The sequence can be edited in the action sub-tab in the function tab. For details of sequence execution, see the documentation for 'Sequence' in the 'More' category.
-- Alarm can be displayed on the key face only or full screen

@@ -10,5 +10,8 @@ This section contains documentation for utilities keys.
    workspace 
    macro_player
    keyboard_layout_selector
+   auto_hot_key
    taskbar
    utilities
+   clock
+   timer

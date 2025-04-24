@@ -4,7 +4,11 @@ This key allows changing external monitor brightness using the DDC/CI protocol. 
 
 Note that on a laptop, it would be easier to use the 'Multimedia' key in the 'Input' category to control screen brightness.
 
+![1745502339824](image/monitor_brightness_control/1745502339824.png)
+
 ## In the FlexDesigner
+
+![1745502300597](image/monitor_brightness_control/1745502300597.png)
 
 A list of connected monitors would show up in the function tab of this key. It also shows the control supported by the monitor. Of each monitor, there is a checkbox to the right. Only checked monitors would be controlled by this key.
 

@@ -2,9 +2,9 @@
 
 This document explains how to use Premiere Pro's timeline preview and control features on the Flexbar.
 
-## In the FlexDesigner
+![1743306940987](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/adobe/image/timeline/1743306940987.png)
 
-![1743306940987](image/timeline/1743306940987.png)
+## In the FlexDesigner
 
 You can find this feature under the "Adobe" category in the Key Library.
 

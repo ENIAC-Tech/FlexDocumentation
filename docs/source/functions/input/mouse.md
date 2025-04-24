@@ -4,7 +4,11 @@ The mouse key sends mouse actions as if on an actual mouse.
 
 This feature emulates a standard USB mouse. It works on any devices without having FlexDesigner running.
 
+![1744983987017](image/mouse/1744983987017.png)
+
 ## In the FlexDesigner
+
+![1744984004083](image/mouse/1744984004083.png)
 
 The FlexDesigner exposes the following settings for this key:
 

@@ -7,7 +7,8 @@ This section contains troubleshooting guides and frequently asked questions.
    :maxdepth: 2
    :caption: Troubleshooting & FAQ
 
-   navigation
    content_aware_controls
    firmware
    safemode
+   create_my_first_profile
+   flexgate

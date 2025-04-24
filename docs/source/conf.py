@@ -50,3 +50,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# 添加自定义静态资源路径和样式
+html_static_path = ['_static']
+html_css_files = [
+    'css/custom.css',
+]
