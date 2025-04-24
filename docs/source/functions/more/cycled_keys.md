@@ -18,7 +18,7 @@ For each added key, the appearance can be customized individually. Highlight the
 
 The most typical application of Cycled Keys is to control media play and pause. You can drag two media keys from the right side into the Cycled Keys list, and set the corresponding icons and colors
 
-![1744984910451](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/more/image/cycled_keys/1744984910451.png)
+![1745471597951](image/cycled_keys/1745471597951.png)
 
 ## On the Flexbar
 
