@@ -2,9 +2,9 @@
 
 The audio spectrum key displays the real-time audio spectrum on the Flexbar.
 
-## In the FlexDesigner
+![1744945837496](image/audio_spectrum/1744945837496.png)
 
-![1744713247150](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Aspen/Development/FlexDocumentation/docs/source/functions/gadgets/image/audio_spectrum/1744713247150.png)
+## In the FlexDesigner
 
 There are 5 settings for this key, available in the function tab in the FlexDesigner:
 

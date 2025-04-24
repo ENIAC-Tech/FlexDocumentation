@@ -2,7 +2,11 @@
 
 The sequenced-keys executes multiple keys when pressed, as if multiple keys are pressed sequentially. If only one key out of a list shall be executed at once, check out the 'cycled keys'.
 
+![1744984981870](image/sequenced_keys/1744984981870.png)
+
 ## In the FlexDesigner
+
+![1744985000268](image/sequenced_keys/1744985000268.png)
 
 The list of keys to be executed can be defined in the function page.
 

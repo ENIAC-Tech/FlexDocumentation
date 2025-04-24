@@ -45,4 +45,5 @@ You can now see this page on your Flexbar!
 
 ## Next Steps
 
+- Visit the [Create My First Profile](../troubleshoting/create_my_first_profile.md) to learn how to create a profile for an application
 - Visit the [Background](background.md) and [Foreground](foreground.md) to learn how to customize a key

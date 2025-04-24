@@ -2,7 +2,11 @@
 
 The sticker pack key inserts a sticker (like meme, or any image) to the active input box from the sticker pack when pressed.
 
+![1744984412951](image/sticker_pack/1744984412951.png)
+
 ## In the FlexDesigner
+
+![1744984574600](image/sticker_pack/1744984574600.png)
 
 The stickers are organized in sticker packs. The sticker pack is a library of all the stickers that can be used in the FlexDesigner, meaning the sticker pack configured for a single key is shared across all sticker pack keys. The software provides some basic functions for organizing the sticker pack (in the order of buttons in the software):
 
@@ -13,7 +17,7 @@ The stickers are organized in sticker packs. The sticker pack is a library of al
 
 To remove image from the sticker pack, right-click on the image and click 'Delete'. To remove multiple images from the sticker pack, select the images by using the checkbox in the top right corner of the image when hovering the cursor over, right click on any image, click 'Delete all selected'.
 
-Notably, these operations are the same for the icon pack used in foreground settings. However, it doesn't support managing multiple sticker packs unlike icon packs. 
+Notably, these operations are the same for the icon pack used in foreground settings. However, it doesn't support managing multiple sticker packs unlike icon packs.
 
 Each key can only have one sticker assigned to it. Single click the desired sticker from the sticker pack to pick one. It should show up in the preview area on the top of the sticker pack area.
 

@@ -2,6 +2,8 @@
 
 The Flexbar settings key opens the configuration page on the device. It allows controlling device options such as screen brightness, auto sleep, etc. The key needs to be added to the Flexbar first, then the settings can be accessed on the Flexbar.
 
+![1744945993898](image/flexbar_setting/1744945993898.png)
+
 ## In the FlexDesigner
 
 Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.

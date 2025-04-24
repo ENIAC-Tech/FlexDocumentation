@@ -4,6 +4,8 @@ The performance chart key shows computer performance data charts.
 
 The monitoring feature is built into the FlexDesigner. Optionally it also supports AIDA64 as a data source. The chart can be displayed as line chart, series bar, progress bar, progress circle, or simply hidden (text label only).
 
+![1744719744654](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/performance_chart/1744719744654.png)
+
 ## Windows Setup
 
 On Windows, you need to configure the data source for Performance Chart in advance. You can find the relevant settings in `Setting->Application`:
@@ -20,23 +22,19 @@ On Windows, you need to configure the data source for Performance Chart in advan
 
 ## In the FlexDesigner
 
-![1744719744654](image/performance_chart/1744719744654.png)
-
 There are various options in the FlexDesigner for this key.
 
-![1744719723760](image/performance_chart/1744719723760.png)
+![1744945431898](image/performance_chart/1744945431898.png)
 
-1. 自定义数据名称，可以自定义显示数据的名称，如CPU，GPU等
-2. 数据源选择，性能图表的数据来源，请选择自己感兴趣的数据源
-3. 数据源预览，显示选定数据的值和单位
-4. 标签是否显示自定义名（1中输入的值）
-5. 标签是否显示数据值
-6. 标签是否显示单位
-7. 图标宽度占比
-8. 标签的水平位置
-9. 标签的垂直位置
-10. 图表类型，支持折线图，系列条形图，条形图，环形图和文本标签
-11. 
+1. Data Source Selection: Choose the source of performance data that interests you
+2. Auto-scaling: When enabled, the chart will automatically adjust so that the minimum value in the current window becomes the chart's lowest point and the maximum value becomes the highest point. This is ideal for monitoring data trends
+3. Manual Scaling: If auto-scaling is disabled, you can set custom minimum and maximum values for the chart. This is better for monitoring resource usage
+4. Chart Type: Options include line chart, series bar chart, progress bar, progress circle, and text label
+5. Chart Width Ratio: Controls how much space the chart occupies
+6. Custom Data Name: Enter any name for your data, such as CPU, GPU, etc. *Note: Special symbols are not supported*
+7. Chart Colors: Set the foreground and background colors for the chart
+8. Label Options: From left to right, toggle whether to display the custom name (entered in step 6), the data value, and the data unit
+9. Label Position: Controls for adjusting the horizontal and vertical position of the label
 
 Label and chart and be enabled and disabled independently. To disable the label display, switch off the checkbox named 'Label'. To disable the chart, set the chart type to 'Label' in the list box named 'Chart Type'.
 
@@ -47,3 +45,5 @@ As the chart would be displayed in the allocated area, it's recommended to disab
 ## On the Flexbar
 
 The selected chart would be displayed in the area allocated for this feature. This is no interactive actions for this key.
+
+![1744945760598](image/performance_chart/1744945760598.png)
