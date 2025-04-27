@@ -18,6 +18,7 @@ Below are some important sections:
     "description": "{{description}}", // Plugin description
     "repo": "{{repo}}", // Plugin’s repository. It must be hosted on a Git repository to enable automatic downloads and updates.
     "configPage": "", // Points to a .vue file in the ui folder (e.g., ui/configPage.vue). This can be left blank. If specified, your plugin's settings page will appear in the global settings.
+    "shortcuts": ["CommandOrControl+F1"], // Register one or more shortcuts, see available shortcuts at https://www.electronjs.org/docs/latest/api/accelerator
     "keyLibrary": { // Describes the keys included in the plugin
         "title": "$PluginName", // Title of the key library. If the title starts with $, it will look up the corresponding translation in the local section.
         "style": {
@@ -31,7 +32,7 @@ Below are some important sections:
             "PluginName": "{{name}}"
         },
         "ja": {
-        
+  
         }
     }
 }
