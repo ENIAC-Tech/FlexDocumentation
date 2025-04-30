@@ -102,6 +102,10 @@ The plug-in system is an open-source software platform designed to allow develop
 
 ## FAQ
 
+**Q:** **Why doesn't flexbar work on iPad?**
+
+**A:** On iPad, only basic keyboard, mouse, and text input functions that do not require FlexDesigner to be running are supported.
+
 **Q:** **Why are Flexbar keys called "keys" instead of "buttons"?**
 
 **A:** Because we define Flexbar as a specialized multifunctional touchscreen keyboard, rather than a "button board".
