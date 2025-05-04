@@ -7,4 +7,4 @@ This section contains documentation for power control keys.
    :maxdepth: 1
    :caption: Power Control Keys:
 
-   sleep 
+   power_control 

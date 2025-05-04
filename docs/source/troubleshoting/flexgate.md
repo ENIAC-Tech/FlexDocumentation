@@ -31,7 +31,7 @@ Before uploading, you need to fill in some information:
 
 Uploading a Plugin works slightly differently. We require Plugins to be hosted on GitHub. Simply enter your repository URL, and FlexGate will verify its validity.
 
-> Make sure your repository was created with FlexCLI and has a valid plugin structure. Check out the [SDK documentation](sdk/index.html) to learn how to create custom plugins
+> Make sure your repository was created with FlexCLI and has a valid plugin structure. Check out the [SDK documentation](../sdk/index.rst) to learn how to create custom plugins
 
 ![1744946889859](image/flexgate/1744946889859.png)
 

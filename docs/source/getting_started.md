@@ -98,7 +98,7 @@ Firmware refers to the embedded software written into Flexbar’s internal micro
 
 The plug-in system is an open-source software platform designed to allow developers and users with additional needs to create and integrate new functionalities into Flexbar. Users can independently develop and run features alongside built-in functionalities, optionally sharing their creations on the FlexGate platform for community use.
 
-> Check out the [SDK documentation](sdk/index.html) to learn how to create custom plugins
+> Check out the [SDK documentation](sdk/index.rst) to learn how to create custom plugins
 
 ## FAQ
 

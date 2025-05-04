@@ -14,4 +14,5 @@ This section contains documentation for input keys.
    multimedia
    text
    text_emoji
-   sticker_pack 
+   sticker_pack
+   clipboard
