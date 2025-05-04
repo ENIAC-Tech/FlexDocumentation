@@ -8,8 +8,8 @@ Plugins created with `flexcli` come pre-configured with GitHub Actions. To publi
 
 You can then share the `*.flexplugin` file or the GitHub repository link for users to import the plugin in the key library.
 
-## Submit to FlexMarketplace
+## Submit to FlexGate
 
-If you want to share your plugin with a broader audience, you can publish it to FlexMarketplace.
+If you want to share your plugin with a broader audience, you can publish it to FlexGate.
 
-> FlexMarketplace is currently under development. This documentation will be updated upon its official release.
+See [Uploading Plugins to FlexGate](../troubleshoting/flexgate.md)

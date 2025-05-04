@@ -87,7 +87,10 @@ This directory contains your backend code, which runs as a child process in Node
 
 Make sure FlexDesigner is running, then execute:
 
-`npm run dev`
+```
+npm run build
+npm run dev
+```
 
 This automatically compiles, bundles, and installs your plugin. You should then see your plugin in FlexDesigner’s Key Library:
 
