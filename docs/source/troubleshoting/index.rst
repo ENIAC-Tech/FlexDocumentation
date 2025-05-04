@@ -7,8 +7,9 @@ This section contains troubleshooting guides and frequently asked questions.
    :maxdepth: 2
    :caption: Troubleshooting & FAQ
 
+   create_my_first_profile
+   cannot_connect
    content_aware_controls
    firmware
    safemode
-   create_my_first_profile
    flexgate
