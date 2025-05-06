@@ -62,7 +62,7 @@ In rare cases, your system may have trouble communicating with Flexbar using a s
    ![Settings Button](image/safemode/1743991410209.png)
 3. **Switch USB Mode**:
    Press button 6 to toggle between CDC and HID modes
-   ![1743991555870](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Aspen/Development/FlexDocumentation/docs/source/functions/device_control/image/flexbar_setting/1743991555870.png)
+   ![1746499904730](image/cannot_connect/1746499904730.png)
 4. **Reconnect Flexbar**
 
 ## Still Having Issues?
