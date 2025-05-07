@@ -13,7 +13,9 @@ First, update the following Adobe setting to prevent your host application (Phot
 > ⚠️ Make sure there are no extra spaces in `PlayerDebugMode`.
 
 > **Mac**: Open **Terminal** and run:
-> `defaults write com.adobe.CSXS.8 PlayerDebugMode 1`
+> `defaults write com.adobe.CSXS.12 PlayerDebugMode 1`
+>
+> ⚠️ `CSXS.<VERSION>` needs to be adjusted according to your Adobe software version, version 12 for 2025, version 11 for 2024
 
 ![1743305498679](image/get_started/1743305498679.png)
 
@@ -29,9 +31,17 @@ Download and extract the [FlexLink](../../../assets/com.eniac.FlexLink-1.0.zip) 
 
 > The paths below are the default install locations for the 2025 versions. Adjust them as needed for your setup.
 
+### Windows
+
 - **Adobe Premiere Pro**:`C:\Program Files\Adobe\Adobe Premiere Pro 2025\CEP\extensions`
 - **Adobe Photoshop**:
   `C:\Program Files\Adobe\Adobe Photoshop 2025\Required\CEP\extensions`
+
+### Macos
+
+- **Adobe Premiere Pro**: /Applications/Adobe Premiere Pro 2025/Adobe Premiere Pro 2025.app/Contents/CEP/extensions
+- **Adobe Photoshop**: /Applications/Adobe Photoshop 2025/Adobe Photoshop 2025.app/Contents/Required/CEP/extensions
+You may need to right-click on the application and select "Show Package Contents" to access these folders. Copy the com.eniac.FlexLink-1.0 folder to the extensions directory of the respective application.
 
 ## Verify Installation
 
