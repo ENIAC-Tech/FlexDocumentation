@@ -26,6 +26,10 @@ In the Key Library on the right, under the Navigation category, you can find the
 >
 > In the Flexbar Designer, if a Page is empty, nothing will be displayed on the virtual Flexbar. However, on the real Flexbar device, "⚠️Empty Page" will be displayed.
 
+## Automatic Switching to Associated Applications
+
+Check out the [Content aware controls](../../troubleshoting/content_aware_controls.md) to learn how to set it up
+
 ## How to Navigate on Flexbar
 
 Flexbar has two side touch pads (which are non-display areas) and are set as navigation keys by default.
