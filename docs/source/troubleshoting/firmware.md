@@ -22,9 +22,17 @@ Click `UPLOAD FIRMWARE`, then wait for the firmware upload to complete and the d
 
 **Note: Do not disconnect power during the update process**
 
+### After update, device shows "Profile version does not match..."
+
+It's normal for your device to display this screen after an update. The update requires you to re-upload your Profile to ensure the device is running the latest version. You simply need to upload your Profile again to resolve this.
+
+![1746932309321](image/firmware/1746932309321.png)
+
 ## Rollback
 
 If the updated firmware does not function properly, you can manually roll back to the previous version.
+
+> You generally do not need to perform this operation
 
 ### Rollback in Safe Mode
 
