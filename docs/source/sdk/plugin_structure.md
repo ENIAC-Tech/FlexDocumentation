@@ -23,6 +23,7 @@ Below are some important sections:
         "title": "$PluginName", // Title of the key library. If the title starts with $, it will look up the corresponding translation in the local section.
         "style": {
             "icon": "mdi mdi-puzzle" // Icon of the key library. You can use an MDI icon (https://pictogrammers.com/library/mdi/) or a PNG image in base64.
+            "flags": [], // Controls detailed key behaviors with flags
         },
         "children": [ // Subdirectories where you can add multiple keys or nested subdirectories. See the keyLibrary section for details.
         ]
@@ -211,6 +212,17 @@ Defines the default style of a key. The following fields are supported:
     "image": "<base64>"    // A base64-encoded PNG background image, valid only if showImage is true
 }
 ```
+
+#### flags
+Controls more detailed interaction behaviors, such as disabling background editing.
+Available flags:
+- disable-bg: Disables the background editing window
+- disable-fg: Disables the foreground editing window
+- disable-func: Disables the function editing window
+- disable-common: Disables the common function editing window
+- disable-bg-styles: Disables background style editing, but retains width adjustment
+- disable-icon-sel: Prevents icon selection
+- disable-layout-sel: Prevents layout selection
 
 ### local
 
