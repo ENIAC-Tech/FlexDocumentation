@@ -14,6 +14,7 @@ First, update the following Adobe setting to prevent your host application (Phot
 
 > **Mac**: Open **Terminal** and run:
 > `defaults write com.adobe.CSXS.12 PlayerDebugMode 1`
+> `defaults write com.adobe.CSXS.12 AllowUnsignedExtensions -bool true`
 >
 > ⚠️ `CSXS.<VERSION>` needs to be adjusted according to your Adobe software version, version 12 for 2025, version 11 for 2024
 
