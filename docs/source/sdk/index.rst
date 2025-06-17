@@ -11,3 +11,4 @@ This section contains documentation for the FlexPlugin SDK.
    plugin_structure
    flexcli
    release_plugin
+   sdk_api_reference

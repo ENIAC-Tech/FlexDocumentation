@@ -16,7 +16,7 @@ Below are some important sections:
     "author": "{{author}}", // Author name
     "entry": "backend/plugin.cjs", // Plugin backend entry, the compiled Node.js script
     "description": "{{description}}", // Plugin description
-    "repo": "{{repo}}", // Plugin’s repository. It must be hosted on a Git repository to enable automatic downloads and updates.
+    "repo": "{{repo}}", // Plugin's repository. It must be hosted on a Git repository to enable automatic downloads and updates.
     "configPage": "", // Points to a .vue file in the ui folder (e.g., ui/configPage.vue). This can be left blank. If specified, your plugin's settings page will appear in the global settings.
     "shortcuts": ["CommandOrControl+F1"], // Register one or more shortcuts, see available shortcuts at https://www.electronjs.org/docs/latest/api/accelerator
     "keyLibrary": { // Describes the keys included in the plugin
@@ -47,7 +47,7 @@ The following types are supported:
 
 #### Default Key
 
-A key that performs an action or displays images when clicked.
+Creates a key that performs an action when pressed or displays a static image.
 
 ```
 {
@@ -56,7 +56,7 @@ A key that performs an action or displays images when clicked.
     "cid": "com.eniac.example.counter", // classid, must follow plugin-uuid.<key-id> format and be unique
     "config": {
         "keyType": "default", // Specifies a default key
-        "clickable": true, // Whether the key is clickable. If clicked, it sends the key data to the plugin backend. If not clickable, it’s typically used for static displays (e.g., weather info).
+        "clickable": true, // Whether the key is clickable. If clicked, it sends the key data to the plugin backend. If not clickable, it's typically used for static displays (e.g., weather info).
         "platform": [ // Supported operating systems
             "windows",
             "mac"
@@ -74,6 +74,8 @@ A key that performs an action or displays images when clicked.
 ```
 
 #### Multi-State Key
+
+Creates a key with multiple states that can be cycled through. For example, on/off, mode A/B/C, etc.
 
 ```
 {
@@ -109,6 +111,8 @@ A key that performs an action or displays images when clicked.
 
 #### Slider
 
+Creates a slider control, suitable for functions that require drag control with absolute values, such as volume control.
+
 ```
 {
     "title": "$Slider.Title",
@@ -135,7 +139,9 @@ A key that performs an action or displays images when clicked.
 },
 ```
 
-### Wheel
+#### Wheel
+
+Creates a wheel control, suitable for parameter adjustments that don't have absolute values.
 
 ```
 {
@@ -158,8 +164,116 @@ A key that performs an action or displays images when clicked.
 },
 ```
 
-#### Subpage
+#### Dynamic Key (new)
 
+Creates a dynamic key that serves as a container. It has no functionality by itself, but you can use APIs to add/remove child keys. This is suitable for projects that require dynamic creation.
+Currently, a dynamic key can contain up to 16 child keys.
+
+```
+{
+    "title": "$DynamicKey.Title",
+    "tip": "$DynamicKey.Tip",
+    "cid": "com.eniac.example.dynamickey",
+    "config": {
+        "keyType": "dynamic", // Specifies a dynamic key
+        "platform": [
+            "windows",
+            "mac"
+        ]
+    },
+    "style": { // 对于Dynamic Key，用户只能调整宽度，其它style只影响在FlexDesigner中的显示，不会在flexbar上展示。
+        "icon": "mdi mdi-contain",
+        "width": 240
+    },
+    "data": {
+        "subkeyNum": 0 // 此值会在您添加/删除按键时自动更新，您无需设置此项
+    }
+}
+```
+
+##### Dynamic Key API
+
+Here are some code snippets demonstrating how to interact with Dynamic Keys. For more detailed examples, please refer to the Example Plugin.
+
+- index: Refers to the index of the child key. This index is specific to the Dynamic Key's internal independent indexing, starting from 0. If there are multiple Dynamic Keys, their indices are independent of each other.
+- userData: Refers to the user-defined data bound to the child key. When you press a child key, this data will be sent to the plugin. You can use this data to distinguish and define the functionality of child keys.
+
+###### Set Key Width
+```
+plugin.dynamickey.setWidth(serialNumber, key, width)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+- `width`: New width value (in pixels)
+
+###### Add Child Key
+```
+plugin.dynamickey.add(serialNumber, key, index, type, content, width, userData)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+- `index`: Insert position
+- `type`: Content type ('base64','draw')
+- `content`: Key drawing content (base64 image or an Object describing key structure and Style)
+- `width`: Key width
+- `userData`: User data object
+> The drawing part is similar to the plugin.draw method
+
+###### Remove Child Key
+```
+plugin.dynamickey.remove(serialNumber, key, index)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+- `index`: Index of the key to remove
+
+###### Move Child Key Position
+```
+plugin.dynamickey.move(serialNumber, key, fromIndex, toIndex)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+- `fromIndex`: Source position
+- `toIndex`: Target position
+
+###### Redraw Child Key
+```
+plugin.dynamickey.draw(serialNumber, key, index, type, content, width)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+- `index`: Key index
+- `type`: Content type ('base64','draw')
+- `content`: Key drawing content (base64 image or an Object describing key structure and Style)
+- `width`: New key width
+> The drawing part is similar to the plugin.draw method
+
+###### Update Child Key User Data
+```
+plugin.dynamickey.update(serialNumber, key, index, userData)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+- `index`: Key index
+- `userData`: New user data object
+
+###### Refresh Key Display
+```
+plugin.dynamickey.refresh(serialNumber, key)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+> After modifying the key width, it's recommended to wait 50ms for the update to complete before calling this method to refresh the display
+
+###### Clear All Child Keys
+```
+plugin.dynamickey.clear(serialNumber, key)
+```
+- `serialNumber`: Device serial number
+- `key`: Key object
+
+#### Subpage
+Adds a subpage/category. You can use this feature to categorize your plugin's keys.
 ```
 {
     "title": "$Submenu.Title",
@@ -214,8 +328,10 @@ Defines the default style of a key. The following fields are supported:
 ```
 
 #### flags
+
 Controls more detailed interaction behaviors, such as disabling background editing.
 Available flags:
+
 - disable-bg: Disables the background editing window
 - disable-fg: Disables the foreground editing window
 - disable-func: Disables the function editing window
@@ -262,10 +378,4 @@ const { resourcesPath } = require("@eniac/flexdesigner")
 
 ## ui
 
-Holds frontend `.vue` files. The `.vue` file name can match the one specified in `manifest.configPage` for the settings interface or match each key’s `cid` in `keyLibrary`. For example, the key `com.eniac.example.counter` corresponds to `counter.vue`.
-
-When you edit a key in FlexDesigner, it automatically loads the `.vue` file corresponding to that `cid`.
-
-## src
-
-Stores backend `.js` files.
+Holds frontend `.vue` files. The `.vue` file name can match the one specified in `manifest.configPage` for the settings interface or match each key's `cid` in `keyLibrary`. For example, the key `

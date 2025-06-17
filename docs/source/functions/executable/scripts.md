@@ -25,3 +25,11 @@ Press the key to execute the defined commands in the FlexDesigner.
 ### Open a webpage in a specified web browser
 
 ``open /Applications/Firefox.app --args www.eniacelec.com`` (macOS)
+
+## Technical Details
+
+Under the hood, the script execution is implemented using Node.js's `spawn` function. The commands are executed through:
+- `/bin/sh` on macOS
+- `cmd.exe` on Windows
+
+This means that any shell commands that work in these environments can be executed through the Flexbar.
