@@ -65,6 +65,25 @@ In rare cases, your system may have trouble communicating with Flexbar using a s
    ![1746499904730](image/cannot_connect/1746499904730.png)
 4. **Reconnect Flexbar**
 
+## Linux USB Permission Issues
+
+If you're using Linux and encounter "Cannot access USB device, this may be due to permission issues", follow these steps:
+
+1. **Create udev rules** by running the following commands in terminal:
+   ```bash
+   echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd", MODE="0666", GROUP="plugdev"
+   SUBSYSTEM=="hidraw", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd", MODE="0666", GROUP="plugdev"
+   SUBSYSTEM=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"
+   SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"' > /tmp/99-flexbar.rules
+   sudo cp /tmp/99-flexbar.rules /etc/udev/rules.d/
+   sudo udevadm control --reload-rules && sudo udevadm trigger
+   ```
+
+2. **Disconnect and reconnect your device**
+
+3. **Restart the application**
+
+
 ## Still Having Issues?
 
 If the above methods don't resolve your problem, please email contact@eniacelec.com. Our technical support team will contact you promptly to help solve the issue.
