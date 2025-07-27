@@ -181,12 +181,12 @@ Currently, a dynamic key can contain up to 16 child keys.
             "mac"
         ]
     },
-    "style": { // 对于Dynamic Key，用户只能调整宽度，其它style只影响在FlexDesigner中的显示，不会在flexbar上展示。
+    "style": { // For Dynamic Key, users can only adjust the width. Other style properties only affect the display in FlexDesigner and will not be shown on the flexbar.
         "icon": "mdi mdi-contain",
         "width": 240
     },
     "data": {
-        "subkeyNum": 0 // 此值会在您添加/删除按键时自动更新，您无需设置此项
+        "subkeyNum": 0 // This value will be automatically updated when you add/remove keys. You don't need to set this item.
     }
 }
 ```
