@@ -164,7 +164,66 @@ Creates a wheel control, suitable for parameter adjustments that don't have abso
 },
 ```
 
+#### Direct Draw (new)
+
+> Requires FlexDesigner SDK 1.0.7+
+
+Creates an empty page that allows you to directly draw custom content at a relatively fast speed (depending on image content, approximately 15~45fps). You can use this feature to create complex UIs and even animations. You can also receive touch information reported by the device.
+
+```
+{
+    "title": "$DirectDraw.Title",
+    "tip": "$DirectDraw.Tip",
+    "cid": "com.eniac.example.directdraw",
+    "config": {
+        "keyType": "directDraw", // Specifies DirectDraw
+        "platform": [
+            "windows",
+            "mac"
+        ]
+    },
+    "style": {
+        "icon": "mdi mdi-gradient-horizontal",
+        "width": 240
+    },
+    "data": {
+    }
+}
+```
+
+##### Direct Draw API
+
+The Direct Draw API is simple and straightforward, with only one directDraw method:
+```
+plugin.directDraw(serialNumber, key, backgroundData, diffUpdate, offsetX)
+```
+
+- `serialNumber`: Device serial number
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
+- `backgroundData`: Base64 encoded image data, such as canvas.toDataURL('image/png')
+- `diffUpdate`: Whether to use partial updates, defaults to false. If true, it will compare differences between consecutive frames and only update changed parts. This feature can significantly improve frame rate for small area updates, but may occasionally cause screen tearing
+- `offsetX`: Horizontal coordinate of the image, range 0-2170. You can specify this parameter to manually refresh specific areas. The image height is fixed at 60px, and the width is specified by the encoded image base64.
+
+##### Touch Event API
+
+When on a Direct Draw page, the device will report touch information:
+```
+plugin.on('device.touch', (payload) => {})
+```
+
+- `payload`: Touch data
+```
+{
+    serialNumber: '',
+    x: 0,
+    y: 0,
+    state: 'up' | 'pressing' | 'down' | 'end'
+}
+```
+
 #### Dynamic Key (new)
+
+> Requires FlexDesigner SDK 1.0.6+
 
 Creates a dynamic key that serves as a container. It has no functionality by itself, but you can use APIs to add/remove child keys. This is suitable for projects that require dynamic creation.
 Currently, a dynamic key can contain up to 16 child keys.
@@ -199,81 +258,102 @@ Here are some code snippets demonstrating how to interact with Dynamic Keys. For
 - userData: Refers to the user-defined data bound to the child key. When you press a child key, this data will be sent to the plugin. You can use this data to distinguish and define the functionality of child keys.
 
 ###### Set Key Width
+
 ```
 plugin.dynamickey.setWidth(serialNumber, key, width)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 - `width`: New width value (in pixels)
 
 ###### Add Child Key
+
 ```
 plugin.dynamickey.add(serialNumber, key, index, type, content, width, userData)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 - `index`: Insert position
 - `type`: Content type ('base64','draw')
 - `content`: Key drawing content (base64 image or an Object describing key structure and Style)
 - `width`: Key width
 - `userData`: User data object
+
 > The drawing part is similar to the plugin.draw method
 
 ###### Remove Child Key
+
 ```
 plugin.dynamickey.remove(serialNumber, key, index)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 - `index`: Index of the key to remove
 
 ###### Move Child Key Position
+
 ```
 plugin.dynamickey.move(serialNumber, key, fromIndex, toIndex)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 - `fromIndex`: Source position
 - `toIndex`: Target position
 
 ###### Redraw Child Key
+
 ```
 plugin.dynamickey.draw(serialNumber, key, index, type, content, width)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 - `index`: Key index
 - `type`: Content type ('base64','draw')
 - `content`: Key drawing content (base64 image or an Object describing key structure and Style)
 - `width`: New key width
+
 > The drawing part is similar to the plugin.draw method
 
 ###### Update Child Key User Data
+
 ```
 plugin.dynamickey.update(serialNumber, key, index, userData)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 - `index`: Key index
 - `userData`: New user data object
 
 ###### Refresh Key Display
+
 ```
 plugin.dynamickey.refresh(serialNumber, key)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
+
 > After modifying the key width, it's recommended to wait 50ms for the update to complete before calling this method to refresh the display
 
 ###### Clear All Child Keys
+
 ```
 plugin.dynamickey.clear(serialNumber, key)
 ```
+
 - `serialNumber`: Device serial number
-- `key`: Key object
+- `key`: Key object received from the event `plugin.data` or `plugin.alive`.
 
 #### Subpage
+
 Adds a subpage/category. You can use this feature to categorize your plugin's keys.
+
 ```
 {
     "title": "$Submenu.Title",
@@ -378,4 +458,4 @@ const { resourcesPath } = require("@eniac/flexdesigner")
 
 ## ui
 
-Holds frontend `.vue` files. The `.vue` file name can match the one specified in `manifest.configPage` for the settings interface or match each key's `cid` in `keyLibrary`. For example, the key `
+Holds frontend `.vue` files. The `.vue` file name can match the one specified in `manifest.configPage` for the settings interface or match each key's `cid` in `keyLibrary`. For example, the key `com.eniac.example.counter` should have a corresponding `ui/com.eniac.example.counter.vue` file.
