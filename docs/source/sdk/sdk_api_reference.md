@@ -57,6 +57,16 @@ plugin.on('plugin.data', (payload) => {
 
 ## API Reference
 
+### Built-in Modules
+
+To simplify the plugin development process, we have pre-integrated several modules that can be used directly:
+
+1. [@napi-rs/canvas](https://www.npmjs.com/package/@napi-rs/canvas)
+2. [express](https://www.npmjs.com/package/express)
+3. [axios](https://www.npmjs.com/package/axios)
+
+> If you need integration of other modules, please let us know
+
 ### Core Plugin APIs
 
 #### plugin.start()
@@ -464,7 +474,7 @@ plugin.on('plugin.alive', (payload) => {
   
     keys.forEach(key => {
         console.log(`Key loaded: ${key.cid} at position ${key.uid}`)
-      
+  
         // Initialize key based on its type
         if (key.cid === 'com.example.counter') {
             key.style.showTitle = true
@@ -619,7 +629,7 @@ plugin.on('plugin.alive', (payload) => {
   
     keys.forEach(key => {
         keyData[key.uid] = key
-      
+  
         switch (key.cid) {
             case 'com.example.counter':
                 // Initialize counter
@@ -628,12 +638,12 @@ plugin.on('plugin.alive', (payload) => {
                 key.title = 'Click Me!'
                 plugin.draw(serialNumber, key, 'draw')
                 break
-              
+          
             case 'com.example.slider':
                 // Set initial slider value
                 plugin.setSlider(serialNumber, key, 50)
                 break
-              
+          
             case 'com.example.dynamic':
                 // Setup dynamic keys
                 setupDynamicKeys(serialNumber, key)
@@ -654,7 +664,7 @@ plugin.on('plugin.data', (payload) => {
             key.title = `${keyData[key.uid].counter}`
             plugin.draw(serialNumber, key, 'draw')
             break
-          
+      
         case 'com.example.wheel':
             // Handle wheel rotation
             showWheelFeedback(serialNumber, data.delta)
@@ -667,7 +677,7 @@ plugin.on('device.status', (devices) => {
     devices.forEach(device => {
         if (device.status === 'connected') {
             logger.info(`Device connected: ${device.serialNumber}`)
-          
+      
             // Configure device
             plugin.setDeviceConfig(device.serialNumber, {
                 brightness: 100,
@@ -686,18 +696,18 @@ function setupDynamicKeys(serialNumber, key) {
     for (let i = 0; i < 3; i++) {
         const canvas = createCanvas(200, 60)
         const ctx = canvas.getContext('2d')
-      
+  
         // Draw custom background
         ctx.fillStyle = `hsl(${i * 120}, 70%, 50%)`
         ctx.fillRect(0, 0, 200, 60)
-      
+  
         ctx.fillStyle = 'white'
         ctx.font = '20px Arial'
         ctx.textAlign = 'center'
         ctx.fillText(`Key ${i}`, 100, 35)
-      
+  
         const imageData = canvas.toDataURL()
-      
+  
         plugin.dynamickey.add(
             serialNumber,
             key,
