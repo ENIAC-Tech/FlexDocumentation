@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/executable/scripts.md:1
+msgid "Run Scripts"
+msgstr "运行脚本"
+
+#: ../../source/functions/executable/scripts.md:3
+msgid "The run scripts key executes user defined commands in shell when pressed."
+msgstr "运行脚本按键在按下时会在 shell 中执行用户自定义的命令。"
+
+#: ../../source/functions/executable/scripts.md:5
+msgid "![1744946054119](image/scripts/1744946054119.png)"
+msgstr "![1744946054119](image/scripts/1744946054119.png)"
+
+#: ../../source/functions/executable/scripts.md:5
+msgid "1744946054119"
+msgstr "1744946054119"
+
+#: ../../source/functions/executable/scripts.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/executable/scripts.md:9
+msgid ""
+"The commands to execute can be defined in the function tab in the "
+"FlexDesigner (can be a single line). Enter the commands inside the text "
+"editor, one per line. The size of the text editor can be adjusted by "
+"dragging the dashed triangle icon on the bottom right of the text editor."
+" There is a test run button to the right of the input box. It allows "
+"doing a test run directly on the computer before uploading the new "
+"profile to the Flexbar. The test run should perform the same operation as"
+" if the key is pressed on the Flexbar."
+msgstr ""
+"要执行的命令可以在 FlexDesigner 的功能选项卡中定义（可以为单行命令）。在文本编辑器中输入命令，每行一条。可以通过拖动文本编辑器右下角的虚线三角图标来调整编辑器的大小。输入框右侧有一个测试运行按钮，允许在将新配置文件上传到 Flexbar 之前，直接在电脑上进行测试运行。测试运行应与在 Flexbar 上按下按键时的操作效果一致。"
+
+#: ../../source/functions/executable/scripts.md:11
+msgid "On Windows platform, PowerShell commands are also supported."
+msgstr "在 Windows 平台下，也支持 PowerShell 命令。"
+
+#: ../../source/functions/executable/scripts.md:13
+msgid "![1744713170717](image/scripts/1744713170717.png)"
+msgstr "![1744713170717](image/scripts/1744713170717.png)"
+
+#: ../../source/functions/executable/scripts.md:13
+msgid "1744713170717"
+msgstr "1744713170717"
+
+#: ../../source/functions/executable/scripts.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/executable/scripts.md:17
+msgid "Press the key to execute the defined commands in the FlexDesigner."
+msgstr "按下按键即可执行在 FlexDesigner 中定义的命令。"
+
+#: ../../source/functions/executable/scripts.md:19
+msgid "Examples"
+msgstr "示例"
+
+#: ../../source/functions/executable/scripts.md:21
+msgid "Open a new instance of an application"
+msgstr "打开应用程序的新实例"
+
+#: ../../source/functions/executable/scripts.md:23
+msgid "``open -n /Applications/KiCad/KiCad.app`` (macOS)"
+msgstr "``open -n /Applications/KiCad/KiCad.app``（macOS）"
+
+#: ../../source/functions/executable/scripts.md:25
+msgid "Open a webpage in a specified web browser"
+msgstr "在指定的网页浏览器中打开网页"
+
+#: ../../source/functions/executable/scripts.md:27
+msgid "``open /Applications/Firefox.app --args www.eniacelec.com`` (macOS)"
+msgstr "``open /Applications/Firefox.app --args www.eniacelec.com``（macOS）"
+
+#: ../../source/functions/executable/scripts.md:29
+msgid "Technical Details"
+msgstr "技术细节"
+
+#: ../../source/functions/executable/scripts.md:31
+msgid ""
+"Under the hood, the script execution is implemented using Node.js's "
+"`spawn` function. The commands are executed through:"
+msgstr ""
+"在底层，脚本的执行是通过 Node.js 的 `spawn` 函数实现的。命令会通过以下方式执行："
+
+#: ../../source/functions/executable/scripts.md:32
+msgid "`/bin/sh` on macOS"
+msgstr "macOS 下为 `/bin/sh`"
+
+#: ../../source/functions/executable/scripts.md:33
+msgid "`cmd.exe` on Windows"
+msgstr "Windows 下为 `cmd.exe`"
+
+#: ../../source/functions/executable/scripts.md:35
+msgid ""
+"This means that any shell commands that work in these environments can be"
+" executed through the Flexbar."
+msgstr ""
+"这意味着，只要是在这些环境下可用的 shell 命令，都可以通过 Flexbar 执行。"

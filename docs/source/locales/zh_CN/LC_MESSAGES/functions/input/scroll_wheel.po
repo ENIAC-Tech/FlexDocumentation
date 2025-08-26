@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/scroll_wheel.md:1
+msgid "Scroll Wheel"
+msgstr "滚轮"
+
+#: ../../source/functions/input/scroll_wheel.md:3
+msgid ""
+"The scroll wheel key shows a scroll wheel on the screen, and the "
+"operation can be bind to keys, mouse or media control input."
+msgstr "滚轮按键在屏幕上显示一个滚轮，操作可以绑定到按键、鼠标或媒体控制输入。"
+
+#: ../../source/functions/input/scroll_wheel.md:5
+msgid ""
+"This feature emulates a standard USB keyboard with multimedia keys. It "
+"works on any devices without having FlexDesigner running."
+msgstr "此功能模拟带有多媒体按键的标准 USB 键盘。它可以在任何设备上工作，无需运行 FlexDesigner。"
+
+#: ../../source/functions/input/scroll_wheel.md:7
+msgid "![1744984064607](image/scroll_wheel/1744984064607.png)"
+msgstr "![1744984064607](image/scroll_wheel/1744984064607.png)"
+
+#: ../../source/functions/input/scroll_wheel.md:7
+msgid "1744984064607"
+msgstr "1744984064607"
+
+#: ../../source/functions/input/scroll_wheel.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/scroll_wheel.md:11
+msgid "![1744984053455](image/scroll_wheel/1744984053455.png)"
+msgstr "![1744984053455](image/scroll_wheel/1744984053455.png)"
+
+#: ../../source/functions/input/scroll_wheel.md:11
+msgid "1744984053455"
+msgstr "1744984053455"
+
+#: ../../source/functions/input/scroll_wheel.md:13
+msgid ""
+"The scroll wheel can trigger different actions when it's being scrolled "
+"to the left or right. The action can be specified in the function tab. "
+"Each direction can trigger keyboard, mouse, multimedia, or any "
+"combination of these actions."
+msgstr "滚轮在向左或向右滚动时可以触发不同的操作。操作可以在功能选项卡中指定。每个方向都可以触发键盘、鼠标、多媒体或这些操作的任何组合。"
+
+#: ../../source/functions/input/scroll_wheel.md:15
+msgid "See keyboard, mouse, and multimedia page for details."
+msgstr "详情请参阅键盘、鼠标和多媒体页面。"
+
+#: ../../source/functions/input/scroll_wheel.md:17
+msgid ""
+"The scroll wheel's length is fixed. However, it's possible to set the key"
+" to occupy larger area to show additional label or icon. By default, it "
+"shows a scroll wheel icon on the left side of the actual wheel. This can "
+"be disabled by disable the icon option in the foreground tab, and set the"
+" width to minimum in the background page."
+msgstr "滚轮的长度是固定的。但是，可以将按键设置为占用更大的区域以显示额外的标签或图标。默认情况下，它在实际滚轮的左侧显示滚轮图标。可以通过在前景选项卡中禁用图标选项，并在背景页面中将宽度设置为最小值来禁用此功能。"
+
+#: ../../source/functions/input/scroll_wheel.md:19
+msgid ""
+"The scroll wheel's sensitivity can be controlled by 'Action per steps'. "
+"By default, it triggers an action every 5 steps scrolled. This can be "
+"adjusted higher for a lower sensitivity, or lower for a higher "
+"sensitivity."
+msgstr "滚轮的灵敏度可以通过"每步操作"来控制。默认情况下，每滚动 5 步触发一次操作。可以调整为更高的值以获得更低的灵敏度，或调整为更低的值以获得更高的灵敏度。"
+
+#: ../../source/functions/input/scroll_wheel.md:21
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/scroll_wheel.md:23
+msgid ""
+"A scrollable wheel would appear at the defined location. Scroll the wheel"
+" to trigger defined actions."
+msgstr "可滚动的滚轮将出现在定义的位置。滚动滚轮以触发定义的操作。"
+
+#: ../../source/functions/input/scroll_wheel.md:25
+msgid "![1744984389760](image/scroll_wheel/1744984389760.png)"
+msgstr "![1744984389760](image/scroll_wheel/1744984389760.png)"
+
+#: ../../source/functions/input/scroll_wheel.md:25
+msgid "1744984389760"
+msgstr "1744984389760"
+

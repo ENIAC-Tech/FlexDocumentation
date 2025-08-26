@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:1
+msgid "Keyboard Layout Selector"
+msgstr "键盘布局选择器"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:3
+msgid ""
+"The keyboard layout selector key allows switch to pre-defined keyboard "
+"layout/ input method when pressed. This is especially useful when there "
+"are multiple keyboard layouts enabled on the computer."
+msgstr ""
+"键盘布局选择器按键允许在按下时切换到预定义的键盘布局/输入法。当计算机上启用了多个键盘布局时，这特别有用。"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:5
+msgid ""
+"This key only works when the FlexDesigner is running. It is also only "
+"present in the Windows version of the FlexDesigner at the moment."
+msgstr ""
+"此按键仅在 FlexDesigner 运行时有效。目前它也仅在 Windows 版本的 FlexDesigner 中存在。"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:7
+msgid "![1745502432949](image/keyboard_layout_selector/1745502432949.png)"
+msgstr "![1745502432949](image/keyboard_layout_selector/1745502432949.png)"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:7
+msgid "1745502432949"
+msgstr "1745502432949"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:11
+msgid "![1745502420295](image/keyboard_layout_selector/1745502420295.png)"
+msgstr "![1745502420295](image/keyboard_layout_selector/1745502420295.png)"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:11
+msgid "1745502420295"
+msgstr "1745502420295"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:13
+msgid ""
+"The desired keyboard layout/ input method can be defined in the "
+"FlexDesigner."
+msgstr ""
+"所需的键盘布局/输入法可以在 FlexDesigner 中定义。"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/utilities/keyboard_layout_selector.md:17
+msgid "Press the key to switch to the defined keyboard layout."
+msgstr "按按键切换到定义的键盘布局。"
+

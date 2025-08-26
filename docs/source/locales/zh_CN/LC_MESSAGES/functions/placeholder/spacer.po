@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/placeholder/spacer.md:1
+msgid "Spacer"
+msgstr "间隔器"
+
+#: ../../source/functions/placeholder/spacer.md:3
+msgid "The spacer takes blank space between keys."
+msgstr "间隔器在按键之间占用空白空间。"
+
+#: ../../source/functions/placeholder/spacer.md:5
+msgid "![1745501958126](image/spacer/1745501958126.png)"
+msgstr "![1745501958126](image/spacer/1745501958126.png)"
+
+#: ../../source/functions/placeholder/spacer.md:5
+msgid "1745501958126"
+msgstr "1745501958126"
+
+#: ../../source/functions/placeholder/spacer.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/placeholder/spacer.md:9
+msgid ""
+"The spacer has background and foreground settings as well. By default, "
+"it's blank, with colors all set to black. But you can still customize it "
+"if you wish. Compared to the no-function-key, it additionally has an auto"
+" spacing feature in the function tab. It would automatically use up the "
+"remaining space in the page."
+msgstr "间隔器也有背景和前景设置。默认情况下，它是空白的，所有颜色都设置为黑色。但如果您愿意，仍然可以自定义它。与无功能按键相比，它在功能选项卡中还有一个自动间距功能。它会自动使用页面中的剩余空间。"
+
+#: ../../source/functions/placeholder/spacer.md:11
+msgid "![1745501987168](image/spacer/1745501987168.png)"
+msgstr "![1745501987168](image/spacer/1745501987168.png)"
+
+#: ../../source/functions/placeholder/spacer.md:11
+msgid "1745501987168"
+msgstr "1745501987168"
+
+#: ../../source/functions/placeholder/spacer.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/placeholder/spacer.md:15
+msgid ""
+"The spacer is displayed on the Flexbar, occupying space just like other "
+"keys. But it cannot be pressed."
+msgstr "间隔器显示在 Flexbar 上，像其他按键一样占用空间。但它不能被按下。"
+

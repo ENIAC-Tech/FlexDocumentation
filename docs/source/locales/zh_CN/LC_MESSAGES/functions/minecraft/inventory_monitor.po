@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:1
+msgid "Inventory Monitor"
+msgstr "物品栏监控器"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:3
+msgid ""
+"Inventory Monitor allows you to view and manage your Minecraft inventory "
+"directly from the Flexbar."
+msgstr "物品栏监控器允许您直接从 Flexbar 查看和管理您的 Minecraft 物品栏。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:5
+msgid "Install FlexLink Mod"
+msgstr "安装 FlexLink 模组"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:7
+#, fuzzy
+msgid ""
+"To use Inventory Monitor, you’ll need to install the [FlexLink "
+"Mod](../../../assets/flexlink-1.0.0.jar) into your Minecraft modpack."
+msgstr ""
+"要使用物品栏监控器，您需要将 [FlexLink 模组](../../../assets/flexlink-1.0.0.jar) 安装到您的 "
+"Minecraft 模组包中。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:9
+msgid "Currently, FlexLink Mod supports Forge version 1.20.1"
+msgstr "目前，FlexLink 模组支持 Forge 版本 1.20.1"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:11
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:13
+msgid "![1743307444594](image/inventory_monitor/1743307444594.png)"
+msgstr "![1743307444594](image/inventory_monitor/1743307444594.png)"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:13
+msgid "1743307444594"
+msgstr "1743307444594"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:15
+msgid ""
+"You can find this feature under the \"Minecraft\" category in the Key "
+"Library."
+msgstr "您可以在按键库的\"Minecraft\"类别下找到此功能。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:17
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:19
+#, fuzzy
+msgid ""
+"You can view your entire inventory and click on any item to equip it in "
+"Steve’s hand."
+msgstr "您可以查看整个物品栏，并点击任何物品将其装备到史蒂夫的手中。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:21
+msgid ""
+"Fun fact: if you set the width of Inventory Monitor to **2170**, Flexbar "
+"will perfectly display the entire inventory without scrolling."
+msgstr "有趣的事实：如果您将物品栏监控器的宽度设置为 **2170**，Flexbar 将完美显示整个物品栏而无需滚动。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:23
+msgid "![1743307480998](image/inventory_monitor/1743307480998.png)"
+msgstr "![1743307480998](image/inventory_monitor/1743307480998.png)"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:23
+msgid "1743307480998"
+msgstr "1743307480998"
+

@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/clipboard.md:1
+msgid "Clipboard"
+msgstr "剪贴板"
+
+#: ../../source/functions/input/clipboard.md:3
+msgid ""
+"The clipboard feature allows you to quickly copy a file, image, or text "
+"to your clipboard with a single click, making it easy to paste anywhere "
+"you need."
+msgstr "剪贴板功能允许您通过一次点击快速将文件、图像或文本复制到剪贴板，方便您在任何需要的地方粘贴。"
+
+#: ../../source/functions/input/clipboard.md:5
+msgid "![1745471330502](image/clipboard/1745471330502.png)"
+msgstr "![1745471330502](image/clipboard/1745471330502.png)"
+
+#: ../../source/functions/input/clipboard.md:5
+msgid "1745471330502"
+msgstr "1745471330502"
+
+#: ../../source/functions/input/clipboard.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/clipboard.md:9
+msgid "![1745471367411](image/clipboard/1745471367411.png)"
+msgstr "![1745471367411](image/clipboard/1745471367411.png)"
+
+#: ../../source/functions/input/clipboard.md:9
+msgid "1745471367411"
+msgstr "1745471367411"
+
+#: ../../source/functions/input/clipboard.md:11
+msgid ""
+"To get started, click the + icon on the right to create a new clipboard "
+"item."
+msgstr "要开始使用，请点击右侧的 + 图标创建新的剪贴板项目。"
+
+#: ../../source/functions/input/clipboard.md:13
+msgid "![1745471398426](image/clipboard/1745471398426.png)"
+msgstr "![1745471398426](image/clipboard/1745471398426.png)"
+
+#: ../../source/functions/input/clipboard.md:13
+msgid "1745471398426"
+msgstr "1745471398426"
+
+#: ../../source/functions/input/clipboard.md:15
+msgid "Name: Give your clipboard item a name for easy identification later"
+msgstr "名称：为您的剪贴板项目命名，以便稍后轻松识别"
+
+#: ../../source/functions/input/clipboard.md:16
+msgid "Text: Enter text content to be copied to the clipboard"
+msgstr "文本：输入要复制到剪贴板的文本内容"
+
+#: ../../source/functions/input/clipboard.md:17
+msgid "File or Image: Select a file or image to be copied to the clipboard"
+msgstr "文件或图像：选择要复制到剪贴板的文件或图像"
+
+#: ../../source/functions/input/clipboard.md:19
+msgid "Once created, simply select your clipboard item to complete the setup."
+msgstr "创建后，只需选择您的剪贴板项目即可完成设置。"
+
+#: ../../source/functions/input/clipboard.md:21
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/clipboard.md:23
+msgid ""
+"Just press the corresponding button, and Flexbar will automatically copy "
+"your content to the clipboard and paste it."
+msgstr "只需按下相应的按钮，Flexbar 就会自动将您的内容复制到剪贴板并粘贴。"
+

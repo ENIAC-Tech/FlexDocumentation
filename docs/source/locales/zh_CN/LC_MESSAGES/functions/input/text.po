@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/text.md:1
+msgid "Text"
+msgstr "文本"
+
+#: ../../source/functions/input/text.md:3
+msgid ""
+"The text key inserts text to the active input box on the computer. This "
+"key emulates keys being pressed on a standard USB keyboard, so it could "
+"only support things that could be directly entered on the keyboard. If "
+"other characters are needed, consider using the text/ emoji key instead."
+msgstr ""
+"文本按键将文本插入到计算机上的活动输入框中。此按键模拟在标准 USB 键盘上按下的按键，因此只能支持可以直接在键盘上输入的内容。如果需要其他字符，请考虑使用文本/表情符号按键。"
+
+#: ../../source/functions/input/text.md:5
+msgid "![1744984770513](image/text/1744984770513.png)"
+msgstr "![1744984770513](image/text/1744984770513.png)"
+
+#: ../../source/functions/input/text.md:5
+msgid "1744984770513"
+msgstr "1744984770513"
+
+#: ../../source/functions/input/text.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/text.md:9
+msgid "![1744984788098](image/text/1744984788098.png)"
+msgstr "![1744984788098](image/text/1744984788098.png)"
+
+#: ../../source/functions/input/text.md:9
+msgid "1744984788098"
+msgstr "1744984788098"
+
+#: ../../source/functions/input/text.md:11
+msgid ""
+"The text can be defined in the function tab in the FlexDesigner. To "
+"enlarge the input box, drag the dashed triangle to the lower right of the"
+" input box."
+msgstr ""
+"文本可以在 FlexDesigner 的功能选项卡中定义。要放大输入框，请将虚线三角形拖到输入框的右下角。"
+
+#: ../../source/functions/input/text.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/text.md:15
+msgid "Press the key to insert the defined text to the active input box."
+msgstr "按按键将定义的文本插入到活动输入框中。"
+

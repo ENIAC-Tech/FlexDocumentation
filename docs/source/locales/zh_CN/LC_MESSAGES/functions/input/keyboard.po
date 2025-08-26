@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/keyboard.md:1
+msgid "Keyboard"
+msgstr "键盘"
+
+#: ../../source/functions/input/keyboard.md:3
+msgid ""
+"The keyboard key sends key presses as if they are pressed on a physical "
+"keyboard."
+msgstr ""
+"键盘按键发送按键操作，就像在物理键盘上按下一样。"
+
+#: ../../source/functions/input/keyboard.md:5
+msgid ""
+"This feature emulates a standard USB keyboard. It works on any devices "
+"without having FlexDesigner running."
+msgstr ""
+"此功能模拟标准 USB 键盘。它可以在任何设备上工作，无需运行 FlexDesigner。"
+
+#: ../../source/functions/input/keyboard.md:7
+msgid "![1744983883020](image/keyboard/1744983883020.png)"
+msgstr "![1744983883020](image/keyboard/1744983883020.png)"
+
+#: ../../source/functions/input/keyboard.md:7
+msgid "1744983883020"
+msgstr "1744983883020"
+
+#: ../../source/functions/input/keyboard.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/keyboard.md:11
+msgid "![1744983902205](image/keyboard/1744983902205.png)"
+msgstr "![1744983902205](image/keyboard/1744983902205.png)"
+
+#: ../../source/functions/input/keyboard.md:11
+msgid "1744983902205"
+msgstr "1744983902205"
+
+#: ../../source/functions/input/keyboard.md:13
+msgid "The FlexDesigner exposes the following settings for this key:"
+msgstr "FlexDesigner 为此按键提供以下设置："
+
+#: ../../source/functions/input/keyboard.md:15
+msgid ""
+"Execution Type: Set if the key should be repeated or keep pressed. The "
+"following options are available:"
+msgstr ""
+"执行类型：设置按键是否应该重复或保持按下。以下选项可用："
+
+#: ../../source/functions/input/keyboard.md:16
+msgid "Single Click: Trigger once when pressed."
+msgstr "单击：按下时触发一次。"
+
+#: ../../source/functions/input/keyboard.md:17
+msgid ""
+"Hold with Repeat: Trigger once when pressed, repeat if the key is kept "
+"pressed (similar to a real keyboard)."
+msgstr ""
+"按住重复：按下时触发一次，如果按键保持按下则重复（类似于真实键盘）。"
+
+#: ../../source/functions/input/keyboard.md:18
+msgid ""
+"Always Hold: Press the key, and hold the key pressed even after the key "
+"has been released."
+msgstr ""
+"始终按住：按下按键，即使在按键释放后也保持按键按下状态。"
+
+#: ../../source/functions/input/keyboard.md:19
+msgid ""
+"Release/ Release All: Release the key when pressed. If no key is "
+"assigned, release all previously pressed keys."
+msgstr ""
+"释放/释放全部：按下时释放按键。如果没有分配按键，则释放所有之前按下的按键。"
+
+#: ../../source/functions/input/keyboard.md:20
+msgid "AB Mode: Press A key when pressed, and press B key when released."
+msgstr "AB 模式：按下时按 A 键，释放时按 B 键。"
+
+#: ../../source/functions/input/keyboard.md:21
+msgid ""
+"Key Value: Set the key or key combination to send. Click on the input box"
+" and press the key to set it. Alternatively, use the menu button on the "
+"right to select key from the menu, or use the virtual keyboard button to "
+"select one from the on-screen virtual keyboard. To clear the key "
+"combination, click on the input box to highlight it, and click on the X "
+"button to the right of the input box. You can also use the virtual "
+"keyboard to input your keys"
+msgstr ""
+"按键值：设置要发送的按键或按键组合。点击输入框并按按键来设置它。或者，使用右侧的菜单按钮从菜单中选择按键，或使用虚拟键盘按钮从屏幕上的虚拟键盘中选择一个。要清除按键组合，点击输入框以高亮显示它，然后点击输入框右侧的 X 按钮。您也可以使用虚拟键盘输入您的按键"
+
+#: ../../source/functions/input/keyboard.md:24
+msgid "![1744983935055](image/keyboard/1744983935055.png)"
+msgstr "![1744983935055](image/keyboard/1744983935055.png)"
+
+#: ../../source/functions/input/keyboard.md:24
+msgid "1744983935055"
+msgstr "1744983935055"
+
+#: ../../source/functions/input/keyboard.md:26
+msgid "You can also directly select the keys you need to input"
+msgstr "您也可以直接选择需要输入的按键"
+
+#: ../../source/functions/input/keyboard.md:28
+msgid "![1744983956092](image/keyboard/1744983956092.png)"
+msgstr "![1744983956092](image/keyboard/1744983956092.png)"
+
+#: ../../source/functions/input/keyboard.md:28
+msgid "1744983956092"
+msgstr "1744983956092"
+
+#: ../../source/functions/input/keyboard.md:30
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/keyboard.md:32
+msgid "Press the key on the Flexbar to trigger the defined action."
+msgstr "在 Flexbar 上按下按键以触发定义的操作。"
+

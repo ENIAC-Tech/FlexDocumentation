@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/navigation/navigation.md:1
+msgid "Flexbar Page Structure and How to Navigate on Flexbar"
+msgstr "Flexbar 页面结构和如何在 Flexbar 上导航"
+
+#: ../../source/functions/navigation/navigation.md:3
+msgid "Tree-Structured Folder Pages"
+msgstr "树形结构文件夹页面"
+
+#: ../../source/functions/navigation/navigation.md:5
+msgid ""
+"Flexbar uses a tree like Pages (folder) structure to contain and manage "
+"all keys. When you power up Flexbar, it starts on the default \"Home\" "
+"page. On any page, you can add keys or drag in a sub-page called "
+"\"Pages.\" You can even add more nested \"Page\" inside another \"Page.\""
+" This is similar to managing folders on a computer, giving you the "
+"freedom to create, categorize, store, and quickly switch between "
+"different sets of shortcuts. For details on how to navigate between "
+"pages, please read on."
+msgstr ""
+"Flexbar 使用类似树形的页面（文件夹）结构来包含和管理所有按键。当您启动 Flexbar "
+"时，它从默认的\"主页\"开始。在任何页面上，您都可以添加按键或拖入称为\"页面\"的子页面。您甚至可以在另一个\"页面\"内添加更多嵌套的\"页面\"。这类似于在计算机上管理文件夹，让您可以自由创建、分类、存储和快速切换不同的快捷键集合。有关如何在页面之间导航的详细信息，请继续阅读。"
+
+#: ../../source/functions/navigation/navigation.md:7
+msgid "![1743734044556](image/navigation/1743734044556.png)"
+msgstr "![1743734044556](image/navigation/1743734044556.png)"
+
+#: ../../source/functions/navigation/navigation.md:7
+msgid "1743734044556"
+msgstr "1743734044556"
+
+#: ../../source/functions/navigation/navigation.md:9
+msgid "![1743734049690](image/navigation/1743734049690.png)"
+msgstr "![1743734049690](image/navigation/1743734049690.png)"
+
+#: ../../source/functions/navigation/navigation.md:9
+msgid "1743734049690"
+msgstr "1743734049690"
+
+#: ../../source/functions/navigation/navigation.md:11
+msgid "![1743734054459](image/navigation/1743734054459.png)"
+msgstr "![1743734054459](image/navigation/1743734054459.png)"
+
+#: ../../source/functions/navigation/navigation.md:11
+msgid "1743734054459"
+msgstr "1743734054459"
+
+#: ../../source/functions/navigation/navigation.md:13
+msgid "···"
+msgstr "···"
+
+#: ../../source/functions/navigation/navigation.md:15
+#: ../../source/functions/navigation/navigation.md:50
+msgid "How to Add"
+msgstr "如何添加"
+
+#: ../../source/functions/navigation/navigation.md:17
+msgid ""
+"In the Key Library on the right, under the Navigation category, you can "
+"find the \"Page\" key and drag it onto the virtual Flexbar."
+msgstr "在右侧的按键库中，在导航类别下，您可以找到\"页面\"按键并将其拖到虚拟 Flexbar 上。"
+
+#: ../../source/functions/navigation/navigation.md:19
+msgid "![1743734083123](image/navigation/1743734083123.png)"
+msgstr "![1743734083123](image/navigation/1743734083123.png)"
+
+#: ../../source/functions/navigation/navigation.md:19
+msgid "1743734083123"
+msgstr "1743734083123"
+
+#: ../../source/functions/navigation/navigation.md:21
+msgid ""
+"Nested sub-pages support up to 15 levels in total (counting from "
+"\"Home\")."
+msgstr "嵌套子页面总共支持最多 15 级（从\"主页\"开始计算）。"
+
+#: ../../source/functions/navigation/navigation.md:23
+msgid ""
+"You can rename Pages or have their appearance customized just like any "
+"other key (\"Home\" cannot be renamed, as it is not a key)."
+msgstr "您可以重命名页面或自定义其外观，就像任何其他按键一样（\"主页\"不能重命名，因为它不是按键）。"
+
+#: ../../source/functions/navigation/navigation.md:25
+msgid ""
+"In the Flexbar Designer, the current page path \"home/page\" is displayed"
+" on top of the virtual Flexbar."
+msgstr "在 Flexbar Designer 中，当前页面路径\"home/page\"显示在虚拟 Flexbar 的顶部。"
+
+#: ../../source/functions/navigation/navigation.md:27
+msgid ""
+"In the Flexbar Designer, if a Page is empty, nothing will be displayed on"
+" the virtual Flexbar. However, on the real Flexbar device, \"⚠️Empty "
+"Page\" will be displayed."
+msgstr ""
+"在 Flexbar Designer 中，如果页面为空，虚拟 Flexbar 上不会显示任何内容。但是，在真实的 Flexbar "
+"设备上，将显示\"⚠️空页面\"。"
+
+#: ../../source/functions/navigation/navigation.md:29
+msgid "Automatic Switching to Associated Applications"
+msgstr "自动切换到关联应用程序"
+
+#: ../../source/functions/navigation/navigation.md:31
+msgid ""
+"Check out the [Content aware "
+"controls](../../troubleshoting/content_aware_controls.md) to learn how to"
+" set it up"
+msgstr "查看[内容感知控制](../../troubleshoting/content_aware_controls.md)了解如何设置"
+
+#: ../../source/functions/navigation/navigation.md:33
+msgid "How to Navigate on Flexbar"
+msgstr "如何在 Flexbar 上导航"
+
+#: ../../source/functions/navigation/navigation.md:35
+msgid ""
+"Flexbar has two side touch pads (which are non-display areas) and are set"
+" as navigation keys by default."
+msgstr "Flexbar 有两个侧边触摸板（非显示区域），默认设置为导航按键。"
+
+#: ../../source/functions/navigation/navigation.md:37
+msgid ""
+"By default, the left touch pad is the \"Return\" key which takes you back"
+" to the previous Page. The right side is set to the \"Jump To\" key which"
+" takes you directly back to the \"Home\" page."
+msgstr "默认情况下，左侧触摸板是\"返回\"按键，将您带回上一页。右侧设置为\"跳转到\"按键，直接将您带回\"主页\"。"
+
+#: ../../source/functions/navigation/navigation.md:39
+msgid "Navigating on the Virtual Flexbar in Flexbar Designer"
+msgstr "在 Flexbar Designer 中的虚拟 Flexbar 上导航"
+
+#: ../../source/functions/navigation/navigation.md:41
+msgid "![1743734349089](image/navigation/1743734349089.png)"
+msgstr "![1743734349089](image/navigation/1743734349089.png)"
+
+#: ../../source/functions/navigation/navigation.md:41
+msgid "1743734349089"
+msgstr "1743734349089"
+
+#: ../../source/functions/navigation/navigation.md:43
+msgid ""
+"Double-click a Page or navigation key to enter/return/jump. Single-click "
+"opens the configuration for that Page/Key, same as all other keys."
+msgstr "双击页面或导航按键进入/返回/跳转。单击打开该页面/按键的配置，与所有其他按键相同。"
+
+#: ../../source/functions/navigation/navigation.md:46
+msgid "Navigating on the Real Flexbar"
+msgstr "在真实 Flexbar 上导航"
+
+#: ../../source/functions/navigation/navigation.md:48
+msgid "Single-click any Page or navigation key to enter/return/jump."
+msgstr "单击任何页面或导航按键进入/返回/跳转。"
+
+#: ../../source/functions/navigation/navigation.md:52
+msgid ""
+"You can find \"Return\" and \"Jump To\" keys in the Key Library under the"
+" Navigation category on the right. Simply drag them onto the virtual "
+"Flexbar."
+msgstr "您可以在右侧导航类别下的按键库中找到\"返回\"和\"跳转到\"按键。只需将它们拖到虚拟 Flexbar 上即可。"
+
+#: ../../source/functions/navigation/navigation.md:54
+msgid "![1743734366773](image/navigation/1743734366773.png)"
+msgstr "![1743734366773](image/navigation/1743734366773.png)"
+
+#: ../../source/functions/navigation/navigation.md:54
+msgid "1743734366773"
+msgstr "1743734366773"
+
+#: ../../source/functions/navigation/navigation.md:56
+msgid ""
+"\"Jump To\" can jump to any path in Flexbar. Set it under the "
+"\"Function\" tab in its configuration."
+msgstr "\"跳转到\"可以跳转到 Flexbar 中的任何路径。在其配置的\"功能\"选项卡下设置。"
+
+#: ../../source/functions/navigation/navigation.md:58
+#, fuzzy
+msgid ""
+"The side touch pads can be assigned different functions. When you open "
+"the drawer, place a key closest to the touch pad to have the touch pad "
+"perform that key’s function. For more details, see the \"Touch Pad and "
+"Drawer\" chapter."
+msgstr "侧边触摸板可以分配不同的功能。当您打开抽屉时，将按键放在最靠近触摸板的位置，让触摸板执行该按键的功能。有关更多详细信息，请参阅\"触摸板和抽屉\"章节。"
+
+#: ../../source/functions/navigation/navigation.md:60
+#, fuzzy
+msgid ""
+"When you flip the Flexbar screen in \"Flexbar Setting\", the touch pads’ "
+"functions also flip accordingly."
+msgstr "当您在\"Flexbar 设置\"中翻转 Flexbar 屏幕时，触摸板的功能也会相应翻转。"
+

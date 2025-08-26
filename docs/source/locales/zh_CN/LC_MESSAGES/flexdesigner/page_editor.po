@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/page_editor.md:1
+msgid "Page Editor"
+msgstr "页面编辑器"
+
+#: ../../source/flexdesigner/page_editor.md:3
+msgid ""
+"In the page editor, you can manage Flexbar devices, preview and edit "
+"pages. You can use the mouse wheel to zoom and drag the virtual Flexbar."
+msgstr "在页面编辑器中，您可以管理 Flexbar 设备，预览和编辑页面。您可以使用鼠标滚轮缩放并拖动虚拟 Flexbar。"
+
+#: ../../source/flexdesigner/page_editor.md:5
+msgid ""
+"![1742261812783](image/getting_started/1742261812783.png) Feature "
+"descriptions:"
+msgstr "![1742261812783](image/getting_started/1742261812783.png) 功能说明："
+
+#: ../../source/flexdesigner/page_editor.md:5
+msgid "1742261812783"
+msgstr "1742261812783"
+
+#: ../../source/flexdesigner/page_editor.md:7
+msgid "Fit to screen: Click to reset Flexbar's zoom level and position"
+msgstr "适应屏幕：点击可重置 Flexbar 的缩放比例和位置"
+
+#: ../../source/flexdesigner/page_editor.md:8
+msgid ""
+"Tree view: Click to browse all subpages and keys in a tree structure for "
+"quick navigation between multiple subpages"
+msgstr "树状视图：点击可通过树结构浏览所有子页面和按键，便于在多个子页面间快速切换"
+
+#: ../../source/flexdesigner/page_editor.md:9
+msgid "Save your changes"
+msgstr "保存您的更改"
+
+#: ../../source/flexdesigner/page_editor.md:10
+msgid "Undo"
+msgstr "撤销"
+
+#: ../../source/flexdesigner/page_editor.md:11
+msgid "Redo"
+msgstr "重做"
+
+#: ../../source/flexdesigner/page_editor.md:12
+msgid "Key temporary storage: You can temporarily store keys here for later use"
+msgstr "按键临时存储：您可以将按键临时存放在此处，便于后续使用"
+
+#: ../../source/flexdesigner/page_editor.md:13
+msgid "Device overview: Select devices to upload here"
+msgstr "设备总览：在此处选择要上传的设备"
+
+#: ../../source/flexdesigner/page_editor.md:14
+msgid "Upload configuration to device"
+msgstr "将配置上传到设备"
+
+#: ../../source/flexdesigner/page_editor.md:15
+msgid ""
+"Page scroll: When elements exceed page width, use the scroll buttons on "
+"both sides to browse the interface"
+msgstr "页面滚动：当元素超出页面宽度时，可使用两侧的滚动按钮浏览界面"
+
+#: ../../source/flexdesigner/page_editor.md:16
+msgid ""
+"Drawer button: Click to open the drawer. Keys in the drawer won't change "
+"with the main page and can be used for frequently used keys"
+msgstr "抽屉按钮：点击可打开抽屉。抽屉中的按键不会随主页面变化，适合放置常用按键"
+
+#: ../../source/flexdesigner/page_editor.md:17
+msgid ""
+"Preview interface: Drag to reorder keys or drag new keys from the key "
+"library"
+msgstr "预览界面：可拖动按键重新排序，或从按键库拖入新按键"
+
+#: ../../source/flexdesigner/page_editor.md:18
+msgid ""
+"Storage status indicator: Your configuration is saved to Flexbar, showing"
+" storage space usage. Keys don't use much storage, but GIFs do"
+msgstr "存储状态指示：您的配置已保存到 Flexbar，并显示存储空间使用情况。按键本身占用空间较小，GIF 动图占用较大"
+
+#: ../../source/flexdesigner/page_editor.md:20
+msgid "Key Submenu"
+msgstr "按键子菜单"
+
+#: ../../source/flexdesigner/page_editor.md:22
+msgid "Right-click on a key to open the menu."
+msgstr "右键点击按键可打开菜单。"
+
+#: ../../source/flexdesigner/page_editor.md:24
+msgid "![1742262258711](image/getting_started/1742262258711.png)"
+msgstr "![1742262258711](image/getting_started/1742262258711.png)"
+
+#: ../../source/flexdesigner/page_editor.md:24
+msgid "1742262258711"
+msgstr "1742262258711"
+
+#: ../../source/flexdesigner/page_editor.md:26
+#: ../../source/flexdesigner/page_editor.md:42
+msgid "Functions in order:"
+msgstr "功能顺序如下："
+
+#: ../../source/flexdesigner/page_editor.md:28
+msgid "Copy current key"
+msgstr "复制当前按键"
+
+#: ../../source/flexdesigner/page_editor.md:29
+msgid "Create a duplicate of current key on current page"
+msgstr "在当前页面创建当前按键的副本"
+
+#: ../../source/flexdesigner/page_editor.md:30
+msgid "Cut current key"
+msgstr "剪切当前按键"
+
+#: ../../source/flexdesigner/page_editor.md:31
+msgid "Copy current key's appearance"
+msgstr "复制当前按键外观"
+
+#: ../../source/flexdesigner/page_editor.md:32
+msgid "Paste copied appearance to current key"
+msgstr "将已复制的外观粘贴到当前按键"
+
+#: ../../source/flexdesigner/page_editor.md:33
+msgid "Delete current key"
+msgstr "删除当前按键"
+
+#: ../../source/flexdesigner/page_editor.md:34
+msgid "Save current key as image (not applicable to some keys)"
+msgstr "将当前按键保存为图片（部分按键不支持）"
+
+#: ../../source/flexdesigner/page_editor.md:36
+msgid "Page Submenu"
+msgstr "页面子菜单"
+
+#: ../../source/flexdesigner/page_editor.md:38
+msgid "Right-click anywhere in the page editor to open the page submenu."
+msgstr "在页面编辑器任意位置右键可打开页面子菜单。"
+
+#: ../../source/flexdesigner/page_editor.md:40
+msgid "![1742262402981](image/getting_started/1742262402981.png)"
+msgstr "![1742262402981](image/getting_started/1742262402981.png)"
+
+#: ../../source/flexdesigner/page_editor.md:40
+msgid "1742262402981"
+msgstr "1742262402981"
+
+#: ../../source/flexdesigner/page_editor.md:44
+msgid "Paste copied keys to current page"
+msgstr "将已复制的按键粘贴到当前页面"
+
+#: ../../source/flexdesigner/page_editor.md:45
+msgid "Clear auto-remembered styles"
+msgstr "清除自动记忆的样式"
+
+#: ../../source/flexdesigner/page_editor.md:46
+msgid "Close virtual UI"
+msgstr "关闭虚拟界面"
+
+#: ../../source/flexdesigner/page_editor.md:47
+msgid "Save current page as image (not applicable to some keys)"
+msgstr "将当前页面保存为图片（部分按键不支持）"
+
+#: ../../source/flexdesigner/page_editor.md:48
+msgid "Save each key as a separate image (not applicable to some keys)"
+msgstr "将每个按键分别保存为图片（部分按键不支持）"

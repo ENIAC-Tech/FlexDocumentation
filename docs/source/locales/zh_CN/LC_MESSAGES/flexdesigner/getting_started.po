@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/getting_started.md:1
+msgid "Getting Started"
+msgstr "快速开始"
+
+#: ../../source/flexdesigner/getting_started.md:3
+msgid ""
+"This documentation introduces the layout, features, and usage of "
+"FlexDesigner."
+msgstr "本文档介绍 FlexDesigner 的布局、功能和使用方法。"
+
+#: ../../source/flexdesigner/getting_started.md:5
+msgid "Overview"
+msgstr "概览"
+
+#: ../../source/flexdesigner/getting_started.md:7
+msgid "![1742266521118](image/getting_started/1742266521118.png)"
+msgstr "![1742266521118](image/getting_started/1742266521118.png)"
+
+#: ../../source/flexdesigner/getting_started.md:7
+msgid "1742266521118"
+msgstr "1742266521118"
+
+#: ../../source/flexdesigner/getting_started.md:9
+msgid "The main interface of FlexDesigner consists of three sections:"
+msgstr "FlexDesigner 的主界面由三个部分组成："
+
+#: ../../source/flexdesigner/getting_started.md:11
+msgid ""
+"[Page Editor](page_editor.md): This area displays the same effects as "
+"Flexbar, allowing you to preview and adjust each interface of Flexbar"
+msgstr "[页面编辑器](page_editor.md)：此区域显示与 Flexbar 相同的效果，允许您预览和调整 Flexbar 的每个界面"
+
+#: ../../source/flexdesigner/getting_started.md:12
+msgid ""
+"[Key Editor](key_editor.md): Here you can edit the appearance and "
+"functionality of keys"
+msgstr "[按键编辑器](key_editor.md)：在这里您可以编辑按键的外观和功能"
+
+#: ../../source/flexdesigner/getting_started.md:13
+msgid ""
+"[Key Library](key_library.md): Lists all preset/imported keys that you "
+"can drag and drop into the page editor or key editor"
+msgstr "[按键库](key_library.md)：列出所有预设/导入的按键，您可以将其拖放到页面编辑器或按键编辑器中"
+
+#: ../../source/flexdesigner/getting_started.md:14
+msgid ""
+"[Toolbar](toolbar.md): Contains file management, software configuration, "
+"and other functions."
+msgstr "[工具栏](toolbar.md)：包含文件管理、软件配置和其他功能。"
+
+#: ../../source/flexdesigner/getting_started.md:16
+msgid "Your First Profile"
+msgstr "您的第一个配置文件"
+
+#: ../../source/flexdesigner/getting_started.md:18
+msgid "**Create a New Profile**"
+msgstr "**创建新配置文件**"
+
+#: ../../source/flexdesigner/getting_started.md:20
+msgid "![1743992112936](image/getting_started/1743992112936.png)"
+msgstr "![1743992112936](image/getting_started/1743992112936.png)"
+
+#: ../../source/flexdesigner/getting_started.md:20
+msgid "1743992112936"
+msgstr "1743992112936"
+
+#: ../../source/flexdesigner/getting_started.md:22
+msgid "**Add a Key**"
+msgstr "**添加按键**"
+
+#: ../../source/flexdesigner/getting_started.md:24
+msgid "![1743992435420](image/getting_started/1743992435420.png)"
+msgstr "![1743992435420](image/getting_started/1743992435420.png)"
+
+#: ../../source/flexdesigner/getting_started.md:24
+msgid "1743992435420"
+msgstr "1743992435420"
+
+#: ../../source/flexdesigner/getting_started.md:26
+msgid "Select a key from the Key Library and click to drag it out"
+msgstr "从按键库中选择一个按键并点击拖出"
+
+#: ../../source/flexdesigner/getting_started.md:27
+msgid "Drag the key to the Page Editor"
+msgstr "将按键拖到页面编辑器"
+
+#: ../../source/flexdesigner/getting_started.md:28
+msgid "Release the mouse to place the key in an appropriate position"
+msgstr "释放鼠标将按键放置在适当位置"
+
+#: ../../source/flexdesigner/getting_started.md:30
+msgid "**Make Some Changes**"
+msgstr "**进行一些更改**"
+
+#: ../../source/flexdesigner/getting_started.md:32
+msgid ""
+"You can check the [Key Editor](key_editor.md) to learn how to customize "
+"keys"
+msgstr "您可以查看[按键编辑器](key_editor.md)了解如何自定义按键"
+
+#: ../../source/flexdesigner/getting_started.md:34
+msgid "![1743992720153](image/getting_started/1743992720153.png)"
+msgstr "![1743992720153](image/getting_started/1743992720153.png)"
+
+#: ../../source/flexdesigner/getting_started.md:34
+msgid "1743992720153"
+msgstr "1743992720153"
+
+#: ../../source/flexdesigner/getting_started.md:36
+msgid "Upload to Device"
+msgstr "上传到设备"
+
+#: ../../source/flexdesigner/getting_started.md:38
+msgid "![1743992793052](image/getting_started/1743992793052.png)"
+msgstr "![1743992793052](image/getting_started/1743992793052.png)"
+
+#: ../../source/flexdesigner/getting_started.md:38
+msgid "1743992793052"
+msgstr "1743992793052"
+
+#: ../../source/flexdesigner/getting_started.md:40
+msgid "All Done!"
+msgstr "全部完成！"
+
+#: ../../source/flexdesigner/getting_started.md:42
+msgid "You can now see this page on your Flexbar!"
+msgstr "您现在可以在 Flexbar 上看到这个页面！"
+
+#: ../../source/flexdesigner/getting_started.md:44
+msgid "![1743992816226](image/getting_started/1743992816226.png)"
+msgstr "![1743992816226](image/getting_started/1743992816226.png)"
+
+#: ../../source/flexdesigner/getting_started.md:44
+msgid "1743992816226"
+msgstr "1743992816226"
+
+#: ../../source/flexdesigner/getting_started.md:46
+msgid "Next Steps"
+msgstr "下一步"
+
+#: ../../source/flexdesigner/getting_started.md:48
+msgid ""
+"Visit the [Create My First "
+"Profile](../troubleshoting/create_my_first_profile.md) to learn how to "
+"create a profile for an application"
+msgstr "访问[创建我的第一个配置文件](../troubleshoting/create_my_first_profile.md)了解如何为应用程序创建配置文件"
+
+#: ../../source/flexdesigner/getting_started.md:49
+msgid ""
+"Visit the [Background](background.md) and [Foreground](foreground.md) to "
+"learn how to customize a key"
+msgstr "访问[背景](background.md)和[前景](foreground.md)了解如何自定义按键"
+

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/utilities.md:1
+msgid "Utilities (Calculator, Timer, etc.)"
+msgstr "实用工具（计算器、计时器等）"
+
+#: ../../source/functions/utilities/utilities.md:3
+msgid "This page describes other on-device utilities provided in the Flexbar."
+msgstr "本页描述了 Flexbar 中提供的其他设备实用工具。"
+
+#: ../../source/functions/utilities/utilities.md:5
+msgid "Calculator"
+msgstr "计算器"
+
+#: ../../source/functions/utilities/utilities.md:7
+msgid "This key opens a basic calculator on the device."
+msgstr "此按键在设备上打开基本计算器。"
+
+#: ../../source/functions/utilities/utilities.md:9
+msgid "![1745503235322](image/utilities/1745503235322.png)"
+msgstr "![1745503235322](image/utilities/1745503235322.png)"
+
+#: ../../source/functions/utilities/utilities.md:9
+msgid "1745503235322"
+msgstr "1745503235322"
+
+#: ../../source/functions/utilities/utilities.md:11
+msgid "Click on the result area to send the result to your computer."
+msgstr "点击结果区域将结果发送到您的计算机。"
+
+#: ../../source/functions/utilities/utilities.md:13
+msgid "Binary Calculator"
+msgstr "二进制计算器"
+
+#: ../../source/functions/utilities/utilities.md:15
+msgid ""
+"This key opens a binary calculator on the device with the following "
+"features:"
+msgstr ""
+"此按键在设备上打开二进制计算器，具有以下功能："
+
+#: ../../source/functions/utilities/utilities.md:17
+msgid "Converts between binary, decimal, and hexadecimal"
+msgstr "在二进制、十进制和十六进制之间转换"
+
+#: ../../source/functions/utilities/utilities.md:18
+msgid "Touch the decimal/hexadecimal display to switch input mode"
+msgstr "触摸十进制/十六进制显示以切换输入模式"
+
+#: ../../source/functions/utilities/utilities.md:19
+msgid "Touch to modify bits directly (up to 16-bits)"
+msgstr "触摸直接修改位（最多 16 位）"
+
+#: ../../source/functions/utilities/utilities.md:20
+msgid ""
+"Left shift, right shift, bitwise invert, increment, and decrement "
+"functions"
+msgstr ""
+"左移、右移、按位取反、递增和递减功能"
+
+#: ../../source/functions/utilities/utilities.md:21
+msgid "Long press the result area to send the result to your computer"
+msgstr "长按结果区域将结果发送到您的计算机"
+
+#: ../../source/functions/utilities/utilities.md:23
+msgid "Binary 16 bits Mode"
+msgstr "二进制 16 位模式"
+
+#: ../../source/functions/utilities/utilities.md:25
+msgid ""
+"The binary calculator operates in this mode by default, supporting 16-bit"
+" binary input"
+msgstr ""
+"二进制计算器默认在此模式下运行，支持 16 位二进制输入"
+
+#: ../../source/functions/utilities/utilities.md:27
+msgid "![1745503682320](image/utilities/1745503682320.png)"
+msgstr "![1745503682320](image/utilities/1745503682320.png)"
+
+#: ../../source/functions/utilities/utilities.md:27
+msgid "1745503682320"
+msgstr "1745503682320"
+
+#: ../../source/functions/utilities/utilities.md:29
+msgid "Binary 8 bits Mode"
+msgstr "二进制 8 位模式"
+
+#: ../../source/functions/utilities/utilities.md:31
+msgid ""
+"In 16 bits Mode, press the `16` button to switch to 8 bits Mode, which "
+"supports 8-bit binary input"
+msgstr ""
+"在 16 位模式下，按 `16` 按钮切换到 8 位模式，支持 8 位二进制输入"
+
+#: ../../source/functions/utilities/utilities.md:33
+msgid "Press the `8` button again to switch back to 16-bit mode"
+msgstr "再次按 `8` 按钮切换回 16 位模式"
+
+#: ../../source/functions/utilities/utilities.md:35
+msgid "![1745504411144](image/utilities/1745504411144.png)"
+msgstr "![1745504411144](image/utilities/1745504411144.png)"
+
+#: ../../source/functions/utilities/utilities.md:35
+msgid "1745504411144"
+msgstr "1745504411144"
+
+#: ../../source/functions/utilities/utilities.md:37
+msgid "Hexadecimal Mode"
+msgstr "十六进制模式"
+
+#: ../../source/functions/utilities/utilities.md:39
+msgid ""
+"Touch the HEX result area to enter hexadecimal mode. In this mode, you "
+"can input hexadecimal values up to 4 digits. You can still press the `8` "
+"or `16` buttons to switch the bit width of the hexadecimal value"
+msgstr ""
+"触摸 HEX 结果区域进入十六进制模式。在此模式下，您可以输入最多 4 位数字的十六进制值。您仍然可以按 `8` 或 `16` 按钮来切换十六进制值的位宽"
+
+#: ../../source/functions/utilities/utilities.md:41
+msgid "![1745504457201](image/utilities/1745504457201.png)"
+msgstr "![1745504457201](image/utilities/1745504457201.png)"
+
+#: ../../source/functions/utilities/utilities.md:41
+msgid "1745504457201"
+msgstr "1745504457201"
+
+#: ../../source/functions/utilities/utilities.md:43
+msgid "Decimal Mode"
+msgstr "十进制模式"
+
+#: ../../source/functions/utilities/utilities.md:45
+msgid ""
+"Touch the DEC result area to enter decimal mode. In this mode, you can "
+"input decimal values up to 65535. You can still press the `8` or `16` "
+"buttons to switch the bit width of the value"
+msgstr ""
+"触摸 DEC 结果区域进入十进制模式。在此模式下，您可以输入最多 65535 的十进制值。您仍然可以按 `8` 或 `16` 按钮来切换值的位宽"
+
+#: ../../source/functions/utilities/utilities.md:47
+msgid "Ruler"
+msgstr "尺子"
+
+#: ../../source/functions/utilities/utilities.md:49
+msgid ""
+"This key opens a real sized ruler on the device. Touch to switch between "
+"imperial unit and metric unit."
+msgstr ""
+"此按键在设备上打开真实尺寸的尺子。触摸在英制单位和公制单位之间切换。"
+

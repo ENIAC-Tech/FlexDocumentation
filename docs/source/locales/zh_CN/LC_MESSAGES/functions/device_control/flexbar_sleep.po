@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:1
+msgid "Flexbar Sleep"
+msgstr "Flexbar 睡眠"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:3
+msgid ""
+"The Flexbar sleep key allows putting the device into sleep mode manually."
+" To put the computer to sleep, check out the 'Sleep' key in the 'Power "
+"Control' category."
+msgstr ""
+"Flexbar 睡眠按键允许手动将设备置于睡眠模式。要让计算机进入睡眠，请查看"电源控制"类别中的"睡眠"按键。"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:5
+msgid ""
+"Note that it's possible to set any page (other than the home page) or "
+"certain keys as screen saver (displayed after the device enters sleep "
+"mode), in the common tab. See 'Navigation' section for details."
+msgstr ""
+"请注意，可以在通用选项卡中将任何页面（除主页外）或某些按键设置为屏幕保护程序（设备进入睡眠模式后显示）。详情请参阅"导航"部分。"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:7
+msgid "![1744946008265](image/flexbar_sleep/1744946008265.png)"
+msgstr "![1744946008265](image/flexbar_sleep/1744946008265.png)"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:7
+msgid "1744946008265"
+msgstr "1744946008265"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:11
+msgid ""
+"Other than the standard visual options, this key doesn't have any "
+"additional configurable functions in the FlexDesigner."
+msgstr ""
+"除了标准视觉选项外，此按键在 FlexDesigner 中没有任何额外的可配置功能。"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:15
+msgid "Press the key to put the device into sleep mode."
+msgstr "按按键将设备置于睡眠模式。"
+

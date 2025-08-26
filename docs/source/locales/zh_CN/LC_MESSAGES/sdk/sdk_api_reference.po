@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/sdk_api_reference.md:1
+msgid "FlexDesigner SDK"
+msgstr "FlexDesigner SDK"
+
+#: ../../source/sdk/sdk_api_reference.md:3
+msgid ""
+"A comprehensive SDK for developing plugins for FlexDesigner, providing "
+"seamless integration with Flexbar devices and rich interaction "
+"capabilities."
+msgstr ""
+"用于开发 FlexDesigner 插件的综合 SDK，提供与 Flexbar 设备的无缝集成和丰富的交互功能。"
+
+#: ../../source/sdk/sdk_api_reference.md:5
+msgid "Installation"
+msgstr "安装"
+
+#: ../../source/sdk/sdk_api_reference.md:7
+msgid "Prerequisites"
+msgstr "前置要求"
+
+#: ../../source/sdk/sdk_api_reference.md:9
+msgid "Node.js version 20 or higher"
+msgstr "Node.js 版本 20 或更高"
+
+#: ../../source/sdk/sdk_api_reference.md:10
+msgid "FlexDesigner version 1.0.0 or higher."
+msgstr "FlexDesigner 版本 1.0.0 或更高。"
+
+#: ../../source/sdk/sdk_api_reference.md:12
+msgid "Setup"
+msgstr "设置"
+
+#: ../../source/sdk/sdk_api_reference.md:14
+msgid "Add FlexDesigner SDK to your project"
+msgstr "将 FlexDesigner SDK 添加到您的项目"
+
+#: ../../source/sdk/sdk_api_reference.md:16
+msgid ""
+"In typical cases, you only need to create a plugin project using "
+"`flexcli`, and the FlexDesigner SDK will be automatically installed."
+msgstr ""
+"在典型情况下，您只需要使用 `flexcli` 创建插件项目，FlexDesigner SDK 将自动安装。"
+
+#: ../../source/sdk/sdk_api_reference.md:22
+msgid "Quick Start"
+msgstr "快速开始"
+
+#: ../../source/sdk/sdk_api_reference.md:41
+msgid "Core Concepts"
+msgstr "核心概念"
+
+#: ../../source/sdk/sdk_api_reference.md:43
+msgid "Plugin Lifecycle"
+msgstr "插件生命周期"
+
+#: ../../source/sdk/sdk_api_reference.md:45
+msgid "**Initialization**: Plugin starts and connects to FlexDesigner"
+msgstr "**初始化**：插件启动并连接到 FlexDesigner"
+
+#: ../../source/sdk/sdk_api_reference.md:46
+msgid "**Alive Event**: Triggered when keys are loaded and ready"
+msgstr "**活跃事件**：当按键加载并准备就绪时触发"
+
+#: ../../source/sdk/sdk_api_reference.md:47
+msgid "**Data Events**: Triggered when users interact with keys"
+msgstr "**数据事件**：当用户与按键交互时触发"
+
+#: ../../source/sdk/sdk_api_reference.md:48
+msgid "**Configuration**: Plugin can read/write configuration data"
+msgstr "**配置**：插件可以读取/写入配置数据"
+
+#: ../../source/sdk/sdk_api_reference.md:50
+msgid "Key Types"
+msgstr "按键类型"
+
+#: ../../source/sdk/sdk_api_reference.md:52
+msgid "**Standard Keys**: Basic button functionality"
+msgstr "**标准按键**：基本按钮功能"
+
+#: ../../source/sdk/sdk_api_reference.md:53
+msgid "**Multi-State Keys**: Cycle through different states"
+msgstr "**多状态按键**：在不同状态之间循环"
+
+#: ../../source/sdk/sdk_api_reference.md:54
+msgid "**Slider Keys**: Continuous value adjustment"
+msgstr "**滑块按键**：连续值调整"
+
+#: ../../source/sdk/sdk_api_reference.md:55
+msgid "**Dynamic Keys**: Dynamically managed key collections"
+msgstr "**动态按键**：动态管理的按键集合"
+
+#: ../../source/sdk/sdk_api_reference.md:56
+msgid "**Wheel Keys**: Rotary encoder support"
+msgstr "**滚轮按键**：旋转编码器支持"
+
+#: ../../source/sdk/sdk_api_reference.md:58
+msgid "API Reference"
+msgstr "API 参考"
+
+#: ../../source/sdk/sdk_api_reference.md:60
+msgid "Built-in Modules"
+msgstr "内置模块"
+
+#: ../../source/sdk/sdk_api_reference.md:62
+msgid ""
+"To simplify the plugin development process, we have pre-integrated "
+"several modules that can be used directly:"
+msgstr ""
+"为了简化插件开发过程，我们预集成了几个可以直接使用的模块："
+
+#: ../../source/sdk/sdk_api_reference.md:64
+msgid "[@napi-rs/canvas](https://www.npmjs.com/package/@napi-rs/canvas)"
+msgstr ""
+
+#: ../../source/sdk/sdk_api_reference.md:65
+msgid "[express](https://www.npmjs.com/package/express)"
+msgstr ""
+
+#: ../../source/sdk/sdk_api_reference.md:66
+msgid "[axios](https://www.npmjs.com/package/axios)"
+msgstr ""
+
+#: ../../source/sdk/sdk_api_reference.md:68
+msgid "If you need integration of other modules, please let us know"
+msgstr "如果您需要集成其他模块，请告诉我们"
+
+#: ../../source/sdk/sdk_api_reference.md:70
+msgid "Core Plugin APIs"
+msgstr "核心插件 API"
+
+#: ../../source/sdk/sdk_api_reference.md:72
+msgid "plugin.start()"
+msgstr ""
+
+#: ../../source/sdk/sdk_api_reference.md:74
+msgid "Starts the WebSocket connection and initializes the plugin."
+msgstr "启动 WebSocket 连接并初始化插件。"
+
+#: ../../source/sdk/sdk_api_reference.md:80
+msgid "plugin.on(event, handler)"
+msgstr ""
+
+#: ../../source/sdk/sdk_api_reference.md:82
+msgid "Registers an event handler for specific events."
+msgstr "为特定事件注册事件处理器。"
+
+#: ../../source/sdk/sdk_api_reference.md:84
+#: ../../source/sdk/sdk_api_reference.md:111
+#: ../../source/sdk/sdk_api_reference.md:133
+#: ../../source/sdk/sdk_api_reference.md:148
+#: ../../source/sdk/sdk_api_reference.md:164
+#: ../../source/sdk/sdk_api_reference.md:188
+#: ../../source/sdk/sdk_api_reference.md:320
+#: ../../source/sdk/sdk_api_reference.md:355
+#: ../../source/sdk/sdk_api_reference.md:388
+msgid "**Parameters:**"
+msgstr "**参数：**"
+
+#: ../../source/sdk/sdk_api_reference.md:86
+msgid "`event` (string): Event type"
+msgstr "`event` (string)：事件类型"
+
+#: ../../source/sdk/sdk_api_reference.md:87
+msgid "`handler` (function): Event handler function"
+msgstr "`handler` (function)：事件处理函数"
+
+#: ../../source/sdk/sdk_api_reference.md:97
+msgid "plugin.off(event)"
+msgstr ""
+
+#: ../../source/sdk/sdk_api_reference.md:99
+msgid "Unregisters an event handler."
+msgstr "注销事件处理器。"
+
+#: ../../source/sdk/sdk_api_reference.md:105
+msgid "Drawing and Visual Updates"
+msgstr "绘图和视觉更新"
+
+#: ../../source/sdk/sdk_api_reference.md:107
+msgid "plugin.draw(serialNumber, key, type?, base64?)"
+msgstr "plugin.draw(serialNumber, key, type?, base64?)"
+
+#: ../../source/sdk/sdk_api_reference.md:109
+msgid "Updates the visual appearance of a key."
+msgstr "更新按键的视觉外观。"
+
+#: ../../source/sdk/sdk_api_reference.md:113
+#: ../../source/sdk/sdk_api_reference.md:135
+#: ../../source/sdk/sdk_api_reference.md:150
+#: ../../source/sdk/sdk_api_reference.md:166
+#: ../../source/sdk/sdk_api_reference.md:190
+msgid "`serialNumber` (string): Device serial number"
+msgstr "`serialNumber`（字符串）：设备序列号"
+
+#: ../../source/sdk/sdk_api_reference.md:114
+msgid "`key` (object): Key object from events"
+msgstr "`key`（对象）：事件中获取的按键信息对象"
+
+#: ../../source/sdk/sdk_api_reference.md:115
+msgid "`type` (string): 'draw' (default) or 'base64'"
+msgstr "`type`（字符串）：'draw'（默认）或 'base64'"
+
+#: ../../source/sdk/sdk_api_reference.md:116
+msgid "`base64` (string): Base64 image data (when type is 'base64')"
+msgstr "`base64`（字符串）：Base64 图片数据（当 type 为 'base64' 时）"
+
+#: ../../source/sdk/sdk_api_reference.md:127
+msgid "Key State Management"
+msgstr "按键状态管理"
+
+#: ../../source/sdk/sdk_api_reference.md:129
+msgid "plugin.setMultiState(serialNumber, key, state, message?)"
+msgstr "plugin.setMultiState(serialNumber, key, state, message?)"
+
+#: ../../source/sdk/sdk_api_reference.md:131
+msgid "Sets the state for multi-state keys."
+msgstr "设置多状态按键的当前状态。"
+
+#: ../../source/sdk/sdk_api_reference.md:136
+#: ../../source/sdk/sdk_api_reference.md:151
+msgid "`key` (object): Key object"
+msgstr "`key`（对象）：按键对象"
+
+#: ../../source/sdk/sdk_api_reference.md:137
+msgid "`state` (number): Target state index"
+msgstr "`state`（数字）：目标状态索引"
+
+#: ../../source/sdk/sdk_api_reference.md:138
+msgid "`message` (string, optional): Display message"
+msgstr "`message`（字符串，可选）：显示的消息内容"
+
+#: ../../source/sdk/sdk_api_reference.md:144
+msgid "plugin.setSlider(serialNumber, key, value)"
+msgstr "plugin.setSlider(serialNumber, key, value)"
+
+#: ../../source/sdk/sdk_api_reference.md:146
+msgid "Sets the value for slider keys."
+msgstr "设置滑动条按键的数值。"
+
+#: ../../source/sdk/sdk_api_reference.md:152
+msgid "`value` (number): Slider value"
+msgstr "`value`（数字）：滑动条的数值"
+
+#: ../../source/sdk/sdk_api_reference.md:158
+msgid "Device Configuration"
+msgstr "设备配置"
+
+#: ../../source/sdk/sdk_api_reference.md:160
+msgid "plugin.setDeviceConfig(serialNumber, config)"
+msgstr "plugin.setDeviceConfig(serialNumber, config)"
+
+#: ../../source/sdk/sdk_api_reference.md:162
+msgid "Configures device settings."
+msgstr "配置设备设置。"
+
+#: ../../source/sdk/sdk_api_reference.md:167
+msgid "`config` (object): Configuration object"
+msgstr "`config`（对象）：配置对象"
+
+#: ../../source/sdk/sdk_api_reference.md:182
+msgid "Messaging and Notifications"
+msgstr "消息与通知"
+
+#: ../../source/sdk/sdk_api_reference.md:184
+msgid ""
+"plugin.showFlexbarSnackbarMessage(serialNumber, msg, level, icon?, "
+"timeout?, waitUser?)"
+msgstr "plugin.showFlexbarSnackbarMessage(serialNumber, msg, level, icon?, timeout?, waitUser?)"
+
+#: ../../source/sdk/sdk_api_reference.md:186
+msgid "Displays a message on the Flexbar device."
+msgstr "在 Flexbar 设备上显示一条消息。"
+
+#: ../../source/sdk/sdk_api_reference.md:191
+msgid "`msg` (string): Message content (max 64 characters)"
+msgstr "`msg`（字符串）：消息内容（最多 64 个字符）"
+
+#: ../../source/sdk/sdk_api_reference.md:192
+msgid "`level` (string): Message level ('info', 'warning', 'error', 'success')"
+msgstr "`level`（字符串）：消息级别（'info'、'warning'、'error'、'success'）"
+
+#: ../../source/sdk/sdk_api_reference.md:193
+msgid "`icon` (string, optional): Icon name"
+msgstr "`icon`（字符串，可选）：图标名称"
+
+#: ../../source/sdk/sdk_api_reference.md:194
+msgid "`timeout` (number, optional): Duration in ms (500-10000, default: 2000)"
+msgstr "`timeout`（数字，可选）：显示时长（毫秒，500-10000，默认 2000）"
+
+#: ../../source/sdk/sdk_api_reference.md:195
+msgid "`waitUser` (boolean, optional): Wait for user interaction"
+msgstr "`waitUser`（布尔值，可选）：是否等待用户交互"
+
+#: ../../source/sdk/sdk_api_reference.md:207
+msgid "plugin.showSnackbarMessage(color, message, timeout?)"
+msgstr "plugin.showSnackbarMessage(color, message, timeout?)"
+
+#: ../../source/sdk/sdk_api_reference.md:209
+msgid "Shows a message in the FlexDesigner application."
+msgstr "在 FlexDesigner 应用程序中显示一条消息。"
+
+#: ../../source/sdk/sdk_api_reference.md:215
+msgid "System Integration"
+msgstr "系统集成"
+
+#: ../../source/sdk/sdk_api_reference.md:217
+msgid "plugin.electronAPI(api, ...args)"
+msgstr "plugin.electronAPI(api, ...args)"
+
+#: ../../source/sdk/sdk_api_reference.md:219
+msgid "Calls Electron APIs for system integration."
+msgstr "调用 Electron API 以实现系统集成。"
+
+#: ../../source/sdk/sdk_api_reference.md:221
+msgid "**Supported APIs:**"
+msgstr "**支持的 API：**"
+
+#: ../../source/sdk/sdk_api_reference.md:223
+msgid "`dialog.showOpenDialog`"
+msgstr "`dialog.showOpenDialog`"
+
+#: ../../source/sdk/sdk_api_reference.md:224
+msgid "`dialog.showSaveDialog`"
+msgstr "`dialog.showSaveDialog`"
+
+#: ../../source/sdk/sdk_api_reference.md:225
+msgid "`dialog.showMessageBox`"
+msgstr "`dialog.showMessageBox`"
+
+#: ../../source/sdk/sdk_api_reference.md:226
+msgid "`dialog.showErrorBox`"
+msgstr "`dialog.showErrorBox`"
+
+#: ../../source/sdk/sdk_api_reference.md:227
+msgid "`app.getAppPath`"
+msgstr "`app.getAppPath`"
+
+#: ../../source/sdk/sdk_api_reference.md:228
+msgid "`app.getPath`"
+msgstr "`app.getPath`"
+
+#: ../../source/sdk/sdk_api_reference.md:229
+msgid "`screen.getCursorScreenPoint`"
+msgstr "`screen.getCursorScreenPoint`"
+
+#: ../../source/sdk/sdk_api_reference.md:230
+msgid "`screen.getPrimaryDisplay`"
+msgstr "`screen.getPrimaryDisplay`"
+
+#: ../../source/sdk/sdk_api_reference.md:231
+msgid "`screen.getAllDisplays`"
+msgstr "`screen.getAllDisplays`"
+
+#: ../../source/sdk/sdk_api_reference.md:244
+msgid "File Operations"
+msgstr "文件操作"
+
+#: ../../source/sdk/sdk_api_reference.md:246
+msgid "plugin.openFile(path)"
+msgstr "plugin.openFile(path)"
+
+#: ../../source/sdk/sdk_api_reference.md:248
+msgid "Reads a file from the filesystem."
+msgstr "从文件系统读取文件。"
+
+#: ../../source/sdk/sdk_api_reference.md:254
+msgid "plugin.saveFile(path, data)"
+msgstr "plugin.saveFile(path, data)"
+
+#: ../../source/sdk/sdk_api_reference.md:256
+msgid "Saves data to a file."
+msgstr "将数据保存到文件。"
+
+#: ../../source/sdk/sdk_api_reference.md:262
+msgid "Application Information"
+msgstr "应用信息"
+
+#: ../../source/sdk/sdk_api_reference.md:264
+msgid "plugin.getAppInfo()"
+msgstr "plugin.getAppInfo()"
+
+#: ../../source/sdk/sdk_api_reference.md:266
+msgid "Gets FlexDesigner application information."
+msgstr "获取 FlexDesigner 应用程序的信息。"
+
+#: ../../source/sdk/sdk_api_reference.md:273
+msgid "plugin.getOpenedWindows()"
+msgstr "plugin.getOpenedWindows()"
+
+#: ../../source/sdk/sdk_api_reference.md:275
+msgid "Gets list of opened windows on the system."
+msgstr "获取系统中已打开窗口的列表。"
+
+#: ../../source/sdk/sdk_api_reference.md:284
+msgid "plugin.getDeviceStatus()"
+msgstr "plugin.getDeviceStatus()"
+
+#: ../../source/sdk/sdk_api_reference.md:286
+msgid "Gets status of connected devices."
+msgstr "获取已连接设备的状态。"
+
+#: ../../source/sdk/sdk_api_reference.md:295
+msgid "Configuration Management"
+msgstr "配置管理"
+
+#: ../../source/sdk/sdk_api_reference.md:297
+msgid "plugin.getConfig()"
+msgstr "plugin.getConfig()"
+
+#: ../../source/sdk/sdk_api_reference.md:299
+msgid "Retrieves plugin configuration."
+msgstr "获取插件配置。"
+
+#: ../../source/sdk/sdk_api_reference.md:306
+msgid "plugin.setConfig(config)"
+msgstr "plugin.setConfig(config)"
+
+#: ../../source/sdk/sdk_api_reference.md:308
+msgid "Updates plugin configuration."
+msgstr "更新插件配置。"
+
+#: ../../source/sdk/sdk_api_reference.md:314
+msgid "Performance Monitoring"
+msgstr "性能监控"
+
+#: ../../source/sdk/sdk_api_reference.md:316
+msgid "plugin.sendChartData(chartDataArray)"
+msgstr "plugin.sendChartData(chartDataArray)"
+
+#: ../../source/sdk/sdk_api_reference.md:318
+msgid "Sends performance metrics for display in FlexDesigner."
+msgstr "发送性能指标数据，在 FlexDesigner 中进行展示。"
+
+#: ../../source/sdk/sdk_api_reference.md:322
+msgid "`chartDataArray` (array): Array of chart data objects"
+msgstr "`chartDataArray`（数组）：图表数据对象数组"
+
+#: ../../source/sdk/sdk_api_reference.md:349
+msgid "Shortcuts Management"
+msgstr "快捷键管理"
+
+#: ../../source/sdk/sdk_api_reference.md:351
+msgid "plugin.updateShortcuts(shortcuts)"
+msgstr "plugin.updateShortcuts(shortcuts)"
+
+#: ../../source/sdk/sdk_api_reference.md:353
+msgid "Registers or unregisters keyboard shortcuts."
+msgstr "注册或注销键盘快捷键。"
+
+#: ../../source/sdk/sdk_api_reference.md:357
+msgid "`shortcuts` (array): Array of shortcut objects"
+msgstr "`shortcuts`（数组）：快捷键信息对象数组"
+
+#: ../../source/sdk/sdk_api_reference.md:372
+msgid "Dynamic Key Management"
+msgstr "动态按键管理"
+
+#: ../../source/sdk/sdk_api_reference.md:374
+msgid ""
+"The `plugin.dynamickey` object provides advanced key management "
+"capabilities."
+msgstr "`plugin.dynamickey` 对象提供了高级的按键管理能力。"
+
+#: ../../source/sdk/sdk_api_reference.md:376
+msgid "plugin.dynamickey.clear(serialNumber, key)"
+msgstr "plugin.dynamickey.clear(serialNumber, key)"
+
+#: ../../source/sdk/sdk_api_reference.md:378
+msgid "Removes all dynamic keys from a container."
+msgstr "移除容器中的所有动态按键。"
+
+#: ../../source/sdk/sdk_api_reference.md:384
+msgid ""
+"plugin.dynamickey.add(serialNumber, key, index, backgroundType, "
+"backgroundData, width, userData)"
+msgstr "plugin.dynamickey.add(serialNumber, key, index, backgroundType, backgroundData, width, userData)"
+
+#: ../../source/sdk/sdk_api_reference.md:386
+msgid "Adds a new dynamic key."
+msgstr "添加一个新的动态按键。"
+
+#: ../../source/sdk/sdk_api_reference.md:390
+msgid "`index` (number): Position to insert the key"
+msgstr "`index`（数字）：插入按键的位置"
+
+#: ../../source/sdk/sdk_api_reference.md:391
+msgid "`backgroundType` (string): 'base64' or 'draw'"
+msgstr "`backgroundType`（字符串）：'base64' 或 'draw'"
+
+#: ../../source/sdk/sdk_api_reference.md:392
+msgid "`backgroundData` (string): Image data or key object"
+msgstr "`backgroundData`（字符串）：图片数据或按键对象"
+
+#: ../../source/sdk/sdk_api_reference.md:393
+msgid "`width` (number): Key width in pixels (60-1000)"
+msgstr "`width`（数字）：按键宽度（像素，60-1000）"
+
+#: ../../source/sdk/sdk_api_reference.md:394
+msgid "`userData` (object): Custom data associated with the key"
+msgstr "`userData`（对象）：与按键关联的自定义数据"
+
+#: ../../source/sdk/sdk_api_reference.md:408
+msgid "plugin.dynamickey.remove(serialNumber, key, index)"
+msgstr "plugin.dynamickey.remove(serialNumber, key, index)"
+
+#: ../../source/sdk/sdk_api_reference.md:410
+msgid "Removes a dynamic key at the specified index."
+msgstr "移除指定索引位置的动态按键。"
+
+#: ../../source/sdk/sdk_api_reference.md:416
+msgid "plugin.dynamickey.move(serialNumber, key, srcIndex, dstIndex)"
+msgstr "plugin.dynamickey.move(serialNumber, key, srcIndex, dstIndex)"
+
+#: ../../source/sdk/sdk_api_reference.md:418
+msgid "Moves a dynamic key from one position to another."
+msgstr "将动态按键从一个位置移动到另一个位置。"
+
+#: ../../source/sdk/sdk_api_reference.md:424
+msgid "plugin.dynamickey.setWidth(serialNumber, key, width)"
+msgstr "plugin.dynamickey.setWidth(serialNumber, key, width)"
+
+#: ../../source/sdk/sdk_api_reference.md:426
+msgid "Changes the width of the dynamic key container."
+msgstr "更改动态按键容器的宽度。"
+
+#: ../../source/sdk/sdk_api_reference.md:432
+msgid ""
+"plugin.dynamickey.draw(serialNumber, key, index, backgroundType, "
+"backgroundData, width)"
+msgstr "plugin.dynamickey.draw(serialNumber, key, index, backgroundType, backgroundData, width)"
+
+#: ../../source/sdk/sdk_api_reference.md:434
+msgid "Updates the visual appearance of a specific dynamic key."
+msgstr "更新指定动态按键的视觉外观。"
+
+#: ../../source/sdk/sdk_api_reference.md:447
+msgid "plugin.dynamickey.update(serialNumber, key, index, userData)"
+msgstr "plugin.dynamickey.update(serialNumber, key, index, userData)"
+
+#: ../../source/sdk/sdk_api_reference.md:449
+msgid "Updates the user data for a dynamic key."
+msgstr "更新动态按键的用户数据。"
+
+#: ../../source/sdk/sdk_api_reference.md:455
+msgid "plugin.dynamickey.refresh(serialNumber, key)"
+msgstr "plugin.dynamickey.refresh(serialNumber, key)"
+
+#: ../../source/sdk/sdk_api_reference.md:457
+msgid "Refreshes the dynamic key display (recommended after width changes)."
+msgstr "刷新动态按键的显示（建议在宽度变更后调用）。"
+
+#: ../../source/sdk/sdk_api_reference.md:463
+msgid "Event Handling"
+msgstr "事件处理"
+
+#: ../../source/sdk/sdk_api_reference.md:465
+msgid "Plugin Events"
+msgstr "插件事件"
+
+#: ../../source/sdk/sdk_api_reference.md:467
+msgid "'plugin.alive'"
+msgstr "'plugin.alive'"
+
+#: ../../source/sdk/sdk_api_reference.md:469
+msgid "Triggered when keys are loaded and ready for interaction."
+msgstr "当按键加载完成并可交互时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:488
+msgid "'plugin.data'"
+msgstr "'plugin.data'"
+
+#: ../../source/sdk/sdk_api_reference.md:490
+msgid "Triggered when users interact with keys."
+msgstr "当用户与按键交互时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:508
+msgid "'plugin.config.updated'"
+msgstr "'plugin.config.updated'"
+
+#: ../../source/sdk/sdk_api_reference.md:510
+msgid "Triggered when plugin configuration changes."
+msgstr "当插件配置发生变化时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:518
+msgid "System Events"
+msgstr "系统事件"
+
+#: ../../source/sdk/sdk_api_reference.md:520
+msgid "'system.shortcut'"
+msgstr "'system.shortcut'"
+
+#: ../../source/sdk/sdk_api_reference.md:522
+msgid "Triggered when registered shortcuts are pressed."
+msgstr "当注册的快捷键被按下时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:530
+msgid "'system.actwin'"
+msgstr "'system.actwin'"
+
+#: ../../source/sdk/sdk_api_reference.md:532
+msgid "Triggered when the active window changes."
+msgstr "当活动窗口发生变化时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:541
+msgid "Device Events"
+msgstr "设备事件"
+
+#: ../../source/sdk/sdk_api_reference.md:543
+msgid "'device.status'"
+msgstr "'device.status'"
+
+#: ../../source/sdk/sdk_api_reference.md:545
+msgid "Triggered when device connection status changes."
+msgstr "当设备连接状态发生变化时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:562
+msgid "UI Events"
+msgstr "UI 事件"
+
+#: ../../source/sdk/sdk_api_reference.md:564
+msgid "'ui.message'"
+msgstr "'ui.message'"
+
+#: ../../source/sdk/sdk_api_reference.md:566
+msgid "Triggered when receiving messages from the plugin's UI."
+msgstr "当收到来自插件 UI 的消息时触发。"
+
+#: ../../source/sdk/sdk_api_reference.md:582
+msgid "'ui.log'"
+msgstr "'ui.log'"
+
+#: ../../source/sdk/sdk_api_reference.md:584
+msgid "Handles log messages from the plugin's UI (automatically handled)."
+msgstr "处理来自插件 UI 的日志消息（自动处理）。"
+
+#: ../../source/sdk/sdk_api_reference.md:586
+msgid "Utilities and Helpers"
+msgstr "工具与辅助功能"
+
+#: ../../source/sdk/sdk_api_reference.md:588
+msgid "Logger"
+msgstr "日志记录器"
+
+#: ../../source/sdk/sdk_api_reference.md:590
+msgid "The SDK provides a logger instance for debugging and monitoring."
+msgstr "SDK 提供了一个日志记录器实例，用于调试和监控。"
+
+#: ../../source/sdk/sdk_api_reference.md:601
+msgid "Path Utilities"
+msgstr "路径工具"
+
+#: ../../source/sdk/sdk_api_reference.md:603
+msgid "Access to plugin-specific paths."
+msgstr "访问插件专属路径。"
+
+#: ../../source/sdk/sdk_api_reference.md:612
+msgid "Complete Example"
+msgstr "完整示例"
+
+#: ../../source/sdk/sdk_api_reference.md:614
+msgid "Here's a comprehensive example demonstrating various SDK features:"
+msgstr "以下是一个展示多种 SDK 功能的综合示例："
+
+#: ../../source/sdk/sdk_api_reference.md:754
+msgid "Best Practices"
+msgstr "最佳实践"
+
+#: ../../source/sdk/sdk_api_reference.md:756
+msgid "Performance"
+msgstr "性能"
+
+#: ../../source/sdk/sdk_api_reference.md:758
+msgid "Use `plugin.dynamickey.refresh()` after width changes"
+msgstr "在宽度变更后请调用 `plugin.dynamickey.refresh()`"
+
+#: ../../source/sdk/sdk_api_reference.md:759
+msgid "Batch multiple dynamic key operations when possible"
+msgstr "尽量批量处理多个动态按键操作"
+
+#: ../../source/sdk/sdk_api_reference.md:760
+msgid "Optimize image sizes for better performance"
+msgstr "优化图片尺寸以提升性能"
+
+#: ../../source/sdk/sdk_api_reference.md:762
+msgid "Error Handling"
+msgstr "错误处理"
+
+#: ../../source/sdk/sdk_api_reference.md:764
+msgid "Always wrap async operations in try-catch blocks"
+msgstr "始终将异步操作包裹在 try-catch 代码块中"
+
+#: ../../source/sdk/sdk_api_reference.md:765
+msgid "Validate key types before calling type-specific methods"
+msgstr "在调用特定类型方法前请校验按键类型"
+
+#: ../../source/sdk/sdk_api_reference.md:766
+msgid "Handle device disconnection gracefully"
+msgstr "优雅地处理设备断开连接的情况"
+
+#: ../../source/sdk/sdk_api_reference.md:768
+msgid "User Experience"
+msgstr "用户体验"
+
+#: ../../source/sdk/sdk_api_reference.md:770
+msgid "Provide visual feedback for user interactions"
+msgstr "为用户交互提供视觉反馈"
+
+#: ../../source/sdk/sdk_api_reference.md:771
+msgid "Use appropriate message levels for notifications"
+msgstr "为通知选择合适的消息级别"
+
+#: ../../source/sdk/sdk_api_reference.md:772
+msgid "Keep snackbar messages concise and informative"
+msgstr "保持 snackbar 消息简洁且信息明确"
+
+#: ../../source/sdk/sdk_api_reference.md:774
+msgid "Development"
+msgstr "开发"
+
+#: ../../source/sdk/sdk_api_reference.md:776
+msgid "Use the logger for debugging instead of console.log"
+msgstr "调试时请使用日志记录器而非 console.log"
+
+#: ../../source/sdk/sdk_api_reference.md:777
+msgid "Test with multiple device connections"
+msgstr "请在多设备连接场景下进行测试"
+
+#: ../../source/sdk/sdk_api_reference.md:778
+msgid "Validate configuration before applying changes"
+msgstr "在应用配置变更前请先校验配置"
+
+#: ../../source/sdk/sdk_api_reference.md:780
+msgid "Troubleshooting"
+msgstr "故障排查"
+
+#: ../../source/sdk/sdk_api_reference.md:782
+msgid "Common Issues"
+msgstr "常见问题"
+
+#: ../../source/sdk/sdk_api_reference.md:784
+msgid ""
+"**Plugin not starting**: Ensure correct command-line arguments are "
+"provided"
+msgstr "**插件无法启动**：请确保已提供正确的命令行参数"
+
+#: ../../source/sdk/sdk_api_reference.md:785
+msgid "**Keys not updating**: Check if the correct serial number is used"
+msgstr "**按键未更新**：请检查是否使用了正确的序列号"
+
+#: ../../source/sdk/sdk_api_reference.md:786
+msgid "**Dynamic keys not displaying**: Call `refresh()` after width changes"
+msgstr "**动态按键未显示**：请在宽度变更后调用 `refresh()`"
+
+#: ../../source/sdk/sdk_api_reference.md:787
+msgid "**Events not firing**: Verify event handler registration"
+msgstr "**事件未触发**：请确认事件处理器已正确注册"
+
+#: ../../source/sdk/sdk_api_reference.md:789
+msgid "Debugging"
+msgstr "调试"
+
+#: ../../source/sdk/sdk_api_reference.md:791
+msgid "Enable debug logging by setting the appropriate log level:"
+msgstr "通过设置合适的日志级别启用调试日志："
+
+#: ../../source/sdk/sdk_api_reference.md:797
+msgid ""
+"Monitor WebSocket connections and ensure the plugin can communicate with "
+"FlexDesigner."
+msgstr "监控 WebSocket 连接，确保插件能够与 FlexDesigner 正常通信。"
+
+#: ../../source/sdk/sdk_api_reference.md:799
+msgid "License"
+msgstr "许可协议"
+
+#: ../../source/sdk/sdk_api_reference.md:801
+msgid ""
+"This SDK is provided under the terms specified by EniacTech. Please refer"
+" to your license agreement for usage terms and conditions."
+msgstr "本 SDK 依据 EniacTech 规定的条款提供。请参阅您的许可协议以了解使用条款和条件。"

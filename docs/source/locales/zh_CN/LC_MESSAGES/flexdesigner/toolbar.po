@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/toolbar.md:1
+msgid "Toolbar"
+msgstr "工具栏"
+
+#: ../../source/flexdesigner/toolbar.md:3
+msgid ""
+"The toolbar contains file management, software configuration, and other "
+"functions."
+msgstr "工具栏包含文件管理、软件配置和其他功能。"
+
+#: ../../source/flexdesigner/toolbar.md:5
+msgid "File"
+msgstr "文件"
+
+#: ../../source/flexdesigner/toolbar.md:7
+msgid "![1742266545659](image/getting_started/1742266545659.png)"
+msgstr "![1742266545659](image/getting_started/1742266545659.png)"
+
+#: ../../source/flexdesigner/toolbar.md:7
+msgid "1742266545659"
+msgstr "1742266545659"
+
+#: ../../source/flexdesigner/toolbar.md:9
+msgid "Functions in order:"
+msgstr "功能按顺序排列："
+
+#: ../../source/flexdesigner/toolbar.md:11
+msgid "Create a new project file (.flexbar)"
+msgstr "创建新的项目文件 (.flexbar)"
+
+#: ../../source/flexdesigner/toolbar.md:12
+msgid "Open a project file"
+msgstr "打开项目文件"
+
+#: ../../source/flexdesigner/toolbar.md:13
+msgid "Save current changes to file"
+msgstr "保存当前更改到文件"
+
+#: ../../source/flexdesigner/toolbar.md:14
+msgid "Save as"
+msgstr "另存为"
+
+#: ../../source/flexdesigner/toolbar.md:15
+msgid "Export current page to file (.flexpage)"
+msgstr "导出当前页面到文件 (.flexpage)"
+
+#: ../../source/flexdesigner/toolbar.md:16
+msgid "Will use the parent page's title and icon"
+msgstr "将使用父页面的标题和图标"
+
+#: ../../source/flexdesigner/toolbar.md:18
+msgid "Import a page from file"
+msgstr "从文件导入页面"
+
+#: ../../source/flexdesigner/toolbar.md:20
+msgid "Settings"
+msgstr "设置"
+
+#: ../../source/flexdesigner/toolbar.md:22
+msgid ""
+"In the settings interface, you can manage software, projects, devices, "
+"and more."
+msgstr "在设置界面中，您可以管理软件、项目、设备等。"
+
+#: ../../source/flexdesigner/toolbar.md:24
+msgid "System"
+msgstr "系统"
+
+#: ../../source/flexdesigner/toolbar.md:26
+msgid "![1742266967336](image/getting_started/1742266967336.png)"
+msgstr "![1742266967336](image/getting_started/1742266967336.png)"
+
+#: ../../source/flexdesigner/toolbar.md:26
+msgid "1742266967336"
+msgstr "1742266967336"
+
+#: ../../source/flexdesigner/toolbar.md:28
+msgid "Set software language"
+msgstr "设置软件语言"
+
+#: ../../source/flexdesigner/toolbar.md:29
+msgid "Set software theme color"
+msgstr "设置软件主题颜色"
+
+#: ../../source/flexdesigner/toolbar.md:30
+msgid "Set auto-start on boot"
+msgstr "设置开机自启动"
+
+#: ../../source/flexdesigner/toolbar.md:31
+msgid ""
+"If checked, new keys will use the last edited appearance; otherwise, "
+"default appearance will be maintained"
+msgstr "如果勾选，新按键将使用最后编辑的外观；否则将保持默认外观"
+
+#: ../../source/flexdesigner/toolbar.md:33
+msgid "Application"
+msgstr "应用程序"
+
+#: ../../source/flexdesigner/toolbar.md:35
+msgid ""
+"Manage global settings for different applications and your logged-in "
+"accounts."
+msgstr "管理不同应用程序和您登录账户的全局设置。"
+
+#: ../../source/flexdesigner/toolbar.md:37
+msgid "![1742267064399](image/getting_started/1742267064399.png)"
+msgstr "![1742267064399](image/getting_started/1742267064399.png)"
+
+#: ../../source/flexdesigner/toolbar.md:37
+msgid "1742267064399"
+msgstr "1742267064399"
+
+#: ../../source/flexdesigner/toolbar.md:39
+msgid "Project"
+msgstr "项目"
+
+#: ../../source/flexdesigner/toolbar.md:41
+msgid "Browse and modify project settings on this page."
+msgstr "在此页面浏览和修改项目设置。"
+
+#: ../../source/flexdesigner/toolbar.md:43
+msgid "![1742267257127](image/getting_started/1742267257127.png)"
+msgstr "![1742267257127](image/getting_started/1742267257127.png)"
+
+#: ../../source/flexdesigner/toolbar.md:43
+msgid "1742267257127"
+msgstr "1742267257127"
+
+#: ../../source/flexdesigner/toolbar.md:45
+msgid "Vertical Mode: When enabled, all key icons and titles will rotate 90°"
+msgstr "垂直模式：启用时，所有按键图标和标题将旋转90°"
+
+#: ../../source/flexdesigner/toolbar.md:46
+msgid "This mode may cause issues with some keys"
+msgstr "此模式可能会导致某些按键出现问题"
+
+#: ../../source/flexdesigner/toolbar.md:48
+msgid "List of plugins installed in the current project"
+msgstr "当前项目中已安装的插件列表"
+
+#: ../../source/flexdesigner/toolbar.md:50
+msgid "Device"
+msgstr "设备"
+
+#: ../../source/flexdesigner/toolbar.md:52
+msgid "Manage connected devices on this page."
+msgstr "在此页面管理已连接的设备。"
+
+#: ../../source/flexdesigner/toolbar.md:54
+msgid "![1742272903108](image/getting_started/1742272903108.png)"
+msgstr "![1742272903108](image/getting_started/1742272903108.png)"
+
+#: ../../source/flexdesigner/toolbar.md:54
+msgid "1742272903108"
+msgstr "1742272903108"
+
+#: ../../source/flexdesigner/toolbar.md:56
+msgid "Interface description:"
+msgstr "界面说明："
+
+#: ../../source/flexdesigner/toolbar.md:58
+msgid "Connected device list"
+msgstr "已连接设备列表"
+
+#: ../../source/flexdesigner/toolbar.md:59
+msgid "Device information overview"
+msgstr "设备信息概览"
+
+#: ../../source/flexdesigner/toolbar.md:60
+msgid "Device settings"
+msgstr "设备设置"
+
+#: ../../source/flexdesigner/toolbar.md:61
+msgid "Manual firmware update"
+msgstr "手动固件更新"
+
+#: ../../source/flexdesigner/toolbar.md:62
+msgid "You typically don't need to manually update firmware"
+msgstr "您通常不需要手动更新固件"
+
+#: ../../source/flexdesigner/toolbar.md:65
+msgid ""
+"Device settings page ③ is shown below, where you can change the device "
+"name and color."
+msgstr "设备设置页面③如下所示，您可以在此更改设备名称和颜色。"
+
+#: ../../source/flexdesigner/toolbar.md:67
+msgid "![1742272980556](image/getting_started/1742272980556.png)"
+msgstr "![1742272980556](image/getting_started/1742272980556.png)"
+
+#: ../../source/flexdesigner/toolbar.md:67
+msgid "1742272980556"
+msgstr "1742272980556"
+
+#: ../../source/flexdesigner/toolbar.md:69
+msgid "Plugins"
+msgstr "插件"
+
+#: ../../source/flexdesigner/toolbar.md:71
+msgid "![1742272768488](image/getting_started/1742272768488.png)"
+msgstr "![1742272768488](image/getting_started/1742272768488.png)"
+
+#: ../../source/flexdesigner/toolbar.md:71
+msgid "1742272768488"
+msgstr "1742272768488"
+
+#: ../../source/flexdesigner/toolbar.md:73
+msgid "Help"
+msgstr "帮助"
+
+#: ../../source/flexdesigner/toolbar.md:75
+msgid ""
+"Access the tutorial guide, online documentation, or report bugs on this "
+"page."
+msgstr "在此页面访问教程指南、在线文档或报告错误。"
+
+#: ../../source/flexdesigner/toolbar.md:77
+msgid "![1742285668653](image/getting_started/1742285668653.png)"
+msgstr "![1742285668653](image/getting_started/1742285668653.png)"
+
+#: ../../source/flexdesigner/toolbar.md:77
+msgid "1742285668653"
+msgstr "1742285668653"
+
+#: ../../source/flexdesigner/toolbar.md:79
+msgid "About"
+msgstr "关于"
+
+#: ../../source/flexdesigner/toolbar.md:81
+msgid "Check for software version updates on this page."
+msgstr "在此页面检查软件版本更新。"
+
+#: ../../source/flexdesigner/toolbar.md:83
+msgid "![1742285756204](image/getting_started/1742285756204.png)"
+msgstr "![1742285756204](image/getting_started/1742285756204.png)"
+
+#: ../../source/flexdesigner/toolbar.md:83
+msgid "1742285756204"
+msgstr "1742285756204"
+

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/obs/obs.md:1
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: ../../source/functions/obs/obs.md:3
+msgid "You can control OBS Studio quickly and easily using the Flexbar."
+msgstr "您可以使用 Flexbar 快速轻松地控制 OBS Studio。"
+
+#: ../../source/functions/obs/obs.md:5
+msgid "Set Up Your OBS Studio"
+msgstr "设置您的 OBS Studio"
+
+#: ../../source/functions/obs/obs.md:7
+msgid ""
+"To get started, enable OBS Studio's WebSocket service via **Settings > "
+"Application > OBS**."
+msgstr "要开始使用，请通过**设置 > 应用程序 > OBS**启用 OBS Studio 的 WebSocket 服务。"
+
+#: ../../source/functions/obs/obs.md:9
+msgid "![1743307623980](image/obs/1743307623980.png)"
+msgstr "![1743307623980](image/obs/1743307623980.png)"
+
+#: ../../source/functions/obs/obs.md:9
+msgid "1743307623980"
+msgstr "1743307623980"
+
+#: ../../source/functions/obs/obs.md:11
+msgid "Open the WebSocket settings panel"
+msgstr "打开 WebSocket 设置面板"
+
+#: ../../source/functions/obs/obs.md:12
+msgid "Click **Show Connect Info**"
+msgstr "点击**显示连接信息**"
+
+#: ../../source/functions/obs/obs.md:13
+msgid "Copy the **IP**, **Port**, and **Password**"
+msgstr "复制**IP**、**端口**和**密码**"
+
+#: ../../source/functions/obs/obs.md:15
+msgid "![1743307637461](image/obs/1743307637461.png)"
+msgstr "![1743307637461](image/obs/1743307637461.png)"
+
+#: ../../source/functions/obs/obs.md:15
+msgid "1743307637461"
+msgstr "1743307637461"
+
+#: ../../source/functions/obs/obs.md:17
+#, fuzzy
+msgid ""
+"Paste the IP, Port, and Password into the corresponding input fields, "
+"then click **Test Server**. You should see a “Connected” status if "
+"everything is set correctly."
+msgstr "将 IP、端口和密码粘贴到相应的输入字段中，然后点击**测试服务器**。如果一切设置正确，您应该看到\"已连接\"状态。"
+
+#: ../../source/functions/obs/obs.md:19
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/obs/obs.md:21
+msgid "![1743307818062](image/obs/1743307818062.png)"
+msgstr "![1743307818062](image/obs/1743307818062.png)"
+
+#: ../../source/functions/obs/obs.md:21
+msgid "1743307818062"
+msgstr "1743307818062"
+
+#: ../../source/functions/obs/obs.md:23
+msgid "You can find this feature under the \"OBS\" category in the Key Library."
+msgstr "您可以在按键库的\"OBS\"类别下找到此功能。"
+
+#: ../../source/functions/obs/obs.md:25
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/obs/obs.md:27
+msgid "![1743307840269](image/obs/1743307840269.png)"
+msgstr "![1743307840269](image/obs/1743307840269.png)"
+
+#: ../../source/functions/obs/obs.md:27
+msgid "1743307840269"
+msgstr "1743307840269"
+

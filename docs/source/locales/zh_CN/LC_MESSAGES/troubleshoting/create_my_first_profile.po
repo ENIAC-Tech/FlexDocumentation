@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:1
+msgid "Creating My First Profile"
+msgstr "创建我的第一个配置文件"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:3
+msgid ""
+"This guide will show you how to create a custom Flexbar profile to boost "
+"your productivity - using Microsoft Office Excel as an example."
+msgstr ""
+"本指南将向您展示如何创建自定义 Flexbar 配置文件以提高工作效率 - 以 Microsoft Office Excel 为例。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:5
+msgid "![1744983288735](image/create_my_first_profile/1744983288735.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:5
+msgid "1744983288735"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:7
+msgid "Creating an Excel Page"
+msgstr "创建 Excel 页面"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:9
+msgid ""
+"Find the Page key in the Navigation category of the Key Library and drag "
+"it onto your Flexbar."
+msgstr ""
+"在按键库的导航类别中找到页面按键，并将其拖到您的 Flexbar 上。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:11
+msgid "![1744982158836](image/create_my_first_profile/1744982158836.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:11
+msgid "1744982158836"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:13
+msgid ""
+"For better visual appeal and usability, we recommend customizing this "
+"Page. For example, you can set the background color to dark green and use"
+" the Excel application icon."
+msgstr ""
+"为了更好的视觉效果和可用性，我们建议自定义此页面。例如，您可以将背景色设置为深绿色并使用 Excel 应用程序图标。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:15
+msgid "![1744982357101](image/create_my_first_profile/1744982357101.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:15
+msgid "1744982357101"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:17
+msgid ""
+"In the Function tab, you can bind this page to Excel. This way, when you "
+"focus on an Excel window, Flexbar will automatically switch to your Excel"
+" page."
+msgstr ""
+"在功能选项卡中，您可以将此页面绑定到 Excel。这样，当您聚焦 Excel 窗口时，Flexbar 将自动切换到您的 Excel 页面。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:19
+msgid "![1744982406689](image/create_my_first_profile/1744982406689.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:19
+msgid "1744982406689"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:21
+msgid "Adding the Keys You Need"
+msgstr "添加您需要的按键"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:23
+msgid "Now you can add the keys you need to your Excel page."
+msgstr ""
+"现在您可以将需要的按键添加到您的 Excel 页面。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:25
+msgid "Adding Shortcuts"
+msgstr "添加快捷键"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:27
+msgid ""
+"When editing Excel data, you often need to change cell formats. For "
+"example, switching to number format requires pressing Ctrl+Shift+1, while"
+" switching to percentage format requires Ctrl+Shift+5."
+msgstr ""
+"编辑 Excel 数据时，您经常需要更改单元格格式。例如，切换到数字格式需要按 Ctrl+Shift+1，而切换到百分比格式需要按 Ctrl+Shift+5。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:29
+msgid "You can find and add the Keyboard key from the Key Library."
+msgstr ""
+"您可以从按键库中找到并添加键盘按键。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:31
+msgid "![1744982919747](image/create_my_first_profile/1744982919747.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:31
+msgid "1744982919747"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:33
+msgid ""
+"For the number format shortcut, set the appearance to a number icon and "
+"configure the shortcut as Ctrl+Shift+1."
+msgstr ""
+"对于数字格式快捷键，将外观设置为数字图标，并将快捷键配置为 Ctrl+Shift+1。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:35
+msgid "![1744982955406](image/create_my_first_profile/1744982955406.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:35
+msgid "1744982955406"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:37
+msgid ""
+"For the percentage format shortcut, set the appearance to a percentage "
+"icon and configure the shortcut as Ctrl+Shift+5."
+msgstr ""
+"对于百分比格式快捷键，将外观设置为百分比图标，并将快捷键配置为 Ctrl+Shift+5。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:39
+msgid "![1744982986771](image/create_my_first_profile/1744982986771.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:39
+msgid "1744982986771"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:41
+msgid ""
+"We've successfully added two shortcuts to Flexbar. Operations that "
+"previously required pressing three keys can now be done with a single tap"
+" on Flexbar - what you see is what you get, and you don't need to "
+"memorize complex keyboard shortcuts."
+msgstr ""
+"我们已成功向 Flexbar 添加了两个快捷键。以前需要按三个键的操作现在可以通过在 Flexbar 上轻按一下来完成 - 所见即所得，您无需记住复杂的键盘快捷键。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:43
+msgid "Adding Text Input"
+msgstr "添加文本输入"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:45
+msgid ""
+"Excel requires memorizing many formulas. You can add a text input key to "
+"Flexbar to enter complex formulas for you. You can find this in the Input"
+" category."
+msgstr ""
+"Excel 需要记住许多公式。您可以向 Flexbar 添加文本输入按键来为您输入复杂公式。您可以在输入类别中找到这个。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:47
+msgid "![1744983098548](image/create_my_first_profile/1744983098548.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:47
+msgid "1744983098548"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:49
+msgid ""
+"For example, for the commonly used average formula, simply configure the "
+"key to input the formula when pressed."
+msgstr ""
+"例如，对于常用的平均值公式，只需配置按键在按下时输入公式。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:51
+msgid "![1744983173361](image/create_my_first_profile/1744983173361.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:51
+msgid "1744983173361"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:53
+msgid "Now you can enter this formula in Excel with just one tap on your Flexbar."
+msgstr ""
+"现在您只需在 Flexbar 上轻按一下即可在 Excel 中输入此公式。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:55
+msgid "Getting Pre-made Excel Keys"
+msgstr "获取预制 Excel 按键"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:57
+msgid ""
+"We provide pre-configured shortcut sets for many applications - including"
+" Excel. You can install our Excel key preset from FlexGate, which "
+"includes hundreds of Excel shortcuts and common formulas."
+msgstr ""
+"我们为许多应用程序提供预配置的快捷键集 - 包括 Excel。您可以从 FlexGate 安装我们的 Excel 按键预设，其中包含数百个 Excel 快捷键和常用公式。"
+
+#: ../../source/troubleshoting/create_my_first_profile.md:59
+msgid "![1744982098558](image/create_my_first_profile/1744982098558.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/create_my_first_profile.md:59
+msgid "1744982098558"
+msgstr ""
+

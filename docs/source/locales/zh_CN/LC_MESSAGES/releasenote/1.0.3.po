@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/releasenote/1.0.3.md:1
+msgid "Release Version 1.0.3"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:3
+msgid "New Features"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:5
+msgid "Icon packs now support selecting a cover icon"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:6
+msgid "UI improvements for a smoother and more intuitive experience"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:7
+msgid "Frist release Linux x86 version"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:9
+msgid "Bug Fixes"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:11
+msgid "Fixed import errors with icon packs"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:12
+msgid "Resolved plugin version check failure"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:13
+msgid "Fixed issue with language switching"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:14
+msgid "KeyLibrary no longer displays libraries from unsupported operating systems"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:15
+msgid "Fixed inability to drag keys into sequence and cycle buttons"
+msgstr ""
+
+#: ../../source/releasenote/1.0.3.md:16
+msgid "Resolved launch issues when the username contains spaces"
+msgstr ""
+

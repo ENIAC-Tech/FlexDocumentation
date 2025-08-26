@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/sticker_pack.md:1
+msgid "Sticker Pack"
+msgstr "贴纸包"
+
+#: ../../source/functions/input/sticker_pack.md:3
+msgid ""
+"The sticker pack key inserts a sticker (like meme, or any image) to the "
+"active input box from the sticker pack when pressed."
+msgstr "贴纸包按键在按下时从贴纸包中插入贴纸（如表情包或任何图像）到活动输入框中。"
+
+#: ../../source/functions/input/sticker_pack.md:5
+msgid "![1744984412951](image/sticker_pack/1744984412951.png)"
+msgstr "![1744984412951](image/sticker_pack/1744984412951.png)"
+
+#: ../../source/functions/input/sticker_pack.md:5
+msgid "1744984412951"
+msgstr "1744984412951"
+
+#: ../../source/functions/input/sticker_pack.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/sticker_pack.md:9
+msgid "![1744984574600](image/sticker_pack/1744984574600.png)"
+msgstr "![1744984574600](image/sticker_pack/1744984574600.png)"
+
+#: ../../source/functions/input/sticker_pack.md:9
+msgid "1744984574600"
+msgstr "1744984574600"
+
+#: ../../source/functions/input/sticker_pack.md:11
+msgid ""
+"The stickers are organized in sticker packs. The sticker pack is a "
+"library of all the stickers that can be used in the FlexDesigner, meaning"
+" the sticker pack configured for a single key is shared across all "
+"sticker pack keys. The software provides some basic functions for "
+"organizing the sticker pack (in the order of buttons in the software):"
+msgstr "贴纸按贴纸包组织。贴纸包是可在 FlexDesigner 中使用的所有贴纸的库，这意味着为单个按键配置的贴纸包在所有贴纸包按键之间共享。软件提供了一些用于组织贴纸包的基本功能（按软件中按钮的顺序）："
+
+#: ../../source/functions/input/sticker_pack.md:13
+msgid ""
+"Import sticker pack: Import a previously exported sticker pack from the "
+"FlexDesigner"
+msgstr "导入贴纸包：从 FlexDesigner 导入之前导出的贴纸包"
+
+#: ../../source/functions/input/sticker_pack.md:14
+msgid ""
+"Add new image: Select an image file on your computer, then add it to the "
+"sticker pack"
+msgstr "添加新图像：在计算机上选择图像文件，然后将其添加到贴纸包"
+
+#: ../../source/functions/input/sticker_pack.md:15
+msgid ""
+"Add from clipboard: Paste the previously copied image into the sticker "
+"pack"
+msgstr "从剪贴板添加：将之前复制的图像粘贴到贴纸包中"
+
+#: ../../source/functions/input/sticker_pack.md:16
+msgid ""
+"Export sticker pack: Export the current sticker pack to a single file for"
+" backup or sharing"
+msgstr "导出贴纸包：将当前贴纸包导出到单个文件以进行备份或共享"
+
+#: ../../source/functions/input/sticker_pack.md:18
+msgid ""
+"To remove image from the sticker pack, right-click on the image and click"
+" 'Delete'. To remove multiple images from the sticker pack, select the "
+"images by using the checkbox in the top right corner of the image when "
+"hovering the cursor over, right click on any image, click 'Delete all "
+"selected'."
+msgstr "要从贴纸包中删除图像，请右键单击图像并点击"删除"。要从贴纸包中删除多个图像，请将光标悬停在图像上时使用图像右上角的复选框选择图像，右键单击任何图像，点击"删除所有选中的"。"
+
+#: ../../source/functions/input/sticker_pack.md:20
+msgid ""
+"Notably, these operations are the same for the icon pack used in "
+"foreground settings. However, it doesn't support managing multiple "
+"sticker packs unlike icon packs."
+msgstr "值得注意的是，这些操作与前景设置中使用的图标包相同。但是，与图标包不同，它不支持管理多个贴纸包。"
+
+#: ../../source/functions/input/sticker_pack.md:22
+msgid ""
+"Each key can only have one sticker assigned to it. Single click the "
+"desired sticker from the sticker pack to pick one. It should show up in "
+"the preview area on the top of the sticker pack area."
+msgstr "每个按键只能分配一个贴纸。从贴纸包中单击所需的贴纸来选择。它应该显示在贴纸包区域顶部的预览区域中。"
+
+#: ../../source/functions/input/sticker_pack.md:24
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/sticker_pack.md:26
+msgid ""
+"Press the key on the Flexbar to insert the defined sticker into the "
+"current active input box on the computer."
+msgstr "在 Flexbar 上按下按键将定义的贴纸插入到计算机上当前活动的输入框中。"
+
+#: ../../source/functions/input/sticker_pack.md:28
+msgid "TIPS"
+msgstr "提示"
+
+#: ../../source/functions/input/sticker_pack.md:30
+msgid ""
+"While the software supports multiple formats, the compatibility is also "
+"subject to the target software (such as when inserting into messaging "
+"software that doesn't support GIF at all, the Flexbar won't be able to "
+"magically insert the animated GIF there). For maximum compatibility it's "
+"recommended to only use JPEG and GIF format."
+msgstr "虽然软件支持多种格式，但兼容性也取决于目标软件（例如，当插入到完全不支持 GIF 的消息软件中时，Flexbar 无法在那里神奇地插入动画 GIF）。为了获得最大兼容性，建议仅使用 JPEG 和 GIF 格式。"
+

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/release_plugin.md:1
+msgid "Release Your Plugin"
+msgstr "发布您的插件"
+
+#: ../../source/sdk/release_plugin.md:3
+msgid "This guide explains how to publish your plugin."
+msgstr "本指南说明如何发布您的插件。"
+
+#: ../../source/sdk/release_plugin.md:5
+msgid "GitHub Actions"
+msgstr "GitHub Actions"
+
+#: ../../source/sdk/release_plugin.md:7
+msgid ""
+"Plugins created with `flexcli` come pre-configured with GitHub Actions. "
+"To publish your plugin, simply push your code to a GitHub repository and "
+"create a Release. Note that your Release Tag must match the plugin "
+"version specified in the `manifest.json` file. The GitHub CI will "
+"automatically compile and publish the `*.flexplugin` file to the Release "
+"assets."
+msgstr ""
+"使用`flexcli`创建的插件预配置了GitHub Actions。要发布您的插件，只需将代码推送到"
+"GitHub仓库并创建Release。注意，您的Release Tag必须与`manifest.json`文件中指定的"
+"插件版本匹配。GitHub CI将自动编译并将`*.flexplugin`文件发布到Release资源中。"
+
+#: ../../source/sdk/release_plugin.md:9
+msgid ""
+"You can then share the `*.flexplugin` file or the GitHub repository link "
+"for users to import the plugin in the key library."
+msgstr ""
+"然后您可以分享`*.flexplugin`文件或GitHub仓库链接，供用户在按键库中导入插件。"
+
+#: ../../source/sdk/release_plugin.md:11
+msgid "Multi-Platform Support"
+msgstr "多平台支持"
+
+#: ../../source/sdk/release_plugin.md:13
+msgid ""
+"In some cases, different operating systems may require different backend "
+"programs."
+msgstr "在某些情况下，不同的操作系统可能需要不同的后端程序。"
+
+#: ../../source/sdk/release_plugin.md:15
+msgid ""
+"You can modify GitHub Actions to package your plugin in the following "
+"format:"
+msgstr "您可以修改GitHub Actions以以下格式打包您的插件："
+
+#: ../../source/sdk/release_plugin.md:17
+msgid "`xxx.<OS NAME>.<ARCH>.flexplugin`"
+msgstr "`xxx.<OS NAME>.<ARCH>.flexplugin`"
+
+#: ../../source/sdk/release_plugin.md:19
+msgid ""
+"Where OS NAME supports `win32, darwin, linux`; ARCH supports `x64, "
+"arm64`. The ARCH segment is optional and can be omitted."
+msgstr ""
+"其中OS NAME支持`win32, darwin, linux`；ARCH支持`x64, arm64`。ARCH段是可选的，"
+"可以省略。"
+
+#: ../../source/sdk/release_plugin.md:21
+msgid ""
+"FlexDesigner will automatically find and install the appropriate plugin "
+"backend. If it cannot find a file with the required naming format, it "
+"will use the first .flexplugin file it encounters."
+msgstr ""
+"FlexDesigner将自动查找并安装适当的插件后端。如果找不到具有所需命名格式的文件，"
+"它将使用遇到的第一个.flexplugin文件。"
+
+#: ../../source/sdk/release_plugin.md:23
+msgid "Submit to FlexGate"
+msgstr "提交到FlexGate"
+
+#: ../../source/sdk/release_plugin.md:25
+msgid ""
+"If you want to share your plugin with a broader audience, you can publish"
+" it to FlexGate."
+msgstr "如果您想与更广泛的受众分享您的插件，可以将其发布到FlexGate。"
+
+#: ../../source/sdk/release_plugin.md:27
+msgid "See [Uploading Plugins to FlexGate](../troubleshoting/flexgate.md)"
+msgstr "请参阅[将插件上传到FlexGate](../troubleshoting/flexgate.md)"
+

@@ -1,0 +1,512 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/plugin_structure.md:1
+msgid "Plugin Structure"
+msgstr "插件结构"
+
+#: ../../source/sdk/plugin_structure.md:3
+msgid "This document provides a detailed description of each part of a plugin."
+msgstr "本文档详细描述了插件的每个部分。"
+
+#: ../../source/sdk/plugin_structure.md:5
+msgid "manifest.json"
+msgstr "manifest.json"
+
+#: ../../source/sdk/plugin_structure.md:7
+msgid ""
+"This file describes the basic information about the plugin and what it "
+"contains. You need to specify the keys and language resources your plugin"
+" provides in `manifest.json`."
+msgstr ""
+"此文件描述插件的基本信息和包含的内容。您需要在`manifest.json`中指定插件提供的"
+"按键和语言资源。"
+
+#: ../../source/sdk/plugin_structure.md:9
+msgid "Below are some important sections:"
+msgstr "以下是一些重要部分："
+
+#: ../../source/sdk/plugin_structure.md:42
+msgid "keyLibrary"
+msgstr "keyLibrary"
+
+#: ../../source/sdk/plugin_structure.md:44
+msgid "In `keyLibrary`, you can add multiple keys or subpages."
+msgstr "在`keyLibrary`中，您可以添加多个按键或子页面。"
+
+#: ../../source/sdk/plugin_structure.md:46
+msgid "The following types are supported:"
+msgstr "支持以下类型："
+
+#: ../../source/sdk/plugin_structure.md:48
+msgid "Default Key"
+msgstr "默认按键"
+
+#: ../../source/sdk/plugin_structure.md:50
+msgid ""
+"Creates a key that performs an action when pressed or displays a static "
+"image."
+msgstr ""
+"创建一个按键，按下时执行操作或显示静态图像。"
+
+#: ../../source/sdk/plugin_structure.md:76
+msgid "Multi-State Key"
+msgstr "多状态按键"
+
+#: ../../source/sdk/plugin_structure.md:78
+msgid ""
+"Creates a key with multiple states that can be cycled through. For "
+"example, on/off, mode A/B/C, etc."
+msgstr ""
+"创建一个具有多个状态的按键，可以循环切换。例如，开/关、模式A/B/C等。"
+
+#: ../../source/sdk/plugin_structure.md:112
+msgid "Slider"
+msgstr "滑块"
+
+#: ../../source/sdk/plugin_structure.md:114
+msgid ""
+"Creates a slider control, suitable for functions that require drag "
+"control with absolute values, such as volume control."
+msgstr ""
+"创建滑块控件，适用于需要具有绝对值的拖拽控制的功能，如音量控制。"
+
+#: ../../source/sdk/plugin_structure.md:142
+msgid "Wheel"
+msgstr "滚轮"
+
+#: ../../source/sdk/plugin_structure.md:144
+msgid ""
+"Creates a wheel control, suitable for parameter adjustments that don't "
+"have absolute values."
+msgstr ""
+"创建滚轮控件，适用于没有绝对值的参数调整。"
+
+#: ../../source/sdk/plugin_structure.md:167
+msgid "Direct Draw (new)"
+msgstr "直接绘制（新）"
+
+#: ../../source/sdk/plugin_structure.md:169
+msgid "Requires FlexDesigner SDK 1.0.7+"
+msgstr "需要FlexDesigner SDK 1.0.7+"
+
+#: ../../source/sdk/plugin_structure.md:171
+msgid ""
+"Creates an empty page that allows you to directly draw custom content at "
+"a relatively fast speed (depending on image content, approximately "
+"15~45fps). You can use this feature to create complex UIs and even "
+"animations. You can also receive touch information reported by the "
+"device."
+msgstr ""
+"创建一个空白页面，允许您以相对较快的速度直接绘制自定义内容（根据图像内容，"
+"大约15~45fps）。您可以使用此功能创建复杂的UI甚至动画。您还可以接收设备报告的"
+"触摸信息。"
+
+#: ../../source/sdk/plugin_structure.md:194
+msgid "Direct Draw API"
+msgstr "直接绘制API"
+
+#: ../../source/sdk/plugin_structure.md:196
+msgid ""
+"The Direct Draw API is simple and straightforward, with only one "
+"directDraw method:"
+msgstr ""
+"直接绘制API简单直接，只有一个directDraw方法："
+
+#: ../../source/sdk/plugin_structure.md:201
+#: ../../source/sdk/plugin_structure.md:266
+#: ../../source/sdk/plugin_structure.md:276
+#: ../../source/sdk/plugin_structure.md:292
+#: ../../source/sdk/plugin_structure.md:302
+#: ../../source/sdk/plugin_structure.md:313
+#: ../../source/sdk/plugin_structure.md:328
+#: ../../source/sdk/plugin_structure.md:339
+#: ../../source/sdk/plugin_structure.md:350
+msgid "`serialNumber`: Device serial number"
+msgstr "`serialNumber`：设备序列号"
+
+#: ../../source/sdk/plugin_structure.md:202
+#: ../../source/sdk/plugin_structure.md:267
+#: ../../source/sdk/plugin_structure.md:277
+#: ../../source/sdk/plugin_structure.md:293
+#: ../../source/sdk/plugin_structure.md:303
+#: ../../source/sdk/plugin_structure.md:314
+#: ../../source/sdk/plugin_structure.md:329
+#: ../../source/sdk/plugin_structure.md:340
+#: ../../source/sdk/plugin_structure.md:351
+msgid "`key`: Key object received from the event `plugin.data` or `plugin.alive`."
+msgstr "`key`：从事件`plugin.data`或`plugin.alive`接收的按键对象。"
+
+#: ../../source/sdk/plugin_structure.md:203
+msgid ""
+"`backgroundData`: Base64 encoded image data, such as "
+"canvas.toDataURL('image/png')"
+msgstr ""
+"`backgroundData`：Base64编码的图像数据，如canvas.toDataURL('image/png')"
+
+#: ../../source/sdk/plugin_structure.md:204
+msgid ""
+"`diffUpdate`: Whether to use partial updates, defaults to false. If true,"
+" it will compare differences between consecutive frames and only update "
+"changed parts. This feature can significantly improve frame rate for "
+"small area updates, but may occasionally cause screen tearing"
+msgstr ""
+"`diffUpdate`：是否使用部分更新，默认为false。如果为true，它将比较连续帧之间的"
+"差异并仅更新更改的部分。此功能可以显著提高小区域更新的帧率，但偶尔可能导致"
+"屏幕撕裂"
+
+#: ../../source/sdk/plugin_structure.md:205
+msgid ""
+"`offsetX`: Horizontal coordinate of the image, range 0-2170. You can "
+"specify this parameter to manually refresh specific areas. The image "
+"height is fixed at 60px, and the width is specified by the encoded image "
+"base64."
+msgstr ""
+"`offsetX`：图像的水平坐标，范围0-2170。您可以指定此参数来手动刷新特定区域。"
+"图像高度固定为60px，宽度由编码图像的base64指定。"
+
+#: ../../source/sdk/plugin_structure.md:207
+msgid "Touch Event API"
+msgstr "触摸事件API"
+
+#: ../../source/sdk/plugin_structure.md:209
+msgid "When on a Direct Draw page, the device will report touch information:"
+msgstr "在直接绘制页面上时，设备将报告触摸信息："
+
+#: ../../source/sdk/plugin_structure.md:214
+msgid "`payload`: Touch data"
+msgstr "`payload`：触摸数据"
+
+#: ../../source/sdk/plugin_structure.md:224
+msgid "Dynamic Key (new)"
+msgstr "动态按键（新）"
+
+#: ../../source/sdk/plugin_structure.md:226
+msgid "Requires FlexDesigner SDK 1.0.6+"
+msgstr "需要FlexDesigner SDK 1.0.6+"
+
+#: ../../source/sdk/plugin_structure.md:228
+msgid ""
+"Creates a dynamic key that serves as a container. It has no functionality"
+" by itself, but you can use APIs to add/remove child keys. This is "
+"suitable for projects that require dynamic creation. Currently, a dynamic"
+" key can contain up to 16 child keys."
+msgstr ""
+"创建一个作为容器的动态按键。它本身没有功能，但您可以使用API添加/删除子按键。"
+"这适用于需要动态创建的项目。目前，一个动态按键最多可以包含16个子按键。"
+
+#: ../../source/sdk/plugin_structure.md:253
+msgid "Dynamic Key API"
+msgstr "动态按键API"
+
+#: ../../source/sdk/plugin_structure.md:255
+msgid ""
+"Here are some code snippets demonstrating how to interact with Dynamic "
+"Keys. For more detailed examples, please refer to the Example Plugin."
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:257
+msgid ""
+"index: Refers to the index of the child key. This index is specific to "
+"the Dynamic Key's internal independent indexing, starting from 0. If "
+"there are multiple Dynamic Keys, their indices are independent of each "
+"other."
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:258
+msgid ""
+"userData: Refers to the user-defined data bound to the child key. When "
+"you press a child key, this data will be sent to the plugin. You can use "
+"this data to distinguish and define the functionality of child keys."
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:260
+msgid "Set Key Width"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:268
+msgid "`width`: New width value (in pixels)"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:270
+msgid "Add Child Key"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:278
+msgid "`index`: Insert position"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:279
+#: ../../source/sdk/plugin_structure.md:316
+msgid "`type`: Content type ('base64','draw')"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:280
+#: ../../source/sdk/plugin_structure.md:317
+msgid ""
+"`content`: Key drawing content (base64 image or an Object describing key "
+"structure and Style)"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:281
+msgid "`width`: Key width"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:282
+msgid "`userData`: User data object"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:284
+#: ../../source/sdk/plugin_structure.md:320
+msgid "The drawing part is similar to the plugin.draw method"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:286
+msgid "Remove Child Key"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:294
+msgid "`index`: Index of the key to remove"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:296
+msgid "Move Child Key Position"
+msgstr ""
+
+#: ../../source/sdk/plugin_structure.md:304
+msgid "`fromIndex`: Source position"
+msgstr "`fromIndex`：源位置"
+
+#: ../../source/sdk/plugin_structure.md:305
+msgid "`toIndex`: Target position"
+msgstr "`toIndex`：目标位置"
+
+#: ../../source/sdk/plugin_structure.md:307
+msgid "Redraw Child Key"
+msgstr "重绘子按键"
+
+#: ../../source/sdk/plugin_structure.md:315
+#: ../../source/sdk/plugin_structure.md:330
+msgid "`index`: Key index"
+msgstr "`index`：按键索引"
+
+#: ../../source/sdk/plugin_structure.md:318
+msgid "`width`: New key width"
+msgstr "`width`：新按键宽度"
+
+#: ../../source/sdk/plugin_structure.md:322
+msgid "Update Child Key User Data"
+msgstr "更新子按键用户数据"
+
+#: ../../source/sdk/plugin_structure.md:331
+msgid "`userData`: New user data object"
+msgstr "`userData`：新用户数据对象"
+
+#: ../../source/sdk/plugin_structure.md:333
+msgid "Refresh Key Display"
+msgstr "刷新按键显示"
+
+#: ../../source/sdk/plugin_structure.md:342
+msgid ""
+"After modifying the key width, it's recommended to wait 50ms for the "
+"update to complete before calling this method to refresh the display"
+msgstr ""
+"修改按键宽度后，建议等待50ms让更新完成，然后再调用此方法刷新显示"
+
+#: ../../source/sdk/plugin_structure.md:344
+msgid "Clear All Child Keys"
+msgstr "清除所有子按键"
+
+#: ../../source/sdk/plugin_structure.md:353
+msgid "Subpage"
+msgstr "子页面"
+
+#: ../../source/sdk/plugin_structure.md:355
+msgid ""
+"Adds a subpage/category. You can use this feature to categorize your "
+"plugin's keys."
+msgstr ""
+"添加子页面/类别。您可以使用此功能对插件的按键进行分类。"
+
+#: ../../source/sdk/plugin_structure.md:374
+msgid "style"
+msgstr "style"
+
+#: ../../source/sdk/plugin_structure.md:376
+msgid "Defines the default style of a key. The following fields are supported:"
+msgstr "定义按键的默认样式。支持以下字段："
+
+#: ../../source/sdk/plugin_structure.md:410
+msgid "flags"
+msgstr "flags"
+
+#: ../../source/sdk/plugin_structure.md:412
+msgid ""
+"Controls more detailed interaction behaviors, such as disabling "
+"background editing. Available flags:"
+msgstr ""
+"控制更详细的交互行为，如禁用背景编辑。可用标志："
+
+#: ../../source/sdk/plugin_structure.md:415
+msgid "disable-bg: Disables the background editing window"
+msgstr "disable-bg：禁用背景编辑窗口"
+
+#: ../../source/sdk/plugin_structure.md:416
+msgid "disable-fg: Disables the foreground editing window"
+msgstr "disable-fg：禁用前景编辑窗口"
+
+#: ../../source/sdk/plugin_structure.md:417
+msgid "disable-func: Disables the function editing window"
+msgstr "disable-func：禁用功能编辑窗口"
+
+#: ../../source/sdk/plugin_structure.md:418
+msgid "disable-common: Disables the common function editing window"
+msgstr "disable-common：禁用通用功能编辑窗口"
+
+#: ../../source/sdk/plugin_structure.md:419
+msgid ""
+"disable-bg-styles: Disables background style editing, but retains width "
+"adjustment"
+msgstr ""
+"disable-bg-styles：禁用背景样式编辑，但保留宽度调整"
+
+#: ../../source/sdk/plugin_structure.md:420
+msgid "disable-icon-sel: Prevents icon selection"
+msgstr "disable-icon-sel：阻止图标选择"
+
+#: ../../source/sdk/plugin_structure.md:421
+msgid "disable-layout-sel: Prevents layout selection"
+msgstr "disable-layout-sel：阻止布局选择"
+
+#: ../../source/sdk/plugin_structure.md:423
+msgid "local"
+msgstr "local"
+
+#: ../../source/sdk/plugin_structure.md:425
+msgid ""
+"Includes multilingual resources. Text starting with $ in the keyLibrary "
+"section or used with $t in .vue files is looked up here."
+msgstr ""
+"包含多语言资源。在 keyLibrary 部分以 $ 开头的文本，或在 .vue 文件中通过 $t 使用的文本，都会在此处查找。"
+
+#: ../../source/sdk/plugin_structure.md:435
+msgid "Supported language code:"
+msgstr "支持的语言代码："
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Code"
+msgstr "代码"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Language"
+msgstr "语言"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "en"
+msgstr "en"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "English"
+msgstr "英语"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "de"
+msgstr "de"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "German"
+msgstr "德语"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "fr"
+msgstr "fr"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "French"
+msgstr "法语"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "ja"
+msgstr "ja"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Japanese"
+msgstr "日语"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "zh-CN"
+msgstr "zh-CN"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Chinese (Simplified)"
+msgstr "中文（简体）"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "zh-HK"
+msgstr "zh-HK"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Chinese (Traditional)"
+msgstr "中文（繁体）"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "ko"
+msgstr "ko"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Korean"
+msgstr "韩语"
+
+#: ../../source/sdk/plugin_structure.md:447
+msgid "backend"
+msgstr "backend"
+
+#: ../../source/sdk/plugin_structure.md:449
+msgid ""
+"Holds the compiled script. The main process will launch this script via "
+"`manifest.entry`."
+msgstr ""
+"用于存放编译后的脚本。主进程会通过 `manifest.entry` 启动该脚本。"
+
+#: ../../source/sdk/plugin_structure.md:451
+msgid "resources"
+msgstr "resources"
+
+#: ../../source/sdk/plugin_structure.md:453
+msgid "Stores resource files (e.g., images). You can access them as follows:"
+msgstr "用于存放资源文件（如图片）。你可以通过如下方式访问："
+
+#: ../../source/sdk/plugin_structure.md:459
+msgid "ui"
+msgstr "ui"
+
+#: ../../source/sdk/plugin_structure.md:461
+msgid ""
+"Holds frontend `.vue` files. The `.vue` file name can match the one "
+"specified in `manifest.configPage` for the settings interface or match "
+"each key's `cid` in `keyLibrary`. For example, the key "
+"`com.eniac.example.counter` should have a corresponding "
+"`ui/com.eniac.example.counter.vue` file."
+msgstr ""
+"用于存放前端 `.vue` 文件。`.vue` 文件名可以与 `manifest.configPage` 中指定的设置界面名称一致，"
+"也可以与 `keyLibrary` 中每个按键的 `cid` 一致。例如，按键 `com.eniac.example.counter` 应有对应的 "
+"`ui/com.eniac.example.counter.vue` 文件。"

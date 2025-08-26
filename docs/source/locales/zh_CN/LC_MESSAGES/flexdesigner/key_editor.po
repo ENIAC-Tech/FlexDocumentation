@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/key_editor.md:1
+msgid "Key Editor"
+msgstr "按键编辑器"
+
+#: ../../source/flexdesigner/key_editor.md:3
+msgid "Edit key appearance and functionality in the key editor."
+msgstr "在按键编辑器中编辑按键的外观和功能。"
+
+#: ../../source/flexdesigner/key_editor.md:5
+msgid "![1742262722603](image/getting_started/1742262722603.png)"
+msgstr "![1742262722603](image/getting_started/1742262722603.png)"
+
+#: ../../source/flexdesigner/key_editor.md:5
+msgid "1742262722603"
+msgstr "1742262722603"
+
+#: ../../source/flexdesigner/key_editor.md:7
+msgid "Feature descriptions:"
+msgstr "功能说明："
+
+#: ../../source/flexdesigner/key_editor.md:9
+msgid "Key title"
+msgstr "按键标题"
+
+#: ../../source/flexdesigner/key_editor.md:10
+msgid "Key function description"
+msgstr "按键功能描述"
+
+#: ../../source/flexdesigner/key_editor.md:11
+msgid "Confirm changes"
+msgstr "确认更改"
+
+#: ../../source/flexdesigner/key_editor.md:12
+msgid "Apply current key's appearance settings to other keys"
+msgstr "将当前按键的外观设置应用到其他按键"
+
+#: ../../source/flexdesigner/key_editor.md:13
+msgid "Create a duplicate of current key"
+msgstr "创建当前按键的副本"
+
+#: ../../source/flexdesigner/key_editor.md:14
+msgid "Discard all changes"
+msgstr "放弃所有更改"
+
+#: ../../source/flexdesigner/key_editor.md:15
+msgid "Delete current key"
+msgstr "删除当前按键"
+
+#: ../../source/flexdesigner/key_editor.md:16
+msgid "Key edit preview"
+msgstr "按键编辑预览"
+
+#: ../../source/flexdesigner/key_editor.md:17
+msgid ""
+"Switch to key background editing interface. For detailed information, see"
+" [Background Editing Interface](./background.md)"
+msgstr ""
+"切换到按键背景编辑界面。详细信息请参见 [背景编辑界面](./background.md)"
+
+#: ../../source/flexdesigner/key_editor.md:18
+msgid ""
+"Switch to key foreground editing interface. For detailed information, see"
+" [Foreground Editing Interface](./foreground.md)"
+msgstr ""
+"切换到按键前景编辑界面。详细信息请参见 [前景编辑界面](./foreground.md)"
+
+#: ../../source/flexdesigner/key_editor.md:19
+msgid ""
+"Switch to key function editing interface. This interface varies according"
+" to key function. See [Key Function "
+"Documentation](../functions/index.rst)"
+msgstr ""
+"切换到按键功能编辑界面。该界面会根据按键功能有所不同。详见 [按键功能文档](../functions/index.rst)"
+
+#: ../../source/flexdesigner/key_editor.md:20
+msgid ""
+"Switch to key general function editing interface, such as long-press "
+"trigger settings"
+msgstr "切换到按键通用功能编辑界面，例如长按触发设置"
+
+#: ../../source/flexdesigner/key_editor.md:22
+msgid ""
+"In interface ④ for applying appearance settings to other keys, you can "
+"select specific appearance settings to apply and the application scope."
+msgstr ""
+"在界面④（应用外观设置到其他按键）中，您可以选择要应用的具体外观设置及其应用范围。"
+
+#: ../../source/flexdesigner/key_editor.md:24
+msgid "![1742285928034](image/getting_started/1742285928034.png)"
+msgstr "![1742285928034](image/getting_started/1742285928034.png)"
+
+#: ../../source/flexdesigner/key_editor.md:24
+msgid "1742285928034"
+msgstr "1742285928034"
+
+#: ../../source/flexdesigner/key_editor.md:26
+msgid "Next Steps"
+msgstr "后续步骤"
+
+#: ../../source/flexdesigner/key_editor.md:28
+msgid ""
+"Visit the [Background](background.md) and [Foreground](foreground.md) to "
+"learn how to customize a key"
+msgstr ""
+"请访问 [背景](background.md) 和 [前景](foreground.md) 页面，了解如何自定义按键"

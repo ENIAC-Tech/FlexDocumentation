@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/power_control/power_control.md:1
+msgid "Power Control"
+msgstr "电源控制"
+
+#: ../../source/functions/power_control/power_control.md:3
+msgid "Power control keys are used to control your computer's power state."
+msgstr "电源控制按键用于控制计算机的电源状态。"
+
+#: ../../source/functions/power_control/power_control.md:5
+msgid "![1745502078200](image/power_control/1745502078200.png)"
+msgstr "![1745502078200](image/power_control/1745502078200.png)"
+
+#: ../../source/functions/power_control/power_control.md:5
+msgid "1745502078200"
+msgstr "1745502078200"
+
+#: ../../source/functions/power_control/power_control.md:7
+msgid "Sleep"
+msgstr "睡眠"
+
+#: ../../source/functions/power_control/power_control.md:9
+msgid "This key puts the computer to sleep when pressed."
+msgstr "此按键在按下时使计算机进入睡眠状态。"
+
+#: ../../source/functions/power_control/power_control.md:11
+msgid ""
+"This key only works when the FlexDesigner is running. If this is not "
+"desired, consider using the 'Multimedia' key in the 'Input' category and "
+"set the function to 'Power Control' → 'Sleep'. The multimedia key works "
+"without the FlexDesigner, but the exact handling would be subject to the "
+"operating system settings."
+msgstr "此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用"输入"类别中的"多媒体"按键，并将功能设置为"电源控制"→"睡眠"。多媒体按键无需 FlexDesigner 即可工作，但具体处理取决于操作系统设置。"
+
+#: ../../source/functions/power_control/power_control.md:13
+msgid ""
+"To put the Flexbar to sleep, check out the 'Flexbar Sleep' key in the "
+"'Device Control' category."
+msgstr "要使 Flexbar 进入睡眠状态，请查看"设备控制"类别中的"Flexbar 睡眠"按键。"
+
+#: ../../source/functions/power_control/power_control.md:15
+msgid "Shutdown"
+msgstr "关机"
+
+#: ../../source/functions/power_control/power_control.md:17
+msgid "This key shuts down your computer when pressed."
+msgstr "此按键在按下时关闭计算机。"
+
+#: ../../source/functions/power_control/power_control.md:19
+#: ../../source/functions/power_control/power_control.md:27
+msgid ""
+"Please note that due to permission restrictions, this function is not "
+"available on MacOS and Linux."
+msgstr "请注意，由于权限限制，此功能在 MacOS 和 Linux 上不可用。"
+
+#: ../../source/functions/power_control/power_control.md:21
+msgid ""
+"Be aware that pressing this key will shut down your computer immediately."
+" It's recommended to use this with the long-press function from the "
+"Common Tab."
+msgstr "请注意，按下此按键将立即关闭计算机。建议与通用选项卡中的长按功能一起使用。"
+
+#: ../../source/functions/power_control/power_control.md:23
+msgid "Restart"
+msgstr "重启"
+
+#: ../../source/functions/power_control/power_control.md:25
+msgid "This key restarts your computer when pressed."
+msgstr "此按键在按下时重启计算机。"
+
+#: ../../source/functions/power_control/power_control.md:29
+msgid ""
+"Be aware that pressing this key will restart your computer immediately. "
+"It's recommended to use this with the long-press function from the Common"
+" Tab."
+msgstr "请注意，按下此按键将立即重启计算机。建议与通用选项卡中的长按功能一起使用。"
+

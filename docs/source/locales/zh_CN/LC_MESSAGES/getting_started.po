@@ -1,0 +1,496 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/getting_started.md:1
+msgid "Flexbar Quick Start Guide"
+msgstr "Flexbar 快速入门指南"
+
+#: ../../source/getting_started.md:3
+msgid "![1743993324834](image/getting_started/1743993324834.png)"
+msgstr "![1743993324834](image/getting_started/1743993324834.png)"
+
+#: ../../source/getting_started.md:3
+msgid "1743993324834"
+msgstr "1743993324834"
+
+#: ../../source/getting_started.md:5
+msgid "What is Flexbar?"
+msgstr "什么是 Flexbar？"
+
+#: ../../source/getting_started.md:7
+msgid ""
+"Flexbar is your versatile, fully customizable shortcut management system."
+" It represents a new type of shortcut keyboard, equipped with "
+"multifunctional keys capable of executing operations that typically "
+"require complex mouse and keyboard actions. From simple commands like "
+"sending Ctrl+Z, to complicated professional software shortcuts that are "
+"hard to remember—once set up, Flexbar can handle them effortlessly. "
+"Unlike traditional keyboards, Flexbar can even perform actions that "
+"normal keyboards cannot, such as inserting entire text paragraphs, "
+"emojis, or even GIFs, all achievable with a single touch. Its convenient "
+"hierarchical pages and scrolling functions let you configure countless "
+"buttons. Additionally, there are many more functions awaiting your "
+"exploration."
+msgstr ""
+"Flexbar 是您的多功能、完全可自定义的快捷键管理系统。它代表了一种新型的快捷键键盘，配备了多功能按键，能够执行通常需要复杂鼠标和键盘操作的任务。从简单的命令如发送 Ctrl+Z，到难以记忆的复杂专业软件快捷键——一旦设置完成，Flexbar 可以轻松处理它们。与传统键盘不同，Flexbar 甚至可以执行普通键盘无法执行的操作，如插入整个文本段落、表情符号，甚至 GIF 动图，所有这些都可以通过单次触摸实现。其便捷的分层页面和滚动功能让您可以配置无数个按钮。此外，还有更多功能等待您的探索。"
+
+#: ../../source/getting_started.md:9
+msgid "**Flexbar = Keyboard + Mouse + More**"
+msgstr "**Flexbar = 键盘 + 鼠标 + 更多**"
+
+#: ../../source/getting_started.md:11
+msgid "Where can I use Flexbar?"
+msgstr "我可以在哪里使用 Flexbar？"
+
+#: ../../source/getting_started.md:13
+msgid ""
+"As you can see, Flexbar is designed as a slim touchscreen bar, perfect "
+"for placement above or below your keyboard or monitor, suitable for both "
+"laptops and desktops. The included magnetic stand allows you to position "
+"it at a comfortable angle anywhere convenient, adding stability through "
+"its weight."
+msgstr ""
+"如您所见，Flexbar 设计为纤薄的触摸屏条，非常适合放置在键盘或显示器上方或下方，适用于笔记本电脑和台式机。随附的磁性支架允许您在任何方便的地方以舒适的角度定位它，通过其重量增加稳定性。"
+
+#: ../../source/getting_started.md:15
+msgid "![1743982169966](image/getting_started/1743982169966.png)"
+msgstr "![1743982169966](image/getting_started/1743982169966.png)"
+
+#: ../../source/getting_started.md:15
+msgid "1743982169966"
+msgstr "1743982169966"
+
+#: ../../source/getting_started.md:17
+#, fuzzy
+msgid ""
+"The detachable angled stand includes built-in magnets that attach "
+"securely to the middle of Flexbar’s back panel. Note that the Flexbar "
+"itself doesn't contain magnets."
+msgstr ""
+"可拆卸的角度支架包含内置磁铁，可以安全地连接到 Flexbar 背板中间。请注意，Flexbar 本身不包含磁铁。"
+
+#: ../../source/getting_started.md:19
+#, fuzzy
+msgid ""
+"Included silicone pads can optionally be placed at both ends on the back "
+"of the Flexbar, improving friction on smooth surfaces and protecting your"
+" laptop’s finish."
+msgstr ""
+"随附的硅胶垫可以可选地放置在 Flexbar 背面的两端，改善光滑表面的摩擦力并保护您的笔记本电脑表面。"
+
+#: ../../source/getting_started.md:21
+msgid "Check Your Accessories"
+msgstr "检查您的配件"
+
+#: ../../source/getting_started.md:23
+msgid "Your package should contain the following items:"
+msgstr "您的包装应包含以下物品："
+
+#: ../../source/getting_started.md:25
+msgid "Flexbar"
+msgstr "Flexbar"
+
+#: ../../source/getting_started.md:26
+msgid "Type-C to Type-C Cable"
+msgstr "Type-C 转 Type-C 数据线"
+
+#: ../../source/getting_started.md:27
+msgid "Magnetic Base"
+msgstr "磁性底座"
+
+#: ../../source/getting_started.md:29
+msgid "Connecting Flexbar to Your Device"
+msgstr "将 Flexbar 连接到您的设备"
+
+#: ../../source/getting_started.md:31
+msgid ""
+"Use the provided USB Type-C data cable (or any USB cable capable of data "
+"transmission, regardless of connector type) to connect your Flexbar to "
+"your device. Flexbar only requires basic USB 2.0 data communication and a"
+" 5V power supply under 500mA. Theoretically, any device supporting "
+"external USB keyboards and mice can use Flexbar, including but not "
+"limited to PCs, tablets like iPads, smartphones, and industrial control "
+"hosts."
+msgstr ""
+"使用提供的 USB Type-C 数据线（或任何能够进行数据传输的 USB 线，无论连接器类型如何）将您的 Flexbar "
+"连接到您的设备。Flexbar 只需要基本的 USB 2.0 数据通信和 500mA 以下的 5V 电源。理论上，任何支持外部 USB "
+"键盘和鼠标的设备都可以使用 Flexbar，包括但不限于 PC、iPad 等平板电脑、智能手机和工业控制主机。"
+
+#: ../../source/getting_started.md:33
+msgid ""
+"Initial configuration of Flexbar requires a device supporting the "
+"FlexDesigner software (Windows, Mac, Linux). Once configured and "
+"uploaded, the button configurations are stored on the Flexbar itself, "
+"allowing it to be moved freely between different devices. (Limited to "
+"basic keyboard/mouse shortcuts.)"
+msgstr ""
+"Flexbar 的初始配置需要支持 FlexDesigner 软件的设备（Windows、Mac、Linux）。一旦配置并上传，按钮配置将存储在 "
+"Flexbar 本身，允许它在不同设备之间自由移动。（仅限于基本键盘/鼠标快捷键。）"
+
+#: ../../source/getting_started.md:35
+msgid "Using Flexbar and FlexDesigner for the First Time"
+msgstr "首次使用 Flexbar 和 FlexDesigner"
+
+#: ../../source/getting_started.md:37
+msgid ""
+"Flexbar comes with a simple tutorial pre-installed to help you get "
+"started. Later, you can customize your own unique shortcut profiles using"
+" our desktop software "
+"[FlexDesigner](https://eniacelec.com/pages/software), and upload them to "
+"your Flexbar."
+msgstr ""
+"Flexbar 预装了一个简单的教程来帮助您入门。之后，您可以使用我们的桌面软件 "
+"[FlexDesigner](https://eniacelec.com/pages/software) "
+"自定义您自己独特的快捷键配置文件，并将它们上传到您的 Flexbar。"
+
+#: ../../source/getting_started.md:39
+msgid "![1743993683833](image/getting_started/1743993683833.png)"
+msgstr "![1743993683833](image/getting_started/1743993683833.png)"
+
+#: ../../source/getting_started.md:39
+msgid "1743993683833"
+msgstr "1743993683833"
+
+#: ../../source/getting_started.md:41
+msgid ""
+"To help you quickly get started, a factory-default profile without the "
+"tutorial is also available "
+"[factory.flexbar](../assets/factory-v1.flexbar). Additional profiles and "
+"functional key sets are provided on our online platform "
+"[FlexGate](https://flexgate.techdot.com/), where you can freely download,"
+" import, and kickstart your shortcut journey."
+msgstr ""
+"为了帮助您快速入门，还提供了不带教程的出厂默认配置文件 "
+"[factory.flexbar](../assets/factory-v1.flexbar)。我们的在线平台 "
+"[FlexGate](https://flexgate.techdot.com/) "
+"提供了额外的配置文件功能键集，您可以在那里自由下载、导入并开始您的快捷键之旅。"
+
+#: ../../source/getting_started.md:43
+msgid ""
+"Due to its multifunctional nature, we strongly recommend thoroughly "
+"reading the [FlexDesigner "
+"documentation](./flexdesigner/getting_started.md)."
+msgstr "由于其多功能性质，我们强烈建议您仔细阅读 [FlexDesigner 文档](./flexdesigner/getting_started.md)。"
+
+#: ../../source/getting_started.md:45
+msgid ""
+"Individual pages within profiles can be separately exported and imported,"
+" allowing you to use only the parts you need."
+msgstr "配置文件中的单个页面可以单独导出和导入，允许您只使用需要的部分。"
+
+#: ../../source/getting_started.md:47
+msgid "Support"
+msgstr "支持"
+
+#: ../../source/getting_started.md:49
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ../../source/getting_started.md:51
+msgid ""
+"We recommend submitting bugs or feature requests to our [GitHub "
+"repository](https://github.com/ENIAC-Tech/FlexDesigner/issues), where you"
+" can easily track their progress."
+msgstr ""
+"我们建议将错误或功能请求提交到我们的 [GitHub 仓库](https://github.com/ENIAC-"
+"Tech/FlexDesigner/issues)，您可以在那里轻松跟踪它们的进度。"
+
+#: ../../source/getting_started.md:53
+msgid "Community"
+msgstr "社区"
+
+#: ../../source/getting_started.md:55
+msgid ""
+"We strongly encourage you to join our [Discord "
+"community](https://discord.com/invite/7STSjmBpKT), where you can discuss "
+"and share experiences with many Flexbar users. This is also the fastest "
+"and most direct way to receive official support."
+msgstr ""
+"我们强烈鼓励您加入我们的 [Discord "
+"社区](https://discord.com/invite/7STSjmBpKT)，您可以在那里与许多 Flexbar "
+"用户讨论和分享经验。这也是接收官方支持的最快和最直接的方式。"
+
+#: ../../source/getting_started.md:57
+msgid "Email"
+msgstr "电子邮件"
+
+#: ../../source/getting_started.md:59
+msgid ""
+"Of course, you can also contact us via email, and we typically respond "
+"within 48 hours."
+msgstr "当然，您也可以通过电子邮件联系我们，我们通常在 48 小时内回复。"
+
+#: ../../source/getting_started.md:61
+msgid "`contact@eniacelec.com`"
+msgstr "`contact@eniacelec.com`"
+
+#: ../../source/getting_started.md:63
+msgid "Terminology"
+msgstr "术语"
+
+#: ../../source/getting_started.md:65
+msgid "FlexDesigner"
+msgstr "FlexDesigner"
+
+#: ../../source/getting_started.md:67
+msgid "[Download](https://eniacelec.com/pages/software)"
+msgstr "[下载](https://eniacelec.com/pages/software)"
+
+#: ../../source/getting_started.md:69
+msgid ""
+"FlexDesigner is software provided by us for customizing Flexbar "
+"functionalities, software updates, and supporting advanced features. "
+"Available for Windows, Mac, and Linux, it does not affect your ability to"
+" use basic keyboard and mouse functions on devices without FlexDesigner "
+"installed."
+msgstr ""
+"FlexDesigner 是我们提供的用于自定义 Flexbar 功能、软件更新和支持高级功能的软件。适用于 Windows、Mac 和 "
+"Linux，它不会影响您在未安装 FlexDesigner 的设备上使用基本键盘和鼠标功能的能力。"
+
+#: ../../source/getting_started.md:71
+msgid ""
+"Visit the [FlexDesigner documentation](./flexdesigner/getting_started.md)"
+" to learn how to customize your Flexbar"
+msgstr "访问 [FlexDesigner 文档](./flexdesigner/getting_started.md) 了解如何自定义您的 Flexbar"
+
+#: ../../source/getting_started.md:73
+msgid "Profile"
+msgstr "配置文件"
+
+#: ../../source/getting_started.md:75
+msgid ""
+"A profile contains all the keys' appearance, functionality, and page "
+"logic configured for display on the Flexbar via FlexDesigner. Profiles "
+"can be shared and edited, and uploaded to compatible Flexbar devices "
+"through FlexDesigner, but cannot be downloaded back from Flexbar to your "
+"computer."
+msgstr ""
+"配置文件包含通过 FlexDesigner 配置的所有按键外观、功能和页面逻辑，用于在 Flexbar 上显示。配置文件可以共享和编辑，并通过 "
+"FlexDesigner 上传到兼容的 Flexbar 设备，但无法从 Flexbar 下载回您的计算机。"
+
+#: ../../source/getting_started.md:77
+msgid "Factory profile download: [factory.flexbar](../assets/factory-v1.flexbar)"
+msgstr "出厂配置文件下载：[factory.flexbar](../assets/factory-v1.flexbar)"
+
+#: ../../source/getting_started.md:79
+msgid ""
+"*Please note that the Factory Profile is for demonstration purposes only,"
+" and some functions may not be compatible with your computer*"
+msgstr "*请注意，出厂配置文件仅用于演示目的，某些功能可能与您的计算机不兼容*"
+
+#: ../../source/getting_started.md:81
+msgid "Keys"
+msgstr "按键"
+
+#: ../../source/getting_started.md:83
+msgid ""
+"Small square-shaped functional components displayed on Flexbar are called"
+" \"keys\". Depending on their specific functions, not all keys "
+"necessarily perform interactive \"button-like\" actions."
+msgstr "在 Flexbar 上显示的小型方形功能组件称为\"按键\"。根据其特定功能，并非所有按键都必然执行交互式\"按钮式\"操作。"
+
+#: ../../source/getting_started.md:85
+msgid "[Add your first key to Flexbar](./flexdesigner/getting_started.md)"
+msgstr "[向 Flexbar 添加您的第一个按键](./flexdesigner/getting_started.md)"
+
+#: ../../source/getting_started.md:87
+msgid "Firmware"
+msgstr "固件"
+
+#: ../../source/getting_started.md:89
+#, fuzzy
+msgid ""
+"Firmware refers to the embedded software written into Flexbar’s internal "
+"microcontroller, pre-installed at the factory. Updates to firmware are "
+"prompted via FlexDesigner when available. We recommend regularly updating"
+" to ensure access to the latest features and improved stability. Firmware"
+" can also be manually rolled back or updated in special cases—details "
+"available at [firmware documention](troubleshoting/firmware.md)."
+msgstr ""
+"固件是指写入 Flexbar 内部微控制器的嵌入式软件，在工厂预装。固件更新在可用时通过 FlexDesigner "
+"提示。我们建议定期更新以确保访问最新功能并提高稳定性。固件也可以在特殊情况下手动回滚或更新——详细信息请参阅 "
+"[固件文档](troubleshoting/firmware.md)。"
+
+#: ../../source/getting_started.md:91
+msgid "FlexGate"
+msgstr "FlexGate"
+
+#: ../../source/getting_started.md:93
+#, fuzzy
+msgid ""
+"[FlexGate](https://flexgate.techdot.com/) is our official platform "
+"dedicated to sharing profiles and plug-ins for Flex series products. "
+"Users can upload and download pre-configured shortcut sets. Officially "
+"provided sets are also available for convenience. After downloading, you "
+"can freely combine or edit them via FlexDesigner’s page import/export "
+"functions and integrate them into your Flexbar Profile."
+msgstr ""
+"[FlexGate](https://flexgate.techdot.com/) 是我们的官方平台，专门用于共享 Flex "
+"系列产品的配置文件和插件。用户可以上传和下载预配置的快捷键集。官方提供的集也为了方便而提供。下载后，您可以通过 FlexDesigner "
+"的页面导入/导出功能自由组合或编辑它们，并将它们集成到您的 Flexbar 配置文件中。"
+
+#: ../../source/getting_started.md:95
+msgid "[How to use FlexGate](./troubleshoting/flexgate.md)"
+msgstr "[如何使用 FlexGate](./troubleshoting/flexgate.md)"
+
+#: ../../source/getting_started.md:97
+msgid "Plug-in"
+msgstr "插件"
+
+#: ../../source/getting_started.md:99
+msgid ""
+"The plug-in system is an open-source software platform designed to allow "
+"developers and users with additional needs to create and integrate new "
+"functionalities into Flexbar. Users can independently develop and run "
+"features alongside built-in functionalities, optionally sharing their "
+"creations on the FlexGate platform for community use."
+msgstr ""
+"插件系统是一个开源软件平台，旨在允许开发者和有额外需求的用户创建新功能并将其集成到 Flexbar "
+"中。用户可以独立开发和运行功能，与内置功能并行，可选择在 FlexGate 平台上共享他们的创作供社区使用。"
+
+#: ../../source/getting_started.md:101
+msgid ""
+"Check out the [SDK documentation](sdk/index.rst) to learn how to create "
+"custom plugins"
+msgstr "查看 [SDK 文档](sdk/index.rst) 了解如何创建自定义插件"
+
+#: ../../source/getting_started.md:103
+msgid "FAQ"
+msgstr "常见问题"
+
+#: ../../source/getting_started.md:105
+msgid "**Q:** **Why doesn't flexbar work on iPad?**"
+msgstr "**问：** **为什么 flexbar 在 iPad 上不工作？**"
+
+#: ../../source/getting_started.md:107
+msgid ""
+"**A:** On iPad, only basic keyboard, mouse, and text input functions that"
+" do not require FlexDesigner to be running are supported."
+msgstr "**答：** 在 iPad 上，只支持不需要 FlexDesigner 运行的基本键盘、鼠标和文本输入功能。"
+
+#: ../../source/getting_started.md:109
+msgid "**Q:** **Why are Flexbar keys called \"keys\" instead of \"buttons\"?**"
+msgstr "**问：** **为什么 Flexbar 按键被称为\"keys\"而不是\"buttons\"？**"
+
+#: ../../source/getting_started.md:111
+msgid ""
+"**A:** Because we define Flexbar as a specialized multifunctional "
+"touchscreen keyboard, rather than a \"button board\"."
+msgstr "**答：** 因为我们将 Flexbar 定义为专门的触摸屏键盘，而不是\"按钮板\"。"
+
+#: ../../source/getting_started.md:113
+msgid "**Q:** **Why is it called \"Flex\" when Flexbar itself isn't flexible?**"
+msgstr "**问：** **当 Flexbar 本身不灵活时，为什么它被称为\"Flex\"？**"
+
+#: ../../source/getting_started.md:115
+#, fuzzy
+msgid ""
+"**A:** Although physically rigid, Flexbar’s functionality is highly "
+"flexible, hence the name \"Flexbar\"."
+msgstr "**答：** 虽然物理上很硬，但 Flexbar 的功能非常灵活，因此得名\"Flexbar\"。"
+
+#: ../../source/getting_started.md:117
+msgid "**Q:** **Why is there no wireless version available?**"
+msgstr "**问：** **为什么没有无线版本？**"
+
+#: ../../source/getting_started.md:119
+msgid ""
+"**A:** Due to size limitations designed for laptop compatibility, Flexbar"
+" is already as compact as possible. With current battery technology, "
+"achieving reasonable battery life for a screen of this size is not yet "
+"feasible. However, we continue researching new forms and possibilities, "
+"potentially including a wireless version in the future."
+msgstr ""
+"**答：** 由于为笔记本电脑兼容性而设计的大小限制，Flexbar "
+"已经尽可能紧凑。使用当前的电池技术，为这种尺寸的屏幕实现合理的电池续航时间尚不可行。然而，我们继续研究新的形式和可能性，可能包括未来的无线版本。"
+
+#: ../../source/getting_started.md:121
+msgid "**Q:** **What is ENIAC?**"
+msgstr "**问：** **什么是 ENIAC？**"
+
+#: ../../source/getting_started.md:123
+msgid ""
+"**A:** ENIAC (Electronic Numerical Integrator and Computer) was the "
+"world's first digital electronic general-purpose computer. Built in 1954 "
+"using vacuum tubes and relays, it weighed many tons and offered the "
+"performance of about half a modern portable calculator. It is also the "
+"longtime online pseudonym used by our founder."
+msgstr ""
+"**答：** ENIAC（电子数值积分器和计算机）是世界上第一台数字电子通用计算机。1954 "
+"年使用真空管和继电器建造，重达数吨，性能约为现代便携式计算器的一半。这也是我们创始人长期使用的在线化名。"
+
+#: ../../source/getting_started.md:125
+msgid "**Q:** **Is Flexbar or the Flex series open-source?**"
+msgstr "**问：** **Flexbar 或 Flex 系列是开源的吗？**"
+
+#: ../../source/getting_started.md:127
+msgid ""
+"**A:** We are a small developer team that wishes to open-source our work,"
+" but commercial considerations prevent immediate full open-sourcing. "
+"Currently, we provide an open-source plug-in system for users to "
+"customize Flexbar functionality, and we closely collaborate with the "
+"open-source community. More components may be gradually open-sourced in "
+"the future, and possibly entirely open-source products will be released."
+msgstr ""
+"**答：** 我们是一个希望开源我们工作的小型开发团队，但商业考虑阻止了立即完全开源。目前，我们为用户提供开源插件系统来自定义 Flexbar "
+"功能，并与开源社区密切合作。更多组件可能在未来逐渐开源，可能还会发布完全开源的产品。"
+
+#: ../../source/getting_started.md:129
+msgid "**Q**: **2D/3D Models?**"
+msgstr "**问：** **2D/3D 模型？**"
+
+#: ../../source/getting_started.md:131
+msgid ""
+"**A**: We provide a 3D reference file detailing the dimensions and "
+"magnetic positions of the Flexbar for your convenience."
+msgstr "**答：** 我们提供详细的 3D 参考文件，详细说明 Flexbar 的尺寸和磁性位置，供您方便使用。"
+
+#: ../../source/getting_started.md:133
+msgid "[flexbar.dwg](../assets/flexbar.dwg)"
+msgstr "[flexbar.dwg](../assets/flexbar.dwg)"
+
+#: ../../source/getting_started.md:135
+msgid "[flexbar.stp](../assets/flexbar.stp)"
+msgstr "[flexbar.stp](../assets/flexbar.stp)"
+
+#: ../../source/getting_started.md:137
+msgid "Next Steps"
+msgstr "下一步"
+
+#: ../../source/getting_started.md:139
+msgid ""
+"Check out the [SDK documentation](sdk/getting_started.md) to learn how to"
+" create custom plugins"
+msgstr "查看 [SDK 文档](sdk/getting_started.md) 了解如何创建自定义插件"
+
+#: ../../source/getting_started.md:140
+msgid ""
+"Explore the [Functions documentation](functions/index.rst) to see what "
+"you can do with Flexbar"
+msgstr "探索 [功能文档](functions/index.rst) 了解您可以用 Flexbar 做什么"
+
+#: ../../source/getting_started.md:141
+msgid ""
+"Visit the [FlexDesigner documentation](flexdesigner/getting_started.md) "
+"to learn how to customize your Flexbar"
+msgstr "访问 [FlexDesigner 文档](flexdesigner/getting_started.md) 了解如何自定义您的 Flexbar"
+

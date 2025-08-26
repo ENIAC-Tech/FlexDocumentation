@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/gadgets/rgb_strip.md:1
+msgid "RGB Strip"
+msgstr "RGB 灯带"
+
+#: ../../source/functions/gadgets/rgb_strip.md:3
+msgid ""
+"The RGB strip feature displays a full-screen dynamic RGB rainbow strip on"
+" the Flexbar."
+msgstr "RGB 灯带功能在 Flexbar 上显示全屏动态 RGB 彩虹灯带。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:5
+msgid ""
+"![1744945802319](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/rgb_strip/1744945802319.png)"
+msgstr ""
+"![1744945802319](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/rgb_strip/1744945802319.png)"
+
+#: ../../source/functions/gadgets/rgb_strip.md:5
+msgid "1744945802319"
+msgstr "1744945802319"
+
+#: ../../source/functions/gadgets/rgb_strip.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/gadgets/rgb_strip.md:9
+msgid "![1744945886816](image/rgb_strip/1744945886816.png)"
+msgstr "![1744945886816](image/rgb_strip/1744945886816.png)"
+
+#: ../../source/functions/gadgets/rgb_strip.md:9
+msgid "1744945886816"
+msgstr "1744945886816"
+
+#: ../../source/functions/gadgets/rgb_strip.md:11
+msgid ""
+"The FlexDesigner exposes several settings of the RGB strip in the "
+"function page:"
+msgstr "FlexDesigner 在功能页面中提供了 RGB 灯带的几个设置："
+
+#: ../../source/functions/gadgets/rgb_strip.md:13
+msgid ""
+"Color Mode: The interpolation method for gradient colors, supporting both"
+" HSV and RGB modes"
+msgstr "颜色模式：渐变颜色的插值方法，支持 HSV 和 RGB 两种模式"
+
+#: ../../source/functions/gadgets/rgb_strip.md:14
+msgid ""
+"Set the start and end color of the RGB strip. The color mode would affect"
+" how colors are interpolated between the two."
+msgstr "设置 RGB 灯带的起始和结束颜色。颜色模式会影响两种颜色之间的插值方式。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:15
+msgid "Direction: Set the direction of animation"
+msgstr "方向：设置动画方向"
+
+#: ../../source/functions/gadgets/rgb_strip.md:16
+msgid "Play Speed: Set the speed of animation"
+msgstr "播放速度：设置动画速度"
+
+#: ../../source/functions/gadgets/rgb_strip.md:17
+msgid "Color Width: Set the width/ length before the colors repeat"
+msgstr "颜色宽度：设置颜色重复前的宽度/长度"
+
+#: ../../source/functions/gadgets/rgb_strip.md:19
+msgid ""
+"Note: This is just an entrance to the RGB strip screen. So you can "
+"customize its appearance (background and foreground) to your own like."
+msgstr "注意：这只是进入 RGB 灯带屏幕的入口。因此您可以根据自己的喜好自定义其外观（背景和前景）。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:21
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/gadgets/rgb_strip.md:23
+msgid ""
+"Press the key on the Flexbar to enter the RGB strip screen. Press either "
+"the back or home key to exit."
+msgstr "在 Flexbar 上按下按键进入 RGB 灯带屏幕。按返回键或主页键退出。"
+

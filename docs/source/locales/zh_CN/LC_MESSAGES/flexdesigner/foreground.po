@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/foreground.md:1
+msgid "Edit Foreground"
+msgstr "编辑前景"
+
+#: ../../source/flexdesigner/foreground.md:3
+msgid ""
+"This document describes how to customize the foreground of a key, "
+"including its icon, text, shadow, and other visual elements."
+msgstr "本文档介绍如何自定义按键的前景，包括其图标、文本、阴影和其他视觉元素。"
+
+#: ../../source/flexdesigner/foreground.md:5
+msgid "Interface Overview"
+msgstr "界面概览"
+
+#: ../../source/flexdesigner/foreground.md:7
+msgid "![1742137377460](image/foreground/1742137377460.png)"
+msgstr "![1742137377460](image/foreground/1742137377460.png)"
+
+#: ../../source/flexdesigner/foreground.md:7
+msgid "1742137377460"
+msgstr "1742137377460"
+
+#: ../../source/flexdesigner/foreground.md:9
+#: ../../source/flexdesigner/foreground.md:33
+#: ../../source/flexdesigner/foreground.md:45
+#: ../../source/flexdesigner/foreground.md:83
+msgid "Feature Overview:"
+msgstr "功能概览："
+
+#: ../../source/flexdesigner/foreground.md:11
+msgid "Foreground Color Settings"
+msgstr "前景颜色设置"
+
+#: ../../source/flexdesigner/foreground.md:12
+#: ../../source/flexdesigner/foreground.md:25
+msgid "Built-in Icon Selector"
+msgstr "内置图标选择器"
+
+#: ../../source/flexdesigner/foreground.md:13
+#: ../../source/flexdesigner/foreground.md:39
+msgid "Custom Icon Selector"
+msgstr "自定义图标选择器"
+
+#: ../../source/flexdesigner/foreground.md:14
+#: ../../source/flexdesigner/foreground.md:63
+msgid "Emoji Selector"
+msgstr "表情符号选择器"
+
+#: ../../source/flexdesigner/foreground.md:15
+#: ../../source/flexdesigner/foreground.md:71
+msgid "Preset Layout Selector"
+msgstr "预设布局选择器"
+
+#: ../../source/flexdesigner/foreground.md:16
+msgid "Show Icon (mutually exclusive with Show Emoji)"
+msgstr "显示图标（与显示表情符号互斥）"
+
+#: ../../source/flexdesigner/foreground.md:17
+msgid "Show Emoji (mutually exclusive with Show Icon)"
+msgstr "显示表情符号（与显示图标互斥）"
+
+#: ../../source/flexdesigner/foreground.md:18
+msgid "Show Title"
+msgstr "显示标题"
+
+#: ../../source/flexdesigner/foreground.md:19
+msgid "Show Shadow"
+msgstr "显示阴影"
+
+#: ../../source/flexdesigner/foreground.md:20
+msgid ""
+"Icon Parameter Settings - Adjust icon size, rotation, and XY-axis "
+"position using sliders"
+msgstr "图标参数设置 - 使用滑块调整图标大小、旋转和 XY 轴位置"
+
+#: ../../source/flexdesigner/foreground.md:21
+msgid "Title Edit Box - Supports multi-line text"
+msgstr "标题编辑框 - 支持多行文本"
+
+#: ../../source/flexdesigner/foreground.md:22
+msgid "Title Font Settings - Adjust title font, bold, and italic styles"
+msgstr "标题字体设置 - 调整标题字体、粗体和斜体样式"
+
+#: ../../source/flexdesigner/foreground.md:23
+msgid ""
+"Title Parameter Settings - Adjust title size, rotation, and XY-axis "
+"position using sliders"
+msgstr "标题参数设置 - 使用滑块调整标题大小、旋转和 XY 轴位置"
+
+#: ../../source/flexdesigner/foreground.md:27
+msgid ""
+"Click ② in the foreground editing interface to open the built-in icon "
+"selector."
+msgstr "在前景编辑界面中点击 ② 打开内置图标选择器。"
+
+#: ../../source/flexdesigner/foreground.md:29
+msgid ""
+"The built-in icon selector contains over 7,000 icons organized by "
+"category."
+msgstr "内置图标选择器包含超过 7,000 个按类别组织的图标。"
+
+#: ../../source/flexdesigner/foreground.md:31
+msgid "![1742258436213](image/foreground/1742258436213.png)"
+msgstr "![1742258436213](image/foreground/1742258436213.png)"
+
+#: ../../source/flexdesigner/foreground.md:31
+msgid "1742258436213"
+msgstr "1742258436213"
+
+#: ../../source/flexdesigner/foreground.md:35
+msgid "Icon Search - Search by icon code or keywords"
+msgstr "图标搜索 - 按图标代码或关键词搜索"
+
+#: ../../source/flexdesigner/foreground.md:36
+msgid "Icon History - Recently selected icons appear here"
+msgstr "图标历史 - 最近选择的图标显示在这里"
+
+#: ../../source/flexdesigner/foreground.md:37
+msgid ""
+"Icon Category Browser - Click to open icon categories, scroll down to "
+"view more categories"
+msgstr "图标类别浏览器 - 点击打开图标类别，向下滚动查看更多类别"
+
+#: ../../source/flexdesigner/foreground.md:41
+msgid ""
+"Click ③ in the foreground editing interface to open the custom icon "
+"selector."
+msgstr "在前景编辑界面中点击 ③ 打开自定义图标选择器。"
+
+#: ../../source/flexdesigner/foreground.md:43
+msgid "![1742259897464](image/foreground/1742259897464.png)"
+msgstr "![1742259897464](image/foreground/1742259897464.png)"
+
+#: ../../source/flexdesigner/foreground.md:43
+msgid "1742259897464"
+msgstr "1742259897464"
+
+#: ../../source/flexdesigner/foreground.md:47
+msgid "Create a new icon pack"
+msgstr "创建新的图标包"
+
+#: ../../source/flexdesigner/foreground.md:48
+msgid "Import an icon pack from file (.iconpack)"
+msgstr "从文件导入图标包（.iconpack）"
+
+#: ../../source/flexdesigner/foreground.md:49
+msgid "Icon Pack List - Click to enter the respective icon pack"
+msgstr "图标包列表 - 点击进入相应的图标包"
+
+#: ../../source/flexdesigner/foreground.md:51
+msgid "![1742259846244](image/foreground/1742259846244.png)"
+msgstr "![1742259846244](image/foreground/1742259846244.png)"
+
+#: ../../source/flexdesigner/foreground.md:51
+msgid "1742259846244"
+msgstr "1742259846244"
+
+#: ../../source/flexdesigner/foreground.md:53
+msgid ""
+"After clicking ③ on the previous page, you'll enter the icon selection "
+"page. Feature Overview:"
+msgstr "在上一页点击 ③ 后，您将进入图标选择页面。功能概览："
+
+#: ../../source/flexdesigner/foreground.md:55
+msgid "Return to previous page"
+msgstr "返回上一页"
+
+#: ../../source/flexdesigner/foreground.md:56
+msgid "Open image files to add as icons - supports adding multiple icons at once"
+msgstr "打开图片文件添加为图标 - 支持一次添加多个图标"
+
+#: ../../source/flexdesigner/foreground.md:57
+msgid "Import images from clipboard to add as icons"
+msgstr "从剪贴板导入图片添加为图标"
+
+#: ../../source/flexdesigner/foreground.md:58
+msgid "Export current icon pack to file (.iconpack)"
+msgstr "将当前图标包导出到文件（.iconpack）"
+
+#: ../../source/flexdesigner/foreground.md:59
+msgid "Edit current icon pack title and description"
+msgstr "编辑当前图标包的标题和描述"
+
+#: ../../source/flexdesigner/foreground.md:60
+msgid ""
+"Hover over any icon to click and use, or use selection box for multiple "
+"icon selection"
+msgstr "悬停在任何图标上点击使用，或使用选择框进行多图标选择"
+
+#: ../../source/flexdesigner/foreground.md:61
+msgid ""
+"Right-click on icons to open menu - delete current icon or multiple "
+"selected icons"
+msgstr "右键点击图标打开菜单 - 删除当前图标或多个选中的图标"
+
+#: ../../source/flexdesigner/foreground.md:65
+msgid ""
+"Click ④ in the foreground editing interface to open the Emoji selector, "
+"where you can choose your favorite Emojis to use as icons."
+msgstr "在前景编辑界面中点击 ④ 打开表情符号选择器，您可以选择喜欢的表情符号作为图标。"
+
+#: ../../source/flexdesigner/foreground.md:67
+msgid "Note: Emoji appearance may vary across different operating systems"
+msgstr "注意：表情符号的外观可能因不同操作系统而异"
+
+#: ../../source/flexdesigner/foreground.md:69
+msgid "![1742260291774](image/foreground/1742260291774.png)"
+msgstr "![1742260291774](image/foreground/1742260291774.png)"
+
+#: ../../source/flexdesigner/foreground.md:69
+msgid "1742260291774"
+msgstr "1742260291774"
+
+#: ../../source/flexdesigner/foreground.md:73
+msgid ""
+"Click ⑤ in the foreground editing interface to open the preset layout "
+"selector, which offers several common icon-title layouts for direct use."
+msgstr "在前景编辑界面中点击 ⑤ 打开预设布局选择器，提供几种常见的图标-标题布局供直接使用。"
+
+#: ../../source/flexdesigner/foreground.md:75
+msgid "![1742260351306](image/foreground/1742260351306.png)"
+msgstr "![1742260351306](image/foreground/1742260351306.png)"
+
+#: ../../source/flexdesigner/foreground.md:75
+msgid "1742260351306"
+msgstr "1742260351306"
+
+#: ../../source/flexdesigner/foreground.md:77
+msgid "Font Selector"
+msgstr "字体选择器"
+
+#: ../../source/flexdesigner/foreground.md:79
+msgid "Click ⑫ in the foreground editing interface to open the font selector."
+msgstr "在前景编辑界面中点击 ⑫ 打开字体选择器。"
+
+#: ../../source/flexdesigner/foreground.md:81
+msgid "![1742260618802](image/foreground/1742260618802.png)"
+msgstr "![1742260618802](image/foreground/1742260618802.png)"
+
+#: ../../source/flexdesigner/foreground.md:81
+msgid "1742260618802"
+msgstr "1742260618802"
+
+#: ../../source/flexdesigner/foreground.md:85
+msgid "Font Search Box - Search for font names"
+msgstr "字体搜索框 - 搜索字体名称"
+
+#: ../../source/flexdesigner/foreground.md:86
+msgid "Recently Used Fonts - Your recently selected fonts appear here"
+msgstr "最近使用的字体 - 您最近选择的字体显示在这里"
+
+#: ../../source/flexdesigner/foreground.md:87
+msgid ""
+"Font List - Preview font appearances directly, with multiple font styles "
+"shown in submenus if available"
+msgstr "字体列表 - 直接预览字体外观，如果可用，多个字体样式在子菜单中显示"
+

@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/github/stars.md:1
+msgid "Stars"
+msgstr "星标"
+
+#: ../../source/functions/github/stars.md:3
+msgid "The stars feature displays stars of a specific repository."
+msgstr "星标功能显示特定仓库的星标数量。"
+
+#: ../../source/functions/github/stars.md:5
+msgid "![1744983551066](image/stars/1744983551066.png)"
+msgstr "![1744983551066](image/stars/1744983551066.png)"
+
+#: ../../source/functions/github/stars.md:5
+msgid "1744983551066"
+msgstr "1744983551066"
+
+#: ../../source/functions/github/stars.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/github/stars.md:9
+msgid "The FlexDesigner exposes the following settings in the key tab:"
+msgstr "FlexDesigner 在按键选项卡中提供以下设置："
+
+#: ../../source/functions/github/stars.md:11
+msgid ""
+"Format: Set the format of the string. The text '`<STARS>`' would be "
+"replaced by the number of stars. If '`<STARS>`' is not present in the "
+"format string, it would be appended to the end of the string."
+msgstr "格式：设置字符串的格式。文本 '`<STARS>`' 将被星标数量替换。如果格式字符串中不存在 '`<STARS>`'，它将被附加到字符串的末尾。"
+
+#: ../../source/functions/github/stars.md:12
+msgid "Owner/ Repository: Set the source repository to display the data for."
+msgstr "所有者/仓库：设置要显示数据的源仓库。"
+
+#: ../../source/functions/github/stars.md:14
+msgid "Additionally, you can click on the star icon to manually refresh the data."
+msgstr "此外，您可以点击星标图标手动刷新数据。"
+
+#: ../../source/functions/github/stars.md:16
+msgid "![1744983726528](image/stars/1744983726528.png)"
+msgstr "![1744983726528](image/stars/1744983726528.png)"
+
+#: ../../source/functions/github/stars.md:16
+msgid "1744983726528"
+msgstr "1744983726528"
+
+#: ../../source/functions/github/stars.md:18
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/github/stars.md:20
+msgid ""
+"The star count would be displayed in the area allocated for this feature."
+" This is no interactive actions for this key."
+msgstr "星标数量将显示在为该功能分配的区域中。此按键没有交互操作。"
+
+#: ../../source/functions/github/stars.md:22
+msgid "![1744983730599](image/stars/1744983730599.png)"
+msgstr "![1744983730599](image/stars/1744983730599.png)"
+
+#: ../../source/functions/github/stars.md:22
+msgid "1744983730599"
+msgstr "1744983730599"
+

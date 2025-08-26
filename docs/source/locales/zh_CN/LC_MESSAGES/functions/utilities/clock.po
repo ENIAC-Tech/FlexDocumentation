@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/clock.md:1
+msgid "Clock"
+msgstr "时钟"
+
+#: ../../source/functions/utilities/clock.md:3
+msgid "Display a real-time clock on your Flexbar"
+msgstr "在您的 Flexbar 上显示实时时钟"
+
+#: ../../source/functions/utilities/clock.md:5
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/utilities/clock.md:7
+msgid "![1745504831953](image/clock/1745504831953.png)"
+msgstr "![1745504831953](image/clock/1745504831953.png)"
+
+#: ../../source/functions/utilities/clock.md:7
+msgid "1745504831953"
+msgstr "1745504831953"
+
+#: ../../source/functions/utilities/clock.md:9
+#, python-format
+msgid ""
+"You can customize the time display format using standard time format "
+"codes. We use the %X symbol to control how the clock appears, with the "
+"following supported format codes:"
+msgstr ""
+"您可以使用标准时间格式代码自定义时间显示格式。我们使用 %X 符号来控制时钟的显示方式，支持以下格式代码："
+
+#: ../../source/functions/utilities/clock.md:11
+#, python-format
+msgid "To display a % symbol, use %%"
+msgstr "要显示 % 符号，请使用 %%"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Format"
+msgstr "格式"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Description"
+msgstr "描述"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%a"
+msgstr "%a"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Abbreviated weekday name"
+msgstr "缩写星期名称"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%A"
+msgstr "%A"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Full weekday name"
+msgstr "完整星期名称"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%b"
+msgstr "%b"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Abbreviated month name"
+msgstr "缩写月份名称"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%B"
+msgstr "%B"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Full month name"
+msgstr "完整月份名称"
+
+#: ../../source/functions/utilities/clock.md
+#, python-format
+msgid "%c"
+msgstr "%c"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Date and time representation"
+msgstr "日期和时间表示"
+
+#: ../../source/functions/utilities/clock.md
+#, python-format
+msgid "%d"
+msgstr "%d"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Day of the month (01-31)"
+msgstr "月份中的日期 (01-31)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%H"
+msgstr "%H"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Hour in 24h format (00-23)"
+msgstr "24 小时格式的小时 (00-23)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%I"
+msgstr "%I"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Hour in 12h format (01-12)"
+msgstr "12 小时格式的小时 (01-12)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%j"
+msgstr "%j"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Day of the year (001-366)"
+msgstr "年份中的日期 (001-366)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%m"
+msgstr "%m"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Month as a decimal number (01-12)"
+msgstr "月份作为十进制数字 (01-12)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%M"
+msgstr "%M"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Minute (00-59)"
+msgstr "分钟 (00-59)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%p"
+msgstr "%p"
+
+#: ../../source/functions/utilities/clock.md
+msgid "AM or PM designation"
+msgstr "AM 或 PM 标识"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%S"
+msgstr "%S"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Second (00-59)"
+msgstr "秒 (00-59)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%U"
+msgstr "%U"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Week number with the first Sunday as the first day of week one (00-53)"
+msgstr "以第一个星期日为第一周第一天的周数 (00-53)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%w"
+msgstr "%w"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Weekday as a decimal number with Sunday as 0 (0-6)"
+msgstr "以星期日为 0 的星期几作为十进制数字 (0-6)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%W"
+msgstr "%W"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Week number with the first Monday as the first day of week one (00-53)"
+msgstr "以第一个星期一为第一周第一天的周数 (00-53)"
+
+#: ../../source/functions/utilities/clock.md
+#, python-format
+msgid "%x"
+msgstr "%x"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Date representation"
+msgstr "日期表示"
+
+#: ../../source/functions/utilities/clock.md
+#, python-format
+msgid "%X"
+msgstr "%X"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Time representation"
+msgstr "时间表示"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%y"
+msgstr "%y"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Year, last two digits (00-99)"
+msgstr "年份，最后两位数字 (00-99)"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%Y"
+msgstr "%Y"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Year"
+msgstr "年份"
+
+#: ../../source/functions/utilities/clock.md
+msgid "%Z"
+msgstr "%Z"
+
+#: ../../source/functions/utilities/clock.md
+msgid "Timezone name or abbreviation"
+msgstr "时区名称或缩写"
+
+#: ../../source/functions/utilities/clock.md
+#, python-format
+msgid "%%"
+msgstr "%%"
+
+#: ../../source/functions/utilities/clock.md
+#, python-format
+msgid "A % sign"
+msgstr "一个 % 符号"
+
+#: ../../source/functions/utilities/clock.md:38
+msgid "You can also select from preset time formats in the dropdown panel."
+msgstr "您也可以在下拉面板中选择预设的时间格式。"
+
+#: ../../source/functions/utilities/clock.md:40
+msgid "![1745504954685](image/clock/1745504954685.png)"
+msgstr "![1745504954685](image/clock/1745504954685.png)"
+
+#: ../../source/functions/utilities/clock.md:40
+msgid "1745504954685"
+msgstr "1745504954685"
+
+#: ../../source/functions/utilities/clock.md:42
+msgid ""
+"The clock supports custom fonts and background settings, but we don't "
+"recommend using images as backgrounds as this can increase loading time."
+msgstr ""
+"时钟支持自定义字体和背景设置，但我们不建议使用图像作为背景，因为这可能会增加加载时间。"
+
+#: ../../source/functions/utilities/clock.md:44
+msgid "![1745505025221](image/clock/1745505025221.png)"
+msgstr "![1745505025221](image/clock/1745505025221.png)"
+
+#: ../../source/functions/utilities/clock.md:44
+msgid "1745505025221"
+msgstr "1745505025221"
+
+#: ../../source/functions/utilities/clock.md:46
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/utilities/clock.md:48
+msgid "![1745505167163](image/clock/1745505167163.png)"
+msgstr "![1745505167163](image/clock/1745505167163.png)"
+
+#: ../../source/functions/utilities/clock.md:48
+msgid "1745505167163"
+msgstr "1745505167163"
+

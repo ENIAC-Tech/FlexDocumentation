@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/adobe/extendscript.md:1
+msgid "Adobe ExtendScript"
+msgstr "Adobe ExtendScript"
+
+#: ../../source/functions/adobe/extendscript.md:3
+msgid ""
+"This document explains how to run ExtendScript in Adobe applications with"
+" a single click."
+msgstr ""
+"本文档说明如何通过单击在 Adobe 应用程序中运行 ExtendScript。"
+
+#: ../../source/functions/adobe/extendscript.md:5
+msgid ""
+"![1743306598661](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/adobe/image/extendscript/1743306598661.png)"
+msgstr ""
+"![1743306598661](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/adobe/image/extendscript/1743306598661.png)"
+
+#: ../../source/functions/adobe/extendscript.md:5
+msgid "1743306598661"
+msgstr "1743306598661"
+
+#: ../../source/functions/adobe/extendscript.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/adobe/extendscript.md:9
+msgid "You can find this feature under the \"Adobe\" category in the Key Library."
+msgstr ""
+"您可以在按键库中的"Adobe"类别下找到此功能。"
+
+#: ../../source/functions/adobe/extendscript.md:11
+msgid "![1743306772781](image/extendscript/1743306772781.png)"
+msgstr "![1743306772781](image/extendscript/1743306772781.png)"
+
+#: ../../source/functions/adobe/extendscript.md:11
+msgid "1743306772781"
+msgstr "1743306772781"
+
+#: ../../source/functions/adobe/extendscript.md:13
+msgid ""
+"Select the target Adobe application you want to run the script on, then "
+"edit your script in the code editor below."
+msgstr ""
+"选择您要在其上运行脚本的目标 Adobe 应用程序，然后在下面的代码编辑器中编辑您的脚本。"
+
+#: ../../source/functions/adobe/extendscript.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/adobe/extendscript.md:17
+msgid ""
+"Once uploaded to the Flexbar, simply click the corresponding key to "
+"execute the assigned ExtendScript."
+msgstr ""
+"上传到 Flexbar 后，只需单击相应的按键即可执行分配的 ExtendScript。"
+

@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/device_control/flexbar_setting.md:1
+msgid "Flexbar Setting"
+msgstr "Flexbar 设置"
+
+#: ../../source/functions/device_control/flexbar_setting.md:3
+msgid ""
+"The Flexbar settings key opens the configuration page on the device. It "
+"allows controlling device options such as screen brightness, auto sleep, "
+"etc. The key needs to be added to the Flexbar first, then the settings "
+"can be accessed on the Flexbar."
+msgstr ""
+"Flexbar 设置按键在设备上打开配置页面。它允许控制设备选项，如屏幕亮度、自动睡眠等。需要先将按键添加到 Flexbar，然后才能在 Flexbar 上访问设置。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:5
+msgid "![1744945993898](image/flexbar_setting/1744945993898.png)"
+msgstr "![1744945993898](image/flexbar_setting/1744945993898.png)"
+
+#: ../../source/functions/device_control/flexbar_setting.md:5
+msgid "1744945993898"
+msgstr "1744945993898"
+
+#: ../../source/functions/device_control/flexbar_setting.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/device_control/flexbar_setting.md:9
+msgid ""
+"Other than the standard visual options, this key doesn't have any "
+"additional configurable functions in the FlexDesigner."
+msgstr ""
+"除了标准视觉选项外，此按键在 FlexDesigner 中没有任何额外的可配置功能。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:11
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/device_control/flexbar_setting.md:13
+msgid "![1743991555870](image/flexbar_setting/1743991555870.png)"
+msgstr "![1743991555870](image/flexbar_setting/1743991555870.png)"
+
+#: ../../source/functions/device_control/flexbar_setting.md:13
+msgid "1743991555870"
+msgstr "1743991555870"
+
+#: ../../source/functions/device_control/flexbar_setting.md:15
+msgid ""
+"Press the key to open the settings page. From left to right, it exposes "
+"the following settings:"
+msgstr ""
+"按按键打开设置页面。从左到右，它提供以下设置："
+
+#: ../../source/functions/device_control/flexbar_setting.md:17
+msgid ""
+"Sleep Timeout: The device would enter sleep mode after given time of "
+"inactivity. Scroll all the way to the right (shorter amount of time) to "
+"disable this feature. We highly recommend enabling this feature to reduce"
+" burn-in on the OLED screen."
+msgstr ""
+"睡眠超时：设备在给定时间无活动后进入睡眠模式。向右滚动到底（更短的时间）以禁用此功能。我们强烈建议启用此功能以减少 OLED 屏幕的烧屏。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:18
+msgid "Screen Brightness: Set the brightness of the screen."
+msgstr "屏幕亮度：设置屏幕亮度。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:19
+msgid ""
+"Rotate Screen: Rotate the display by 180 degrees. The home and back "
+"button assignment also follows this setting."
+msgstr ""
+"旋转屏幕：将显示旋转 180 度。主页和返回按键分配也遵循此设置。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:20
+msgid ""
+"Haptic Switch: Enable or disable haptic (vibration) feedback. Supports "
+"completely turning off vibration, only disabling vibration for sliders "
+"and wheels, or enabling all vibration."
+msgstr ""
+"触觉开关：启用或禁用触觉（振动）反馈。支持完全关闭振动、仅禁用滑块和滚轮的振动，或启用所有振动。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:21
+msgid ""
+"Auto Sleep: When this feature is enabled, the Flexbar would enter and "
+"exit sleep mode following your computer. Restarting the Flexbar is "
+"required for this setting to take effect."
+msgstr ""
+"自动睡眠：启用此功能后，Flexbar 将跟随您的计算机进入和退出睡眠模式。需要重启 Flexbar 才能使此设置生效。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:22
+msgid ""
+"Communication Protocol: Switch between CDC and HID USB device class. CDC "
+"is faster but exposes one additional serial port in your system. If you "
+"don't know what this means, CDC is recommended."
+msgstr ""
+"通信协议：在 CDC 和 HID USB 设备类之间切换。CDC 更快但在您的系统中暴露一个额外的串行端口。如果您不知道这意味着什么，建议使用 CDC。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:23
+msgid ""
+"Device Information: Shows hardware version, manufacturing date, firmware "
+"version, and firmware build date."
+msgstr ""
+"设备信息：显示硬件版本、制造日期、固件版本和固件构建日期。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:24
+msgid ""
+"Device Details: Displays device ID, device name, and remaining storage "
+"space on the device."
+msgstr ""
+"设备详情：显示设备 ID、设备名称和设备上的剩余存储空间。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:26
+msgid ""
+"Additionally, scroll the page to the right to reveal the `ROLLBACK` "
+"button. This  allows you to roll back the firmware."
+msgstr ""
+"此外，向右滚动页面以显示 `ROLLBACK` 按钮。这允许您回滚固件。"
+
+#: ../../source/functions/device_control/flexbar_setting.md:28
+msgid "![1743994398218](image/flexbar_setting/1743994398218.png)"
+msgstr "![1743994398218](image/flexbar_setting/1743994398218.png)"
+
+#: ../../source/functions/device_control/flexbar_setting.md:28
+msgid "1743994398218"
+msgstr "1743994398218"
+

@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/plugins.md:1
+msgid "Plugins"
+msgstr "插件"
+
+#: ../../source/flexdesigner/plugins.md:3
+msgid ""
+"This document explains how to use the plugin functionality in "
+"FlexDesigner, which allows you to add more customized features to "
+"FlexDesigner."
+msgstr ""
+"本文档介绍了如何在 FlexDesigner 中使用插件功能，该功能允许您为 "
+"FlexDesigner 添加更多自定义功能。"
+
+#: ../../source/flexdesigner/plugins.md:5
+msgid ""
+"If you have programming knowledge, you can also develop your own plugins "
+"based on our [PluginSDK](../sdk/getting_started.md)."
+msgstr ""
+"如果您具备编程知识，也可以基于我们的 [PluginSDK](../sdk/getting_started.md) "
+"开发自己的插件。"
+
+#: ../../source/flexdesigner/plugins.md:7
+msgid "Importing a Plugin"
+msgstr "导入插件"
+
+#: ../../source/flexdesigner/plugins.md:9
+msgid ""
+"You can click the + button in the top right corner of the button library "
+"to import a plugin from a link or file. The file must be a packaged "
+".flexplugin file, and the link must point to a properly structured GitHub"
+" repository, such as https://github.com/ENIAC-Tech/Plugin-ScreenMirror."
+msgstr ""
+"您可以点击按钮库右上角的 + 按钮从链接或文件导入插件。文件必须是打包的 "
+".flexplugin 文件，链接必须指向结构正确的 GitHub 仓库，例如 "
+"https://github.com/ENIAC-Tech/Plugin-ScreenMirror。"
+
+#: ../../source/flexdesigner/plugins.md:11
+msgid "![1742265313124](image/plugins/1742265313124.png)"
+msgstr "![1742265313124](image/plugins/1742265313124.png)"
+
+#: ../../source/flexdesigner/plugins.md:11
+msgid "1742265313124"
+msgstr "1742265313124"
+
+#: ../../source/flexdesigner/plugins.md:13
+msgid "After importing, the plugin will be displayed as a button library."
+msgstr "导入后，插件将显示为按钮库。"
+
+#: ../../source/flexdesigner/plugins.md:15
+msgid "![1742265946738](image/plugins/1742265946738.png)"
+msgstr "![1742265946738](image/plugins/1742265946738.png)"
+
+#: ../../source/flexdesigner/plugins.md:15
+msgid "1742265946738"
+msgstr "1742265946738"
+
+#: ../../source/flexdesigner/plugins.md:17
+msgid ""
+"You can drag buttons from the plugin to the editing area and use them "
+"just like built-in buttons."
+msgstr ""
+"您可以将插件中的按钮拖拽到编辑区域，像使用内置按钮一样使用它们。"
+
+#: ../../source/flexdesigner/plugins.md:19
+msgid "![1742266238153](image/plugins/1742266238153.png)"
+msgstr "![1742266238153](image/plugins/1742266238153.png)"
+
+#: ../../source/flexdesigner/plugins.md:19
+msgid "1742266238153"
+msgstr "1742266238153"
+
+#: ../../source/flexdesigner/plugins.md:21
+msgid ""
+"You can also manage the global settings of the plugin (if available) "
+"under the Applications tab in the settings interface."
+msgstr ""
+"您还可以在设置界面的应用程序选项卡下管理插件的全局设置（如果可用）。"
+
+#: ../../source/flexdesigner/plugins.md:23
+msgid "![1742267167382](image/plugins/1742267167382.png)"
+msgstr "![1742267167382](image/plugins/1742267167382.png)"
+
+#: ../../source/flexdesigner/plugins.md:23
+msgid "1742267167382"
+msgstr "1742267167382"
+
+#: ../../source/flexdesigner/plugins.md:25
+msgid "Managing Plugins"
+msgstr "管理插件"
+
+#: ../../source/flexdesigner/plugins.md:27
+msgid ""
+"Click the information button to view detailed information about the "
+"plugin. Here you can update or delete the plugin."
+msgstr ""
+"点击信息按钮查看插件的详细信息。在这里您可以更新或删除插件。"
+
+#: ../../source/flexdesigner/plugins.md:29
+msgid "![1742265894863](image/plugins/1742265894863.png)"
+msgstr "![1742265894863](image/plugins/1742265894863.png)"
+
+#: ../../source/flexdesigner/plugins.md:29
+msgid "1742265894863"
+msgstr "1742265894863"
+
+#: ../../source/flexdesigner/plugins.md:31
+msgid ""
+"You can check which plugins are being used in the current project under "
+"the Project tab in the settings interface. If versions don't match or "
+"plugins are missing, you will be prompted to install them."
+msgstr ""
+"您可以在设置界面的项目选项卡下查看当前项目正在使用哪些插件。如果版本不匹配或 "
+"插件缺失，系统会提示您安装它们。"
+
+#: ../../source/flexdesigner/plugins.md:33
+msgid "![1742266301972](image/plugins/1742266301972.png)"
+msgstr "![1742266301972](image/plugins/1742266301972.png)"
+
+#: ../../source/flexdesigner/plugins.md:33
+msgid "1742266301972"
+msgstr "1742266301972"
+
+#: ../../source/flexdesigner/plugins.md:35
+msgid ""
+"You can view and manage all installed plugins under the Plugins tab in "
+"the settings interface."
+msgstr ""
+"您可以在设置界面的插件选项卡下查看和管理所有已安装的插件。"
+
+#: ../../source/flexdesigner/plugins.md:37
+msgid "![1742266336647](image/plugins/1742266336647.png)"
+msgstr "![1742266336647](image/plugins/1742266336647.png)"
+
+#: ../../source/flexdesigner/plugins.md:37
+msgid "1742266336647"
+msgstr "1742266336647"
+

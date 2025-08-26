@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/microphone_control.md:1
+msgid "Microphone Control"
+msgstr "麦克风控制"
+
+#: ../../source/functions/system_control/microphone_control.md:3
+msgid "The microphone control key allows controlling system audio input volume."
+msgstr "麦克风控制按键允许控制系统音频输入音量。"
+
+#: ../../source/functions/system_control/microphone_control.md:5
+msgid ""
+"This key only works when the FlexDesigner is running. This key is only "
+"present in the Windows version of the FlexDesigner at the moment."
+msgstr "此按键仅在 FlexDesigner 运行时工作。目前此按键仅在 Windows 版本的 FlexDesigner 中存在。"
+
+#: ../../source/functions/system_control/microphone_control.md:7
+msgid "![1745502389085](image/microphone_control/1745502389085.png)"
+msgstr "![1745502389085](image/microphone_control/1745502389085.png)"
+
+#: ../../source/functions/system_control/microphone_control.md:7
+msgid "1745502389085"
+msgstr "1745502389085"
+
+#: ../../source/functions/system_control/microphone_control.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/system_control/microphone_control.md:11
+msgid ""
+"Other than the standard visual options, this key doesn't have any "
+"additional configurable functions in the FlexDesigner."
+msgstr "除了标准视觉选项外，此按键在 FlexDesigner 中没有任何额外的可配置功能。"
+
+#: ../../source/functions/system_control/microphone_control.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/system_control/microphone_control.md:15
+msgid ""
+"Drag the slider on the Flexbar to adjust system input volume (typically "
+"microphone volume)."
+msgstr "在 Flexbar 上拖动滑块来调整系统输入音量（通常是麦克风音量）。"
+

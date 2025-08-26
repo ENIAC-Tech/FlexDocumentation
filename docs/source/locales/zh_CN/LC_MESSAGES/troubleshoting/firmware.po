@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/firmware.md:1
+msgid "Firmware"
+msgstr "固件"
+
+#: ../../source/troubleshoting/firmware.md:3
+msgid ""
+"Firmware refers to the embedded software written into Flexbar's internal "
+"microcontroller, pre-installed at the factory. Updates to firmware are "
+"prompted via FlexDesigner when available. We recommend regularly updating"
+" to ensure access to the latest features and improved stability."
+msgstr ""
+"固件是指写入 Flexbar 内部微控制器的嵌入式软件，在工厂预装。固件更新在有可用更新时通过 FlexDesigner 提示。我们建议定期更新以确保访问最新功能并提高稳定性。"
+
+#: ../../source/troubleshoting/firmware.md:5
+msgid "Update your firmware"
+msgstr "更新您的固件"
+
+#: ../../source/troubleshoting/firmware.md:7
+msgid "Automatic Update"
+msgstr "自动更新"
+
+#: ../../source/troubleshoting/firmware.md:9
+msgid ""
+"When a firmware update is available, FlexDesigner will display the "
+"following prompt. We recommend updating as soon as possible."
+msgstr ""
+"当有固件更新可用时，FlexDesigner 将显示以下提示。我们建议尽快更新。"
+
+#: ../../source/troubleshoting/firmware.md:11
+msgid "![1743988092470](image/firmware/1743988092470.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:11
+msgid "1743988092470"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:13
+msgid "Manual Update"
+msgstr "手动更新"
+
+#: ../../source/troubleshoting/firmware.md:15
+msgid ""
+"**Under normal circumstances, you do not need to manually update your "
+"firmware. If a necessary firmware update is available, FlexDesigner will "
+"notify you.**"
+msgstr ""
+"**在正常情况下，您不需要手动更新固件。如果有必要的固件更新可用，FlexDesigner 会通知您。**"
+
+#: ../../source/troubleshoting/firmware.md:17
+msgid "Go to `Setting -> Device`"
+msgstr "转到`设置 -> 设备`"
+
+#: ../../source/troubleshoting/firmware.md:19
+msgid "![1743984789282](image/firmware/1743984789282.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:19
+msgid "1743984789282"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:21
+msgid ""
+"Click `UPLOAD FIRMWARE`, then wait for the firmware upload to complete "
+"and the device to restart automatically."
+msgstr ""
+"点击`上传固件`，然后等待固件上传完成，设备将自动重启。"
+
+#: ../../source/troubleshoting/firmware.md:23
+msgid "**Note: Do not disconnect power during the update process**"
+msgstr "**注意：更新过程中请勿断开电源**"
+
+#: ../../source/troubleshoting/firmware.md:25
+msgid "After update, device shows \"Profile version does not match...\""
+msgstr "更新后，设备显示"配置文件版本不匹配...""
+
+#: ../../source/troubleshoting/firmware.md:27
+msgid ""
+"It's normal for your device to display this screen after an update. The "
+"update requires you to re-upload your Profile to ensure the device is "
+"running the latest version. You simply need to upload your Profile again "
+"to resolve this."
+msgstr ""
+"更新后设备显示此屏幕是正常的。更新需要您重新上传配置文件以确保设备运行最新版本。您只需再次上传配置文件即可解决此问题。"
+
+#: ../../source/troubleshoting/firmware.md:29
+msgid "![1746932309321](image/firmware/1746932309321.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:29
+msgid "1746932309321"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:31
+msgid "Rollback"
+msgstr "回滚"
+
+#: ../../source/troubleshoting/firmware.md:33
+msgid ""
+"If the updated firmware does not function properly, you can manually roll"
+" back to the previous version."
+msgstr ""
+"如果更新的固件无法正常工作，您可以手动回滚到之前的版本。"
+
+#: ../../source/troubleshoting/firmware.md:35
+msgid "You generally do not need to perform this operation"
+msgstr "您通常不需要执行此操作"
+
+#: ../../source/troubleshoting/firmware.md:37
+msgid "Rollback in Safe Mode"
+msgstr "在安全模式下回滚"
+
+#: ../../source/troubleshoting/firmware.md:39
+#: ../../source/troubleshoting/firmware.md:49
+msgid "Swipe left on the screen"
+msgstr "在屏幕上向左滑动"
+
+#: ../../source/troubleshoting/firmware.md:41
+msgid "![1743988771303](image/firmware/1743988771303.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:41
+msgid "1743988771303"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:43
+#: ../../source/troubleshoting/firmware.md:53
+msgid "Click `ROLLBACK` to revert to the previous firmware version"
+msgstr "点击`回滚`以恢复到之前的固件版本"
+
+#: ../../source/troubleshoting/firmware.md:45
+msgid "![1743988710621](image/firmware/1743988710621.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:45
+msgid "1743988710621"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:47
+msgid "Rollback from Settings Interface"
+msgstr "从设置界面回滚"
+
+#: ../../source/troubleshoting/firmware.md:51
+msgid "![1743990519882](image/firmware/1743990519882.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:51
+msgid "1743990519882"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:55
+msgid "![1743990587111](image/firmware/1743990587111.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/firmware.md:55
+msgid "1743990587111"
+msgstr ""
+

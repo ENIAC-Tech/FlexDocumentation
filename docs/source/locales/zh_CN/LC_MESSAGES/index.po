@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/index.rst:2
+msgid "Welcome to FlexDocumentation!"
+msgstr "欢迎使用 FlexDocumentation！"
+
+#: ../../source/index.rst:4
+msgid ""
+"**Flexbar** is a powerful and customizable tool that allows you to create"
+" custom profiles and automate tasks."
+msgstr ""
+"**Flexbar** 是一个功能强大且可自定义的工具，允许您创建自定义配置文件并自动化任务。"
+
+#: ../../source/index.rst:6
+msgid "Check out the :doc:`getting_started` section for further information"
+msgstr "查看 :doc:`getting_started` 部分了解更多信息"
+
+#: ../../source/index.rst:10
+msgid "This project is under active development."
+msgstr "本项目正在积极开发中。"
+
+#: ../../source/index.rst:13
+msgid "Contents"
+msgstr "目录"
+

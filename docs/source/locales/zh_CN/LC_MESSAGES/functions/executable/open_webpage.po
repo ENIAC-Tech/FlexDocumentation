@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/executable/open_webpage.md:1
+msgid "Open Webpage"
+msgstr "打开网页"
+
+#: ../../source/functions/executable/open_webpage.md:3
+msgid ""
+"The open webpage key opens a user defined webpage using the default "
+"browser when pressed."
+msgstr ""
+"打开网页按键在按下时使用默认浏览器打开用户定义的网页。"
+
+#: ../../source/functions/executable/open_webpage.md:5
+msgid "![1744946040056](image/open_webpage/1744946040056.png)"
+msgstr "![1744946040056](image/open_webpage/1744946040056.png)"
+
+#: ../../source/functions/executable/open_webpage.md:5
+msgid "1744946040056"
+msgstr "1744946040056"
+
+#: ../../source/functions/executable/open_webpage.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/executable/open_webpage.md:9
+msgid ""
+"The webpage to open can be defined in the function tab in the "
+"FlexDesigner. Enter the URL of the desired webpage (such as "
+"https://www.eniacelec.com) in the input box, and apply changes. There is "
+"a test run button to the right of the input box. It allows doing a test "
+"run directly on the computer before uploading the new profile to the "
+"Flexbar. The test run should perform the same operation as if the key is "
+"pressed on the Flexbar."
+msgstr ""
+"要打开的网页可以在 FlexDesigner 的功能选项卡中定义。在输入框中输入所需网页的 URL（如 https://www.eniacelec.com），然后应用更改。输入框右侧有一个测试运行按钮。它允许在将新配置文件上传到 Flexbar 之前在计算机上直接进行测试运行。测试运行应该执行与在 Flexbar 上按下按键相同的操作。"
+
+#: ../../source/functions/executable/open_webpage.md:11
+msgid "![1744713133673](image/open_webpage/1744713133673.png)"
+msgstr "![1744713133673](image/open_webpage/1744713133673.png)"
+
+#: ../../source/functions/executable/open_webpage.md:11
+msgid "1744713133673"
+msgstr "1744713133673"
+
+#: ../../source/functions/executable/open_webpage.md:13
+msgid ""
+"TIPS: To open the webpage in a specific web browser other than the system"
+" default one, consider using the Scripts feature."
+msgstr ""
+"提示：要在系统默认浏览器以外的特定网络浏览器中打开网页，请考虑使用脚本功能。"
+
+#: ../../source/functions/executable/open_webpage.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/executable/open_webpage.md:17
+msgid "Press the key to open the defined webpage in the FlexDesigner."
+msgstr "按按键打开在 FlexDesigner 中定义的网页。"
+

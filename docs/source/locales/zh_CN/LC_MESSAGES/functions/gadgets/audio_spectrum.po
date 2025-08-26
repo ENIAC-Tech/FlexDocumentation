@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:1
+msgid "Audio Spectrum"
+msgstr "音频频谱"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:3
+msgid ""
+"The audio spectrum key displays the real-time audio spectrum on the "
+"Flexbar."
+msgstr "音频频谱按键在 Flexbar 上显示实时音频频谱。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:5
+msgid "![1744945837496](image/audio_spectrum/1744945837496.png)"
+msgstr "![1744945837496](image/audio_spectrum/1744945837496.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:5
+msgid "1744945837496"
+msgstr "1744945837496"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:9
+msgid ""
+"There are 5 settings for this key, available in the function tab in the "
+"FlexDesigner:"
+msgstr "此按键有 5 个设置选项，可在 FlexDesigner 的功能选项卡中找到："
+
+#: ../../source/functions/gadgets/audio_spectrum.md:11
+msgid "![1744718971816](image/audio_spectrum/1744718971816.png)"
+msgstr "![1744718971816](image/audio_spectrum/1744718971816.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:11
+msgid "1744718971816"
+msgstr "1744718971816"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:13
+msgid ""
+"Input Device: Select the audio source for the audio spectrum key. Select "
+"loop back for visualization of the current playing audio on the host "
+"computer."
+msgstr "输入设备：为音频频谱按键选择音频源。选择回环以可视化主机计算机上当前播放的音频。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:14
+msgid ""
+"Spectrum Mode: Select between the available visual styles of the spectrum"
+" display."
+msgstr "频谱模式：在可用的频谱显示视觉样式之间选择。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:15
+msgid "Color: Select the color for the spectrum display."
+msgstr "颜色：为频谱显示选择颜色。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:16
+msgid ""
+"Color Mode: The interpolation method for gradient colors, supporting both"
+" HSV and RGB modes."
+msgstr "颜色模式：渐变颜色的插值方法，支持 HSV 和 RGB 两种模式。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:17
+msgid "Peak Hold Bar: Show a running peak bar for the spectrum."
+msgstr "峰值保持条：为频谱显示运行峰值条。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:19
+msgid ""
+"For macOS users: Currently it only supports microphone input. To display "
+"spectrum of the audio on your Mac, it's currently required to use third-"
+"party software (such as blackhole) to create virtual device for audio "
+"loop back. Check documentations of relavent third-party software for "
+"installation guides."
+msgstr "对于 macOS 用户：目前仅支持麦克风输入。要在 Mac 上显示音频频谱，目前需要使用第三方软件（如 blackhole）创建音频回环虚拟设备。请查看相关第三方软件的文档以获取安装指南。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:21
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:23
+msgid ""
+"The spectrum would be displayed in the area allocated for this feature. "
+"This is no interactive actions for this key."
+msgstr "频谱将显示在为该功能分配的区域中。此按键没有交互操作。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:25
+msgid "Bar Mode"
+msgstr "条形模式"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:27
+msgid "![1744719172101](image/audio_spectrum/1744719172101.png)"
+msgstr "![1744719172101](image/audio_spectrum/1744719172101.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:27
+msgid "1744719172101"
+msgstr "1744719172101"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:29
+msgid "Waterfall Mode"
+msgstr "瀑布模式"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:31
+msgid "![1744719211079](image/audio_spectrum/1744719211079.png)"
+msgstr "![1744719211079](image/audio_spectrum/1744719211079.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:31
+msgid "1744719211079"
+msgstr "1744719211079"
+

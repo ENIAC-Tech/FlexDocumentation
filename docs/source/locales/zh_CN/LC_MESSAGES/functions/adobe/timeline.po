@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/adobe/timeline.md:1
+msgid "Timeline"
+msgstr "时间轴"
+
+#: ../../source/functions/adobe/timeline.md:3
+msgid ""
+"This document explains how to use Premiere Pro's timeline preview and "
+"control features on the Flexbar."
+msgstr ""
+"本文档说明如何在 Flexbar 上使用 Premiere Pro 的时间轴预览和控制功能。"
+
+#: ../../source/functions/adobe/timeline.md:5
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/adobe/timeline.md:7
+msgid "You can find this feature under the \"Adobe\" category in the Key Library."
+msgstr ""
+"您可以在按键库中的"Adobe"类别下找到此功能。"
+
+#: ../../source/functions/adobe/timeline.md:9
+msgid "![1743306979328](image/timeline/1743306979328.png)"
+msgstr "![1743306979328](image/timeline/1743306979328.png)"
+
+#: ../../source/functions/adobe/timeline.md:9
+msgid "1743306979328"
+msgstr "1743306979328"
+
+#: ../../source/functions/adobe/timeline.md:11
+msgid "**Application**: Currently supported only in Premiere Pro."
+msgstr "**应用程序**：目前仅在 Premiere Pro 中支持。"
+
+#: ../../source/functions/adobe/timeline.md:12
+msgid "**Mode**: Choose between Timeline Mode and Thumbnail Mode."
+msgstr "**模式**：在时间轴模式和缩略图模式之间选择。"
+
+#: ../../source/functions/adobe/timeline.md:13
+msgid ""
+"Thumbnail Mode requires rendering via Adobe Media Encoder, which may "
+"impact performance."
+msgstr ""
+"缩略图模式需要通过 Adobe Media Encoder 进行渲染，这可能会影响性能。"
+
+#: ../../source/functions/adobe/timeline.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/adobe/timeline.md:17
+msgid "**Timeline Mode**: Allows you to preview and scrub through the timeline."
+msgstr "**时间轴模式**：允许您预览和浏览时间轴。"
+
+#: ../../source/functions/adobe/timeline.md:19
+msgid "![1743307039513](image/timeline/1743307039513.png)"
+msgstr "![1743307039513](image/timeline/1743307039513.png)"
+
+#: ../../source/functions/adobe/timeline.md:19
+msgid "1743307039513"
+msgstr "1743307039513"
+
+#: ../../source/functions/adobe/timeline.md:21
+msgid ""
+"**Thumbnail Mode**: Lets you preview each segment with a thumbnail. "
+"Scrubbing shows more precise previews."
+msgstr ""
+"**缩略图模式**：让您通过缩略图预览每个片段。浏览时显示更精确的预览。"
+
+#: ../../source/functions/adobe/timeline.md:23
+msgid "![1743307100773](image/timeline/1743307100773.png)"
+msgstr "![1743307100773](image/timeline/1743307100773.png)"
+
+#: ../../source/functions/adobe/timeline.md:23
+msgid "1743307100773"
+msgstr "1743307100773"
+

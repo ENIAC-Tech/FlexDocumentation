@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/text_emoji.md:1
+msgid "Text/ Emoji"
+msgstr "文本/表情符号"
+
+#: ../../source/functions/input/text_emoji.md:3
+msgid ""
+"The text/ emoji key inserts text to the active input box on the computer."
+" This key supports emoji, but requires the FlexDesigner to be running. "
+"Also see the text key which doesn't support emoji but also doesn't depend"
+" on the FlexDesigner."
+msgstr "文本/表情符号按键将文本插入到计算机上的活动输入框中。此按键支持表情符号，但需要运行 FlexDesigner。另请参阅不支持表情符号但也不依赖 FlexDesigner 的文本按键。"
+
+#: ../../source/functions/input/text_emoji.md:5
+msgid "![1744984750189](image/text_emoji/1744984750189.png)"
+msgstr "![1744984750189](image/text_emoji/1744984750189.png)"
+
+#: ../../source/functions/input/text_emoji.md:5
+msgid "1744984750189"
+msgstr "1744984750189"
+
+#: ../../source/functions/input/text_emoji.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/text_emoji.md:9
+msgid "![1744984738429](image/text_emoji/1744984738429.png)"
+msgstr "![1744984738429](image/text_emoji/1744984738429.png)"
+
+#: ../../source/functions/input/text_emoji.md:9
+msgid "1744984738429"
+msgstr "1744984738429"
+
+#: ../../source/functions/input/text_emoji.md:11
+msgid ""
+"The text or emoji (or any combination of these in one or multiple lines) "
+"can be defined in the function tab in the FlexDesigner. Emoji can be "
+"inserted with third party input method/ panels (such as the emoji picker "
+"on the macOS), or using the emoji button to the right of the input box. "
+"To enlarge the input box, drag the dashed triangle to the lower right of "
+"the input box."
+msgstr "文本或表情符号（或这些内容在一行或多行中的任何组合）可以在 FlexDesigner 的功能选项卡中定义。表情符号可以通过第三方输入法/面板（如 macOS 上的表情符号选择器）插入，或使用输入框右侧的表情符号按钮。要放大输入框，请将虚线三角形拖到输入框的右下角。"
+
+#: ../../source/functions/input/text_emoji.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/text_emoji.md:15
+msgid "Press the key to insert the defined text/ emoji to the active input box."
+msgstr "按按键将定义的文本/表情符号插入到活动输入框中。"
+

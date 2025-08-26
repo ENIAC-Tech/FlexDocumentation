@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/volume_control.md:1
+msgid "Volume Control"
+msgstr "音量控制"
+
+#: ../../source/functions/system_control/volume_control.md:3
+msgid ""
+"The volume control key allows controlling system audio output volume. The"
+" volume on the slider would be automatically kept in sync with the system"
+" volume setting."
+msgstr "音量控制按键允许控制系统音频输出音量。滑块上的音量会自动与系统音量设置保持同步。"
+
+#: ../../source/functions/system_control/volume_control.md:5
+msgid ""
+"This key only works when the FlexDesigner is running. If this is not "
+"desired, consider using the 'Scroll Wheel' key in the 'Input' category, "
+"and bind the left/ right action to volume down/ up. The catch is that the"
+" scroll wheel key won't be able to display the current volume."
+msgstr "此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用"输入"类别中的"滚轮"按键，并将左/右操作绑定到音量降低/提高。问题是滚轮按键无法显示当前音量。"
+
+#: ../../source/functions/system_control/volume_control.md:7
+msgid "![1745502370652](image/volume_control/1745502370652.png)"
+msgstr "![1745502370652](image/volume_control/1745502370652.png)"
+
+#: ../../source/functions/system_control/volume_control.md:7
+msgid "1745502370652"
+msgstr "1745502370652"
+
+#: ../../source/functions/system_control/volume_control.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/system_control/volume_control.md:11
+msgid ""
+"Other than the standard visual options, this key doesn't have any "
+"additional configurable functions in the FlexDesigner."
+msgstr "除了标准视觉选项外，此按键在 FlexDesigner 中没有任何额外的可配置功能。"
+
+#: ../../source/functions/system_control/volume_control.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/system_control/volume_control.md:15
+msgid ""
+"Drag the slider on the Flexbar to adjust system volume. When the volume "
+"is changed with other methods (such as changing with keyboard shortcut or"
+" system panel), the change would be synced and reflected on the slider as"
+" well."
+msgstr "在 Flexbar 上拖动滑块来调整系统音量。当通过其他方法（如使用键盘快捷键或系统面板）更改音量时，更改也会同步并反映在滑块上。"
+

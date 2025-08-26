@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/monitor_power_control.md:1
+msgid "Monitor Power Control"
+msgstr "显示器电源控制"
+
+#: ../../source/functions/system_control/monitor_power_control.md:3
+msgid ""
+"This key allows turning off external monitors using the DDC/CI protocol. "
+"Most of the monitors supports this protocol to some degree. This key also"
+" allows controlling multiple monitors simultaneously. Note that this key "
+"won't be able to turn the monitor back on, as the connection to the "
+"monitor is lost after it has been turned off. This key only works when "
+"the FlexDesigner is running."
+msgstr "此按键允许使用 DDC/CI 协议关闭外部显示器。大多数显示器在某种程度上都支持此协议。此按键还允许同时控制多个显示器。请注意，此按键无法重新打开显示器，因为显示器关闭后与显示器的连接会丢失。此按键仅在 FlexDesigner 运行时工作。"
+
+#: ../../source/functions/system_control/monitor_power_control.md:5
+msgid "![1745502329080](image/monitor_power_control/1745502329080.png)"
+msgstr "![1745502329080](image/monitor_power_control/1745502329080.png)"
+
+#: ../../source/functions/system_control/monitor_power_control.md:5
+msgid "1745502329080"
+msgstr "1745502329080"
+
+#: ../../source/functions/system_control/monitor_power_control.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/system_control/monitor_power_control.md:9
+msgid "![1745502353165](image/monitor_power_control/1745502353165.png)"
+msgstr "![1745502353165](image/monitor_power_control/1745502353165.png)"
+
+#: ../../source/functions/system_control/monitor_power_control.md:9
+msgid "1745502353165"
+msgstr "1745502353165"
+
+#: ../../source/functions/system_control/monitor_power_control.md:11
+msgid ""
+"A list of connected monitors would show up in the function tab of this "
+"key. It also shows the control supported by the monitor. Of each monitor,"
+" there is a checkbox to the right. Only checked monitors would be "
+"controlled by this key."
+msgstr "此按键的功能选项卡中会显示已连接显示器的列表。它还显示显示器支持的控制。每个显示器的右侧都有一个复选框。只有选中的显示器才会被此按键控制。"
+
+#: ../../source/functions/system_control/monitor_power_control.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/system_control/monitor_power_control.md:15
+msgid "Press the key to turn off the selected monitor."
+msgstr "按按键关闭选中的显示器。"
+

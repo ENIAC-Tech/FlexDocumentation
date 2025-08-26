@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/timer.md:1
+msgid "Timer"
+msgstr "计时器"
+
+#: ../../source/functions/utilities/timer.md:3
+msgid ""
+"A countdown timer that can perform a sequence of actions when the timer "
+"starts or ends. You can configure alarms for when the timer finishes."
+msgstr ""
+"倒计时计时器，可以在计时器开始或结束时执行一系列操作。您可以为计时器结束时配置警报。"
+
+#: ../../source/functions/utilities/timer.md:5
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/utilities/timer.md:7
+msgid "![1745511449741](image/timer/1745511449741.png)"
+msgstr "![1745511449741](image/timer/1745511449741.png)"
+
+#: ../../source/functions/utilities/timer.md:7
+msgid "1745511449741"
+msgstr "1745511449741"
+
+#: ../../source/functions/utilities/timer.md:9
+msgid "Set the countdown duration"
+msgstr "设置倒计时持续时间"
+
+#: ../../source/functions/utilities/timer.md:10
+msgid ""
+"Choose the alarm type when countdown ends: disabled, button alarm, or "
+"full-screen alarm"
+msgstr ""
+"选择倒计时结束时的警报类型：禁用、按钮警报或全屏警报"
+
+#: ../../source/functions/utilities/timer.md:11
+msgid "Option to hide the countdown time display"
+msgstr "隐藏倒计时时间显示的选项"
+
+#: ../../source/functions/utilities/timer.md:12
+msgid "Position of the countdown time display"
+msgstr "倒计时时间显示的位置"
+
+#: ../../source/functions/utilities/timer.md:13
+msgid ""
+"Actions to execute when the countdown starts/ends, configured the same "
+"way as [Sequenced Keys](../more/sequenced_keys.md)"
+msgstr ""
+"倒计时开始/结束时执行的操作，配置方式与 [序列按键](../more/sequenced_keys.md) 相同"
+
+#: ../../source/functions/utilities/timer.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/utilities/timer.md:17
+msgid ""
+"When the countdown starts, a semi-transparent black overlay shows the "
+"progress. An alarm will sound when the countdown ends."
+msgstr ""
+"倒计时开始时，半透明黑色覆盖层显示进度。倒计时结束时将发出警报声。"
+
+#: ../../source/functions/utilities/timer.md:19
+msgid "![1745511701014](image/timer/1745511701014.png)"
+msgstr "![1745511701014](image/timer/1745511701014.png)"
+
+#: ../../source/functions/utilities/timer.md:19
+msgid "1745511701014"
+msgstr "1745511701014"
+
+#: ../../source/functions/utilities/timer.md:21
+msgid "Full-screen alarm:"
+msgstr "全屏警报："
+
+#: ../../source/functions/utilities/timer.md:23
+msgid "![1745511776545](image/timer/1745511776545.png)"
+msgstr "![1745511776545](image/timer/1745511776545.png)"
+
+#: ../../source/functions/utilities/timer.md:23
+msgid "1745511776545"
+msgstr "1745511776545"
+
+#: ../../source/functions/utilities/timer.md:25
+msgid ""
+"Long-press the timer button on the Flexbar to quickly open the time "
+"settings. Drag the slider to adjust the countdown duration."
+msgstr ""
+"长按 Flexbar 上的计时器按钮快速打开时间设置。拖拽滑块调整倒计时持续时间。"
+
+#: ../../source/functions/utilities/timer.md:27
+msgid "![1745511887805](image/timer/1745511887805.png)"
+msgstr "![1745511887805](image/timer/1745511887805.png)"
+
+#: ../../source/functions/utilities/timer.md:27
+msgid "1745511887805"
+msgstr "1745511887805"
+

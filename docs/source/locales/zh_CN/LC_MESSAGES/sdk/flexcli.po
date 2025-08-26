@@ -1,0 +1,369 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/flexcli.md:1
+msgid "FlexCLI Tool Documentation"
+msgstr "FlexCLI工具文档"
+
+#: ../../source/sdk/flexcli.md:3
+msgid ""
+"This document provides an overview and guide for using the CLI tool that "
+"interacts with plugins and FlexDesigner. The tool provides various "
+"commands for managing plugins such as linking, restarting, debugging, "
+"installing, and uninstalling plugins. It also supports creating a plugin "
+"project and validating the plugin structure."
+msgstr ""
+"本文档提供了与插件和FlexDesigner交互的CLI工具的概述和使用指南。该工具提供各种"
+"管理插件的命令，如链接、重启、调试、安装和卸载插件。它还支持创建插件项目和验证插件结构。"
+
+#: ../../source/sdk/flexcli.md:5
+msgid "Installation"
+msgstr "安装"
+
+#: ../../source/sdk/flexcli.md:7
+msgid "Prerequisites"
+msgstr "前置要求"
+
+#: ../../source/sdk/flexcli.md:9
+msgid "Node.js version 18 or higher"
+msgstr "Node.js 18或更高版本"
+
+#: ../../source/sdk/flexcli.md:10
+msgid "FlexDesigner version 1.0.0 or higher."
+msgstr "FlexDesigner 1.0.0或更高版本。"
+
+#: ../../source/sdk/flexcli.md:12
+msgid "Setup"
+msgstr "设置"
+
+#: ../../source/sdk/flexcli.md:14
+msgid "Install the FlexDesigner CLI Tool by running the following command."
+msgstr "通过运行以下命令安装FlexDesigner CLI工具。"
+
+#: ../../source/sdk/flexcli.md:20
+msgid "Commands"
+msgstr "命令"
+
+#: ../../source/sdk/flexcli.md:22
+msgid "`plugin link`"
+msgstr "`plugin link`"
+
+#: ../../source/sdk/flexcli.md:24
+msgid "Links a plugin to the FlexDesigner."
+msgstr "将插件链接到FlexDesigner。"
+
+#: ../../source/sdk/flexcli.md:26 ../../source/sdk/flexcli.md:45
+#: ../../source/sdk/flexcli.md:59 ../../source/sdk/flexcli.md:74
+#: ../../source/sdk/flexcli.md:98 ../../source/sdk/flexcli.md:114
+#: ../../source/sdk/flexcli.md:129 ../../source/sdk/flexcli.md:143
+msgid "Options:"
+msgstr "选项："
+
+#: ../../source/sdk/flexcli.md:28 ../../source/sdk/flexcli.md:100
+#: ../../source/sdk/flexcli.md:145
+msgid "`--path <path>`: Path to the plugin directory (required)"
+msgstr "`--path <path>`：插件目录路径（必需）"
+
+#: ../../source/sdk/flexcli.md:29
+msgid "`--uuid <uuid>`: UUID of the plugin (required)"
+msgstr "`--uuid <uuid>`：插件UUID（必需）"
+
+#: ../../source/sdk/flexcli.md:30
+msgid "`--debug <debug>`: Enable or disable debug mode (default: false)"
+msgstr "`--debug <debug>`：启用或禁用调试模式（默认：false）"
+
+#: ../../source/sdk/flexcli.md:31
+msgid "`--skip-validate`: Skip the validation step (default: false)"
+msgstr "`--skip-validate`：跳过验证步骤（默认：false）"
+
+#: ../../source/sdk/flexcli.md:32
+msgid "`--force`: Force override of an existing plugin (default: false)"
+msgstr "`--force`：强制覆盖现有插件（默认：false）"
+
+#: ../../source/sdk/flexcli.md:33
+msgid ""
+"`--start <start>`: Whether to start the plugin after linking (default: "
+"true)"
+msgstr ""
+"`--start <start>`：链接后是否启动插件（默认：true）"
+
+#: ../../source/sdk/flexcli.md:35 ../../source/sdk/flexcli.md:49
+#: ../../source/sdk/flexcli.md:64 ../../source/sdk/flexcli.md:78
+#: ../../source/sdk/flexcli.md:88 ../../source/sdk/flexcli.md:104
+#: ../../source/sdk/flexcli.md:119 ../../source/sdk/flexcli.md:133
+#: ../../source/sdk/flexcli.md:147 ../../source/sdk/flexcli.md:157
+#: ../../source/sdk/flexcli.md:179
+msgid "Description:"
+msgstr "描述："
+
+#: ../../source/sdk/flexcli.md:37
+msgid ""
+"This command links a plugin to the FlexDesigner by specifying its path "
+"and UUID. It also provides options to enable debug mode, skip validation,"
+" force override, and start the plugin after linking."
+msgstr ""
+"此命令通过指定路径和UUID将插件链接到FlexDesigner。它还提供启用调试模式、"
+"跳过验证、强制覆盖和链接后启动插件的选项。"
+
+#: ../../source/sdk/flexcli.md:41
+msgid "`plugin restart`"
+msgstr "`plugin restart`"
+
+#: ../../source/sdk/flexcli.md:43
+msgid "Restarts a plugin."
+msgstr "重启插件。"
+
+#: ../../source/sdk/flexcli.md:47
+msgid "`--uuid <uuid>`: UUID of the plugin to restart (required)"
+msgstr "`--uuid <uuid>`：要重启的插件UUID（必需）"
+
+#: ../../source/sdk/flexcli.md:51
+msgid "This command restarts a plugin using the provided UUID."
+msgstr "此命令使用提供的UUID重启插件。"
+
+#: ../../source/sdk/flexcli.md:55
+msgid "`plugin unlink`"
+msgstr "`plugin unlink`"
+
+#: ../../source/sdk/flexcli.md:57
+msgid "Unlinks a plugin from the FlexDesigner."
+msgstr "从FlexDesigner取消链接插件。"
+
+#: ../../source/sdk/flexcli.md:61
+msgid "`--uuid <uuid>`: UUID of the plugin to unlink (required)"
+msgstr "`--uuid <uuid>`：要取消链接的插件UUID（必需）"
+
+#: ../../source/sdk/flexcli.md:62
+msgid "`--silent`: Run in silent mode without output (default: false)"
+msgstr "`--silent`：静默模式运行，无输出（默认：false）"
+
+#: ../../source/sdk/flexcli.md:66
+msgid ""
+"This command unlinks a plugin from the FlexDesigner using the specified "
+"UUID."
+msgstr "此命令使用指定的UUID从FlexDesigner取消链接插件。"
+
+#: ../../source/sdk/flexcli.md:70
+msgid "`plugin debug`"
+msgstr "`plugin debug`"
+
+#: ../../source/sdk/flexcli.md:72
+msgid "Debugs a plugin."
+msgstr "调试插件。"
+
+#: ../../source/sdk/flexcli.md:76
+msgid "`--uuid <uuid>`: UUID of the plugin to debug (required)"
+msgstr "`--uuid <uuid>`：要调试的插件UUID（必需）"
+
+#: ../../source/sdk/flexcli.md:80
+msgid ""
+"This command is used to debug a plugin using its UUID. It connects to the"
+" plugin and provides debugging information."
+msgstr ""
+"此命令用于使用UUID调试插件。它连接到插件并提供调试信息。"
+
+#: ../../source/sdk/flexcli.md:84
+msgid "`plugin list`"
+msgstr "`plugin list`"
+
+#: ../../source/sdk/flexcli.md:86
+msgid "Lists all the installed plugins."
+msgstr "列出所有已安装的插件。"
+
+#: ../../source/sdk/flexcli.md:90
+msgid ""
+"This command lists all the plugins currently installed in the "
+"FlexDesigner."
+msgstr "此命令列出FlexDesigner中当前安装的所有插件。"
+
+#: ../../source/sdk/flexcli.md:94
+msgid "`plugin pack`"
+msgstr "`plugin pack`"
+
+#: ../../source/sdk/flexcli.md:96
+msgid "Packs a plugin into a `.flexplugin` file."
+msgstr "将插件打包成`.flexplugin`文件。"
+
+#: ../../source/sdk/flexcli.md:101
+msgid "`--output <output>`: Output path for the `.flexplugin` file"
+msgstr "`--output <output>`：`.flexplugin`文件的输出路径"
+
+#: ../../source/sdk/flexcli.md:102
+msgid "`--skip-validate`: Skip validation (default: false)"
+msgstr "`--skip-validate`：跳过验证（默认：false）"
+
+#: ../../source/sdk/flexcli.md:106
+msgid ""
+"This command packages the plugin into a `.flexplugin` file, with options "
+"for specifying the output path and skipping validation."
+msgstr ""
+"此命令将插件打包成`.flexplugin`文件，提供指定输出路径和跳过验证的选项。"
+
+#: ../../source/sdk/flexcli.md:110
+msgid "`plugin install`"
+msgstr "`plugin install`"
+
+#: ../../source/sdk/flexcli.md:112
+msgid "Installs a plugin from a `.flexplugin` file."
+msgstr "从`.flexplugin`文件安装插件。"
+
+#: ../../source/sdk/flexcli.md:116
+msgid "`--path <path>`: Path to the `.flexplugin` file (required)"
+msgstr "`--path <path>`：`.flexplugin`文件路径（必需）"
+
+#: ../../source/sdk/flexcli.md:117
+msgid "`--force`: Force the installation (default: false)"
+msgstr "`--force`：强制安装（默认：false）"
+
+#: ../../source/sdk/flexcli.md:121
+msgid ""
+"This command installs a plugin using the `.flexplugin` file. If the file "
+"extension is not `.flexplugin`, an error will be shown. The `--force` "
+"option allows forcing the installation."
+msgstr ""
+"此命令使用`.flexplugin`文件安装插件。如果文件扩展名不是`.flexplugin`，"
+"将显示错误。`--force`选项允许强制安装。"
+
+#: ../../source/sdk/flexcli.md:125
+msgid "`plugin uninstall`"
+msgstr "`plugin uninstall`"
+
+#: ../../source/sdk/flexcli.md:127
+msgid "Uninstalls a plugin."
+msgstr "卸载插件。"
+
+#: ../../source/sdk/flexcli.md:131
+msgid "`--uuid <uuid>`: UUID of the plugin to uninstall (required)"
+msgstr "`--uuid <uuid>`：要卸载的插件UUID（必需）"
+
+#: ../../source/sdk/flexcli.md:135
+msgid "This command uninstalls the plugin using the specified UUID."
+msgstr "此命令使用指定的UUID卸载插件。"
+
+#: ../../source/sdk/flexcli.md:139
+msgid "`plugin validate`"
+msgstr "`plugin validate`"
+
+#: ../../source/sdk/flexcli.md:141
+msgid "Validates the structure and manifest of a plugin."
+msgstr "验证插件的结构和清单。"
+
+#: ../../source/sdk/flexcli.md:149
+msgid ""
+"This command validates the plugin directory and its manifest to ensure "
+"that it follows the correct structure."
+msgstr ""
+"此命令验证插件目录及其清单，确保它遵循正确的结构。"
+
+#: ../../source/sdk/flexcli.md:153
+msgid "`plugin create`"
+msgstr "`plugin create`"
+
+#: ../../source/sdk/flexcli.md:155
+msgid "Creates a basic plugin workspace."
+msgstr "创建基本插件工作空间。"
+
+#: ../../source/sdk/flexcli.md:159
+msgid ""
+"This command creates a basic workspace for a new plugin, allowing you to "
+"specify details like the plugin path, name, version, author, description,"
+" and repository URL."
+msgstr ""
+"此命令为新插件创建基本工作空间，允许您指定插件路径、名称、版本、作者、"
+"描述和仓库URL等详细信息。"
+
+#: ../../source/sdk/flexcli.md:161
+msgid "It will prompt you for the following information:"
+msgstr "它将提示您输入以下信息："
+
+#: ../../source/sdk/flexcli.md:163
+msgid "Plugin path"
+msgstr "插件路径"
+
+#: ../../source/sdk/flexcli.md:164
+msgid "Plugin name"
+msgstr "插件名称"
+
+#: ../../source/sdk/flexcli.md:165
+msgid "Author name"
+msgstr "作者名称"
+
+#: ../../source/sdk/flexcli.md:166
+msgid "Reversed domain UUID (e.g., `com.author.myplugin`)"
+msgstr "反向域名UUID（例如，`com.author.myplugin`）"
+
+#: ../../source/sdk/flexcli.md:167
+msgid "Version (in format `x.y.z`)"
+msgstr "版本（格式为`x.y.z`）"
+
+#: ../../source/sdk/flexcli.md:168
+msgid "Description"
+msgstr "描述"
+
+#: ../../source/sdk/flexcli.md:169
+msgid "Repository URL"
+msgstr "仓库URL"
+
+#: ../../source/sdk/flexcli.md:171
+msgid "The created workspace will be initialized with the provided information."
+msgstr "创建的工作空间将使用提供的信息进行初始化。"
+
+#: ../../source/sdk/flexcli.md:175
+msgid "`plugin kill`"
+msgstr "`plugin kill`"
+
+#: ../../source/sdk/flexcli.md:177
+msgid "Kill plugin thread."
+msgstr "终止插件线程。"
+
+#: ../../source/sdk/flexcli.md:181
+msgid "This command kills the Plugin thread in FlexDesigner"
+msgstr "此命令终止FlexDesigner中的插件线程"
+
+#: ../../source/sdk/flexcli.md:185
+msgid "General Options"
+msgstr "通用选项"
+
+#: ../../source/sdk/flexcli.md:187
+msgid "`--port <number>`: Specifies the WebSocket server port (default: 60109)"
+msgstr "`--port <number>`：指定WebSocket服务器端口（默认：60109）"
+
+#: ../../source/sdk/flexcli.md:191
+msgid "Example Usage"
+msgstr "使用示例"
+
+#: ../../source/sdk/flexcli.md:193
+msgid "To link a plugin:"
+msgstr "链接插件："
+
+#: ../../source/sdk/flexcli.md:199
+msgid "To restart a plugin:"
+msgstr "重启插件："
+
+#: ../../source/sdk/flexcli.md:205
+msgid "To list all plugins:"
+msgstr "列出所有插件："
+
+#: ../../source/sdk/flexcli.md:211
+msgid "To create a new plugin workspace:"
+msgstr "创建新的插件工作空间："
+

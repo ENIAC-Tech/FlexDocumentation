@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/mouse.md:1
+msgid "Mouse"
+msgstr "鼠标"
+
+#: ../../source/functions/input/mouse.md:3
+msgid "The mouse key sends mouse actions as if on an actual mouse."
+msgstr "鼠标按键发送鼠标操作，就像在实际鼠标上操作一样。"
+
+#: ../../source/functions/input/mouse.md:5
+msgid ""
+"This feature emulates a standard USB mouse. It works on any devices "
+"without having FlexDesigner running."
+msgstr ""
+"此功能模拟标准 USB 鼠标。它可以在任何设备上工作，无需运行 FlexDesigner。"
+
+#: ../../source/functions/input/mouse.md:7
+msgid "![1744983987017](image/mouse/1744983987017.png)"
+msgstr "![1744983987017](image/mouse/1744983987017.png)"
+
+#: ../../source/functions/input/mouse.md:7
+msgid "1744983987017"
+msgstr "1744983987017"
+
+#: ../../source/functions/input/mouse.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/mouse.md:11
+msgid "![1744984004083](image/mouse/1744984004083.png)"
+msgstr "![1744984004083](image/mouse/1744984004083.png)"
+
+#: ../../source/functions/input/mouse.md:11
+msgid "1744984004083"
+msgstr "1744984004083"
+
+#: ../../source/functions/input/mouse.md:13
+msgid "The FlexDesigner exposes the following settings for this key:"
+msgstr "FlexDesigner 为此按键提供以下设置："
+
+#: ../../source/functions/input/mouse.md:15
+msgid ""
+"Buttons: Includes the 'Left', 'Right', 'Middle', 'Back', and 'Forward' "
+"checkboxes. These specify if any of those buttons should be pressed in "
+"the mouse event."
+msgstr ""
+"按钮：包括"左键"、"右键"、"中键"、"后退"和"前进"复选框。这些指定在鼠标事件中是否应该按下这些按钮中的任何一个。"
+
+#: ../../source/functions/input/mouse.md:16
+msgid ""
+"Movement: Specify how much the mouse should move when triggered. The "
+"'wheel' and 'pan' specifies the movement of the vertical scroll wheel and"
+" the horizontal scroll wheel respectively."
+msgstr ""
+"移动：指定触发时鼠标应该移动多少。"滚轮"和"平移"分别指定垂直滚轮和水平滚轮的移动。"
+
+#: ../../source/functions/input/mouse.md:17
+msgid ""
+"Absolute Position: When checked, the movement would be sent as absolute "
+"movement instead of relative. Which means the mouse would be moved to the"
+" specified location, instead of move by the specified distance."
+msgstr ""
+"绝对位置：选中时，移动将作为绝对移动而不是相对移动发送。这意味着鼠标将移动到指定位置，而不是按指定距离移动。"
+
+#: ../../source/functions/input/mouse.md:18
+msgid "Double Click: Check if the click needs to be a double click"
+msgstr "双击：检查点击是否需要是双击"
+
+#: ../../source/functions/input/mouse.md:19
+msgid ""
+"Release After Click: Check if the mouse buttons should be released after "
+"click. Otherwise, the mouse button would be in the pressed state"
+msgstr ""
+"点击后释放：检查点击后是否应该释放鼠标按钮。否则，鼠标按钮将处于按下状态"
+
+#: ../../source/functions/input/mouse.md:21
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/mouse.md:23
+msgid "Press the key on the Flexbar to trigger the defined action."
+msgstr "在 Flexbar 上按下按键以触发定义的操作。"
+

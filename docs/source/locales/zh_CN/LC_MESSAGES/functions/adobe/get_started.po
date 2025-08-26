@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/adobe/get_started.md:1
+msgid "Adobe Get Started"
+msgstr "Adobe 入门指南"
+
+#: ../../source/functions/adobe/get_started.md:3
+#, fuzzy
+msgid ""
+"This document explains how to install the FlexLink plugin into your Adobe"
+" applications to use Flexbar’s Adobe integration features."
+msgstr "本文档说明如何在您的 Adobe 应用程序中安装 FlexLink 插件，以使用 Flexbar 的 Adobe 集成功能。"
+
+#: ../../source/functions/adobe/get_started.md:5
+#, fuzzy
+msgid ""
+"Since the FlexLink plugin is built using the legacy Adobe CEP framework, "
+"it may not run properly on Apple Silicon devices. We’re actively working "
+"on a new UXP version to replace it."
+msgstr ""
+"由于 FlexLink 插件是使用传统的 Adobe CEP 框架构建的，它可能在 Apple Silicon "
+"设备上无法正常运行。我们正在积极开发新的 UXP 版本来替代它。"
+
+#: ../../source/functions/adobe/get_started.md:7
+msgid "Enable Developer Mode"
+msgstr "启用开发者模式"
+
+#: ../../source/functions/adobe/get_started.md:9
+#, python-format
+msgid ""
+"First, update the following Adobe setting to prevent your host "
+"application (Photoshop, InDesign, etc.) from showing warnings about "
+"unsigned extensions. Refer to the [HTML Extension "
+"Cookbook](https://github.com/Adobe-CEP/CEP-"
+"Resources/blob/master/CEP_8.x/Documentation/CEP%208.0%20HTML%20Extension%20Cookbook.md)"
+" section on [Debugging Unsigned Extensions](https://github.com/Adobe-CEP"
+"/CEP-"
+"Resources/blob/master/CEP_8.x/Documentation/CEP%208.0%20HTML%20Extension%20Cookbook.md"
+"#debugging-unsigned-extensions) for more details:"
+msgstr ""
+"首先，更新以下 Adobe 设置以防止您的主机应用程序（Photoshop、InDesign "
+"等）显示关于未签名扩展的警告。有关更多详细信息，请参阅 [HTML 扩展手册](https://github.com/Adobe-CEP/CEP-"
+"Resources/blob/master/CEP_8.x/Documentation/CEP%208.0%20HTML%20Extension%20Cookbook.md)"
+" 中的 [调试未签名扩展](https://github.com/Adobe-CEP/CEP-"
+"Resources/blob/master/CEP_8.x/Documentation/CEP%208.0%20HTML%20Extension%20Cookbook.md"
+"#debugging-unsigned-extensions) 部分："
+
+#: ../../source/functions/adobe/get_started.md:11
+msgid ""
+"**Windows**: Open **regedit** and navigate to "
+"`HKEY_CURRENT_USER/Software/Adobe/CSXS.<X>`. Add a new string value named"
+" `PlayerDebugMode` and set it to `1`."
+msgstr ""
+"**Windows**：打开 **regedit** 并导航到 "
+"`HKEY_CURRENT_USER/Software/Adobe/CSXS.<X>`。添加一个名为 `PlayerDebugMode` "
+"的新字符串值，并将其设置为 `1`。"
+
+#: ../../source/functions/adobe/get_started.md:13
+msgid "⚠️ Make sure there are no extra spaces in `PlayerDebugMode`."
+msgstr "⚠️ 确保 `PlayerDebugMode` 中没有多余的空格。"
+
+#: ../../source/functions/adobe/get_started.md:15
+msgid ""
+"**Mac**: Open **Terminal** and run: `defaults write com.adobe.CSXS.12 "
+"PlayerDebugMode 1` `defaults write com.adobe.CSXS.12 "
+"AllowUnsignedExtensions -bool true`"
+msgstr ""
+"**Mac**：打开 **终端** 并运行：`defaults write com.adobe.CSXS.12 PlayerDebugMode "
+"1` `defaults write com.adobe.CSXS.12 AllowUnsignedExtensions -bool true`"
+
+#: ../../source/functions/adobe/get_started.md:19
+msgid ""
+"⚠️ `CSXS.<VERSION>` needs to be adjusted according to your Adobe software"
+" version, version 12 for 2025, version 11 for 2024"
+msgstr "⚠️ `CSXS.<VERSION>` 需要根据您的 Adobe 软件版本进行调整，2025 年为版本 12，2024 年为版本 11"
+
+#: ../../source/functions/adobe/get_started.md:21
+msgid "![1743305498679](image/get_started/1743305498679.png)"
+msgstr "![1743305498679](image/get_started/1743305498679.png)"
+
+#: ../../source/functions/adobe/get_started.md:21
+msgid "1743305498679"
+msgstr "1743305498679"
+
+#: ../../source/functions/adobe/get_started.md:23
+msgid ""
+"*On Windows, Regedit is located at `C:\\Windows\\regedit`. You can open "
+"it from CMD or by pressing `WIN + R` and typing `regedit`.*"
+msgstr ""
+"*在 Windows 上，Regedit 位于 `C:\\Windows\\regedit`。您可以从 CMD 打开它，或者按 `WIN + R`"
+" 并输入 `regedit`。*"
+
+#: ../../source/functions/adobe/get_started.md:25
+msgid "![1743305585372](image/get_started/1743305585372.png)"
+msgstr "![1743305585372](image/get_started/1743305585372.png)"
+
+#: ../../source/functions/adobe/get_started.md:25
+msgid "1743305585372"
+msgstr "1743305585372"
+
+#: ../../source/functions/adobe/get_started.md:27
+msgid "*On macOS, Terminal is located at `Applications > Utilities > Terminal`.*"
+msgstr "*在 macOS 上，终端位于 `应用程序 > 实用工具 > 终端`。*"
+
+#: ../../source/functions/adobe/get_started.md:29
+msgid "Install the FlexLink Plugin"
+msgstr "安装 FlexLink 插件"
+
+#: ../../source/functions/adobe/get_started.md:31
+msgid ""
+"Download and extract the "
+"[FlexLink](../../../assets/com.eniac.FlexLink-1.0.zip) archive. Copy the "
+"`com.eniac.FlexLink-1.0` folder to the appropriate directory:"
+msgstr ""
+"下载并解压 [FlexLink](../../../assets/com.eniac.FlexLink-1.0.zip) 压缩包。将 "
+"`com.eniac.FlexLink-1.0` 文件夹复制到相应的目录："
+
+#: ../../source/functions/adobe/get_started.md:33
+msgid ""
+"The paths below are the default install locations for the 2025 versions. "
+"Adjust them as needed for your setup."
+msgstr "以下路径是 2025 版本的默认安装位置。根据您的设置需要调整它们。"
+
+#: ../../source/functions/adobe/get_started.md:35
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../source/functions/adobe/get_started.md:37
+msgid ""
+"**Adobe Premiere Pro**:`C:\\Program Files\\Adobe\\Adobe Premiere Pro "
+"2025\\CEP\\extensions`"
+msgstr ""
+"**Adobe Premiere Pro**：`C:\\Program Files\\Adobe\\Adobe Premiere Pro "
+"2025\\CEP\\extensions`"
+
+#: ../../source/functions/adobe/get_started.md:38
+msgid ""
+"**Adobe Photoshop**: `C:\\Program Files\\Adobe\\Adobe Photoshop "
+"2025\\Required\\CEP\\extensions`"
+msgstr ""
+"**Adobe Photoshop**：`C:\\Program Files\\Adobe\\Adobe Photoshop "
+"2025\\Required\\CEP\\extensions`"
+
+#: ../../source/functions/adobe/get_started.md:41
+msgid "Macos"
+msgstr "macOS"
+
+#: ../../source/functions/adobe/get_started.md:43
+msgid ""
+"**Adobe Premiere Pro**: /Applications/Adobe Premiere Pro 2025/Adobe "
+"Premiere Pro 2025.app/Contents/CEP/extensions"
+msgstr ""
+"**Adobe Premiere Pro**：/Applications/Adobe Premiere Pro 2025/Adobe "
+"Premiere Pro 2025.app/Contents/CEP/extensions"
+
+#: ../../source/functions/adobe/get_started.md:44
+msgid ""
+"**Adobe Photoshop**: /Applications/Adobe Photoshop 2025/Adobe Photoshop "
+"2025.app/Contents/Required/CEP/extensions You may need to right-click on "
+"the application and select \"Show Package Contents\" to access these "
+"folders. Copy the com.eniac.FlexLink-1.0 folder to the extensions "
+"directory of the respective application."
+msgstr ""
+"**Adobe Photoshop**：/Applications/Adobe Photoshop 2025/Adobe Photoshop "
+"2025.app/Contents/Required/CEP/extensions "
+"您可能需要右键单击应用程序并选择\"显示包内容\"来访问这些文件夹。将 com.eniac.FlexLink-1.0 "
+"文件夹复制到相应应用程序的扩展目录。"
+
+#: ../../source/functions/adobe/get_started.md:47
+msgid "Verify Installation"
+msgstr "验证安装"
+
+#: ../../source/functions/adobe/get_started.md:49
+msgid ""
+"After launching your Adobe application, go to `Window > Extensions` and "
+"look for `Flex Link`."
+msgstr "启动 Adobe 应用程序后，转到 `窗口 > 扩展` 并查找 `Flex Link`。"
+
+#: ../../source/functions/adobe/get_started.md:51
+#, fuzzy
+msgid "You’re all set! Flexbar’s Adobe integration is now ready to use."
+msgstr "一切就绪！Flexbar 的 Adobe 集成现在可以使用了。"
+

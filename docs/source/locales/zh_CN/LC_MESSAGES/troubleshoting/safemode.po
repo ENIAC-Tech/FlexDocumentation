@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/safemode.md:1
+msgid "Safe Mode"
+msgstr "安全模式"
+
+#: ../../source/troubleshoting/safemode.md:3
+msgid ""
+"When in Safe Mode, Flexbar doesn't load any profiles. This mode is "
+"designed to prevent the device from becoming unusable due to crashes "
+"caused by profile loading failures, ensuring you can still update "
+"firmware or profiles."
+msgstr ""
+"在安全模式下，Flexbar 不加载任何配置文件。此模式旨在防止设备由于配置文件加载失败导致的崩溃而变得不可用，确保您仍然可以更新固件或配置文件。"
+
+#: ../../source/troubleshoting/safemode.md:5
+msgid "![1743991410209](image/safemode/1743991410209.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/safemode.md:5
+msgid "1743991410209"
+msgstr ""
+
+#: ../../source/troubleshoting/safemode.md:7
+msgid "How to Enter Safe Mode"
+msgstr "如何进入安全模式"
+
+#: ../../source/troubleshoting/safemode.md:9
+msgid "Automatic Entry"
+msgstr "自动进入"
+
+#: ../../source/troubleshoting/safemode.md:11
+msgid ""
+"The device automatically enters Safe Mode after updating to new firmware."
+" You'll need to download your profiles again."
+msgstr ""
+"设备在更新到新固件后会自动进入安全模式。您需要重新下载您的配置文件。"
+
+#: ../../source/troubleshoting/safemode.md:12
+msgid ""
+"If the device detects a crash, it will automatically enter Safe Mode. You"
+" can try downloading your profiles again. If crashes persist, please "
+"submit your profile to `contact@eniacelec.com` for support and to help us"
+" improve."
+msgstr ""
+"如果设备检测到崩溃，它会自动进入安全模式。您可以尝试重新下载您的配置文件。如果崩溃持续存在，请将您的配置文件提交到 `contact@eniacelec.com` 以获得支持并帮助我们改进。"
+
+#: ../../source/troubleshoting/safemode.md:14
+msgid "Manual Entry"
+msgstr "手动进入"
+
+#: ../../source/troubleshoting/safemode.md:16
+msgid ""
+"During the startup LOGO screen, you can find a subtle `Enter SafeMode` "
+"button on the left side. Tap this button to manually enter Safe Mode."
+msgstr ""
+"在启动 LOGO 屏幕期间，您可以在左侧找到一个微妙的"进入安全模式"按钮。点击此按钮手动进入安全模式。"
+
+#: ../../source/troubleshoting/safemode.md:18
+msgid "![1743991368473](image/safemode/1743991368473.png)"
+msgstr ""
+
+#: ../../source/troubleshoting/safemode.md:18
+msgid "1743991368473"
+msgstr ""
+

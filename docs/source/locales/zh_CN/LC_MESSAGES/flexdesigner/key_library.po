@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/key_library.md:1
+msgid "Key Library"
+msgstr "按键库"
+
+#: ../../source/flexdesigner/key_library.md:3
+msgid ""
+"The key library lists all available keys that you can drag and drop into "
+"the editor."
+msgstr "按键库会列出所有可用的按键，您可以将它们拖拽到编辑器中使用。"
+
+#: ../../source/flexdesigner/key_library.md:5
+msgid "![1742263121475](image/getting_started/1742263121475.png)"
+msgstr "![1742263121475](image/getting_started/1742263121475.png)"
+
+#: ../../source/flexdesigner/key_library.md:5
+msgid "1742263121475"
+msgstr "1742263121475"
+
+#: ../../source/flexdesigner/key_library.md:7
+msgid "Feature descriptions:"
+msgstr "功能说明："
+
+#: ../../source/flexdesigner/key_library.md:9
+msgid "Key search"
+msgstr "按键搜索"
+
+#: ../../source/flexdesigner/key_library.md:10
+msgid "Key category filter toggle: Enable or disable a key library here"
+msgstr "按键类别筛选开关：可在此启用或禁用某个按键库"
+
+#: ../../source/flexdesigner/key_library.md:11
+msgid "Import a key library or plugin from file or link"
+msgstr "通过文件或链接导入按键库或插件"
+
+#: ../../source/flexdesigner/key_library.md:12
+msgid ""
+"Key library quick navigation: Click to jump to the corresponding key "
+"library"
+msgstr "按键库快速导航：点击可跳转到对应的按键库"
+
+#: ../../source/flexdesigner/key_library.md:13
+msgid ""
+"Key library: Click to collapse or expand, supports nested sub-key "
+"libraries"
+msgstr "按键库：点击可折叠或展开，支持嵌套子按键库"
+
+#: ../../source/flexdesigner/key_library.md:14
+msgid "Keys: Drag and drop keys to the editor"
+msgstr "按键：可将按键拖拽到编辑器中"
+
+#: ../../source/flexdesigner/key_library.md:16
+msgid "Imported `flexpages` and installed plugins will also be displayed here"
+msgstr "导入的 `flexpages` 和已安装的插件也会在此处显示"

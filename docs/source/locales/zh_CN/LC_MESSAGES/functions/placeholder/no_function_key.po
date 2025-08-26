@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/placeholder/no_function_key.md:1
+msgid "No Function Key"
+msgstr "无功能按键"
+
+#: ../../source/functions/placeholder/no_function_key.md:3
+msgid ""
+"The no-function-key is a key that has no function, only for static "
+"displays."
+msgstr "无功能按键是一个没有功能的按键，仅用于静态显示。"
+
+#: ../../source/functions/placeholder/no_function_key.md:5
+msgid "![1745501941449](image/no_function_key/1745501941449.png)"
+msgstr "![1745501941449](image/no_function_key/1745501941449.png)"
+
+#: ../../source/functions/placeholder/no_function_key.md:5
+msgid "1745501941449"
+msgstr "1745501941449"
+
+#: ../../source/functions/placeholder/no_function_key.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/placeholder/no_function_key.md:9
+msgid ""
+"Background and foreground settings are available for this just like for a"
+" normal key. The function page is blank becuase it has no function."
+msgstr "像普通按键一样，此按键也有背景和前景设置。功能页面是空白的，因为它没有功能。"
+
+#: ../../source/functions/placeholder/no_function_key.md:11
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/placeholder/no_function_key.md:13
+msgid ""
+"The no-function-key is displayed just like any other keys, but it cannot "
+"be pressed."
+msgstr "无功能按键像任何其他按键一样显示，但它不能被按下。"
+

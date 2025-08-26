@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/macro_player.md:1
+msgid "Macro Player"
+msgstr "宏播放器"
+
+#: ../../source/functions/utilities/macro_player.md:3
+msgid ""
+"The macro player key executes recorded keyboard and mouse macros when "
+"pressed."
+msgstr ""
+"宏播放器按键在按下时执行记录的键盘和鼠标宏。"
+
+#: ../../source/functions/utilities/macro_player.md:5
+msgid "![1744986195408](image/macro_player/1744986195408.png)"
+msgstr "![1744986195408](image/macro_player/1744986195408.png)"
+
+#: ../../source/functions/utilities/macro_player.md:5
+msgid "1744986195408"
+msgstr "1744986195408"
+
+#: ../../source/functions/utilities/macro_player.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/utilities/macro_player.md:9
+msgid "![1744986859802](image/macro_player/1744986859802.png)"
+msgstr "![1744986859802](image/macro_player/1744986859802.png)"
+
+#: ../../source/functions/utilities/macro_player.md:9
+msgid "1744986859802"
+msgstr "1744986859802"
+
+#: ../../source/functions/utilities/macro_player.md:11
+msgid "Open the recorder interface on Flexbar"
+msgstr "在 Flexbar 上打开录制器界面"
+
+#: ../../source/functions/utilities/macro_player.md:12
+#: ../../source/functions/utilities/macro_player.md:26
+msgid "Current mouse coordinates"
+msgstr "当前鼠标坐标"
+
+#: ../../source/functions/utilities/macro_player.md:13
+#: ../../source/functions/utilities/macro_player.md:27
+msgid "Currently pressed keys"
+msgstr "当前按下的按键"
+
+#: ../../source/functions/utilities/macro_player.md:14
+msgid "Select a saved recording"
+msgstr "选择保存的录制"
+
+#: ../../source/functions/utilities/macro_player.md:15
+msgid "Edit/delete recordings"
+msgstr "编辑/删除录制"
+
+#: ../../source/functions/utilities/macro_player.md:16
+msgid ""
+"Test the selected recording, **Note: clicking this will immediately play "
+"your recorded macro**"
+msgstr ""
+"测试选定的录制，**注意：点击此按钮将立即播放您录制的宏**"
+
+#: ../../source/functions/utilities/macro_player.md:17
+msgid "Adjust playback speed"
+msgstr "调整播放速度"
+
+#: ../../source/functions/utilities/macro_player.md:18
+msgid "Set the number of times to play the recording"
+msgstr "设置播放录制的次数"
+
+#: ../../source/functions/utilities/macro_player.md:20
+msgid ""
+"Click `OPEN RECORDER` to start recording a macro. You'll need to complete"
+" the recording on your Flexbar."
+msgstr ""
+"点击 `OPEN RECORDER` 开始录制宏。您需要在 Flexbar 上完成录制。"
+
+#: ../../source/functions/utilities/macro_player.md:22
+msgid "![1744986676793](image/macro_player/1744986676793.png)"
+msgstr "![1744986676793](image/macro_player/1744986676793.png)"
+
+#: ../../source/functions/utilities/macro_player.md:22
+msgid "1744986676793"
+msgstr "1744986676793"
+
+#: ../../source/functions/utilities/macro_player.md:24
+msgid "Start/Stop recording"
+msgstr "开始/停止录制"
+
+#: ../../source/functions/utilities/macro_player.md:25
+msgid "Recording duration (MM:SS)"
+msgstr "录制持续时间 (MM:SS)"
+
+#: ../../source/functions/utilities/macro_player.md:28
+msgid "Save this recording"
+msgstr "保存此录制"
+
+#: ../../source/functions/utilities/macro_player.md:29
+msgid "Play/Stop this recording"
+msgstr "播放/停止此录制"
+
+#: ../../source/functions/utilities/macro_player.md:31
+msgid ""
+"After saving your recording, it will appear in the Function Tab where you"
+" can select and use your previously recorded macros."
+msgstr ""
+"保存录制后，它将出现在功能选项卡中，您可以在其中选择和使用之前录制的宏。"
+
+#: ../../source/functions/utilities/macro_player.md:33
+msgid ""
+"Once you've selected a recorded macro and uploaded it to your Flexbar, "
+"simply press this key on your Flexbar to play the macro."
+msgstr ""
+"选择录制的宏并上传到 Flexbar 后，只需在 Flexbar 上按此按键即可播放宏。"
+

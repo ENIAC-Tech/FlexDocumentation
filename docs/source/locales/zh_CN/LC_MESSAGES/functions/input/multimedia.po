@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/multimedia.md:1
+msgid "Multimedia"
+msgstr "多媒体"
+
+#: ../../source/functions/input/multimedia.md:3
+msgid ""
+"The multimedia key sends multimedia key presses as if they are pressed on"
+" a physical keyboard."
+msgstr "多媒体按键发送多媒体按键操作，就像在物理键盘上按下一样。"
+
+#: ../../source/functions/input/multimedia.md:5
+msgid ""
+"This feature emulates a standard USB keyboard with multimedia keys. It "
+"works on any devices without having FlexDesigner running."
+msgstr "此功能模拟带有多媒体按键的标准 USB 键盘。它可以在任何设备上工作，无需运行 FlexDesigner。"
+
+#: ../../source/functions/input/multimedia.md:7
+msgid "![1744984037291](image/multimedia/1744984037291.png)"
+msgstr "![1744984037291](image/multimedia/1744984037291.png)"
+
+#: ../../source/functions/input/multimedia.md:7
+msgid "1744984037291"
+msgstr "1744984037291"
+
+#: ../../source/functions/input/multimedia.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/input/multimedia.md:11
+msgid "![1744984021980](image/multimedia/1744984021980.png)"
+msgstr "![1744984021980](image/multimedia/1744984021980.png)"
+
+#: ../../source/functions/input/multimedia.md:11
+msgid "1744984021980"
+msgstr "1744984021980"
+
+#: ../../source/functions/input/multimedia.md:13
+msgid ""
+"The key to press can be configured in the key tab in the FlexDesigner. "
+"Click on the menu button to select a key."
+msgstr "要按下的按键可以在 FlexDesigner 的按键选项卡中配置。点击菜单按钮选择按键。"
+
+#: ../../source/functions/input/multimedia.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/input/multimedia.md:17
+msgid "Press the key on the Flexbar to trigger the defined action."
+msgstr "在 Flexbar 上按下按键以触发定义的操作。"
+

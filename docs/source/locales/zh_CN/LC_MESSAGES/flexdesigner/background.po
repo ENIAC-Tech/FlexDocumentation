@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/background.md:1
+msgid "Edit Background"
+msgstr "编辑背景"
+
+#: ../../source/flexdesigner/background.md:3
+msgid ""
+"This document describes how to customize a button's background, including"
+" background images, borders, colors, and other parameters."
+msgstr "本文档介绍如何自定义按钮的背景，包括背景图片、边框、颜色和其他参数。"
+
+#: ../../source/flexdesigner/background.md:5
+msgid "Interface Overview"
+msgstr "界面概览"
+
+#: ../../source/flexdesigner/background.md:7
+msgid "![1742124250018](image/background/1742124250018.png)"
+msgstr "![1742124250018](image/background/1742124250018.png)"
+
+#: ../../source/flexdesigner/background.md:7
+msgid "1742124250018"
+msgstr "1742124250018"
+
+#: ../../source/flexdesigner/background.md:9
+#: ../../source/flexdesigner/background.md:31
+#: ../../source/flexdesigner/background.md:47
+msgid "The following features are available:"
+msgstr "以下功能可用："
+
+#: ../../source/flexdesigner/background.md:11
+msgid "Background color selection"
+msgstr "背景颜色选择"
+
+#: ../../source/flexdesigner/background.md:12
+msgid "Open an image file as background (supports jpg, png, and gif formats)"
+msgstr "打开图片文件作为背景（支持 jpg、png 和 gif 格式）"
+
+#: ../../source/flexdesigner/background.md:13
+msgid "Import image from clipboard as background"
+msgstr "从剪贴板导入图片作为背景"
+
+#: ../../source/flexdesigner/background.md:14
+msgid "Capture a portion of the screen as background"
+msgstr "截取屏幕的一部分作为背景"
+
+#: ../../source/flexdesigner/background.md:15
+msgid "Current image filename with delete button to remove the background image"
+msgstr "当前图片文件名，带有删除按钮可移除背景图片"
+
+#: ../../source/flexdesigner/background.md:16
+msgid ""
+"Border style selection (supports single solid line, double solid line, "
+"dotted line, and 3D styles)"
+msgstr "边框样式选择（支持单实线、双实线、虚线和 3D 样式）"
+
+#: ../../source/flexdesigner/background.md:17
+msgid "Border color selection"
+msgstr "边框颜色选择"
+
+#: ../../source/flexdesigner/background.md:18
+msgid "Border width slider"
+msgstr "边框宽度滑块"
+
+#: ../../source/flexdesigner/background.md:19
+msgid "Button width slider"
+msgstr "按钮宽度滑块"
+
+#: ../../source/flexdesigner/background.md:20
+msgid "Toggle button width slider step size (switches between 60px and 10px)"
+msgstr "切换按钮宽度滑块步长（在 60px 和 10px 之间切换）"
+
+#: ../../source/flexdesigner/background.md:21
+msgid "Toggle maximum adjustable button width (switches between 600px and 2170px)"
+msgstr "切换最大可调按钮宽度（在 600px 和 2170px 之间切换）"
+
+#: ../../source/flexdesigner/background.md:22
+msgid ""
+"Imported background image gallery with delete buttons for individual "
+"images"
+msgstr "导入的背景图片库，每个图片都有删除按钮"
+
+#: ../../source/flexdesigner/background.md:23
+msgid "Delete all imported images"
+msgstr "删除所有导入的图片"
+
+#: ../../source/flexdesigner/background.md:25
+msgid "Image Editing"
+msgstr "图片编辑"
+
+#: ../../source/flexdesigner/background.md:27
+msgid "When importing a background image, you can crop the image"
+msgstr "导入背景图片时，您可以裁剪图片"
+
+#: ../../source/flexdesigner/background.md:29
+msgid "![1742136232365](image/background/1742136232365.png)"
+msgstr "![1742136232365](image/background/1742136232365.png)"
+
+#: ../../source/flexdesigner/background.md:29
+msgid "1742136232365"
+msgstr "1742136232365"
+
+#: ../../source/flexdesigner/background.md:33
+msgid ""
+"Image cropping frame (dimensions match current button width, height is "
+"fixed)"
+msgstr "图片裁剪框（尺寸匹配当前按钮宽度，高度固定）"
+
+#: ../../source/flexdesigner/background.md:34
+msgid "Image zoom slider (mouse wheel can also be used for zooming)"
+msgstr "图片缩放滑块（鼠标滚轮也可用于缩放）"
+
+#: ../../source/flexdesigner/background.md:35
+msgid "Auto-scale image to fit"
+msgstr "自动缩放图片以适应"
+
+#: ../../source/flexdesigner/background.md:36
+msgid "Horizontal image flip"
+msgstr "水平翻转图片"
+
+#: ../../source/flexdesigner/background.md:37
+msgid "Vertical image flip"
+msgstr "垂直翻转图片"
+
+#: ../../source/flexdesigner/background.md:38
+msgid "Clockwise image rotation"
+msgstr "顺时针旋转图片"
+
+#: ../../source/flexdesigner/background.md:39
+msgid ""
+"Use original image without cropping or modifications (useful when your "
+"prepared image matches the button dimensions exactly)"
+msgstr "使用原始图片，不进行裁剪或修改（当您准备的图片完全匹配按钮尺寸时很有用）"
+
+#: ../../source/flexdesigner/background.md:40
+msgid "Apply changes and import image"
+msgstr "应用更改并导入图片"
+
+#: ../../source/flexdesigner/background.md:41
+msgid "Discard changes"
+msgstr "丢弃更改"
+
+#: ../../source/flexdesigner/background.md:43
+msgid ""
+"When importing a GIF animation, you can adjust playback speed and other "
+"parameters"
+msgstr "导入 GIF 动画时，您可以调整播放速度和其他参数"
+
+#: ../../source/flexdesigner/background.md:45
+msgid "![1742136609404](image/background/1742136609404.png)"
+msgstr "![1742136609404](image/background/1742136609404.png)"
+
+#: ../../source/flexdesigner/background.md:45
+msgid "1742136609404"
+msgstr "1742136609404"
+
+#: ../../source/flexdesigner/background.md:49
+msgid "Frame rate adjustment (up to 30fps)"
+msgstr "帧率调整（最高 30fps）"
+
+#: ../../source/flexdesigner/background.md:51
+msgid "Note: Due to performance limitations, higher frame rates may cause lag"
+msgstr "注意：由于性能限制，更高的帧率可能会导致卡顿"
+
+#: ../../source/flexdesigner/background.md:53
+msgid "Speed adjustment for GIF playback"
+msgstr "GIF 播放速度调整"
+
+#: ../../source/flexdesigner/background.md:54
+msgid "GIF adjustment strategy:"
+msgstr "GIF 调整策略："
+
+#: ../../source/flexdesigner/background.md:55
+msgid "Drop frames: Excess keyframes will be discarded when adjusting frame rate"
+msgstr "丢帧：调整帧率时会丢弃多余的关键帧"
+
+#: ../../source/flexdesigner/background.md:56
+msgid ""
+"Extend frames: No frames will be discarded, but the final GIF playback "
+"duration may be longer than expected"
+msgstr "延长帧：不会丢弃任何帧，但最终的 GIF 播放时长可能比预期更长"
+

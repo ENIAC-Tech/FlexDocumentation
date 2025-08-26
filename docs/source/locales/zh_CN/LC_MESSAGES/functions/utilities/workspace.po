@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/workspace.md:1
+msgid "Workspace"
+msgstr "工作区"
+
+#: ../../source/functions/utilities/workspace.md:3
+msgid ""
+"The workspace key arranges the window layout to a predefined state. It "
+"works by first capture the window layout (workspace) in the FlexDesigner."
+" Later, when the key is pressed, it restores the window layout to the "
+"previously recorded state. So that when you need to start working, simply"
+" press this key to set up the workspace so you can start working right "
+"away. This function only works when the FlexDesigner is running."
+msgstr ""
+"工作区按键将窗口布局排列到预定义状态。它的工作原理是首先在 FlexDesigner 中捕获窗口布局（工作区）。之后，当按下按键时，它将窗口布局恢复到之前记录的状态。这样当您需要开始工作时，只需按此按键设置工作区，就可以立即开始工作。此功能仅在 FlexDesigner 运行时有效。"
+
+#: ../../source/functions/utilities/workspace.md:5
+msgid "![1744986055461](image/workspace/1744986055461.png)"
+msgstr "![1744986055461](image/workspace/1744986055461.png)"
+
+#: ../../source/functions/utilities/workspace.md:5
+msgid "1744986055461"
+msgstr "1744986055461"
+
+#: ../../source/functions/utilities/workspace.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/utilities/workspace.md:9
+msgid "![1744986124408](image/workspace/1744986124408.png)"
+msgstr "![1744986124408](image/workspace/1744986124408.png)"
+
+#: ../../source/functions/utilities/workspace.md:9
+msgid "1744986124408"
+msgstr "1744986124408"
+
+#: ../../source/functions/utilities/workspace.md:11
+msgid ""
+"When this key is first added to the page, the FlexDesigner automatically "
+"captures/ records the current window layout. The window layout is shown "
+"in the list in the function tab."
+msgstr ""
+"当此按键首次添加到页面时，FlexDesigner 会自动捕获/记录当前窗口布局。窗口布局显示在功能选项卡的列表中。"
+
+#: ../../source/functions/utilities/workspace.md:13
+msgid ""
+"Up right to the list, there are two buttons: recapture and test run. The "
+"first one replaces the existing list with the current window layout. The "
+"test run button arranges the window as defined in the list, as if the key"
+" is pressed on the Flexbar."
+msgstr ""
+"列表右上方有两个按钮：重新捕获和测试运行。第一个用当前窗口布局替换现有列表。测试运行按钮按照列表中定义的方式排列窗口，就像在 Flexbar 上按下按键一样。"
+
+#: ../../source/functions/utilities/workspace.md:15
+msgid "![1744986153322](image/workspace/1744986153322.png)"
+msgstr "![1744986153322](image/workspace/1744986153322.png)"
+
+#: ../../source/functions/utilities/workspace.md:15
+msgid "1744986153322"
+msgstr "1744986153322"
+
+#: ../../source/functions/utilities/workspace.md:17
+msgid ""
+"For each window, the bounds (XY coordinate, width, height, and scale) can"
+" be manually modified. Right to these input boxes are 4 buttons: refresh,"
+" edit, delete, and test run. The refresh button recaptures the position "
+"for the selected window. The edit buttons provide additional settings for"
+" the window, such as the path to the application, and the strategy used "
+"for opening the window (always open a new one, find existing one, etc.). "
+"The delete button removes the window from the list. The test run button "
+"restores the position and size for this specific window for testing "
+"purposes."
+msgstr ""
+"对于每个窗口，可以手动修改边界（XY 坐标、宽度、高度和缩放）。这些输入框右侧有 4 个按钮：刷新、编辑、删除和测试运行。刷新按钮重新捕获所选窗口的位置。编辑按钮为窗口提供额外设置，如应用程序路径和用于打开窗口的策略（始终打开新的、查找现有的等）。删除按钮从列表中移除窗口。测试运行按钮恢复此特定窗口的位置和大小以进行测试。"
+
+#: ../../source/functions/utilities/workspace.md:19
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/utilities/workspace.md:21
+msgid "Press the key to arrange the window layout as defined."
+msgstr "按按键按定义的方式排列窗口布局。"
+

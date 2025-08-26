@@ -20,7 +20,7 @@ extensions = [
     'myst_parser',
 ]
 
-# Markdown配置
+# Markdown configuration
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
@@ -31,10 +31,10 @@ myst_enable_extensions = [
     'deflist',
 ]
 
-# multi-language support
-language = 'en' # default language
-locale_dirs = ['locale/']  # translation file storage location
-gettext_compact = False  # create a separate pot file for each source file
+# Multi-language support
+language = 'en'                 # Source language (default: English)
+locale_dirs = ['locales/']      # Root directory for .po/.mo files
+gettext_compact = False         # Generate po files per source file
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -51,7 +51,7 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-# 添加自定义静态资源路径和样式
+# Add custom static resource paths and styles
 html_static_path = ['_static']
 html_css_files = [
     'css/custom.css',

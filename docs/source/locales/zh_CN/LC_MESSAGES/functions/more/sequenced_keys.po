@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/more/sequenced_keys.md:1
+msgid "Sequenced Keys"
+msgstr "序列按键"
+
+#: ../../source/functions/more/sequenced_keys.md:3
+msgid ""
+"The sequenced-keys executes multiple keys when pressed, as if multiple "
+"keys are pressed sequentially. If only one key out of a list shall be "
+"executed at once, check out the 'cycled keys'."
+msgstr "序列按键在按下时执行多个按键，就像多个按键按顺序按下一样。如果列表中只有一个按键应该同时执行，请查看"循环按键"。"
+
+#: ../../source/functions/more/sequenced_keys.md:5
+msgid "![1744984981870](image/sequenced_keys/1744984981870.png)"
+msgstr "![1744984981870](image/sequenced_keys/1744984981870.png)"
+
+#: ../../source/functions/more/sequenced_keys.md:5
+msgid "1744984981870"
+msgstr "1744984981870"
+
+#: ../../source/functions/more/sequenced_keys.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner 中"
+
+#: ../../source/functions/more/sequenced_keys.md:9
+msgid "![1744985000268](image/sequenced_keys/1744985000268.png)"
+msgstr "![1744985000268](image/sequenced_keys/1744985000268.png)"
+
+#: ../../source/functions/more/sequenced_keys.md:9
+msgid "1744985000268"
+msgstr "1744985000268"
+
+#: ../../source/functions/more/sequenced_keys.md:11
+msgid "The list of keys to be executed can be defined in the function page."
+msgstr "要执行的按键列表可以在功能页面中定义。"
+
+#: ../../source/functions/more/sequenced_keys.md:13
+msgid ""
+"To define the keys, drag and drop desired key from the right pane into "
+"the middle area. Note that when in the function tab, only keys that can "
+"be used with cycle buttons would be displayed."
+msgstr "要定义按键，请将所需的按键从右侧窗格拖放到中间区域。请注意，在功能选项卡中，只会显示可以与循环按钮一起使用的按键。"
+
+#: ../../source/functions/more/sequenced_keys.md:15
+msgid ""
+"Right top to the action list, there are several settings controlling its "
+"behavior:"
+msgstr "操作列表的右上角有几个控制其行为的设置："
+
+#: ../../source/functions/more/sequenced_keys.md:17
+msgid ""
+"Delay between actions: The actions are executed sequentially. After each "
+"action, the software waits for a certain amount of time (subject to "
+"influence of computer performance and other factors)."
+msgstr "操作之间的延迟：操作按顺序执行。每个操作后，软件会等待一定时间（受计算机性能和其他因素影响）。"
+
+#: ../../source/functions/more/sequenced_keys.md:18
+msgid ""
+"Add to schedule: The list of actions can be trigger according to "
+"schedule. Use this button to define the schedule (such as 9AM every "
+"Monday), then this sequence would be automatically executed according to "
+"the schedule. Use the delete button in the schedule page to cancel the "
+"schedule."
+msgstr "添加到计划：操作列表可以根据计划触发。使用此按钮定义计划（如每周一上午 9 点），然后此序列将根据计划自动执行。使用计划页面中的删除按钮取消计划。"
+
+#: ../../source/functions/more/sequenced_keys.md:19
+msgid ""
+"Ordering: By default, keys are executed in order (sequentially). It's "
+"also possible to switch to random order by clicking on the ordering "
+"button top right to the action list."
+msgstr "排序：默认情况下，按键按顺序（顺序）执行。也可以通过点击操作列表右上角的排序按钮切换到随机顺序。"
+
+#: ../../source/functions/more/sequenced_keys.md:21
+msgid ""
+"In the sequenced keys, there are two additional flow control 'key's in "
+"the 'more' category available (in the right key library pane):"
+msgstr "在序列按键中，"更多"类别中有两个额外的流程控制"按键"可用（在右侧按键库窗格中）："
+
+#: ../../source/functions/more/sequenced_keys.md:23
+msgid ""
+"Delay: Delay the execution of the next action by defined amount of time. "
+"The time is added on top of the global delay settings."
+msgstr "延迟：按定义的时间延迟下一个操作的执行。时间会添加到全局延迟设置之上。"
+
+#: ../../source/functions/more/sequenced_keys.md:24
+msgid ""
+"Repeat: Repeat the execution of actions within the repeat group by "
+"defined amount of times. The number of iterations and be defined at the "
+"input box right top to the repeat group. Repeat group can be nested as "
+"well."
+msgstr "重复：按定义的次数重复重复组内操作的执行。迭代次数可以在重复组右上角的输入框中定义。重复组也可以嵌套。"
+
+#: ../../source/functions/more/sequenced_keys.md:26
+msgid ""
+"The function tab of added keys can be opened by double-clicking on the "
+"key."
+msgstr "可以通过双击按键来打开添加按键的功能选项卡。"
+
+#: ../../source/functions/more/sequenced_keys.md:28
+msgid "On the Flexbar"
+msgstr "在 Flexbar 上"
+
+#: ../../source/functions/more/sequenced_keys.md:30
+msgid ""
+"Press the button to execute the currently displayed key. Once done, the "
+"next key would be displayed on the button."
+msgstr "按按钮执行当前显示的按键。完成后，下一个按键将显示在按钮上。"
+
