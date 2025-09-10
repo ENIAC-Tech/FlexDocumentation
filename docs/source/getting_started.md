@@ -38,7 +38,7 @@ Flexbar comes with a simple tutorial pre-installed to help you get started. Late
 
 ![1743993683833](image/getting_started/1743993683833.png)
 
-To help you quickly get started, a factory-default profile without the tutorial is also available [factory.flexbar](../assets/factory-v1.flexbar). Additional profiles and functional key sets are provided on our online platform [FlexGate](https://flexgate.techdot.com/), where you can freely download, import, and kickstart your shortcut journey.
+To help you quickly get started, a factory-default profile without the tutorial is also available [factory.flexbar](../assets/factory-v1.flexbar). Additional profiles and functional key sets are provided on our online platform [FlexGate](https://flexgate.enilinx.com/), where you can freely download, import, and kickstart your shortcut journey.
 
 > Due to its multifunctional nature, we strongly recommend thoroughly reading the [FlexDesigner documentation](./flexdesigner/getting_started.md).
 >
@@ -90,7 +90,7 @@ Firmware refers to the embedded software written into Flexbar’s internal micro
 
 ### FlexGate
 
-[FlexGate](https://flexgate.techdot.com/) is our official platform dedicated to sharing profiles and plug-ins for Flex series products. Users can upload and download pre-configured shortcut sets. Officially provided sets are also available for convenience. After downloading, you can freely combine or edit them via FlexDesigner’s page import/export functions and integrate them into your Flexbar Profile.
+[FlexGate](https://flexgate.enilinx.com/) is our official platform dedicated to sharing profiles and plug-ins for Flex series products. Users can upload and download pre-configured shortcut sets. Officially provided sets are also available for convenience. After downloading, you can freely combine or edit them via FlexDesigner’s page import/export functions and integrate them into your Flexbar Profile.
 
 [How to use FlexGate](./troubleshoting/flexgate.md)
 
