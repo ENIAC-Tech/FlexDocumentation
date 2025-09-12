@@ -1,6 +1,6 @@
 # FlexGate
 
-FlexGate is an online sharing platform where you can easily find or share your own Profiles, Iconpacks, Pages, and Plugins.
+[FlexGate](https://flexgate.enilinx.com/) is an online sharing platform where you can easily find or share your own Profiles, Iconpacks, Pages, and Plugins.
 
 ## Installing from FlexGate
 
