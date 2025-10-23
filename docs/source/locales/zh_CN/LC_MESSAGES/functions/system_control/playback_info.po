@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/playback_info.md:1
+msgid "Playback Info"
+msgstr "播放信息"
+
+#: ../../source/functions/system_control/playback_info.md:3
+msgid "**Windows only**"
+msgstr "仅限 Windows"
+
+#: ../../source/functions/system_control/playback_info.md:5
+msgid ""
+"Displays the playback status of your current media, including cover art, "
+"playback progress, title, and artist. The displayed information is "
+"synchronized with Windows media info."
+msgstr "显示当前媒体的播放状态，包括封面、播放进度、标题和艺术家。显示的信息与 Windows 媒体信息同步。"
+
+#: ../../source/functions/system_control/playback_info.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner"
+
+#: ../../source/functions/system_control/playback_info.md:9
+msgid ""
+"Apart from standard appearance customization options, this key does not "
+"have any additional settings in FlexDesigner."
+msgstr "除标准外观自定义选项外，此键在 FlexDesigner 中没有其他设置。"
+
+#: ../../source/functions/system_control/playback_info.md:11
+msgid "![20251023-124246](image/playback_info/20251023-124246.jpg)"
+msgstr "![20251023-124246](image/playback_info/20251023-124246.jpg)"
+
+#: ../../source/functions/system_control/playback_info.md:11
+msgid "20251023-124246"
+msgstr "20251023-124246"
+
+#: ../../source/functions/system_control/playback_info.md:14
+msgid "On the Flexbar"
+msgstr "在 Flexbar"
+
+#: ../../source/functions/system_control/playback_info.md:16
+msgid "![playback_info](image/playback_info/playback_info.png)"
+msgstr "![playback_info](image/playback_info/playback_info.png)"
+
+#: ../../source/functions/system_control/playback_info.md:16
+msgid "playback_info"
+msgstr "playback_info"
+
+#: ../../source/functions/system_control/playback_info.md:18
+msgid ""
+"Tap the play/pause key on the Flexbar to control playback in your media "
+"application. If playback is paused or resumed by other means (such as "
+"keyboard shortcuts or clicking in the media player), the Flexbar key will"
+" update to show the correct play/pause state."
+msgstr "点击 Flexbar 上的播放/暂停键可以控制媒体应用的播放。如通过其他方式（如键盘快捷键或在媒体播放器中点击）暂停或恢复播放，Flexbar 按键将自动更新以显示当前播放/暂停状态。"
+
+#: ../../source/functions/system_control/playback_info.md:20
+msgid "You can freely customize the appearance of the play and pause states."
+msgstr "你可以自由自定义播放和暂停状态的外观。"

@@ -83,6 +83,12 @@ If you're using Linux and encounter "Cannot access USB device, this may be due t
 
 3. **Restart the application**
 
+## MacOS USB Permission Issues
+
+If you are using MacOS, make sure you have allowed accessories to connect in your system settings.
+
+You can refer to the [official Apple documentation](https://support.apple.com/en-us/102282) for more information.
+
 
 ## Still Having Issues?
 

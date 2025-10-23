@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FlexDocumentation 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -25,11 +25,12 @@ msgid "FlexGate"
 msgstr "FlexGate"
 
 #: ../../source/troubleshoting/flexgate.md:3
+#, fuzzy
 msgid ""
-"FlexGate is an online sharing platform where you can easily find or share"
-" your own Profiles, Iconpacks, Pages, and Plugins."
-msgstr ""
-"FlexGate 是一个在线共享平台，您可以轻松找到或分享自己的配置文件、图标包、页面和插件。"
+"[FlexGate](https://flexgate.enilinx.com/) is an online sharing platform "
+"where you can easily find or share your own Profiles, Iconpacks, Pages, "
+"and Plugins."
+msgstr "FlexGate 是一个在线共享平台，您可以轻松找到或分享自己的配置文件、图标包、页面和插件。"
 
 #: ../../source/troubleshoting/flexgate.md:5
 msgid "Installing from FlexGate"
@@ -48,8 +49,7 @@ msgid ""
 "Installing a Profile, Iconpack, Page, or Plugin from FlexGate is very "
 "simple. Just make sure FlexDesigner is running, then click GET to "
 "automatically download and install."
-msgstr ""
-"从 FlexGate 安装配置文件、图标包、页面或插件非常简单。只需确保 FlexDesigner 正在运行，然后点击获取即可自动下载和安装。"
+msgstr "从 FlexGate 安装配置文件、图标包、页面或插件非常简单。只需确保 FlexDesigner 正在运行，然后点击获取即可自动下载和安装。"
 
 #: ../../source/troubleshoting/flexgate.md:11
 msgid "Uploading Profiles, Iconpacks, and Pages to FlexGate"
@@ -65,8 +65,7 @@ msgstr ""
 
 #: ../../source/troubleshoting/flexgate.md:15
 msgid "Go to your personal profile page and click on the item you want to upload."
-msgstr ""
-"转到您的个人资料页面，点击您想要上传的项目。"
+msgstr "转到您的个人资料页面，点击您想要上传的项目。"
 
 #: ../../source/troubleshoting/flexgate.md:17
 msgid "![1744946938052](image/flexgate/1744946938052.png)"
@@ -85,15 +84,13 @@ msgstr "上传前，您需要填写一些信息："
 msgid ""
 "Title: The name of your content - keep it concise and clearly describe "
 "its purpose"
-msgstr ""
-"标题：您内容的名称 - 保持简洁并清楚描述其用途"
+msgstr "标题：您内容的名称 - 保持简洁并清楚描述其用途"
 
 #: ../../source/troubleshoting/flexgate.md:22
 msgid ""
 "Images: We recommend providing several screenshots to help users "
 "understand what your content does"
-msgstr ""
-"图片：我们建议提供几张截图来帮助用户了解您内容的功能"
+msgstr "图片：我们建议提供几张截图来帮助用户了解您内容的功能"
 
 #: ../../source/troubleshoting/flexgate.md:23
 msgid "Category: Choose the most appropriate category for your content"
@@ -107,8 +104,7 @@ msgstr "操作系统：选择您内容支持的操作系统"
 msgid ""
 "Version: Your own version number for the content (unrelated to "
 "FlexDesigner versions)"
-msgstr ""
-"版本：您内容的版本号（与 FlexDesigner 版本无关）"
+msgstr "版本：您内容的版本号（与 FlexDesigner 版本无关）"
 
 #: ../../source/troubleshoting/flexgate.md:26
 msgid "Description: Detailed explanation of what your content does"
@@ -131,8 +127,7 @@ msgid ""
 "Uploading a Plugin works slightly differently. We require Plugins to be "
 "hosted on GitHub. Simply enter your repository URL, and FlexGate will "
 "verify its validity."
-msgstr ""
-"上传插件的工作方式略有不同。我们要求插件托管在 GitHub 上。只需输入您的仓库 URL，FlexGate 将验证其有效性。"
+msgstr "上传插件的工作方式略有不同。我们要求插件托管在 GitHub 上。只需输入您的仓库 URL，FlexGate 将验证其有效性。"
 
 #: ../../source/troubleshoting/flexgate.md:34
 msgid ""
@@ -140,7 +135,8 @@ msgid ""
 " structure. Check out the [SDK documentation](../sdk/index.rst) to learn "
 "how to create custom plugins"
 msgstr ""
-"确保您的仓库是使用 FlexCLI 创建的，并且具有有效的插件结构。查看 [SDK 文档](../sdk/index.rst) 了解如何创建自定义插件"
+"确保您的仓库是使用 FlexCLI 创建的，并且具有有效的插件结构。查看 [SDK 文档](../sdk/index.rst) "
+"了解如何创建自定义插件"
 
 #: ../../source/troubleshoting/flexgate.md:36
 msgid "![1744946889859](image/flexgate/1744946889859.png)"
@@ -154,8 +150,7 @@ msgstr ""
 msgid ""
 "Images: We recommend providing several screenshots to help users "
 "understand what your plugin does"
-msgstr ""
-"图片：我们建议提供几张截图来帮助用户了解您插件的功能"
+msgstr "图片：我们建议提供几张截图来帮助用户了解您插件的功能"
 
 #: ../../source/troubleshoting/flexgate.md:41
 msgid "Category: Choose the most appropriate category for your plugin"
@@ -173,8 +168,7 @@ msgstr "**问：什么是 FlexGate？**"
 msgid ""
 "**A:** FlexGate is an online sharing platform where you can easily find "
 "or share your own Profiles, Iconpacks, Pages, and Plugins."
-msgstr ""
-"**答：** FlexGate 是一个在线共享平台，您可以轻松找到或分享自己的配置文件、图标包、页面和插件。"
+msgstr "**答：** FlexGate 是一个在线共享平台，您可以轻松找到或分享自己的配置文件、图标包、页面和插件。"
 
 #: ../../source/troubleshoting/flexgate.md:48
 msgid "**Q: Can I publish paid content through FlexGate?**"
@@ -184,8 +178,7 @@ msgstr "**问：我可以通过 FlexGate 发布付费内容吗？**"
 msgid ""
 "**A:** The payment system is still under development. We plan to add this"
 " feature in a future update."
-msgstr ""
-"**答：** 支付系统仍在开发中。我们计划在未来的更新中添加此功能。"
+msgstr "**答：** 支付系统仍在开发中。我们计划在未来的更新中添加此功能。"
 
 #: ../../source/troubleshoting/flexgate.md:52
 msgid "**Q: Content uploaded to FlexGate infringes on my rights.**"
@@ -196,8 +189,7 @@ msgid ""
 "**A:** We take intellectual property rights seriously. Please email "
 "details of any infringing content to contact@eniacelec.com, and we will "
 "address your concerns promptly."
-msgstr ""
-"**答：** 我们认真对待知识产权。请将任何侵权内容的详细信息发送到 contact@eniacelec.com，我们将及时处理您的关切。"
+msgstr "**答：** 我们认真对待知识产权。请将任何侵权内容的详细信息发送到 contact@eniacelec.com，我们将及时处理您的关切。"
 
 #: ../../source/troubleshoting/flexgate.md:56
 msgid "**Q: Where can I discuss and share with other creators?**"
@@ -209,7 +201,8 @@ msgid ""
 "community](https://discord.com/invite/7STSjmBpKT), where you'll find many"
 " like-minded creators."
 msgstr ""
-"**答：** 我们建议加入我们的 [Discord 社区](https://discord.com/invite/7STSjmBpKT)，在那里您会找到许多志同道合的创作者。"
+"**答：** 我们建议加入我们的 [Discord "
+"社区](https://discord.com/invite/7STSjmBpKT)，在那里您会找到许多志同道合的创作者。"
 
 #: ../../source/troubleshoting/flexgate.md:60
 msgid "**Q: How do I get customer support or submit suggestions?**"
@@ -220,6 +213,5 @@ msgid ""
 "**A:** Please contact us at contact@eniacelec.com, or reach out directly "
 "to administrators in our Discord community. We'll respond as soon as "
 "possible."
-msgstr ""
-"**答：** 请通过 contact@eniacelec.com 联系我们，或直接联系我们 Discord 社区的管理员。我们将尽快回复。"
+msgstr "**答：** 请通过 contact@eniacelec.com 联系我们，或直接联系我们 Discord 社区的管理员。我们将尽快回复。"
 
