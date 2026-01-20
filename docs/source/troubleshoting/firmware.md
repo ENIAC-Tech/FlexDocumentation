@@ -28,6 +28,14 @@ It's normal for your device to display this screen after an update. The update r
 
 ![1746932309321](image/firmware/1746932309321.png)
 
+## Unable to update your firmware
+
+### If your Flexbar is running older firmware (<2.1.1), there is a very small chance that you may encounter an issue where Flexbar cannot update correctly. Don't worry—simply follow these steps to successfully update your Flexbar.
+
+1. Follow the instructions in the `Update your firmware` section to update your Flexbar normally, but please monitor the update process (takes less than 1 minute).
+2. After the update completes, Flexbar will automatically restart. During device startup, a LOGO screen will appear. On the far left of this screen, you will see `Enter Safe Mode`. Please click to enter Safe Mode before the LOGO disappears. This step is crucial. If you fail to enter Safe Mode in time, simply return to step 1, update the firmware again, and try once more.
+3. Once in the device's Safe Mode interface, simply click Upload in the top-right corner of FlexDesigner to update your profile once.
+
 ## Rollback
 
 If the updated firmware does not function properly, you can manually roll back to the previous version.

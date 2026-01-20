@@ -113,6 +113,43 @@ msgid "1746932309321"
 msgstr ""
 
 #: ../../source/troubleshoting/firmware.md:31
+msgid "Unable to update your firmware"
+msgstr "无法更新您的固件"
+
+#: ../../source/troubleshoting/firmware.md:33
+msgid ""
+"If your Flexbar is running older firmware (<2.1.1), there is a very small "
+"chance that you may encounter an issue where Flexbar cannot update correctly."
+" Don't worry—simply follow these steps to successfully update your Flexbar."
+msgstr ""
+"如果您的Flexbar运行的是旧版（<2.1.1）的固件，您有极小的概率遭遇Flexbar无法正确更新的情况，这种情况下您无需担心，仅需要按如下步骤操作即可正常更新Flexbar。"
+
+#: ../../source/troubleshoting/firmware.md:35
+msgid ""
+"Follow the instructions in the `Update your firmware` section to update "
+"your Flexbar normally, but please monitor the update process (takes less "
+"than 1 minute)."
+msgstr ""
+"参考`Update your firmware`章节描述正常更新您的Flexbar，但请您保持监控Flexbar的更新过程（需要不到1分钟）"
+
+#: ../../source/troubleshoting/firmware.md:36
+msgid ""
+"After the update completes, Flexbar will automatically restart. During "
+"device startup, a LOGO screen will appear. On the far left of this screen, "
+"you will see `Enter Safe Mode`. Please click to enter Safe Mode before the "
+"LOGO disappears. This step is crucial. If you fail to enter Safe Mode in "
+"time, simply return to step 1, update the firmware again, and try once more."
+msgstr ""
+"当更新结束后，Flexbar会自动重启。在设备启动时，会加载LOGO界面，在此界面最左侧有`Enter Safe Mode`字样，请在LOGO消失前点击进入Safe Mode。这一步非常关键，如果您未能及时进入Safe Mode，只需回到第一步重新更新固件再次尝试即可。"
+
+#: ../../source/troubleshoting/firmware.md:37
+msgid ""
+"Once in the device's Safe Mode interface, simply click Upload in the top-"
+"right corner of FlexDesigner to update your profile once."
+msgstr ""
+"您只需在设备的Safe Mode界面，点击FlexDesigner右上角的Upload更新一次profile即可。"
+
+#: ../../source/troubleshoting/firmware.md:39
 msgid "Rollback"
 msgstr "回滚"
 
