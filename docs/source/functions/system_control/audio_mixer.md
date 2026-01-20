@@ -12,6 +12,6 @@ This key only works when the FlexDesigner is running. This key is only present i
 
 In the function page, a list of currently running applications is shown. For each application, there is a checkbox all near the right edge of the list. Only checked application would be controlled by the volume slider.
 
-# On the Flexbar
+## On the Flexbar
 
 Drag the slider on the Flexbar to adjust the audio volume of selected applications.

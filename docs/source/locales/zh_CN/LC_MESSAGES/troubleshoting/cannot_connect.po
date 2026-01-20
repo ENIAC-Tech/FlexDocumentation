@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FlexDocumentation 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-26 12:36+0800\n"
+"POT-Creation-Date: 2025-10-23 12:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -28,8 +28,7 @@ msgstr "Flexbar 连接故障排除"
 msgid ""
 "If FlexDesigner fails to recognize your Flexbar, follow these steps to "
 "identify and resolve the issue."
-msgstr ""
-"如果 FlexDesigner 无法识别您的 Flexbar，请按照以下步骤识别并解决问题。"
+msgstr "如果 FlexDesigner 无法识别您的 Flexbar，请按照以下步骤识别并解决问题。"
 
 #: ../../source/troubleshoting/cannot_connect.md:5
 msgid "Verify Computer Recognition"
@@ -39,8 +38,7 @@ msgstr "验证计算机识别"
 msgid ""
 "Flexbar doesn't require additional USB drivers and should be "
 "automatically recognized when connected. Verify this through:"
-msgstr ""
-"Flexbar 不需要额外的 USB 驱动程序，连接时应该自动识别。通过以下方式验证："
+msgstr "Flexbar 不需要额外的 USB 驱动程序，连接时应该自动识别。通过以下方式验证："
 
 #: ../../source/troubleshoting/cannot_connect.md:9
 msgid "Method 1: Test Flexbar Functions"
@@ -51,7 +49,8 @@ msgid ""
 "**Access the Home Screen**: Press the \"🏠\" icon on the far left of "
 "Flexbar ![Home Button](image/cannot_connect/1746349468296.png)"
 msgstr ""
-"**访问主屏幕**：按 Flexbar 最左侧的"🏠"图标 ![Home Button](image/cannot_connect/1746349468296.png)"
+"**访问主屏幕**：按 Flexbar 最左侧的\"🏠\"图标 ![Home "
+"Button](image/cannot_connect/1746349468296.png)"
 
 #: ../../source/troubleshoting/cannot_connect.md:11
 msgid "Home Button"
@@ -63,7 +62,8 @@ msgid ""
 " buttons and observe your computer's response ![Function "
 "Test](image/cannot_connect/1746349473776.png)"
 msgstr ""
-"**测试设备功能**：旋转音量滚轮或按媒体控制按钮，观察计算机的响应 ![Function Test](image/cannot_connect/1746349473776.png)"
+"**测试设备功能**：旋转音量滚轮或按媒体控制按钮，观察计算机的响应 ![Function "
+"Test](image/cannot_connect/1746349473776.png)"
 
 #: ../../source/troubleshoting/cannot_connect.md:14
 msgid "Function Test"
@@ -73,8 +73,7 @@ msgstr "功能测试"
 msgid ""
 "If your computer's volume changes or media controls respond, your system "
 "has successfully recognized the Flexbar."
-msgstr ""
-"如果您的计算机音量发生变化或媒体控制有响应，您的系统已成功识别 Flexbar。"
+msgstr "如果您的计算机音量发生变化或媒体控制有响应，您的系统已成功识别 Flexbar。"
 
 #: ../../source/troubleshoting/cannot_connect.md:20
 msgid "Method 2: Check System Device Manager"
@@ -102,15 +101,15 @@ msgstr "macOS"
 
 #: ../../source/troubleshoting/cannot_connect.md:30
 msgid "Click the Apple menu in the top left → Select \"About This Mac\""
-msgstr "点击左上角的 Apple 菜单 → 选择"关于本机""
+msgstr "点击左上角的 Apple 菜单 → 选择\"关于本机\""
 
 #: ../../source/troubleshoting/cannot_connect.md:31
 msgid "Click \"System Report\" to enter System Information"
-msgstr "点击"系统报告"进入系统信息"
+msgstr "点击\"系统报告\"进入系统信息"
 
 #: ../../source/troubleshoting/cannot_connect.md:32
 msgid "Select \"USB\" in the Hardware section"
-msgstr "在硬件部分选择"USB""
+msgstr "在硬件部分选择\"USB\""
 
 #: ../../source/troubleshoting/cannot_connect.md:33
 msgid "Look for Flexbar in the USB device list"
@@ -148,8 +147,7 @@ msgstr "解决方案 1：重启设备"
 msgid ""
 "Restarting your computer and FlexDesigner is the simplest and most "
 "effective way to resolve most connection issues."
-msgstr ""
-"重启您的计算机和 FlexDesigner 是解决大多数连接问题的最简单和最有效的方法。"
+msgstr "重启您的计算机和 FlexDesigner 是解决大多数连接问题的最简单和最有效的方法。"
 
 #: ../../source/troubleshoting/cannot_connect.md:49
 msgid "Solution 2: Reinstall FlexDesigner"
@@ -159,8 +157,7 @@ msgstr "解决方案 2：重新安装 FlexDesigner"
 msgid ""
 "Download and reinstall the latest software from the [official "
 "website](https://eniacelec.com/pages/software)."
-msgstr ""
-"从[官方网站](https://eniacelec.com/pages/software)下载并重新安装最新软件。"
+msgstr "从[官方网站](https://eniacelec.com/pages/software)下载并重新安装最新软件。"
 
 #: ../../source/troubleshoting/cannot_connect.md:53
 msgid "Solution 3: Switch USB Protocol"
@@ -172,7 +169,8 @@ msgid ""
 "using a specific protocol. Flexbar supports both HID and CDC USB "
 "protocols. To switch between them:"
 msgstr ""
-"在极少数情况下，您的系统可能在使用特定协议与 Flexbar 通信时遇到问题。Flexbar 支持 HID 和 CDC USB 协议。要在它们之间切换："
+"在极少数情况下，您的系统可能在使用特定协议与 Flexbar 通信时遇到问题。Flexbar 支持 HID 和 CDC USB "
+"协议。要在它们之间切换："
 
 #: ../../source/troubleshoting/cannot_connect.md:57
 msgid ""
@@ -180,7 +178,8 @@ msgid ""
 "on the left side of the LOGO screen ![Safe Mode "
 "Entry](image/safemode/1743991368473.png)"
 msgstr ""
-"**进入安全模式**：启动期间，点击 LOGO 屏幕左侧的"进入安全模式"按钮 ![Safe Mode Entry](image/safemode/1743991368473.png)"
+"**进入安全模式**：启动期间，点击 LOGO 屏幕左侧的\"进入安全模式\"按钮 ![Safe Mode "
+"Entry](image/safemode/1743991368473.png)"
 
 #: ../../source/troubleshoting/cannot_connect.md:57
 msgid "Safe Mode Entry"
@@ -191,7 +190,8 @@ msgid ""
 "**Access Settings**: Click the gear icon on the far right of Flexbar "
 "![Settings Button](image/safemode/1743991410209.png)"
 msgstr ""
-"**访问设置**：点击 Flexbar 最右侧的齿轮图标 ![Settings Button](image/safemode/1743991410209.png)"
+"**访问设置**：点击 Flexbar 最右侧的齿轮图标 ![Settings "
+"Button](image/safemode/1743991410209.png)"
 
 #: ../../source/troubleshoting/cannot_connect.md:60
 msgid "Settings Button"
@@ -202,7 +202,8 @@ msgid ""
 "**Switch USB Mode**: Press button 6 to toggle between CDC and HID modes "
 "![1746499904730](image/cannot_connect/1746499904730.png)"
 msgstr ""
-"**切换 USB 模式**：按按钮 6 在 CDC 和 HID 模式之间切换 ![1746499904730](image/cannot_connect/1746499904730.png)"
+"**切换 USB 模式**：按按钮 6 在 CDC 和 HID 模式之间切换 "
+"![1746499904730](image/cannot_connect/1746499904730.png)"
 
 #: ../../source/troubleshoting/cannot_connect.md:63
 msgid "1746499904730"
@@ -220,8 +221,7 @@ msgstr "Linux USB 权限问题"
 msgid ""
 "If you're using Linux and encounter \"Cannot access USB device, this may "
 "be due to permission issues\", follow these steps:"
-msgstr ""
-"如果您使用 Linux 并遇到"无法访问 USB 设备，这可能是由于权限问题"，请按照以下步骤操作："
+msgstr "如果您使用 Linux 并遇到\"无法访问 USB 设备，这可能是由于权限问题\"，请按照以下步骤操作："
 
 #: ../../source/troubleshoting/cannot_connect.md:72
 msgid "**Create udev rules** by running the following commands in terminal:"
@@ -235,15 +235,38 @@ msgstr "**断开并重新连接您的设备**"
 msgid "**Restart the application**"
 msgstr "**重启应用程序**"
 
-#: ../../source/troubleshoting/cannot_connect.md:87
+#: ../../source/troubleshoting/cannot_connect.md:86
+#, fuzzy
+msgid "MacOS USB Permission Issues"
+msgstr "Linux USB 权限问题"
+
+#: ../../source/troubleshoting/cannot_connect.md:88
+msgid ""
+"If you are using MacOS, make sure you have allowed accessories to connect"
+" in your system settings."
+msgstr "如果您使用的是 MacOS，请确保已在系统设置中允许配件连接。"
+
+#: ../../source/troubleshoting/cannot_connect.md:90
+msgid ""
+"You can refer to the [official Apple "
+"documentation](https://support.apple.com/en-us/102282) for more "
+"information."
+msgstr "您可以参考[苹果官方文档](https://support.apple.com/en-us/102282)以获取更多信息。"
+
+#: ../../source/troubleshoting/cannot_connect.md:93
 msgid "Still Having Issues?"
 msgstr "仍然有问题？"
 
-#: ../../source/troubleshoting/cannot_connect.md:89
+#: ../../source/troubleshoting/cannot_connect.md:95
 msgid ""
 "If the above methods don't resolve your problem, please email "
 "contact@eniacelec.com. Our technical support team will contact you "
 "promptly to help solve the issue."
-msgstr ""
-"如果上述方法无法解决您的问题，请发送电子邮件至 contact@eniacelec.com。我们的技术支持团队将及时联系您以帮助解决问题。"
+msgstr "如果上述方法无法解决您的问题，请发送电子邮件至 contact@eniacelec.com。我们的技术支持团队将及时联系您以帮助解决问题。"
+
+#~ msgid "如果您使用的是MacOS系统，请确定您在设置中允许配件连接"
+#~ msgstr ""
+
+#~ msgid "您可以参考[苹果官方文档](https://support.apple.com/en-us/102282)"
+#~ msgstr ""
 

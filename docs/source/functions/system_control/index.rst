@@ -9,6 +9,10 @@ This section contains documentation for system control keys.
 
    audio_mixer
    volume_control 
+   volume_mute
    microphone_control
+   microphone_mute
+   play_pause
+   playback_info
    monitor_brightness_control
    monitor_power_control

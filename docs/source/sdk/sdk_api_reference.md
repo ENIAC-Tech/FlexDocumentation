@@ -155,7 +155,27 @@ Sets the value for slider keys.
 plugin.setSlider(serialNumber, key, 75)
 ```
 
-### Device Configuration
+### Device Configuration & Control
+
+#### plugin.sendControlCommand(serialNumber, command)
+
+Sends control commands to the device
+
+**Parameters:**
+
+- `serialNumber` (string): Device serial number
+- `command` (string): The command to send. One of the following:
+    - "sys.sleep": Put the device to sleep
+    - "sys.wake": Wake up the device
+    - "hapic.click": Trigger a click vibration
+
+```javascript
+plugin.sendControlCommand(serialNumber, 'sys.sleep') // Put the device to sleep
+plugin.sendControlCommand(serialNumber, 'sys.wake') // Wake up the device
+plugin.sendControlCommand(serialNumber, 'hapic.click') // Trigger a click vibration
+```
+
+
 
 #### plugin.setDeviceConfig(serialNumber, config)
 
@@ -484,6 +504,21 @@ plugin.on('plugin.alive', (payload) => {
     })
 })
 ```
+
+#### 'plugin.dead'
+
+Triggered when plugin keys are destroyed
+
+```javascript
+plugin.on('plugin.dead', (payload) => {
+    const { serialNumber, keys } = payload
+  
+    keys.forEach(key => {
+        console.log(`Key destoried: ${key.cid}`)
+    })
+})
+```
+
 
 #### 'plugin.data'
 

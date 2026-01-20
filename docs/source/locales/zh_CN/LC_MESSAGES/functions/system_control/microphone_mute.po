@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/microphone_mute.md:1
+msgid "Microphone Mute"
+msgstr "麦克风静音"
+
+#: ../../source/functions/system_control/microphone_mute.md:3
+msgid ""
+"The microphone mute key allows you to quickly toggle your system's "
+"microphone on or off. When you press this key, your computer's microphone"
+" will switch between muted and unmuted."
+msgstr "麦克风静音键允许您快速切换系统麦克风的开启或关闭。当您按下此键时，计算机的麦克风将在静音与非静音之间切换。"
+
+#: ../../source/functions/system_control/microphone_mute.md:5
+msgid ""
+"This function only operates when FlexDesigner is running. If you need "
+"microphone mute control without FlexDesigner, you may consider using your"
+" system's built-in multimedia mute key. Please note that these methods "
+"may not always stay synchronized with the Flexbar indicator."
+msgstr "此功能仅在 FlexDesigner 运行时有效。如果您需要在未运行 FlexDesigner 的情况下控制麦克风静音，可以考虑使用系统自带的多媒体静音键。请注意，这些方式显示的状态可能无法与 Flexbar 指示保持同步。"
+
+#: ../../source/functions/system_control/microphone_mute.md:7
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner"
+
+#: ../../source/functions/system_control/microphone_mute.md:9
+msgid ""
+"Apart from appearance customization options, this key does not have any "
+"other settings in FlexDesigner."
+msgstr "除了外观自定义选项之外，此键在 FlexDesigner 中没有其他设置。"
+
+#: ../../source/functions/system_control/microphone_mute.md:11
+msgid "![20251023-123225](image/microphone_mute/20251023-123505.jpg)"
+msgstr "![20251023-123225](image/microphone_mute/20251023-123505.jpg)"
+
+#: ../../source/functions/system_control/microphone_mute.md:11
+msgid "20251023-123225"
+msgstr "20251023-123225"
+
+#: ../../source/functions/system_control/microphone_mute.md:13
+msgid "On the Flexbar"
+msgstr "在 Flexbar"
+
+#: ../../source/functions/system_control/microphone_mute.md:15
+msgid ""
+"Tap the microphone mute key on the Flexbar to toggle the microphone mute "
+"state. If the microphone mute status changes by other means (such as "
+"keyboard shortcuts or system tray), the Flexbar key will update to show "
+"the correct mute state."
+msgstr "点击 Flexbar 上的麦克风静音键可切换麦克风的静音状态。如果您通过其他方式（如键盘快捷键或系统托盘）更改了麦克风静音状态，Flexbar 按键也会自动更新以显示正确的静音状态。"

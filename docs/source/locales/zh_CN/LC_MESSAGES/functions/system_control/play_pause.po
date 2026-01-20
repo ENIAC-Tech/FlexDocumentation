@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/play_pause.md:1
+msgid "Play/Pause"
+msgstr "播放/暂停"
+
+#: ../../source/functions/system_control/play_pause.md:3
+msgid "**Windows only**"
+msgstr "仅限 Windows"
+
+#: ../../source/functions/system_control/play_pause.md:5
+msgid ""
+"The play/pause key allows you to quickly toggle media playback on your "
+"system. When you press this key, it will send a play/pause command to "
+"your currently active media application (such as music or video players),"
+" switching between playback and pause states."
+msgstr ""
+"播放/暂停键允许您快速切换系统上的媒体播放。当您按下此键时，会向当前活跃的媒体应用（如音乐播放器或视频播放器）"
+"发送播放/暂停指令，实现在播放和暂停状态之间的切换。"
+
+#: ../../source/functions/system_control/play_pause.md:7
+msgid ""
+"This function only operates when FlexDesigner is running. If you need "
+"play/pause functionality without FlexDesigner, you may use your system's "
+"built-in media keys, but those may not always stay synchronized with the "
+"Flexbar indicator."
+msgstr ""
+"该功能仅在 FlexDesigner 运行时有效。如果您需要在没有 FlexDesigner 的情况下使用播放/暂停功能，可以使用系统自带的媒体键，"
+"但这些键可能无法与 Flexbar 指示器保持同步。"
+
+#: ../../source/functions/system_control/play_pause.md:9
+msgid "In the FlexDesigner"
+msgstr "在 FlexDesigner"
+
+#: ../../source/functions/system_control/play_pause.md:11
+msgid ""
+"Apart from standard appearance customization options, this key does not "
+"have any additional settings in FlexDesigner."
+msgstr ""
+"除了标准的外观自定义选项外，该键在 FlexDesigner 中没有其他额外设置。"
+
+#: ../../source/functions/system_control/play_pause.md:13
+msgid "![20251023-123225](image/play_pause/20251023-123822.jpg)"
+msgstr "![20251023-123225](image/play_pause/20251023-123822.jpg)"
+
+#: ../../source/functions/system_control/play_pause.md:13
+msgid "20251023-123225"
+msgstr "20251023-123225"
+
+#: ../../source/functions/system_control/play_pause.md:15
+msgid "On the Flexbar"
+msgstr "在 Flexbar"
+
+#: ../../source/functions/system_control/play_pause.md:19
+msgid ""
+"Tap the play/pause key on the Flexbar to control playback in your media "
+"application. If playback is paused or resumed by other means (such as "
+"keyboard shortcuts or clicking in the media player), the Flexbar key will"
+" update to show the correct play/pause state."
+msgstr ""
+"在 Flexbar 上点击播放/暂停键可控制媒体应用程序的播放。当通过其他方式（例如键盘快捷键或在媒体播放器内点击）"
+"暂停或恢复播放时，Flexbar 按键也会更新显示正确的播放/暂停状态。"
+
+#: ../../source/functions/system_control/play_pause.md:21
+msgid "You can freely customize the appearance of the play and pause states."
+msgstr "您可以自由自定义播放和暂停状态的外观。"
