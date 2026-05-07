@@ -64,7 +64,7 @@ msgstr "![playback_info](image/playback_info/playback_info.png)"
 
 #: ../../source/functions/system_control/playback_info.md:16
 msgid "playback_info"
-msgstr "再生情報"
+msgstr "playback_info"
 
 #: ../../source/functions/system_control/playback_info.md:18
 msgid ""

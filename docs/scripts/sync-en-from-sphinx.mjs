@@ -1,7 +1,8 @@
 /**
  * Copies English Markdown from docs/source into docs/en, generates index.md
- * from each index.rst, normalizes image paths to /image/..., and mirrors
- * docs/source/image into docs/public/image.
+ * from each index.rst, normalizes image paths to /image/..., and mirrors every
+ * Sphinx-style nested `image` folders under docs/source (including docs/source/image,
+ * flexdesigner/image, functions/.../image, etc.) into docs/public/image.
  */
 import fs from 'fs/promises'
 import fsSync from 'fs'
@@ -224,6 +225,35 @@ async function copyTree(src, dest) {
   }
 }
 
+/** Collect every directory named `image` under root (e.g. flexdesigner/image). Skip locales/build dirs. */
+async function collectDirsNamed(root, dirname, out = []) {
+  let entries
+  try {
+    entries = await fs.readdir(root, { withFileTypes: true })
+  } catch {
+    return out
+  }
+  for (const e of entries) {
+    if (SKIP_DIRS.has(e.name)) continue
+    const full = path.join(root, e.name)
+    if (!e.isDirectory()) continue
+    if (e.name === dirname) {
+      out.push(full)
+      continue
+    }
+    await collectDirsNamed(full, dirname, out)
+  }
+  return out
+}
+
+async function mergeCopySourceImagesToPublic() {
+  const destImg = path.join(PUBLIC, 'image')
+  const dirs = await collectDirsNamed(SOURCE, 'image')
+  for (const imgDir of dirs) {
+    await copyTree(imgDir, destImg)
+  }
+}
+
 async function walk(dir, relBase, handleFile) {
   let entries
   try {
@@ -262,16 +292,14 @@ async function main() {
     await fs.writeFile(out, md, 'utf8')
   })
 
-  const imgSrc = path.join(SOURCE, 'image')
-  const imgDest = path.join(PUBLIC, 'image')
-  if (fsSync.existsSync(imgSrc)) await copyTree(imgSrc, imgDest)
+  await mergeCopySourceImagesToPublic()
 
   const assetsSrc = path.join(SOURCE, 'assets')
   const assetsDest = path.join(PUBLIC, 'assets')
   if (fsSync.existsSync(assetsSrc)) await copyTree(assetsSrc, assetsDest)
 
   console.log(
-    'sync-en-from-sphinx: wrote docs/en; copied public/image and/or public/assets when present under source/',
+    'sync-en-from-sphinx: wrote docs/en; merged all docs/source/.../image → public/image; copied source/assets → public/assets when present',
   )
 }
 
