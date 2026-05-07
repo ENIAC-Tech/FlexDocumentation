@@ -1,29 +1,29 @@
-# Power Control
+# 电源控制
 
-Power control keys are used to control your computer's power state.
+电源控制按键用于控制计算机的电源状态。
 
 ![1745502078200](/image/power_control/1745502078200.png)
 
-## Sleep
+## 睡眠
 
-This key puts the computer to sleep when pressed.
+此按键在按下时使计算机进入睡眠状态。
 
-This key only works when the FlexDesigner is running. If this is not desired, consider using the 'Multimedia' key in the 'Input' category and set the function to 'Power Control' → 'Sleep'. The multimedia key works without the FlexDesigner, but the exact handling would be subject to the operating system settings.
+此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用「输入」类别中的「多媒体」按键，并将功能设置为「电源控制」→「睡眠」。多媒体按键无需 FlexDesigner 即可工作，但具体处理取决于操作系统设置。
 
-To put the Flexbar to sleep, check out the 'Flexbar Sleep' key in the 'Device Control' category.
+要使 Flexbar 进入睡眠状态，请查看「设备控制」类别中的「Flexbar 睡眠」按键。
 
-## Shutdown
+## 关机
 
-This key shuts down your computer when pressed.
+此按键在按下时关闭计算机。
 
-> Please note that due to permission restrictions, this function is not available on MacOS and Linux.
+> 请注意，由于权限限制，此功能在 MacOS 和 Linux 上不可用。
 >
-> Be aware that pressing this key will shut down your computer immediately. It's recommended to use this with the long-press function from the Common Tab.
+> 请注意，按下此按键将立即关闭计算机。建议与通用选项卡中的长按功能一起使用。
 
-## Restart
+## 重启
 
-This key restarts your computer when pressed.
+此按键在按下时重启计算机。
 
-> Please note that due to permission restrictions, this function is not available on MacOS and Linux.
+> 请注意，由于权限限制，此功能在 MacOS 和 Linux 上不可用。
 >
-> Be aware that pressing this key will restart your computer immediately. It's recommended to use this with the long-press function from the Common Tab.
+> 请注意，按下此按键将立即重启计算机。建议与通用选项卡中的长按功能一起使用。

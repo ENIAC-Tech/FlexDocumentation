@@ -1,15 +1,15 @@
-# Volume Control
+# 音量控制
 
-The volume control key allows controlling system audio output volume. The volume on the slider would be automatically kept in sync with the system volume setting.
+音量控制按键允许控制系统音频输出音量。滑块上的音量会自动与系统音量设置保持同步。
 
-This key only works when the FlexDesigner is running. If this is not desired, consider using the 'Scroll Wheel' key in the 'Input' category, and bind the left/ right action to volume down/ up. The catch is that the scroll wheel key won't be able to display the current volume.
+此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用「输入」类别中的「滚轮」按键，并将左/右操作绑定到音量降低/提高。问题是滚轮按键无法显示当前音量。
 
 ![1745502370652](/image/volume_control/1745502370652.png)
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
-Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.
+除了标准视觉选项外，此按键在 FlexDesigner 中没有任何额外的可配置功能。
 
-## On the Flexbar
+## 在 Flexbar 上
 
-Drag the slider on the Flexbar to adjust system volume. When the volume is changed with other methods (such as changing with keyboard shortcut or system panel), the change would be synced and reflected on the slider as well.
+在 Flexbar 上拖动滑块来调整系统音量。当通过其他方法（如使用键盘快捷键或系统面板）更改音量时，更改也会同步并反映在滑块上。

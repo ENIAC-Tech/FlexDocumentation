@@ -65,7 +65,7 @@ msgid ""
 "checkboxes. These specify if any of those buttons should be pressed in "
 "the mouse event."
 msgstr ""
-"按钮：包括"左键"、"右键"、"中键"、"后退"和"前进"复选框。这些指定在鼠标事件中是否应该按下这些按钮中的任何一个。"
+"按钮：包括「左键」、「右键」、「中键」、「后退」和「前进」复选框。这些指定在鼠标事件中是否应该按下这些按钮中的任何一个。"
 
 #: ../../source/functions/input/mouse.md:16
 msgid ""
@@ -73,7 +73,7 @@ msgid ""
 "'wheel' and 'pan' specifies the movement of the vertical scroll wheel and"
 " the horizontal scroll wheel respectively."
 msgstr ""
-"移动：指定触发时鼠标应该移动多少。"滚轮"和"平移"分别指定垂直滚轮和水平滚轮的移动。"
+"移动：指定触发时鼠标应该移动多少。「滚轮」和「平移」分别指定垂直滚轮和水平滚轮的移动。"
 
 #: ../../source/functions/input/mouse.md:17
 msgid ""

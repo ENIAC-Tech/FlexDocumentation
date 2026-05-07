@@ -29,7 +29,7 @@ msgid ""
 "The sequenced-keys executes multiple keys when pressed, as if multiple "
 "keys are pressed sequentially. If only one key out of a list shall be "
 "executed at once, check out the 'cycled keys'."
-msgstr "序列按键在按下时执行多个按键，就像多个按键按顺序按下一样。如果列表中只有一个按键应该同时执行，请查看"循环按键"。"
+msgstr "序列按键在按下时执行多个按键，就像多个按键按顺序按下一样。如果列表中只有一个按键应该同时执行，请查看「循环按键」。"
 
 #: ../../source/functions/more/sequenced_keys.md:5
 msgid "![1744984981870](image/sequenced_keys/1744984981870.png)"
@@ -95,7 +95,7 @@ msgstr "排序：默认情况下，按键按顺序（顺序）执行。也可以
 msgid ""
 "In the sequenced keys, there are two additional flow control 'key's in "
 "the 'more' category available (in the right key library pane):"
-msgstr "在序列按键中，"更多"类别中有两个额外的流程控制"按键"可用（在右侧按键库窗格中）："
+msgstr "在序列按键中，「更多」类别中有两个额外的流程控制「按键」可用（在右侧按键库窗格中）："
 
 #: ../../source/functions/more/sequenced_keys.md:23
 msgid ""

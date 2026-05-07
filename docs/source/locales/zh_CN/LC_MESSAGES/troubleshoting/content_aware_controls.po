@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/troubleshoting/content_aware_controls.md:1
 msgid "\"Content Aware Controls\" Setup and Usage"
-msgstr ""内容感知控制"设置和使用"
+msgstr "「内容感知控制」设置和使用"
 
 #: ../../source/troubleshoting/content_aware_controls.md:3
 msgid "What is \"Content Aware Controls\"?"
-msgstr "什么是"内容感知控制"？"
+msgstr "什么是「内容感知控制」？"
 
 #: ../../source/troubleshoting/content_aware_controls.md:5
 msgid ""
@@ -36,7 +36,7 @@ msgid ""
 "follow this tutorial to complete a few easy steps and achieve the "
 "following effect:"
 msgstr ""
-"为了让 Flexbar 使用更加方便，我们的"内容感知控制"功能会在您打开特定应用程序时自动在屏幕上显示最常用的快捷键界面。只需按照本教程完成几个简单步骤即可实现以下效果："
+"为了让 Flexbar 使用更加方便，我们的「内容感知控制」功能会在您打开特定应用程序时自动在屏幕上显示最常用的快捷键界面。只需按照本教程完成几个简单步骤即可实现以下效果："
 
 #: ../../source/troubleshoting/content_aware_controls.md:7
 msgid "![1743733850920](image/content_aware_controls/1743733850920.png)"
@@ -59,7 +59,7 @@ msgid ""
 "onto the virtual Flexbar to use it. For details, see the \"How to "
 "Navigate on Flexbar\" section."
 msgstr ""
-"要让您的 Flexbar 在使用应用程序时通过"内容感知控制"自动显示特定页面，您需要首先创建一个用于显示的页面。您可以在右侧按键库的"导航"类别下找到"页面"按键。将其拖到虚拟 Flexbar 上即可使用。详情请参阅"如何在 Flexbar 上导航"部分。"
+"要让您的 Flexbar 在使用应用程序时通过「内容感知控制」自动显示特定页面，您需要首先创建一个用于显示的页面。您可以在右侧按键库的「导航」类别下找到「页面」按键。将其拖到虚拟 Flexbar 上即可使用。详情请参阅「如何在 Flexbar 上导航」部分。"
 
 #: ../../source/troubleshoting/content_aware_controls.md:13
 msgid ""
@@ -67,7 +67,7 @@ msgid ""
 "import key packs from our presets or the \"Market Place\". For details, "
 "see the \"How to Export and Import Pages\" section."
 msgstr ""
-"您可以添加您经常与该应用程序一起使用的快捷键，或从我们的预设或"市场"导入按键包。详情请参阅"如何导出和导入页面"部分。"
+"您可以添加您经常与该应用程序一起使用的快捷键，或从我们的预设或「市场」导入按键包。详情请参阅「如何导出和导入页面」部分。"
 
 #: ../../source/troubleshoting/content_aware_controls.md:15
 msgid "![1743733967747](image/content_aware_controls/1743733967747.png)"
@@ -82,7 +82,7 @@ msgid ""
 "The linked Page can be placed anywhere in Flexbar's Pages directory; it "
 "does not affect the operation of \"Content Aware Controls.\""
 msgstr ""
-"链接的页面可以放置在 Flexbar 页面目录中的任何位置；这不会影响"内容感知控制"的运行。"
+"链接的页面可以放置在 Flexbar 页面目录中的任何位置；这不会影响「内容感知控制」的运行。"
 
 #: ../../source/troubleshoting/content_aware_controls.md:19
 msgid ""
@@ -90,7 +90,7 @@ msgid ""
 "customized. You can rename the Page to match your application, but this "
 "does not affect the operation of \"Content Aware Controls.\""
 msgstr ""
-"与所有其他按键一样，页面可以重命名或自定义外观。您可以将页面重命名为与您的应用程序匹配，但这不会影响"内容感知控制"的运行。"
+"与所有其他按键一样，页面可以重命名或自定义外观。您可以将页面重命名为与您的应用程序匹配，但这不会影响「内容感知控制」的运行。"
 
 #: ../../source/troubleshoting/content_aware_controls.md:21
 msgid ""
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../source/troubleshoting/content_aware_controls.md:23
 msgid "How to Set Up \"Content Aware Controls\""
-msgstr "如何设置"内容感知控制""
+msgstr "如何设置「内容感知控制」"
 
 #: ../../source/troubleshoting/content_aware_controls.md:25
 msgid ""
@@ -164,7 +164,7 @@ msgid ""
 "Aware Controls\" feature will **automatically** **display** the Excel "
 "Page without requiring you to search through the many Pages on Flexbar."
 msgstr ""
-"当您的计算机打开或聚焦（前台使用）之前绑定的窗口时，Flexbar 将自动切换到您绑定窗口的相应页面。在此示例中，我们将**Excel 页面**绑定到**Microsoft Excel**。当您使用 Microsoft Excel 时，Flexbar 的"内容感知控制"功能将**自动显示**Excel 页面，无需您在 Flexbar 上的众多页面中搜索。"
+"当您的计算机打开或聚焦（前台使用）之前绑定的窗口时，Flexbar 将自动切换到您绑定窗口的相应页面。在此示例中，我们将**Excel 页面**绑定到**Microsoft Excel**。当您使用 Microsoft Excel 时，Flexbar 的「内容感知控制」功能将**自动显示**Excel 页面，无需您在 Flexbar 上的众多页面中搜索。"
 
 #: ../../source/troubleshoting/content_aware_controls.md:41
 msgid "![1743733988401](image/content_aware_controls/1743733988401.png)"

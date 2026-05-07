@@ -93,7 +93,7 @@ msgstr "**注意：更新过程中请勿断开电源**"
 
 #: ../../source/troubleshoting/firmware.md:25
 msgid "After update, device shows \"Profile version does not match...\""
-msgstr "更新后，设备显示"配置文件版本不匹配...""
+msgstr "更新后，设备显示「配置文件版本不匹配…」"
 
 #: ../../source/troubleshoting/firmware.md:27
 msgid ""

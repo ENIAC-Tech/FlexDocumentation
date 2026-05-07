@@ -1,23 +1,23 @@
-# Timeline
+# 时间轴
 
-This document explains how to use Premiere Pro's timeline preview and control features on the Flexbar.
+本文档说明如何在 Flexbar 上使用 Premiere Pro 的时间轴预览和控制功能。
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
-You can find this feature under the "Adobe" category in the Key Library.
+您可以在按键库中的「Adobe」类别下找到此功能。
 
 ![1743306979328](/image/timeline/1743306979328.png)
 
-- **Application**: Currently supported only in Premiere Pro.
-- **Mode**: Choose between Timeline Mode and Thumbnail Mode.
-  - Thumbnail Mode requires rendering via Adobe Media Encoder, which may impact performance.
+- **应用程序**：目前仅在 Premiere Pro 中支持。
+- **模式**：在时间轴模式和缩略图模式之间选择。
+  - 缩略图模式需要通过 Adobe Media Encoder 进行渲染，这可能会影响性能。
 
-## On the Flexbar
+## 在 Flexbar 上
 
-- **Timeline Mode**: Allows you to preview and scrub through the timeline.
+- **时间轴模式**：允许您预览和浏览时间轴。
 
 ![1743307039513](/image/timeline/1743307039513.png)
 
-- **Thumbnail Mode**: Lets you preview each segment with a thumbnail. Scrubbing shows more precise previews.
+- **缩略图模式**：让您通过缩略图预览每个片段。浏览时显示更精确的预览。
 
 ![1743307100773](/image/timeline/1743307100773.png)

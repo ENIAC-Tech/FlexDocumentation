@@ -58,6 +58,14 @@ npm run docs:preview
 
 The published URL is `https://eniac-tech.github.io/FlexDocumentation/` (VitePress `base` is `/FlexDocumentation/`). Enable **GitHub Pages** with source **GitHub Actions** in the repository settings.
 
+## Site base URL
+
+GitHub Project Pages path is configured in `docs/.vitepress/site-base.json` (single source of truth for `base`). Markdown must continue to use `/image/` and `/assets/` without embedding the project prefix—VitePress applies `base` when rendering.
+
+## gettext / `.po` maintenance
+
+Chinese `msgstr` strings must not contain raw ASCII `"` inside quoted PO lines (gettext breaks). Use Chinese corner quotes 「」, escaped `\"`, or rephrase.
+
 ## Legacy Sphinx tree
 
 `docs/source/` still holds the original Sphinx/MyST files and gettext catalogs for reference. The active site is built only from the VitePress pipeline above.

@@ -1,8 +1,12 @@
+import fs from 'node:fs'
+import path from 'path'
+import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
 import { buildSidebar } from './sidebar'
 
-/** GitHub Project Pages: https://eniac-tech.github.io/FlexDocumentation/ */
-const BASE = '/FlexDocumentation/'
+const dir = path.dirname(fileURLToPath(import.meta.url))
+const siteBase = JSON.parse(fs.readFileSync(path.join(dir, 'site-base.json'), 'utf8')) as { base: string }
+const BASE = siteBase.base.endsWith('/') ? siteBase.base : `${siteBase.base}/`
 
 export default defineConfig({
   title: 'FlexDocumentation',
@@ -10,7 +14,11 @@ export default defineConfig({
   base: BASE,
   srcDir: '.',
   srcExclude: ['**/source/**'],
-  ignoreDeadLinks: [/^\/assets\//, /^\/image\//],
+  /**
+   * Markdown uses root-absolute `/image/` and `/assets/`; VitePress rewrites them with `base` for the browser.
+   * The static file checker does not always match `public/` the same way; these patterns avoid false build failures.
+   */
+  ignoreDeadLinks: [/^\/image\//, /^\/assets\//],
   themeConfig: {
     search: { provider: 'local' },
     i18nRouting: true,

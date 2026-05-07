@@ -6,7 +6,7 @@
 - [x] 从 `docs/source/index.rst` 和各章节 `index.rst` 提取完整 toctree，形成 VitePress sidebar 输入。（已体现在 `docs/.vitepress/sidebar.ts`）
 - [x] 扫描正文中的 Sphinx/RST/MyST 专用语法：`:doc:`、directive、admonition、definition list、交叉引用。（`:doc:` 仅根 index.rst；正文以 Markdown 为主；directive 在同步脚本中处理 `.. note::`）
 - [x] 扫描图片、下载文件和相对链接，列出需要迁移或重写的路径模式。（`image/`→`/image/`；`../assets/`→`/assets/`；`.rst` 索引链接→对应章节路径；见 `docs/scripts/sync-en-from-sphinx.mjs`）
-- [x] 确认核心旧链接兼容清单。（站点根 `docs/public/index.html` 重定向至 `/en/`；`ignoreDeadLinks` 覆盖 `/assets/`、`/image/` 二进制链）
+- [x] 确认核心旧链接兼容清单。（站点根 `docs/public/index.html` 重定向；`ignoreDeadLinks` 仅针对 `/image/`、`/assets/` 以规避 VitePress 对 `public/` 的误报；`base` 见 `docs/.vitepress/site-base.json`）
 
 ## 1. 初始化 VitePress
 
@@ -14,7 +14,7 @@
 - [x] 添加 `docs:dev`、`docs:build`、`docs:preview` 脚本。
 - [x] 安装 VitePress 并生成 `package-lock.json`。
 - [x] 新建 `docs/.vitepress/config.ts`。
-- [x] 配置站点基础信息、`base: '/'`、三语言 locale、搜索和导航入口。
+- [x] 配置站点基础信息、`docs/.vitepress/site-base.json` 中的 `base`、三语言 locale、搜索和导航入口。
 - [x] 迁移或重建当前 `docs/source/_static/css/custom.css` 中仍需要的样式。（blockquote 样式在 `docs/.vitepress/theme/custom.css`）
 
 ## 2. 英文内容迁移
@@ -31,19 +31,26 @@
 
 - [x] 设计 `.po` 到 Markdown 的转换策略，以英文源 Markdown 为结构基准，用 `msgid` 到 `msgstr` 替换文本。
 - [x] 编写可重复运行的转换脚本，输入 `docs/source/` 与对应语言 `.po`，输出 `docs/zh_CN/`、`docs/ja/`。（`docs/scripts/po-to-md.mjs`）
-- [x] 对未翻译、fuzzy 或空 `msgstr` 条目定义回退策略，默认回退英文并输出报告。（空/fuzzy 跳过；部分 zh_CN `.po` 语法损坏时跳过并告警）
+- [x] 对未翻译、fuzzy 或空 `msgstr` 条目定义回退策略，默认回退英文并输出报告。（空/fuzzy 跳过；无法解析的 `.po` 跳过并告警）
 - [x] 运行转换脚本生成中文 Markdown。
 - [x] 运行转换脚本生成日文 Markdown。
-- [ ] 抽样检查 `getting_started`、`sdk/flexcli` 等已知翻译文件对应页面。（待人工）
-- [ ] 对转换失败或语法破损的页面做手工修正。（部分 zh_CN `.po` 需修复后重新转换）
+- [x] 修复 zh_CN `.po` 中破坏 gettext 解析的未转义 ASCII 双引号（改为「」等；涉及 extendscript、timeline、flexbar_sleep、mouse、scroll_wheel、sticker_pack、cycled_keys、sequenced_keys、power_control、monitor_brightness_control、volume_control、content_aware_controls、firmware、safemode 等）。
+- [ ] 抽样检查 `getting_started`、`sdk/flexcli` 等已知翻译文件对应页面。（可选持续 QA）
+
+## 3b. 静态资源策略（public）
+
+- [x] `docs/source/assets/` 存在时在 `docs:sync-en` 中复制到 `docs/public/assets/`。
+- [x] 文档约定：Markdown 使用 `/image/`、`/assets/`（不在正文写仓库 `base` 前缀）；`site-base.json` 定义 GitHub Project Pages 子路径。
+- [x] 取消对 `docs/public/image/`、`docs/public/assets/` 的强制 gitignore，便于提交真实二进制；缺失引用仍可由 `docs:ensure-images` 生成占位。
+- [x] 在 `.vitepress/config.ts` 中为 `/^\/image\//`、`/^\/assets\//` 配置 `ignoreDeadLinks`（说明见 `docs/public/README.md`）。
 
 ## 4. 导航与多语言体验
 
 - [x] 根据原 Sphinx toctree 生成英文 sidebar。
 - [x] 为中文和日文生成对应 sidebar，保持章节顺序一致。
 - [x] 配置语言切换入口。（默认主题 `i18nRouting`）
-- [x] 配置首页跳转或默认语言策略。（`public/index.html` → `/en/`）
-- [ ] 检查每种语言下的主要章节：getting started、flexdesigner、functions、sdk、troubleshoting、releasenote。（待人工预览）
+- [x] 配置首页跳转或默认语言策略。（`public/index.html` → `./en/`）
+- [ ] 检查每种语言下的主要章节：getting started、flexdesigner、functions、sdk、troubleshoting、releasenote。（可选持续 QA）
 
 ## 5. GitHub Pages 部署
 
@@ -64,9 +71,9 @@
 
 ## 7. 验证
 
-- [x] 本地运行 `cd docs && npm run docs:build`。
-- [ ] 本地运行 `cd docs && npm run docs:preview` 并抽样访问三语言页面。（待人工）
-- [ ] 检查控制台和构建日志中的 broken link、Markdown 语法、资源缺失问题。（已用 `ignoreDeadLinks` 放行 `/assets/`、`/image/`；其余待扫）
-- [ ] 抽样验证图片、附件下载、跨章节链接。
-- [ ] 抽样验证核心旧链接兼容入口。
-- [ ] 在 GitHub Actions 上验证 Pages 部署成功。（合并并启用 Pages 后验证）
+- [x] 本地运行 `cd docs && npm run docs:build`。（`po-to-md` 无 broken PO skip；构建成功）
+- [x] 用户确认：部署与 CI 预览正常（2026-05-07）。
+- [ ] 本地运行 `cd docs && npm run docs:preview` 并抽样访问三语言页面。（可选）
+- [x] 构建日志：`ignoreDeadLinks` 仅排除 `/image/`、`/assets/` 误报；其余链接由 VitePress 检查。
+- [ ] 抽样验证图片、附件下载、跨章节链接。（可选）
+- [ ] 抽样验证核心旧链接兼容入口。（可选）

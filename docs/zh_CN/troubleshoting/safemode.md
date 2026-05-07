@@ -1,18 +1,18 @@
-# Safe Mode
+# 安全模式
 
-When in Safe Mode, Flexbar doesn't load any profiles. This mode is designed to prevent the device from becoming unusable due to crashes caused by profile loading failures, ensuring you can still update firmware or profiles.
+在安全模式下，Flexbar 不加载任何配置文件。此模式旨在防止设备由于配置文件加载失败导致的崩溃而变得不可用，确保您仍然可以更新固件或配置文件。
 
 ![1743991410209](/image/safemode/1743991410209.png)
 
-## How to Enter Safe Mode
+## 如何进入安全模式
 
-### Automatic Entry
+### 自动进入
 
-- The device automatically enters Safe Mode after updating to new firmware. You'll need to download your profiles again.
-- If the device detects a crash, it will automatically enter Safe Mode. You can try downloading your profiles again. If crashes persist, please submit your profile to `contact@eniacelec.com` for support and to help us improve.
+- 设备在更新到新固件后会自动进入安全模式。您需要重新下载您的配置文件。
+- 如果设备检测到崩溃，它会自动进入安全模式。您可以尝试重新下载您的配置文件。如果崩溃持续存在，请将您的配置文件提交到 `contact@eniacelec.com` 以获得支持并帮助我们改进。
 
-### Manual Entry
+### 手动进入
 
-During the startup LOGO screen, you can find a subtle `Enter SafeMode` button on the left side. Tap this button to manually enter Safe Mode.
+在启动 LOGO 屏幕期间，您可以在左侧找到一个微妙的「进入安全模式」按钮。点击此按钮手动进入安全模式。
 
 ![1743991368473](/image/safemode/1743991368473.png)

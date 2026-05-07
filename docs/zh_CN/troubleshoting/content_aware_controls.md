@@ -1,53 +1,53 @@
-# "Content Aware Controls" Setup and Usage
+# 「内容感知控制」设置和使用
 
-## What is "Content Aware Controls"?
+## 什么是「内容感知控制」？
 
-To make Flexbar more convenient to use, our "Content Aware Controls" feature automatically brings up the most frequently used shortcut interface on the screen while you open specific applications. Simply follow this tutorial to complete a few easy steps and achieve the following effect:
+为了让 Flexbar 使用更加方便，我们的「内容感知控制」功能会在您打开特定应用程序时自动在屏幕上显示最常用的快捷键界面。只需按照本教程完成几个简单步骤即可实现以下效果：
 
 ![1743733850920](/image/content_aware_controls/1743733850920.png)
 
-## How to Add
+## 如何添加
 
-To make your Flexbar automatically display a specific page when using an application through "Content Aware Controls," you need to first create a page for display. You can find the "Page" key under the "Navigation" category in the Key Library on the right side. Drag it onto the virtual Flexbar to use it. For details, see the "How to Navigate on Flexbar" section.
+要让您的 Flexbar 在使用应用程序时通过「内容感知控制」自动显示特定页面，您需要首先创建一个用于显示的页面。您可以在右侧按键库的「导航」类别下找到「页面」按键。将其拖到虚拟 Flexbar 上即可使用。详情请参阅「如何在 Flexbar 上导航」部分。
 
-You can add the shortcuts you frequently use with that application or import key packs from our presets or the "Market Place". For details, see the "How to Export and Import Pages" section.
+您可以添加您经常与该应用程序一起使用的快捷键，或从我们的预设或「市场」导入按键包。详情请参阅「如何导出和导入页面」部分。
 
 ![1743733967747](/image/content_aware_controls/1743733967747.png)
 
-> The linked Page can be placed anywhere in Flexbar's Pages directory; it does not affect the operation of "Content Aware Controls."
+> 链接的页面可以放置在 Flexbar 页面目录中的任何位置；这不会影响「内容感知控制」的运行。
 >
-> Like all other keys, Pages can be renamed or have their appearance customized. You can rename the Page to match your application, but this does not affect the operation of "Content Aware Controls."
+> 与所有其他按键一样，页面可以重命名或自定义外观。您可以将页面重命名为与您的应用程序匹配，但这不会影响「内容感知控制」的运行。
 >
-> More shortcut pre-sets will be uploaded to the Market Place for download soon. Please note that you will still need to **manually bind** these Pages to software windows, as the specific window and program names will vary on each computer.
+> 更多快捷键预设将很快上传到市场供下载。请注意，您仍然需要**手动绑定**这些页面到软件窗口，因为具体的窗口和程序名称在每台计算机上都会有所不同。
 
-## How to Set Up "Content Aware Controls"
+## 如何设置「内容感知控制」
 
-① In Flexbar Designer, click on the Page you created for display (make sure to select the Page key itself in the parent folder, not inside the Page).
+① 在 Flexbar Designer 中，点击您创建的用于显示的页面（确保在父文件夹中选择页面按键本身，而不是在页面内部）。
 
-② You will see the Page's settings appear in the Configuration Panel below. Click the **FUNCTION** tab, and you will find the **Bind to Window** option.
+② 您将看到页面设置出现在下方的配置面板中。点击**功能**选项卡，您将找到**绑定到窗口**选项。
 
 ![7a811a87-01aa-4edc-856c-9cee1c64ff6f](C:\Users\tongy\Desktop\content aware controls\7a811a87-01aa-4edc-856c-9cee1c64ff6f.png)
 
-③ Click the **Bind to Window** field. Flexbar Designer will acquire and list all currently open windows on your computer. Select the window you want to bind to this Page.
+③ 点击**绑定到窗口**字段。Flexbar Designer 将获取并列出您计算机上所有当前打开的窗口。选择您想要绑定到此页面的窗口。
 
-④ Don't forget to save and upload the configuration to your Flexbar for the settings to take effect.
+④ 别忘了保存配置并上传到您的 Flexbar，以使设置生效。
 
 ![1743733975174](/image/content_aware_controls/1743733975174.png)
 
-## Result
+## 结果
 
-When your computer opens or focuses (foreground use) on the previously bound window, Flexbar will automatically switch to the corresponding page you bind the window to. In this example, we bound the **Excel Page** to **Microsoft Excel**. When you use Microsoft Excel, Flexbar's "Content Aware Controls" feature will **automatically** **display** the Excel Page without requiring you to search through the many Pages on Flexbar.
+当您的计算机打开或聚焦（前台使用）之前绑定的窗口时，Flexbar 将自动切换到您绑定窗口的相应页面。在此示例中，我们将**Excel 页面**绑定到**Microsoft Excel**。当您使用 Microsoft Excel 时，Flexbar 的「内容感知控制」功能将**自动显示**Excel 页面，无需您在 Flexbar 上的众多页面中搜索。
 
 ![1743733988401](/image/content_aware_controls/1743733988401.png)
 
-> **Do not** bind multiple Pages to the same window.
+> **不要**将多个页面绑定到同一个窗口。
 >
-> When clicking **Bind to Window**, only **currently open** windows will be displayed in the list. Make sure to open the application window you need to bind first when setting up. The binding relationship is based on the window.
+> 点击**绑定到窗口**时，列表中只会显示**当前打开**的窗口。设置时请确保先打开您需要绑定的应用程序窗口。绑定关系基于窗口。
 >
-> Applications can be bound to bring up Pages, but the Page key itself **does not** have the functionality to **launch applications**. If you need it that way, please use the **Open Application** key and place the aforementioned Pages elsewhere, binding them to the window as described above. This way, you can launch the application and open the corresponding Page with one click.
+> 应用程序可以绑定以调出页面，但页面按键本身**没有**启动应用程序的功能。如果您需要这种方式，请使用**打开应用程序**按键并将上述页面放置在其他地方，如上所述将它们绑定到窗口。这样，您就可以一键启动应用程序并打开相应的页面。
 >
-> *This feature requires Flexbar Designer to be running in the background to work.
+> *此功能需要 Flexbar Designer 在后台运行才能工作。
 
-## Sub-pages
+## 子页面
 
-When a parent page is bound to a specific application, all sub-pages will also be automatically bound to that application. When you enter a sub-page that is bound to an application, Flexbar will automatically remember the sub-page's position, and next time it will automatically jump back to the last sub-page you visited.
+当父页面绑定到特定应用程序时，所有子页面也将自动绑定到该应用程序。当您进入绑定到应用程序的子页面时，Flexbar 将自动记住子页面的位置，下次它将自动跳回到您上次访问的子页面。

@@ -38,7 +38,7 @@ msgstr "在 FlexDesigner 中"
 #: ../../source/functions/adobe/timeline.md:7
 msgid "You can find this feature under the \"Adobe\" category in the Key Library."
 msgstr ""
-"您可以在按键库中的"Adobe"类别下找到此功能。"
+"您可以在按键库中的「Adobe」类别下找到此功能。"
 
 #: ../../source/functions/adobe/timeline.md:9
 msgid "![1743306979328](image/timeline/1743306979328.png)"

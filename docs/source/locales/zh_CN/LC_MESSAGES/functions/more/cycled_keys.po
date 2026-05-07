@@ -29,7 +29,7 @@ msgid ""
 "The cycled-keys cycles between multiple keys when pressed. Only the "
 "currently displayed key would be executed. If you need executing multiple"
 " operations at once, check out the 'Sequenced Keys'."
-msgstr "循环按键在按下时在多个按键之间循环。只有当前显示的按键会被执行。如果您需要同时执行多个操作，请查看"序列按键"。"
+msgstr "循环按键在按下时在多个按键之间循环。只有当前显示的按键会被执行。如果您需要同时执行多个操作，请查看「序列按键」。"
 
 #: ../../source/functions/more/cycled_keys.md:5
 msgid "![1744984891965](image/cycled_keys/1744984891965.png)"

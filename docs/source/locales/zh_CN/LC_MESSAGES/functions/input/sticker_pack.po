@@ -90,7 +90,7 @@ msgid ""
 "images by using the checkbox in the top right corner of the image when "
 "hovering the cursor over, right click on any image, click 'Delete all "
 "selected'."
-msgstr "要从贴纸包中删除图像，请右键单击图像并点击"删除"。要从贴纸包中删除多个图像，请将光标悬停在图像上时使用图像右上角的复选框选择图像，右键单击任何图像，点击"删除所有选中的"。"
+msgstr "要从贴纸包中删除图像，请右键单击图像并点击「删除」。要从贴纸包中删除多个图像，请将光标悬停在图像上时使用图像右上角的复选框选择图像，右键单击任何图像，点击「删除所有选中的」。"
 
 #: ../../source/functions/input/sticker_pack.md:20
 msgid ""

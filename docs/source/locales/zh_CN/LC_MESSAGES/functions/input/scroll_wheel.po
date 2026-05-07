@@ -83,7 +83,7 @@ msgid ""
 "By default, it triggers an action every 5 steps scrolled. This can be "
 "adjusted higher for a lower sensitivity, or lower for a higher "
 "sensitivity."
-msgstr "滚轮的灵敏度可以通过"每步操作"来控制。默认情况下，每滚动 5 步触发一次操作。可以调整为更高的值以获得更低的灵敏度，或调整为更低的值以获得更高的灵敏度。"
+msgstr "滚轮的灵敏度可以通过「每步操作」来控制。默认情况下，每滚动 5 步触发一次操作。可以调整为更高的值以获得更低的灵敏度，或调整为更低的值以获得更高的灵敏度。"
 
 #: ../../source/functions/input/scroll_wheel.md:21
 msgid "On the Flexbar"

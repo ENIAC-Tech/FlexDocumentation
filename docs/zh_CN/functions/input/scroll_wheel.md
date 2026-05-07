@@ -1,25 +1,25 @@
-# Scroll Wheel
+# 滚轮
 
-The scroll wheel key shows a scroll wheel on the screen, and the operation can be bind to keys, mouse or media control input.
+滚轮按键在屏幕上显示一个滚轮，操作可以绑定到按键、鼠标或媒体控制输入。
 
-This feature emulates a standard USB keyboard with multimedia keys. It works on any devices without having FlexDesigner running.
+此功能模拟带有多媒体按键的标准 USB 键盘。它可以在任何设备上工作，无需运行 FlexDesigner。
 
 ![1744984064607](/image/scroll_wheel/1744984064607.png)
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
 ![1744984053455](/image/scroll_wheel/1744984053455.png)
 
-The scroll wheel can trigger different actions when it's being scrolled to the left or right. The action can be specified in the function tab. Each direction can trigger keyboard, mouse, multimedia, or any combination of these actions.
+滚轮在向左或向右滚动时可以触发不同的操作。操作可以在功能选项卡中指定。每个方向都可以触发键盘、鼠标、多媒体或这些操作的任何组合。
 
-See keyboard, mouse, and multimedia page for details.
+详情请参阅键盘、鼠标和多媒体页面。
 
-The scroll wheel's length is fixed. However, it's possible to set the key to occupy larger area to show additional label or icon. By default, it shows a scroll wheel icon on the left side of the actual wheel. This can be disabled by disable the icon option in the foreground tab, and set the width to minimum in the background page.
+滚轮的长度是固定的。但是，可以将按键设置为占用更大的区域以显示额外的标签或图标。默认情况下，它在实际滚轮的左侧显示滚轮图标。可以通过在前景选项卡中禁用图标选项，并在背景页面中将宽度设置为最小值来禁用此功能。
 
-The scroll wheel's sensitivity can be controlled by 'Action per steps'. By default, it triggers an action every 5 steps scrolled. This can be adjusted higher for a lower sensitivity, or lower for a higher sensitivity.
+滚轮的灵敏度可以通过「每步操作」来控制。默认情况下，每滚动 5 步触发一次操作。可以调整为更高的值以获得更低的灵敏度，或调整为更低的值以获得更高的灵敏度。
 
-## On the Flexbar
+## 在 Flexbar 上
 
-A scrollable wheel would appear at the defined location. Scroll the wheel to trigger defined actions.
+可滚动的滚轮将出现在定义的位置。滚动滚轮以触发定义的操作。
 
 ![1744984389760](/image/scroll_wheel/1744984389760.png)

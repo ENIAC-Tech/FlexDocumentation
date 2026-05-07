@@ -51,13 +51,13 @@ msgid ""
 "set the function to 'Power Control' → 'Sleep'. The multimedia key works "
 "without the FlexDesigner, but the exact handling would be subject to the "
 "operating system settings."
-msgstr "此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用"输入"类别中的"多媒体"按键，并将功能设置为"电源控制"→"睡眠"。多媒体按键无需 FlexDesigner 即可工作，但具体处理取决于操作系统设置。"
+msgstr "此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用「输入」类别中的「多媒体」按键，并将功能设置为「电源控制」→「睡眠」。多媒体按键无需 FlexDesigner 即可工作，但具体处理取决于操作系统设置。"
 
 #: ../../source/functions/power_control/power_control.md:13
 msgid ""
 "To put the Flexbar to sleep, check out the 'Flexbar Sleep' key in the "
 "'Device Control' category."
-msgstr "要使 Flexbar 进入睡眠状态，请查看"设备控制"类别中的"Flexbar 睡眠"按键。"
+msgstr "要使 Flexbar 进入睡眠状态，请查看「设备控制」类别中的「Flexbar 睡眠」按键。"
 
 #: ../../source/functions/power_control/power_control.md:15
 msgid "Shutdown"

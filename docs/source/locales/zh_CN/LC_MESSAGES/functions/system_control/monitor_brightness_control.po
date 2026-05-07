@@ -36,7 +36,7 @@ msgstr "此按键允许使用 DDC/CI 协议更改外部显示器亮度。大多�
 msgid ""
 "Note that on a laptop, it would be easier to use the 'Multimedia' key in "
 "the 'Input' category to control screen brightness."
-msgstr "请注意，在笔记本电脑上，使用"输入"类别中的"多媒体"按键来控制屏幕亮度会更简单。"
+msgstr "请注意，在笔记本电脑上，使用「输入」类别中的「多媒体」按键来控制屏幕亮度会更简单。"
 
 #: ../../source/functions/system_control/monitor_brightness_control.md:7
 msgid "![1745502339824](image/monitor_brightness_control/1745502339824.png)"

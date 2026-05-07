@@ -94,9 +94,6 @@ docs/_build/
 docs/node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
-docs/public/image/
-docs/public/assets/
-
 # PyBuilder
 .pybuilder/
 target/

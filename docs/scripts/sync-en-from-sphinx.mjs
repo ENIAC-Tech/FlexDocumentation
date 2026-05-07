@@ -266,7 +266,13 @@ async function main() {
   const imgDest = path.join(PUBLIC, 'image')
   if (fsSync.existsSync(imgSrc)) await copyTree(imgSrc, imgDest)
 
-  console.log('sync-en-from-sphinx: wrote docs/en and docs/public/image (if present)')
+  const assetsSrc = path.join(SOURCE, 'assets')
+  const assetsDest = path.join(PUBLIC, 'assets')
+  if (fsSync.existsSync(assetsSrc)) await copyTree(assetsSrc, assetsDest)
+
+  console.log(
+    'sync-en-from-sphinx: wrote docs/en; copied public/image and/or public/assets when present under source/',
+  )
 }
 
 main().catch((err) => {

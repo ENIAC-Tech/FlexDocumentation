@@ -1,25 +1,25 @@
-# Cycled Keys
+# 循环按键
 
-The cycled-keys cycles between multiple keys when pressed. Only the currently displayed key would be executed. If you need executing multiple operations at once, check out the 'Sequenced Keys'.
+循环按键在按下时在多个按键之间循环。只有当前显示的按键会被执行。如果您需要同时执行多个操作，请查看「序列按键」。
 
 ![1744984891965](/image/cycled_keys/1744984891965.png)
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
 ![1744985015552](/image/cycled_keys/1744985015552.png)
 
-Because the cycled-keys is merely a container for other keys, it doesn't have the usual background and foreground settings. The only available tab is the function tab, where the list of keys to cycle through can be defined.
+因为循环按键只是其他按键的容器，所以它没有通常的背景和前景设置。唯一可用的选项卡是功能选项卡，可以在其中定义要循环的按键列表。
 
-To define the keys, drag and drop desired key from the right pane into the middle area. Note that when in the function tab, only keys that can be used with the cycle key would be displayed. **You can double-click a key to further edit its specific functions.**
+要定义按键，请将所需的按键从右侧窗格拖放到中间区域。请注意，在功能选项卡中，只会显示可以与循环按键一起使用的按键。**您可以双击按键来进一步编辑其特定功能。**
 
-By default, keys are cycled through in order. It's also possible to switch to random order by clicking on the ordering button top right to the action list.
+默认情况下，按键按顺序循环。也可以通过点击操作列表右上角的排序按钮切换到随机顺序。
 
-For each added key, the appearance can be customized individually. Highlight the desired key by clicking it, then switch to the foreground and background tab to customize it. The function tab of added keys can be opened by double-clicking on the key.
+对于每个添加的按键，可以单独自定义外观。通过点击来高亮显示所需的按键，然后切换到前景和背景选项卡进行自定义。可以通过双击按键来打开添加按键的功能选项卡。
 
-The most typical application of Cycled Keys is to control media play and pause. You can drag two media keys from the right side into the Cycled Keys list, and set the corresponding icons and colors
+循环按键最典型的应用是控制媒体播放和暂停。您可以将两个媒体按键从右侧拖到循环按键列表中，并设置相应的图标和颜色
 
 ![1745471597951](/image/cycled_keys/1745471597951.png)
 
-## On the Flexbar
+## 在 Flexbar 上
 
-Press the key to execute the currently displayed key. Once done, the next key would be displayed on the key.
+按按键执行当前显示的按键。完成后，下一个按键将显示在按键上。

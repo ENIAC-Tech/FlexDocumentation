@@ -37,7 +37,7 @@ msgid ""
 "desired, consider using the 'Scroll Wheel' key in the 'Input' category, "
 "and bind the left/ right action to volume down/ up. The catch is that the"
 " scroll wheel key won't be able to display the current volume."
-msgstr "此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用"输入"类别中的"滚轮"按键，并将左/右操作绑定到音量降低/提高。问题是滚轮按键无法显示当前音量。"
+msgstr "此按键仅在 FlexDesigner 运行时工作。如果不需要这样，请考虑使用「输入」类别中的「滚轮」按键，并将左/右操作绑定到音量降低/提高。问题是滚轮按键无法显示当前音量。"
 
 #: ../../source/functions/system_control/volume_control.md:7
 msgid "![1745502370652](image/volume_control/1745502370652.png)"

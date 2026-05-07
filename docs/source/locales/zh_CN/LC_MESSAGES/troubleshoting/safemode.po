@@ -74,7 +74,7 @@ msgid ""
 "During the startup LOGO screen, you can find a subtle `Enter SafeMode` "
 "button on the left side. Tap this button to manually enter Safe Mode."
 msgstr ""
-"在启动 LOGO 屏幕期间，您可以在左侧找到一个微妙的"进入安全模式"按钮。点击此按钮手动进入安全模式。"
+"在启动 LOGO 屏幕期间，您可以在左侧找到一个微妙的「进入安全模式」按钮。点击此按钮手动进入安全模式。"
 
 #: ../../source/troubleshoting/safemode.md:18
 msgid "![1743991368473](image/safemode/1743991368473.png)"

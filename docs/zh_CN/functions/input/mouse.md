@@ -1,23 +1,23 @@
-# Mouse
+# 鼠标
 
-The mouse key sends mouse actions as if on an actual mouse.
+鼠标按键发送鼠标操作，就像在实际鼠标上操作一样。
 
-This feature emulates a standard USB mouse. It works on any devices without having FlexDesigner running.
+此功能模拟标准 USB 鼠标。它可以在任何设备上工作，无需运行 FlexDesigner。
 
 ![1744983987017](/image/mouse/1744983987017.png)
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
 ![1744984004083](/image/mouse/1744984004083.png)
 
-The FlexDesigner exposes the following settings for this key:
+FlexDesigner 为此按键提供以下设置：
 
-- Buttons: Includes the 'Left', 'Right', 'Middle', 'Back', and 'Forward' checkboxes. These specify if any of those buttons should be pressed in the mouse event.
-- Movement: Specify how much the mouse should move when triggered. The 'wheel' and 'pan' specifies the movement of the vertical scroll wheel and the horizontal scroll wheel respectively.
-- Absolute Position: When checked, the movement would be sent as absolute movement instead of relative. Which means the mouse would be moved to the specified location, instead of move by the specified distance.
-- Double Click: Check if the click needs to be a double click
-- Release After Click: Check if the mouse buttons should be released after click. Otherwise, the mouse button would be in the pressed state
+- 按钮：包括「左键」、「右键」、「中键」、「后退」和「前进」复选框。这些指定在鼠标事件中是否应该按下这些按钮中的任何一个。
+- 移动：指定触发时鼠标应该移动多少。「滚轮」和「平移」分别指定垂直滚轮和水平滚轮的移动。
+- 绝对位置：选中时，移动将作为绝对移动而不是相对移动发送。这意味着鼠标将移动到指定位置，而不是按指定距离移动。
+- 双击：检查点击是否需要是双击
+- 点击后释放：检查点击后是否应该释放鼠标按钮。否则，鼠标按钮将处于按下状态
 
-## On the Flexbar
+## 在 Flexbar 上
 
-Press the key on the Flexbar to trigger the defined action.
+在 Flexbar 上按下按键以触发定义的操作。

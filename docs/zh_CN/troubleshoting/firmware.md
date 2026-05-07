@@ -1,63 +1,63 @@
-# Firmware
+# 固件
 
-Firmware refers to the embedded software written into Flexbar's internal microcontroller, pre-installed at the factory. Updates to firmware are prompted via FlexDesigner when available. We recommend regularly updating to ensure access to the latest features and improved stability.
+固件是指写入 Flexbar 内部微控制器的嵌入式软件，在工厂预装。固件更新在有可用更新时通过 FlexDesigner 提示。我们建议定期更新以确保访问最新功能并提高稳定性。
 
-## Update your firmware
+## 更新您的固件
 
-### Automatic Update
+### 自动更新
 
-When a firmware update is available, FlexDesigner will display the following prompt. We recommend updating as soon as possible.
+当有固件更新可用时，FlexDesigner 将显示以下提示。我们建议尽快更新。
 
 ![1743988092470](/image/firmware/1743988092470.png)
 
-### Manual Update
+### 手动更新
 
-**Under normal circumstances, you do not need to manually update your firmware. If a necessary firmware update is available, FlexDesigner will notify you.**
+**在正常情况下，您不需要手动更新固件。如果有必要的固件更新可用，FlexDesigner 会通知您。**
 
-Go to `Setting -> Device`
+转到`设置 -> 设备`
 
 ![1743984789282](/image/firmware/1743984789282.png)
 
-Click `UPLOAD FIRMWARE`, then wait for the firmware upload to complete and the device to restart automatically.
+点击`上传固件`，然后等待固件上传完成，设备将自动重启。
 
-**Note: Do not disconnect power during the update process**
+**注意：更新过程中请勿断开电源**
 
-### After update, device shows "Profile version does not match..."
+### 更新后，设备显示「配置文件版本不匹配…」
 
-It's normal for your device to display this screen after an update. The update requires you to re-upload your Profile to ensure the device is running the latest version. You simply need to upload your Profile again to resolve this.
+更新后设备显示此屏幕是正常的。更新需要您重新上传配置文件以确保设备运行最新版本。您只需再次上传配置文件即可解决此问题。
 
 ![1746932309321](/image/firmware/1746932309321.png)
 
-## Unable to update your firmware
+## 无法更新您的固件
 
-### If your Flexbar is running older firmware (<2.1.1), there is a very small chance that you may encounter an issue where Flexbar cannot update correctly. Don't worry—simply follow these steps to successfully update your Flexbar.
+### 如果您的Flexbar运行的是旧版（<2.1.1）的固件，您有极小的概率遭遇Flexbar无法正确更新的情况，这种情况下您无需担心，仅需要按如下步骤操作即可正常更新Flexbar。
 
-1. Follow the instructions in the `Update your firmware` section to update your Flexbar normally, but please monitor the update process (takes less than 1 minute).
-2. After the update completes, Flexbar will automatically restart. During device startup, a LOGO screen will appear. On the far left of this screen, you will see `Enter Safe Mode`. Please click to enter Safe Mode before the LOGO disappears. This step is crucial. If you fail to enter Safe Mode in time, simply return to step 1, update the firmware again, and try once more.
-3. Once in the device's Safe Mode interface, simply click Upload in the top-right corner of FlexDesigner to update your profile once.
+1. 参考`更新您的固件`章节描述正常更新您的Flexbar，但请您保持监控Flexbar的更新过程（需要不到1分钟）
+2. 当更新结束后，Flexbar会自动重启。在设备启动时，会加载LOGO界面，在此界面最左侧有`Enter Safe Mode`字样，请在LOGO消失前点击进入Safe Mode。这一步非常关键，如果您未能及时进入Safe Mode，只需回到第一步重新更新固件再次尝试即可。
+3. 您只需在设备的Safe Mode界面，点击FlexDesigner右上角的Upload更新一次profile即可。
 
-## Rollback
+## 回滚
 
-If the updated firmware does not function properly, you can manually roll back to the previous version.
+如果更新的固件无法正常工作，您可以手动回滚到之前的版本。
 
-> You generally do not need to perform this operation
+> 您通常不需要执行此操作
 
-### Rollback in Safe Mode
+### 在安全模式下回滚
 
-1. Swipe left on the screen
+1. 在屏幕上向左滑动
 
 ![1743988771303](/image/firmware/1743988771303.png)
 
-2. Click `ROLLBACK` to revert to the previous firmware version
+2. 点击`回滚`以恢复到之前的固件版本
 
 ![1743988710621](/image/firmware/1743988710621.png)
 
-### Rollback from Settings Interface
+### 从设置界面回滚
 
-1. Swipe left on the screen
+1. 在屏幕上向左滑动
 
 ![1743990519882](/image/firmware/1743990519882.png)
 
-2. Click `ROLLBACK` to revert to the previous firmware version
+2. 点击`回滚`以恢复到之前的固件版本
 
 ![1743990587111](/image/firmware/1743990587111.png)

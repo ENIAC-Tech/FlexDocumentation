@@ -10,21 +10,18 @@
 
 ## 关键文件
 
-- `docs/source/conf.py`：Sphinx 配置，包含 MyST、i18n、主题、静态资源配置。
-- `docs/source/index.rst`：当前文档入口和主 toctree。
-- `docs/source/**/*.md`：当前主要英文正文来源。
-- `docs/source/**/index.rst`：当前章节导航来源，需要转换为 VitePress sidebar。
+- `docs/.vitepress/site-base.json`：VitePress `base`（与 GitHub Project Pages 子路径一致）。
+- `docs/source/conf.py`：Sphinx 配置（归档）。
+- `docs/source/index.rst`：文档入口与主 toctree（归档）。
+- `docs/source/**/*.md`：英文正文来源。
+- `docs/source/**/index.rst`：章节导航（归档）。
 - `docs/source/locales/zh_CN/LC_MESSAGES/**/*.po`：中文翻译来源。
 - `docs/source/locales/ja/LC_MESSAGES/**/*.po`：日文翻译来源。
-- `docs/source/_static/css/custom.css`：当前 Sphinx 自定义样式。
-- `docs/BUILD.md`：当前 Sphinx 构建与翻译流程说明，迁移后需要更新。
-- `docs/requirements.txt`：当前 Python 文档依赖，迁移后不再作为主构建依赖。
-- `docs/Makefile`：当前 Sphinx Make 构建入口。
-- `docs/make.ps1`：当前 Windows/Sphinx 多语言构建入口。
-- `docs/build_all_languages.py`：当前 gettext 与多语言 Sphinx 构建脚本。
-- `.github/workflows/docs-i18n.yml`：当前 `.po` 更新 CI，迁移后需要替换为 Pages 部署 workflow。
-- `.readthedocs.yaml`：当前 Read the Docs 配置，迁移到 GitHub Pages 后需要移除或归档。
-- `README.md`：可能包含过时的文档构建说明。
+- `docs/source/_static/css/custom.css`：旧 Sphinx 样式（blockquote 已迁至 VitePress 主题）。
+- `docs/BUILD.md`：VitePress 构建说明。
+- `docs/public/`：静态资源（`image/`、`assets/`）；约定见 `docs/public/README.md`。
+- `.github/workflows/docs-pages.yml`：GitHub Pages 部署 workflow。
+- `README.md`：仓库入口说明。
 
 ## 已确认决策
 
@@ -32,7 +29,7 @@
 |------|------|------|
 | 2026-05-07 | 一次性迁移英文、中文、日文到 VitePress | 避免新旧站长期并行，确保上线时三语言体验完整 |
 | 2026-05-07 | 使用 `docs/` 作为 VitePress 项目根 | 复用当前文档边界，不污染仓库根目录 |
-| 2026-05-07 | 发布到 GitHub Pages 用户/组织站点 | 目标地址为 `https://<user>.github.io/`，VitePress `base` 使用 `/` |
+| 2026-05-07 | GitHub Project Pages 子路径 `/FlexDocumentation/` | 线上：`https://eniac-tech.github.io/FlexDocumentation/`；Markdown 公共资源路径仍为 `/image/`、`/assets/`，由 VitePress 拼接 `base` |
 | 2026-05-07 | 使用 `npm` | 减少额外工具要求，仓库当前无既有 Node 约定 |
 | 2026-05-07 | 提交生成后的三语言 Markdown | 构建简单，可人工修正翻译，GitHub Pages 不依赖 gettext 运行时 |
 | 2026-05-07 | 本次只保留 HTML 输出 | VitePress/GitHub Pages 原生适合静态 HTML，PDF/EPUB 后续单独处理 |
@@ -83,6 +80,6 @@ docs/
 | `docs/source/**/*.rst` | 20 |
 | `docs/source/locales/**/*.po` | 178 |
 
-部分 `zh_CN` 的 `.po` 文件对 `gettext-parser` 非法（未转义引号等），`po-to-md.mjs` 会跳过并回退英文；需后续修复 PO 或手工维护对应中文页。
+部分 zh_CN `.po` 曾在 `msgstr` 续行中嵌入未转义的 ASCII `"`，导致解析失败；已于 2026-05-07 修复（改用「」或重写）。后续编辑 `.po` 时请避免在引号包裹的续行内嵌套裸 `"`。
 
-构建产物：`docs/en/`、`docs/zh_CN/`、`docs/ja/` 由脚本生成，可提交也可仅由 CI 生成；`docs/public/image/` 与 `docs/public/assets/` 下的占位文件由 `docs:ensure-images` 在本地/CI 生成，已加入根 `.gitignore`。
+构建产物：`docs/en/`、`docs/zh_CN/`、`docs/ja/` 由脚本生成。`docs/public/` 可提交真实资源；缺失引用由 `docs:ensure-images` 生成占位以便 CI；根 `.gitignore` 不再强制忽略 `public/image`、`public/assets`。

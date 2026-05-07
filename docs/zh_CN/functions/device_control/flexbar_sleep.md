@@ -1,15 +1,15 @@
-# Flexbar Sleep
+# Flexbar 睡眠
 
-The Flexbar sleep key allows putting the device into sleep mode manually. To put the computer to sleep, check out the 'Sleep' key in the 'Power Control' category.
+Flexbar 睡眠按键允许手动将设备置于睡眠模式。要让计算机进入睡眠，请查看「电源控制」类别中的「睡眠」按键。
 
-Note that it's possible to set any page (other than the home page) or certain keys as screen saver (displayed after the device enters sleep mode), in the common tab. See 'Navigation' section for details.
+请注意，可以在通用选项卡中将任何页面（除主页外）或某些按键设置为屏幕保护程序（设备进入睡眠模式后显示）。详情请参阅「导航」部分。
 
 ![1744946008265](/image/flexbar_sleep/1744946008265.png)
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
-Other than the standard visual options, this key doesn't have any additional configurable functions in the FlexDesigner.
+除了标准视觉选项外，此按键在 FlexDesigner 中没有任何额外的可配置功能。
 
-## On the Flexbar
+## 在 Flexbar 上
 
-Press the key to put the device into sleep mode.
+按按键将设备置于睡眠模式。

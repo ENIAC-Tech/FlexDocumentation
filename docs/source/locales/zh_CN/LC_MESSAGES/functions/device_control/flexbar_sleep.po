@@ -30,7 +30,7 @@ msgid ""
 " To put the computer to sleep, check out the 'Sleep' key in the 'Power "
 "Control' category."
 msgstr ""
-"Flexbar 睡眠按键允许手动将设备置于睡眠模式。要让计算机进入睡眠，请查看"电源控制"类别中的"睡眠"按键。"
+"Flexbar 睡眠按键允许手动将设备置于睡眠模式。要让计算机进入睡眠，请查看「电源控制」类别中的「睡眠」按键。"
 
 #: ../../source/functions/device_control/flexbar_sleep.md:5
 msgid ""
@@ -38,7 +38,7 @@ msgid ""
 "certain keys as screen saver (displayed after the device enters sleep "
 "mode), in the common tab. See 'Navigation' section for details."
 msgstr ""
-"请注意，可以在通用选项卡中将任何页面（除主页外）或某些按键设置为屏幕保护程序（设备进入睡眠模式后显示）。详情请参阅"导航"部分。"
+"请注意，可以在通用选项卡中将任何页面（除主页外）或某些按键设置为屏幕保护程序（设备进入睡眠模式后显示）。详情请参阅「导航」部分。"
 
 #: ../../source/functions/device_control/flexbar_sleep.md:7
 msgid "![1744946008265](image/flexbar_sleep/1744946008265.png)"

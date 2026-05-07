@@ -1,17 +1,17 @@
-# Monitor Brightness Control
+# 显示器亮度控制
 
-This key allows changing external monitor brightness using the DDC/CI protocol. Most of the monitors supports this protocol to some degree. This key also allows controlling multiple monitors simultaneously. This key only works when the FlexDesigner is running.
+此按键允许使用 DDC/CI 协议更改外部显示器亮度。大多数显示器在某种程度上都支持此协议。此按键还允许同时控制多个显示器。此按键仅在 FlexDesigner 运行时工作。
 
-Note that on a laptop, it would be easier to use the 'Multimedia' key in the 'Input' category to control screen brightness.
+请注意，在笔记本电脑上，使用「输入」类别中的「多媒体」按键来控制屏幕亮度会更简单。
 
 ![1745502339824](/image/monitor_brightness_control/1745502339824.png)
 
-## In the FlexDesigner
+## 在 FlexDesigner 中
 
 ![1745502300597](/image/monitor_brightness_control/1745502300597.png)
 
-A list of connected monitors would show up in the function tab of this key. It also shows the control supported by the monitor. Of each monitor, there is a checkbox to the right. Only checked monitors would be controlled by this key.
+此按键的功能选项卡中会显示已连接显示器的列表。它还显示显示器支持的控制。每个显示器的右侧都有一个复选框。只有选中的显示器才会被此按键控制。
 
-## On the Flexbar
+## 在 Flexbar 上
 
-The key shows up as a brightness slider, similar to a volume slider. Drag on the slider to change the brightness of selected monitor.
+按键显示为亮度滑块，类似于音量滑块。在滑块上拖动来更改选中显示器的亮度。
