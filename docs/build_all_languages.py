@@ -33,7 +33,7 @@ def main():
         sys.exit(1)
     
     # 2. Update .po files for all languages
-    languages = ["zh_CN"]
+    languages = ["zh_CN", "ja"]
     for lang in languages:
         if not run_command(f"sphinx-intl update -p _build/gettext -l {lang}", f"Update translation for {lang}"):
             sys.exit(1)
@@ -52,6 +52,7 @@ def main():
     print("\n🌐 Local preview:")
     print("  - English: file://" + str(Path("_build/html/en/index.html").absolute()))
     print("  - Chinese: file://" + str(Path("_build/html/zh_CN/index.html").absolute()))
+    print("  - Japanese: file://" + str(Path("_build/html/ja/index.html").absolute()))
 
 if __name__ == "__main__":
     main()

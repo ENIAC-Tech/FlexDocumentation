@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/github/heatmap.md:1
+msgid "Heatmap"
+msgstr "ヒートマップ"
+
+#: ../../source/functions/github/heatmap.md:3
+msgid ""
+"The heatmap feature displays contribution heatmap of a specific GitHub user."
+msgstr "ヒートマップ機能は、特定の GitHub ユーザーの貢献ヒートマップを表示します。"
+
+#: ../../source/functions/github/heatmap.md:5
+msgid "![1744983539002](image/heatmap/1744983539002.png)"
+msgstr "![1744983539002](image/heatmap/1744983539002.png)"
+
+#: ../../source/functions/github/heatmap.md:5
+msgid "1744983539002"
+msgstr "1744983539002"
+
+#: ../../source/functions/github/heatmap.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/github/heatmap.md:9
+msgid ""
+"To use this feature, the GitHub username needs to be configured in the "
+"FlexDesigner. Additionally, the heatmap can be manually refreshed by "
+"clicking the refresh button right next to the username input box."
+msgstr ""
+"この機能を使用するには、GitHub ユーザー名を FlexDesigner "
+"で設定する必要があります。さらに、ユーザー名入力ボックスの隣にある更新ボタンをクリックすると、ヒートマップを手動で更新できます。"
+
+#: ../../source/functions/github/heatmap.md:11
+msgid "![1744983514568](image/heatmap/1744983514568.png)"
+msgstr "![1744983514568](image/heatmap/1744983514568.png)"
+
+#: ../../source/functions/github/heatmap.md:11
+msgid "1744983514568"
+msgstr "1744983514568"
+
+#: ../../source/functions/github/heatmap.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/github/heatmap.md:15
+msgid ""
+"The heatmap would be displayed in the area allocated for this feature. This "
+"is no interactive actions for this key."
+msgstr "ヒートマップは、この機能に割り当てられた領域に表示されます。このキーに対する対話型アクションはありません。"
+
+#: ../../source/functions/github/heatmap.md:17
+msgid "![1744983523673](image/heatmap/1744983523673.png)"
+msgstr "![1744983523673](image/heatmap/1744983523673.png)"
+
+#: ../../source/functions/github/heatmap.md:17
+msgid "1744983523673"
+msgstr "1744983523673"

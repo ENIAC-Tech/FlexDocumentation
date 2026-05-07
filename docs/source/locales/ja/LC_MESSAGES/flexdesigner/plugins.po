@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/plugins.md:1
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: ../../source/flexdesigner/plugins.md:3
+msgid ""
+"This document explains how to use the plugin functionality in FlexDesigner, "
+"which allows you to add more customized features to FlexDesigner."
+msgstr ""
+"このドキュメントでは、FlexDesigner のプラグイン機能の使用方法について説明します。これにより、FlexDesigner "
+"にさらにカスタマイズされた機能を追加できるようになります。"
+
+#: ../../source/flexdesigner/plugins.md:5
+msgid ""
+"If you have programming knowledge, you can also develop your own plugins "
+"based on our [PluginSDK](../sdk/getting_started.md)."
+msgstr ""
+"プログラミングの知識がある場合は、[PluginSDK](../sdk/getting_started.md) "
+"に基づいて独自のプラグインを開発することもできます。"
+
+#: ../../source/flexdesigner/plugins.md:7
+msgid "Importing a Plugin"
+msgstr "プラグインのインポート"
+
+#: ../../source/flexdesigner/plugins.md:9
+msgid ""
+"You can click the + button in the top right corner of the button library to "
+"import a plugin from a link or file. The file must be a packaged .flexplugin"
+" file, and the link must point to a properly structured GitHub repository, "
+"such as https://github.com/ENIAC-Tech/Plugin-ScreenMirror."
+msgstr ""
+"Key Library パネル右上の「+」から、リンクまたはファイルでプラグインを取り込めます。ファイルはパッケージ済みの "
+".flexplugin である必要があります。リンクは、https://github.com/ENIAC-Tech/Plugin-"
+"ScreenMirror のように構成された GitHub リポジトリを指す必要があります。"
+
+#: ../../source/flexdesigner/plugins.md:11
+msgid "![1742265313124](image/plugins/1742265313124.png)"
+msgstr "![1742265313124](image/plugins/1742265313124.png)"
+
+#: ../../source/flexdesigner/plugins.md:11
+msgid "1742265313124"
+msgstr "1742265313124"
+
+#: ../../source/flexdesigner/plugins.md:13
+msgid "After importing, the plugin will be displayed as a button library."
+msgstr "取り込み後、プラグインは Key Library 内のひとつのライブラリとして表示されます。"
+
+#: ../../source/flexdesigner/plugins.md:15
+msgid "![1742265946738](image/plugins/1742265946738.png)"
+msgstr "![1742265946738](image/plugins/1742265946738.png)"
+
+#: ../../source/flexdesigner/plugins.md:15
+msgid "1742265946738"
+msgstr "1742265946738"
+
+#: ../../source/flexdesigner/plugins.md:17
+msgid ""
+"You can drag buttons from the plugin to the editing area and use them just "
+"like built-in buttons."
+msgstr ""
+"プラグイン側のキーを編集エリアへドラッグし、"
+"標準キーと同様に使えます。"
+
+#: ../../source/flexdesigner/plugins.md:19
+msgid "![1742266238153](image/plugins/1742266238153.png)"
+msgstr "![1742266238153](image/plugins/1742266238153.png)"
+
+#: ../../source/flexdesigner/plugins.md:19
+msgid "1742266238153"
+msgstr "1742266238153"
+
+#: ../../source/flexdesigner/plugins.md:21
+msgid ""
+"You can also manage the global settings of the plugin (if available) under "
+"the Applications tab in the settings interface."
+msgstr "設定画面の「アプリケーション」タブで、プラグインの全体設定（ある場合）を管理できます。"
+
+#: ../../source/flexdesigner/plugins.md:23
+msgid "![1742267167382](image/plugins/1742267167382.png)"
+msgstr "![1742267167382](image/plugins/1742267167382.png)"
+
+#: ../../source/flexdesigner/plugins.md:23
+msgid "1742267167382"
+msgstr "1742267167382"
+
+#: ../../source/flexdesigner/plugins.md:25
+msgid "Managing Plugins"
+msgstr "プラグインの管理"
+
+#: ../../source/flexdesigner/plugins.md:27
+msgid ""
+"Click the information button to view detailed information about the plugin. "
+"Here you can update or delete the plugin."
+msgstr ""
+"情報ボタンでプラグインの詳細を表示できます。"
+" ここから更新や削除も行えます。"
+
+#: ../../source/flexdesigner/plugins.md:29
+msgid "![1742265894863](image/plugins/1742265894863.png)"
+msgstr "![1742265894863](image/plugins/1742265894863.png)"
+
+#: ../../source/flexdesigner/plugins.md:29
+msgid "1742265894863"
+msgstr "1742265894863"
+
+#: ../../source/flexdesigner/plugins.md:31
+msgid ""
+"You can check which plugins are being used in the current project under the "
+"Project tab in the settings interface. If versions don't match or plugins "
+"are missing, you will be prompted to install them."
+msgstr ""
+"設定画面の「プロジェクト」タブで、現在のプロジェクトがどのプラグインを使っているか確認できます。"
+" バージョンが一致しない、またはプラグインが不足している場合は、"
+" インストールを促す表示が出ます。"
+
+#: ../../source/flexdesigner/plugins.md:33
+msgid "![1742266301972](image/plugins/1742266301972.png)"
+msgstr "![1742266301972](image/plugins/1742266301972.png)"
+
+#: ../../source/flexdesigner/plugins.md:33
+msgid "1742266301972"
+msgstr "1742266301972"
+
+#: ../../source/flexdesigner/plugins.md:35
+msgid ""
+"You can view and manage all installed plugins under the Plugins tab in the "
+"settings interface."
+msgstr "設定画面の「プラグイン」タブで、インストール済みプラグインを一覧・管理できます。"
+
+#: ../../source/flexdesigner/plugins.md:37
+msgid "![1742266336647](image/plugins/1742266336647.png)"
+msgstr "![1742266336647](image/plugins/1742266336647.png)"
+
+#: ../../source/flexdesigner/plugins.md:37
+msgid "1742266336647"
+msgstr "1742266336647"

@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/power_control/power_control.md:1
+msgid "Power Control"
+msgstr "電力制御"
+
+#: ../../source/functions/power_control/power_control.md:3
+msgid "Power control keys are used to control your computer's power state."
+msgstr "電源制御キーは、コンピュータの電源状態を制御するために使用されます。"
+
+#: ../../source/functions/power_control/power_control.md:5
+msgid "![1745502078200](image/power_control/1745502078200.png)"
+msgstr "![1745502078200](image/power_control/1745502078200.png)"
+
+#: ../../source/functions/power_control/power_control.md:5
+msgid "1745502078200"
+msgstr "1745502078200"
+
+#: ../../source/functions/power_control/power_control.md:7
+msgid "Sleep"
+msgstr "寝る"
+
+#: ../../source/functions/power_control/power_control.md:9
+msgid "This key puts the computer to sleep when pressed."
+msgstr "このキーを押すと、コンピュータがスリープ状態になります。"
+
+#: ../../source/functions/power_control/power_control.md:11
+msgid ""
+"This key only works when the FlexDesigner is running. If this is not "
+"desired, consider using the 'Multimedia' key in the 'Input' category and set"
+" the function to 'Power Control' → 'Sleep'. The multimedia key works without"
+" the FlexDesigner, but the exact handling would be subject to the operating "
+"system settings."
+msgstr ""
+"このキーは、FlexDesigner "
+"の実行中にのみ機能します。これが望ましくない場合は、「入力」カテゴリの「マルチメディア」キーを使用し、機能を「電源制御」→「スリープ」に設定することを検討してください。マルチメディア"
+" キーは FlexDesigner がなくても機能しますが、正確な処理はオペレーティング システムの設定によって異なります。"
+
+#: ../../source/functions/power_control/power_control.md:13
+msgid ""
+"To put the Flexbar to sleep, check out the 'Flexbar Sleep' key in the "
+"'Device Control' category."
+msgstr "Flexbar をスリープ状態にするには、「デバイス コントロール」カテゴリの「Flexbar Sleep」キーを確認します。"
+
+#: ../../source/functions/power_control/power_control.md:15
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+#: ../../source/functions/power_control/power_control.md:17
+msgid "This key shuts down your computer when pressed."
+msgstr "このキーを押すと、コンピュータがシャットダウンされます。"
+
+#: ../../source/functions/power_control/power_control.md:19
+#: ../../source/functions/power_control/power_control.md:27
+msgid ""
+"Please note that due to permission restrictions, this function is not "
+"available on MacOS and Linux."
+msgstr "権限の制限により、この機能は MacOS および Linux では利用できないことに注意してください。"
+
+#: ../../source/functions/power_control/power_control.md:21
+msgid ""
+"Be aware that pressing this key will shut down your computer immediately. "
+"It's recommended to use this with the long-press function from the Common "
+"Tab."
+msgstr "このキーを押すとコンピュータがただちにシャットダウンされることに注意してください。共通タブの長押し機能と併用することを推奨します。"
+
+#: ../../source/functions/power_control/power_control.md:23
+msgid "Restart"
+msgstr "再起動"
+
+#: ../../source/functions/power_control/power_control.md:25
+msgid "This key restarts your computer when pressed."
+msgstr "このキーを押すと、コンピュータが再起動されます。"
+
+#: ../../source/functions/power_control/power_control.md:29
+msgid ""
+"Be aware that pressing this key will restart your computer immediately. It's"
+" recommended to use this with the long-press function from the Common Tab."
+msgstr "このキーを押すとすぐにコンピュータが再起動されることに注意してください。共通タブの長押し機能と併用することを推奨します。"

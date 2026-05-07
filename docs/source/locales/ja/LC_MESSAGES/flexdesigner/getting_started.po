@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/getting_started.md:1
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../source/flexdesigner/getting_started.md:3
+msgid ""
+"This documentation introduces the layout, features, and usage of "
+"FlexDesigner."
+msgstr "このドキュメントでは、FlexDesigner のレイアウト、機能、および使用法を紹介します。"
+
+#: ../../source/flexdesigner/getting_started.md:5
+msgid "Overview"
+msgstr "概要"
+
+#: ../../source/flexdesigner/getting_started.md:7
+msgid "![1742266521118](image/getting_started/1742266521118.png)"
+msgstr "![1742266521118](image/getting_started/1742266521118.png)"
+
+#: ../../source/flexdesigner/getting_started.md:7
+msgid "1742266521118"
+msgstr "1742266521118"
+
+#: ../../source/flexdesigner/getting_started.md:9
+msgid "The main interface of FlexDesigner consists of three sections:"
+msgstr "FlexDesigner のメインインターフェイスは、次の 3 つのセクションで構成されています。"
+
+#: ../../source/flexdesigner/getting_started.md:11
+msgid ""
+"[Page Editor](page_editor.md): This area displays the same effects as "
+"Flexbar, allowing you to preview and adjust each interface of Flexbar"
+msgstr ""
+"[ページエディター](page_editor.md): Flexbar と同じ見た目が表示され、Flexbar "
+"の各画面をプレビュー・調整できます。"
+
+#: ../../source/flexdesigner/getting_started.md:12
+msgid ""
+"[Key Editor](key_editor.md): Here you can edit the appearance and "
+"functionality of keys"
+msgstr "[キーエディター](key_editor.md): キーの外観と機能を編集します。"
+
+#: ../../source/flexdesigner/getting_started.md:13
+msgid ""
+"[Key Library](key_library.md): Lists all preset/imported keys that you can "
+"drag and drop into the page editor or key editor"
+msgstr ""
+"[Key Library](key_library.md): プリセットおよびインポート済みのキーを一覧表示し、"
+"ページエディターやキーエディターへドラッグ＆ドロップできます。"
+
+#: ../../source/flexdesigner/getting_started.md:14
+msgid ""
+"[Toolbar](toolbar.md): Contains file management, software configuration, and"
+" other functions."
+msgstr "[ツールバー](toolbar.md): ファイル管理やソフトウェア設定などの機能があります。"
+
+#: ../../source/flexdesigner/getting_started.md:16
+msgid "Your First Profile"
+msgstr "はじめてのプロファイル"
+
+#: ../../source/flexdesigner/getting_started.md:18
+msgid "**Create a New Profile**"
+msgstr "**新しいプロファイルを作成**"
+
+#: ../../source/flexdesigner/getting_started.md:20
+msgid "![1743992112936](image/getting_started/1743992112936.png)"
+msgstr "![1743992112936](image/getting_started/1743992112936.png)"
+
+#: ../../source/flexdesigner/getting_started.md:20
+msgid "1743992112936"
+msgstr "1743992112936"
+
+#: ../../source/flexdesigner/getting_started.md:22
+msgid "**Add a Key**"
+msgstr "**キーを追加**"
+
+#: ../../source/flexdesigner/getting_started.md:24
+msgid "![1743992435420](image/getting_started/1743992435420.png)"
+msgstr "![1743992435420](image/getting_started/1743992435420.png)"
+
+#: ../../source/flexdesigner/getting_started.md:24
+msgid "1743992435420"
+msgstr "1743992435420"
+
+#: ../../source/flexdesigner/getting_started.md:26
+msgid "Select a key from the Key Library and click to drag it out"
+msgstr "Key Library からキーを選び、クリックしたままドラッグします。"
+
+#: ../../source/flexdesigner/getting_started.md:27
+msgid "Drag the key to the Page Editor"
+msgstr "キーをページエディターへドラッグします。"
+
+#: ../../source/flexdesigner/getting_started.md:28
+msgid "Release the mouse to place the key in an appropriate position"
+msgstr "マウスを離して、キーを適切な位置に配置します。"
+
+#: ../../source/flexdesigner/getting_started.md:30
+msgid "**Make Some Changes**"
+msgstr "**いくつかの変更を加える**"
+
+#: ../../source/flexdesigner/getting_started.md:32
+msgid ""
+"You can check the [Key Editor](key_editor.md) to learn how to customize keys"
+msgstr "キーのカスタマイズ方法は、[キーエディター](key_editor.md)を参照してください。"
+
+#: ../../source/flexdesigner/getting_started.md:34
+msgid "![1743992720153](image/getting_started/1743992720153.png)"
+msgstr "![1743992720153](image/getting_started/1743992720153.png)"
+
+#: ../../source/flexdesigner/getting_started.md:34
+msgid "1743992720153"
+msgstr "1743992720153"
+
+#: ../../source/flexdesigner/getting_started.md:36
+msgid "Upload to Device"
+msgstr "デバイスへアップロード"
+
+#: ../../source/flexdesigner/getting_started.md:38
+msgid "![1743992793052](image/getting_started/1743992793052.png)"
+msgstr "![1743992793052](image/getting_started/1743992793052.png)"
+
+#: ../../source/flexdesigner/getting_started.md:38
+msgid "1743992793052"
+msgstr "1743992793052"
+
+#: ../../source/flexdesigner/getting_started.md:40
+msgid "All Done!"
+msgstr "これで完了です。"
+
+#: ../../source/flexdesigner/getting_started.md:42
+msgid "You can now see this page on your Flexbar!"
+msgstr "このページを Flexbar 上で確認できます。"
+
+#: ../../source/flexdesigner/getting_started.md:44
+msgid "![1743992816226](image/getting_started/1743992816226.png)"
+msgstr "![1743992816226](image/getting_started/1743992816226.png)"
+
+#: ../../source/flexdesigner/getting_started.md:44
+msgid "1743992816226"
+msgstr "1743992816226"
+
+#: ../../source/flexdesigner/getting_started.md:46
+msgid "Next Steps"
+msgstr "次のステップ"
+
+#: ../../source/flexdesigner/getting_started.md:48
+msgid ""
+"Visit the [Create My First "
+"Profile](../troubleshoting/create_my_first_profile.md) to learn how to "
+"create a profile for an application"
+msgstr ""
+"アプリ向けのプロファイルの作り方は、[はじめてのプロファイルを作る](../troubleshoting/create_my_first_profile.md)を参照してください。"
+
+#: ../../source/flexdesigner/getting_started.md:49
+msgid ""
+"Visit the [Background](background.md) and [Foreground](foreground.md) to "
+"learn how to customize a key"
+msgstr ""
+"キーの見た目の調整方法は、[背景の編集](background.md)および[前景の編集](foreground.md)を参照してください。"

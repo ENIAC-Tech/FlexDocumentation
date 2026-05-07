@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/executable/scripts.md:1
+msgid "Run Scripts"
+msgstr "スクリプトの実行"
+
+#: ../../source/functions/executable/scripts.md:3
+msgid ""
+"The run scripts key executes user defined commands in shell when pressed."
+msgstr "スクリプト実行キーを押すと、シェルでユーザー定義のコマンドが実行されます。"
+
+#: ../../source/functions/executable/scripts.md:5
+msgid "![1744946054119](image/scripts/1744946054119.png)"
+msgstr "![1744946054119](image/scripts/1744946054119.png)"
+
+#: ../../source/functions/executable/scripts.md:5
+msgid "1744946054119"
+msgstr "1744946054119"
+
+#: ../../source/functions/executable/scripts.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/executable/scripts.md:9
+msgid ""
+"The commands to execute can be defined in the function tab in the "
+"FlexDesigner (can be a single line). Enter the commands inside the text "
+"editor, one per line. The size of the text editor can be adjusted by "
+"dragging the dashed triangle icon on the bottom right of the text editor. "
+"There is a test run button to the right of the input box. It allows doing a "
+"test run directly on the computer before uploading the new profile to the "
+"Flexbar. The test run should perform the same operation as if the key is "
+"pressed on the Flexbar."
+msgstr ""
+"実行するコマンドは、FlexDesigner の関数タブで定義できます (単一行でも可能)。テキスト エディター内にコマンドを 1 行に 1 "
+"つずつ入力します。テキスト エディターのサイズは、テキスト "
+"エディターの右下にある点線の三角形のアイコンをドラッグすることで調整できます。入力ボックスの右側にテスト実行ボタンがあります。新しいプロファイルを "
+"Flexbar "
+"にアップロードする前に、コンピュータ上で直接テスト実行を行うことができます。テスト実行では、Flexbar のキーが押された場合と同じ操作を実行する必要があります。"
+
+#: ../../source/functions/executable/scripts.md:11
+msgid "On Windows platform, PowerShell commands are also supported."
+msgstr "Windows プラットフォームでは、PowerShell コマンドもサポートされています。"
+
+#: ../../source/functions/executable/scripts.md:13
+msgid "![1744713170717](image/scripts/1744713170717.png)"
+msgstr "![1744713170717](image/scripts/1744713170717.png)"
+
+#: ../../source/functions/executable/scripts.md:13
+msgid "1744713170717"
+msgstr "1744713170717"
+
+#: ../../source/functions/executable/scripts.md:15
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/executable/scripts.md:17
+msgid "Press the key to execute the defined commands in the FlexDesigner."
+msgstr "キーを押して、FlexDesigner で定義されたコマンドを実行します。"
+
+#: ../../source/functions/executable/scripts.md:19
+msgid "Examples"
+msgstr "例"
+
+#: ../../source/functions/executable/scripts.md:21
+msgid "Open a new instance of an application"
+msgstr "アプリケーションの新しいインスタンスを開く"
+
+#: ../../source/functions/executable/scripts.md:23
+msgid "``open -n /Applications/KiCad/KiCad.app`` (macOS)"
+msgstr "「open -n /Applications/KiCad/KiCad.app」 (macOS)"
+
+#: ../../source/functions/executable/scripts.md:25
+msgid "Open a webpage in a specified web browser"
+msgstr "指定した Web ブラウザで Web ページを開きます"
+
+#: ../../source/functions/executable/scripts.md:27
+msgid "``open /Applications/Firefox.app --args www.eniacelec.com`` (macOS)"
+msgstr "「open /Applications/Firefox.app --args www.eniacelec.com」 (macOS)"
+
+#: ../../source/functions/executable/scripts.md:29
+msgid "Technical Details"
+msgstr "技術的な詳細"
+
+#: ../../source/functions/executable/scripts.md:31
+msgid ""
+"Under the hood, the script execution is implemented using Node.js's `spawn` "
+"function. The commands are executed through:"
+msgstr "内部では、スクリプトの実行は Node.js の `spawn` 関数を使用して実装されます。コマンドは以下を通じて実行されます。"
+
+#: ../../source/functions/executable/scripts.md:32
+msgid "`/bin/sh` on macOS"
+msgstr "macOS の「/bin/sh」"
+
+#: ../../source/functions/executable/scripts.md:33
+msgid "`cmd.exe` on Windows"
+msgstr "Windows の「cmd.exe」"
+
+#: ../../source/functions/executable/scripts.md:35
+msgid ""
+"This means that any shell commands that work in these environments can be "
+"executed through the Flexbar."
+msgstr "これは、これらの環境で動作するシェル コマンドはすべて、Flexbar を通じて実行できることを意味します。"

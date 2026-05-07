@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/placeholder/no_function_key.md:1
+msgid "No Function Key"
+msgstr "ファンクションキーなし"
+
+#: ../../source/functions/placeholder/no_function_key.md:3
+msgid ""
+"The no-function-key is a key that has no function, only for static displays."
+msgstr "no-function-key は、静的表示専用の機能を持たないキーです。"
+
+#: ../../source/functions/placeholder/no_function_key.md:5
+msgid "![1745501941449](image/no_function_key/1745501941449.png)"
+msgstr "![1745501941449](image/no_function_key/1745501941449.png)"
+
+#: ../../source/functions/placeholder/no_function_key.md:5
+msgid "1745501941449"
+msgstr "1745501941449"
+
+#: ../../source/functions/placeholder/no_function_key.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/placeholder/no_function_key.md:9
+msgid ""
+"Background and foreground settings are available for this just like for a "
+"normal key. The function page is blank becuase it has no function."
+msgstr "通常のキーと同様に、背景と前景の設定を使用できます。機能ページは機能がないため空白です。"
+
+#: ../../source/functions/placeholder/no_function_key.md:11
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/placeholder/no_function_key.md:13
+msgid ""
+"The no-function-key is displayed just like any other keys, but it cannot be "
+"pressed."
+msgstr "ファンクションなしキーは他のキーと同様に表示されますが、押すことはできません。"

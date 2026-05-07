@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:1
+msgid "Inventory Monitor"
+msgstr "Inventory Monitor"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:3
+msgid ""
+"Inventory Monitor allows you to view and manage your Minecraft inventory "
+"directly from the Flexbar."
+msgstr "Inventory Monitor を使用すると、Flexbar から直接 Minecraft のインベントリを表示および管理できます。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:5
+msgid "Install FlexLink Mod"
+msgstr "FlexLink Mod をインストールする"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:7
+msgid ""
+"To use Inventory Monitor, you’ll need to install the [FlexLink "
+"Mod](../../../assets/flexlink-1.0.0.jar) into your Minecraft modpack."
+msgstr ""
+"インベントリ モニターを使用するには、[FlexLink Mod](../../../assets/flexlink-1.0.0.jar) を "
+"Minecraft Modpack にインストールする必要があります。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:9
+msgid "Currently, FlexLink Mod supports Forge version 1.20.1"
+msgstr "現在、FlexLink Mod は Forge バージョン 1.20.1 をサポートしています。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:11
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:13
+msgid "![1743307444594](image/inventory_monitor/1743307444594.png)"
+msgstr "![1743307444594](image/inventory_monitor/1743307444594.png)"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:13
+msgid "1743307444594"
+msgstr "1743307444594"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:15
+msgid ""
+"You can find this feature under the \"Minecraft\" category in the Key "
+"Library."
+msgstr "この機能は、Key Library の「Minecraft」カテゴリにあります。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:17
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:19
+msgid ""
+"You can view your entire inventory and click on any item to equip it in "
+"Steve’s hand."
+msgstr "インベントリ全体を表示し、任意のアイテムをクリックしてスティーブの手に装備することができます。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:21
+msgid ""
+"Fun fact: if you set the width of Inventory Monitor to **2170**, Flexbar "
+"will perfectly display the entire inventory without scrolling."
+msgstr "豆知識: Inventory Monitor の幅を **2170** に設定すると、Flexbar はスクロールなしでインベントリ全体をきれいに表示できます。"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:23
+msgid "![1743307480998](image/inventory_monitor/1743307480998.png)"
+msgstr "![1743307480998](image/inventory_monitor/1743307480998.png)"
+
+#: ../../source/functions/minecraft/inventory_monitor.md:23
+msgid "1743307480998"
+msgstr "1743307480998"

@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/flexgate.md:1
+msgid "FlexGate"
+msgstr "FlexGate"
+
+#: ../../source/troubleshoting/flexgate.md:3
+msgid ""
+"[FlexGate](https://flexgate.enilinx.com/) is an online sharing platform "
+"where you can easily find or share your own Profiles, Iconpacks, Pages, "
+"and Plugins."
+msgstr ""
+"[FlexGate](https://flexgate.enilinx.com/) はオンラインの共有プラットフォームで、"
+"Profile、Iconpack、Page、Plugin を簡単に探したり、自分の作品を公開したりできます。"
+
+#: ../../source/troubleshoting/flexgate.md:5
+msgid "Installing from FlexGate"
+msgstr "FlexGate からインストールする"
+
+#: ../../source/troubleshoting/flexgate.md:7
+msgid "![1744946445046](image/flexgate/1744946445046.png)"
+msgstr "![1744946445046](image/flexgate/1744946445046.png)"
+
+#: ../../source/troubleshoting/flexgate.md:7
+msgid "1744946445046"
+msgstr "1744946445046"
+
+#: ../../source/troubleshoting/flexgate.md:9
+msgid ""
+"Installing a Profile, Iconpack, Page, or Plugin from FlexGate is very "
+"simple. Just make sure FlexDesigner is running, then click GET to "
+"automatically download and install."
+msgstr ""
+"FlexGate から Profile、Iconpack、Page、Plugin をインストールするのはとても簡単"
+"です。FlexDesigner を起動した状態で GET をクリックすれば、自動的にダウンロード"
+"およびインストールされます。"
+
+#: ../../source/troubleshoting/flexgate.md:11
+msgid "Uploading Profiles, Iconpacks, and Pages to FlexGate"
+msgstr "Profile、Iconpack、Page を FlexGate にアップロードする"
+
+#: ../../source/troubleshoting/flexgate.md:13
+msgid "![1744946552525](image/flexgate/1744946552525.png)"
+msgstr "![1744946552525](image/flexgate/1744946552525.png)"
+
+#: ../../source/troubleshoting/flexgate.md:13
+msgid "1744946552525"
+msgstr "1744946552525"
+
+#: ../../source/troubleshoting/flexgate.md:15
+msgid "Go to your personal profile page and click on the item you want to upload."
+msgstr ""
+"個人用プロフィール ページを開き、アップロードしたい項目をクリックします。"
+
+#: ../../source/troubleshoting/flexgate.md:17
+msgid "![1744946938052](image/flexgate/1744946938052.png)"
+msgstr "![1744946938052](image/flexgate/1744946938052.png)"
+
+#: ../../source/troubleshoting/flexgate.md:17
+msgid "1744946938052"
+msgstr "1744946938052"
+
+#: ../../source/troubleshoting/flexgate.md:19
+#: ../../source/troubleshoting/flexgate.md:38
+msgid "Before uploading, you need to fill in some information:"
+msgstr "アップロード前に、次の情報を入力する必要があります。"
+
+#: ../../source/troubleshoting/flexgate.md:21
+msgid ""
+"Title: The name of your content - keep it concise and clearly describe "
+"its purpose"
+msgstr ""
+"Title: コンテンツの名前。簡潔に、目的が分かるように付けます"
+
+#: ../../source/troubleshoting/flexgate.md:22
+msgid ""
+"Images: We recommend providing several screenshots to help users "
+"understand what your content does"
+msgstr ""
+"Images: 内容が伝わるよう、複数のスクリーンショットを載せることをおすすめします"
+
+#: ../../source/troubleshoting/flexgate.md:23
+msgid "Category: Choose the most appropriate category for your content"
+msgstr "Category: コンテンツに最も合うカテゴリを選びます"
+
+#: ../../source/troubleshoting/flexgate.md:24
+msgid "Operating System: Select which operating systems your content supports"
+msgstr ""
+"Operating System: 対応するオペレーティング システムを選びます"
+
+#: ../../source/troubleshoting/flexgate.md:25
+msgid ""
+"Version: Your own version number for the content (unrelated to "
+"FlexDesigner versions)"
+msgstr ""
+"Version: コンテンツ独自のバージョン番号（FlexDesigner のバージョンとは無関係）"
+
+#: ../../source/troubleshoting/flexgate.md:26
+msgid "Description: Detailed explanation of what your content does"
+msgstr "Description: コンテンツの機能や内容を具体的に説明します"
+
+#: ../../source/troubleshoting/flexgate.md:28
+msgid "Uploading Plugins to FlexGate"
+msgstr "Plugin を FlexGate にアップロードする"
+
+#: ../../source/troubleshoting/flexgate.md:30
+msgid "![1744946820834](image/flexgate/1744946820834.png)"
+msgstr "![1744946820834](image/flexgate/1744946820834.png)"
+
+#: ../../source/troubleshoting/flexgate.md:30
+msgid "1744946820834"
+msgstr "1744946820834"
+
+#: ../../source/troubleshoting/flexgate.md:32
+msgid ""
+"Uploading a Plugin works slightly differently. We require Plugins to be "
+"hosted on GitHub. Simply enter your repository URL, and FlexGate will "
+"verify its validity."
+msgstr ""
+"Plugin のアップロードは少し手順が異なります。Plugin は GitHub 上にホストする"
+"必要があります。リポジトリの URL を入力すると、FlexGate が有効性を確認します。"
+
+#: ../../source/troubleshoting/flexgate.md:34
+msgid ""
+"Make sure your repository was created with FlexCLI and has a valid plugin"
+" structure. Check out the [SDK documentation](../sdk/index.rst) to learn "
+"how to create custom plugins"
+msgstr ""
+"リポジトリが FlexCLI で作成され、正しい plugin 構造になっていることを確認して"
+"ください。カスタム Plugin の作成方法は [SDK ドキュメント](../sdk/index.rst) を"
+"参照してください"
+
+#: ../../source/troubleshoting/flexgate.md:36
+msgid "![1744946889859](image/flexgate/1744946889859.png)"
+msgstr "![1744946889859](image/flexgate/1744946889859.png)"
+
+#: ../../source/troubleshoting/flexgate.md:36
+msgid "1744946889859"
+msgstr "1744946889859"
+
+#: ../../source/troubleshoting/flexgate.md:40
+msgid ""
+"Images: We recommend providing several screenshots to help users "
+"understand what your plugin does"
+msgstr ""
+"Images: Plugin の動作が伝わるよう、複数のスクリーンショットを載せることを"
+"おすすめします"
+
+#: ../../source/troubleshoting/flexgate.md:41
+msgid "Category: Choose the most appropriate category for your plugin"
+msgstr "Category: Plugin に最も合うカテゴリを選びます"
+
+#: ../../source/troubleshoting/flexgate.md:43
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../../source/troubleshoting/flexgate.md:44
+msgid "**Q: What is FlexGate?**"
+msgstr "**Q: FlexGate とは何ですか？**"
+
+#: ../../source/troubleshoting/flexgate.md:46
+msgid ""
+"**A:** FlexGate is an online sharing platform where you can easily find "
+"or share your own Profiles, Iconpacks, Pages, and Plugins."
+msgstr ""
+"**A:** FlexGate はオンラインの共有プラットフォームで、Profile、Iconpack、Page、"
+"Plugin を簡単に探したり、自分の作品を公開したりできます。"
+
+#: ../../source/troubleshoting/flexgate.md:48
+msgid "**Q: Can I publish paid content through FlexGate?**"
+msgstr "**Q: FlexGate で有料コンテンツを公開できますか？**"
+
+#: ../../source/troubleshoting/flexgate.md:50
+msgid ""
+"**A:** The payment system is still under development. We plan to add this"
+" feature in a future update."
+msgstr ""
+"**A:** 決済システムは現在開発中です。今後のアップデートで追加する予定です。"
+
+#: ../../source/troubleshoting/flexgate.md:52
+msgid "**Q: Content uploaded to FlexGate infringes on my rights.**"
+msgstr "**Q: FlexGate にアップロードされたコンテンツが私の権利を侵害しています。**"
+
+#: ../../source/troubleshoting/flexgate.md:54
+msgid ""
+"**A:** We take intellectual property rights seriously. Please email "
+"details of any infringing content to contact@eniacelec.com, and we will "
+"address your concerns promptly."
+msgstr ""
+"**A:** 知的財産権には真摯に対応しています。侵害の疑いがあるコンテンツの詳細を "
+"contact@eniacelec.com までメールでお知らせください。速やかに対応します。"
+
+#: ../../source/troubleshoting/flexgate.md:56
+msgid "**Q: Where can I discuss and share with other creators?**"
+msgstr "**Q: 他のクリエイターと情報交換・共有はどこでできますか？**"
+
+#: ../../source/troubleshoting/flexgate.md:58
+msgid ""
+"**A:** We recommend joining our [Discord "
+"community](https://discord.com/invite/7STSjmBpKT), where you'll find many"
+" like-minded creators."
+msgstr ""
+"**A:** [Discord コミュニティ](https://discord.com/invite/7STSjmBpKT) への参加を"
+"おすすめします。同じ志のクリエイターがたくさんいます。"
+
+#: ../../source/troubleshoting/flexgate.md:60
+msgid "**Q: How do I get customer support or submit suggestions?**"
+msgstr "**Q: サポートを受けたり、提案を送ったりするには？**"
+
+#: ../../source/troubleshoting/flexgate.md:62
+msgid ""
+"**A:** Please contact us at contact@eniacelec.com, or reach out directly "
+"to administrators in our Discord community. We'll respond as soon as "
+"possible."
+msgstr ""
+"**A:** contact@eniacelec.com までご連絡いただくか、Discord コミュニティの"
+"管理者に直接お問い合わせください。できるだけ早く返信します。"
+

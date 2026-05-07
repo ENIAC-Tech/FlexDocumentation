@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-07 16:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/firmware.md:1
+msgid "Firmware"
+msgstr "ファームウェア"
+
+#: ../../source/troubleshoting/firmware.md:3
+msgid ""
+"Firmware refers to the embedded software written into Flexbar's internal "
+"microcontroller, pre-installed at the factory. Updates to firmware are "
+"prompted via FlexDesigner when available. We recommend regularly updating"
+" to ensure access to the latest features and improved stability."
+msgstr ""
+"ファームウェアとは、Flexbar 内蔵マイコンに書き込まれた組み込みソフトウェアで、"
+"工場出荷時にプリインストールされています。更新がある場合は FlexDesigner から"
+"案内されます。最新機能と安定性向上のため、定期的な更新をおすすめします。"
+
+#: ../../source/troubleshoting/firmware.md:5
+msgid "Update your firmware"
+msgstr "ファームウェアを更新する"
+
+#: ../../source/troubleshoting/firmware.md:7
+msgid "Automatic Update"
+msgstr "自動更新"
+
+#: ../../source/troubleshoting/firmware.md:9
+msgid ""
+"When a firmware update is available, FlexDesigner will display the "
+"following prompt. We recommend updating as soon as possible."
+msgstr ""
+"ファームウェアの更新が利用可能になると、FlexDesigner に次のような案内が表示"
+"されます。できるだけ早めに更新することをおすすめします。"
+
+#: ../../source/troubleshoting/firmware.md:11
+msgid "![1743988092470](image/firmware/1743988092470.png)"
+msgstr "![1743988092470](image/firmware/1743988092470.png)"
+
+#: ../../source/troubleshoting/firmware.md:11
+msgid "1743988092470"
+msgstr "1743988092470"
+
+#: ../../source/troubleshoting/firmware.md:13
+msgid "Manual Update"
+msgstr "手動更新"
+
+#: ../../source/troubleshoting/firmware.md:15
+msgid ""
+"**Under normal circumstances, you do not need to manually update your "
+"firmware. If a necessary firmware update is available, FlexDesigner will "
+"notify you.**"
+msgstr ""
+"**通常は手動でファームウェアを更新する必要はありません。必要な更新がある場合は、"
+"FlexDesigner から通知されます。**"
+
+#: ../../source/troubleshoting/firmware.md:17
+msgid "Go to `Setting -> Device`"
+msgstr "`Setting -> Device` を開きます"
+
+#: ../../source/troubleshoting/firmware.md:19
+msgid "![1743984789282](image/firmware/1743984789282.png)"
+msgstr "![1743984789282](image/firmware/1743984789282.png)"
+
+#: ../../source/troubleshoting/firmware.md:19
+msgid "1743984789282"
+msgstr "1743984789282"
+
+#: ../../source/troubleshoting/firmware.md:21
+msgid ""
+"Click `UPLOAD FIRMWARE`, then wait for the firmware upload to complete "
+"and the device to restart automatically."
+msgstr ""
+"`UPLOAD FIRMWARE` をクリックし、アップロードの完了とデバイスの自動再起動を待ち"
+"ます。"
+
+#: ../../source/troubleshoting/firmware.md:23
+msgid "**Note: Do not disconnect power during the update process**"
+msgstr "**注意: 更新中は電源を切らないでください**"
+
+#: ../../source/troubleshoting/firmware.md:25
+msgid "After update, device shows \"Profile version does not match...\""
+msgstr "更新後、デバイスに「Profile version does not match...」と表示される場合"
+
+#: ../../source/troubleshoting/firmware.md:27
+msgid ""
+"It's normal for your device to display this screen after an update. The "
+"update requires you to re-upload your Profile to ensure the device is "
+"running the latest version. You simply need to upload your Profile again "
+"to resolve this."
+msgstr ""
+"更新後にこの画面が出るのは正常な動作です。デバイスを最新の状態で動かすため、"
+"Profile を再アップロードする必要があります。Profile を再度アップロードすれば"
+"解消します。"
+
+#: ../../source/troubleshoting/firmware.md:29
+msgid "![1746932309321](image/firmware/1746932309321.png)"
+msgstr "![1746932309321](image/firmware/1746932309321.png)"
+
+#: ../../source/troubleshoting/firmware.md:29
+msgid "1746932309321"
+msgstr "1746932309321"
+
+#: ../../source/troubleshoting/firmware.md:31
+msgid "Unable to update your firmware"
+msgstr "ファームウェアを更新できない場合"
+
+#: ../../source/troubleshoting/firmware.md:33
+msgid ""
+"If your Flexbar is running older firmware (<2.1.1), there is a very small"
+" chance that you may encounter an issue where Flexbar cannot update "
+"correctly. Don't worry—simply follow these steps to successfully update "
+"your Flexbar."
+msgstr ""
+"Flexbar のファームウェアが古い（2.1.1 未満）場合、ごくまれに正しく更新できない"
+"ことがあります。心配いりません。次の手順に従えば、更新を完了できます。"
+
+#: ../../source/troubleshoting/firmware.md:35
+msgid ""
+"Follow the instructions in the `Update your firmware` section to update "
+"your Flexbar normally, but please monitor the update process (takes less "
+"than 1 minute)."
+msgstr ""
+"`Update your firmware` の手順に従って通常どおり更新してください。更新処理（1 分"
+"未満）は目を離さないようにしてください。"
+
+#: ../../source/troubleshoting/firmware.md:36
+msgid ""
+"After the update completes, Flexbar will automatically restart. During "
+"device startup, a LOGO screen will appear. On the far left of this "
+"screen, you will see `Enter Safe Mode`. Please click to enter Safe Mode "
+"before the LOGO disappears. This step is crucial. If you fail to enter "
+"Safe Mode in time, simply return to step 1, update the firmware again, "
+"and try once more."
+msgstr ""
+"更新が完了すると、Flexbar は自動的に再起動します。デバイス"
+"起動中に LOGO 画面が表示されます。画面の左端に "
+"`Enter Safe Mode` があります。LOGO が消える前にクリックして Safe Mode "
+"に入ってください。この手順は重要です。時間内に Safe Mode に入れなかっ"
+"た場合は、手順 1 に戻り、ファームウェアを再度更新してから、"
+"もう一度試してください。"
+
+#: ../../source/troubleshoting/firmware.md:37
+msgid ""
+"Once in the device's Safe Mode interface, simply click Upload in the top-"
+"right corner of FlexDesigner to update your profile once."
+msgstr ""
+"デバイスの Safe Mode 画面に入ったら、FlexDesigner 右上の Upload を一度クリック"
+"して Profile を更新するだけです。"
+
+#: ../../source/troubleshoting/firmware.md:39
+msgid "Rollback"
+msgstr "ロールバック"
+
+#: ../../source/troubleshoting/firmware.md:41
+msgid ""
+"If the updated firmware does not function properly, you can manually roll"
+" back to the previous version."
+msgstr ""
+"更新後のファームウェアが正しく動作しない場合は、手動でひとつ前のバージョンに"
+"戻せます。"
+
+#: ../../source/troubleshoting/firmware.md:43
+msgid "You generally do not need to perform this operation"
+msgstr "通常、この操作は必要ありません"
+
+#: ../../source/troubleshoting/firmware.md:45
+msgid "Rollback in Safe Mode"
+msgstr "Safe Mode でロールバックする"
+
+#: ../../source/troubleshoting/firmware.md:47
+#: ../../source/troubleshoting/firmware.md:57
+msgid "Swipe left on the screen"
+msgstr "画面を左にスワイプします"
+
+#: ../../source/troubleshoting/firmware.md:49
+msgid "![1743988771303](image/firmware/1743988771303.png)"
+msgstr "![1743988771303](image/firmware/1743988771303.png)"
+
+#: ../../source/troubleshoting/firmware.md:49
+msgid "1743988771303"
+msgstr "1743988771303"
+
+#: ../../source/troubleshoting/firmware.md:51
+#: ../../source/troubleshoting/firmware.md:61
+msgid "Click `ROLLBACK` to revert to the previous firmware version"
+msgstr "`ROLLBACK` をクリックして、ひとつ前のファームウェア バージョンに戻します"
+
+#: ../../source/troubleshoting/firmware.md:53
+msgid "![1743988710621](image/firmware/1743988710621.png)"
+msgstr "![1743988710621](image/firmware/1743988710621.png)"
+
+#: ../../source/troubleshoting/firmware.md:53
+msgid "1743988710621"
+msgstr "1743988710621"
+
+#: ../../source/troubleshoting/firmware.md:55
+msgid "Rollback from Settings Interface"
+msgstr "設定画面からロールバックする"
+
+#: ../../source/troubleshoting/firmware.md:59
+msgid "![1743990519882](image/firmware/1743990519882.png)"
+msgstr "![1743990519882](image/firmware/1743990519882.png)"
+
+#: ../../source/troubleshoting/firmware.md:59
+msgid "1743990519882"
+msgstr "1743990519882"
+
+#: ../../source/troubleshoting/firmware.md:63
+msgid "![1743990587111](image/firmware/1743990587111.png)"
+msgstr "![1743990587111](image/firmware/1743990587111.png)"
+
+#: ../../source/troubleshoting/firmware.md:63
+msgid "1743990587111"
+msgstr "1743990587111"
+

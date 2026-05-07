@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/key_library.md:1
+msgid "Key Library"
+msgstr "Key Library"
+
+#: ../../source/flexdesigner/key_library.md:3
+msgid ""
+"The key library lists all available keys that you can drag and drop into the"
+" editor."
+msgstr "Key Library には、エディターへドラッグ＆ドロップできる利用可能なキーが一覧表示されます。"
+
+#: ../../source/flexdesigner/key_library.md:5
+msgid "![1742263121475](image/getting_started/1742263121475.png)"
+msgstr "![1742263121475](image/getting_started/1742263121475.png)"
+
+#: ../../source/flexdesigner/key_library.md:5
+msgid "1742263121475"
+msgstr "1742263121475"
+
+#: ../../source/flexdesigner/key_library.md:7
+msgid "Feature descriptions:"
+msgstr "機能の説明:"
+
+#: ../../source/flexdesigner/key_library.md:9
+msgid "Key search"
+msgstr "キー検索"
+
+#: ../../source/flexdesigner/key_library.md:10
+msgid "Key category filter toggle: Enable or disable a key library here"
+msgstr "キーカテゴリのフィルター: Key Library の表示を切り替えます"
+
+#: ../../source/flexdesigner/key_library.md:11
+msgid "Import a key library or plugin from file or link"
+msgstr "ファイルまたはリンクから Key Library 用データやプラグインを取り込む"
+
+#: ../../source/flexdesigner/key_library.md:12
+msgid ""
+"Key library quick navigation: Click to jump to the corresponding key library"
+msgstr "クイックナビ: クリックで該当の Key Library へ移動"
+
+#: ../../source/flexdesigner/key_library.md:13
+msgid ""
+"Key library: Click to collapse or expand, supports nested sub-key libraries"
+msgstr "Key Library: クリックで折りたたみ／展開。入れ子のサブライブラリに対応"
+
+#: ../../source/flexdesigner/key_library.md:14
+msgid "Keys: Drag and drop keys to the editor"
+msgstr "キー: エディターへドラッグ＆ドロップして配置"
+
+#: ../../source/flexdesigner/key_library.md:16
+msgid "Imported `flexpages` and installed plugins will also be displayed here"
+msgstr "インポートした `flexpages` やインストール済みのプラグインもここに表示されます"

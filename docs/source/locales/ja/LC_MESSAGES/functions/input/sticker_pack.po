@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/sticker_pack.md:1
+msgid "Sticker Pack"
+msgstr "ステッカーパック"
+
+#: ../../source/functions/input/sticker_pack.md:3
+msgid ""
+"The sticker pack key inserts a sticker (like meme, or any image) to the "
+"active input box from the sticker pack when pressed."
+msgstr "ステッカー パック キーを押すと、ステッカー (ミームや任意の画像など) がステッカー パックからアクティブな入力ボックスに挿入されます。"
+
+#: ../../source/functions/input/sticker_pack.md:5
+msgid "![1744984412951](image/sticker_pack/1744984412951.png)"
+msgstr "![1744984412951](image/sticker_pack/1744984412951.png)"
+
+#: ../../source/functions/input/sticker_pack.md:5
+msgid "1744984412951"
+msgstr "1744984412951"
+
+#: ../../source/functions/input/sticker_pack.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/input/sticker_pack.md:9
+msgid "![1744984574600](image/sticker_pack/1744984574600.png)"
+msgstr "![1744984574600](image/sticker_pack/1744984574600.png)"
+
+#: ../../source/functions/input/sticker_pack.md:9
+msgid "1744984574600"
+msgstr "1744984574600"
+
+#: ../../source/functions/input/sticker_pack.md:11
+msgid ""
+"The stickers are organized in sticker packs. The sticker pack is a library "
+"of all the stickers that can be used in the FlexDesigner, meaning the "
+"sticker pack configured for a single key is shared across all sticker pack "
+"keys. The software provides some basic functions for organizing the sticker "
+"pack (in the order of buttons in the software):"
+msgstr ""
+"ステッカーはステッカー パックにまとめられています。ステッカー パックは、FlexDesigner "
+"で使用できるすべてのステッカーのライブラリです。つまり、単一のキーに設定されたステッカー パックは、すべてのステッカー パック "
+"キー間で共有されます。ソフトウェアは、ステッカー パックを整理するためのいくつかの基本機能を提供します (ソフトウェアのボタンの順序に従って)。"
+
+#: ../../source/functions/input/sticker_pack.md:13
+msgid ""
+"Import sticker pack: Import a previously exported sticker pack from the "
+"FlexDesigner"
+msgstr "ステッカー パックのインポート: 以前にエクスポートしたステッカー パックを FlexDesigner からインポートします。"
+
+#: ../../source/functions/input/sticker_pack.md:14
+msgid ""
+"Add new image: Select an image file on your computer, then add it to the "
+"sticker pack"
+msgstr "新しい画像を追加: コンピュータ上の画像ファイルを選択し、ステッカー パックに追加します。"
+
+#: ../../source/functions/input/sticker_pack.md:15
+msgid ""
+"Add from clipboard: Paste the previously copied image into the sticker pack"
+msgstr "クリップボードから追加: 前にコピーした画像をステッカー パックに貼り付けます。"
+
+#: ../../source/functions/input/sticker_pack.md:16
+msgid ""
+"Export sticker pack: Export the current sticker pack to a single file for "
+"backup or sharing"
+msgstr "ステッカー パックのエクスポート: 現在のステッカー パックをバックアップまたは共有のために単一のファイルにエクスポートします。"
+
+#: ../../source/functions/input/sticker_pack.md:18
+msgid ""
+"To remove image from the sticker pack, right-click on the image and click "
+"'Delete'. To remove multiple images from the sticker pack, select the images"
+" by using the checkbox in the top right corner of the image when hovering "
+"the cursor over, right click on any image, click 'Delete all selected'."
+msgstr ""
+"ステッカー パックから画像を削除するには、画像を右クリックして [削除] をクリックします。ステッカー "
+"パックから複数の画像を削除するには、画像の上にカーソルを置いたときに画像の右上隅にあるチェックボックスを使用して画像を選択し、任意の画像を右クリックして、[選択したすべてを削除]"
+" をクリックします。"
+
+#: ../../source/functions/input/sticker_pack.md:20
+msgid ""
+"Notably, these operations are the same for the icon pack used in foreground "
+"settings. However, it doesn't support managing multiple sticker packs unlike"
+" icon packs."
+msgstr ""
+"特に、これらの操作は前景設定で使用されるアイコン パックでも同じです。ただし、アイコン パックとは異なり、複数のステッカー "
+"パックの管理はサポートされていません。"
+
+#: ../../source/functions/input/sticker_pack.md:22
+msgid ""
+"Each key can only have one sticker assigned to it. Single click the desired "
+"sticker from the sticker pack to pick one. It should show up in the preview "
+"area on the top of the sticker pack area."
+msgstr ""
+"各キーに割り当てることができるステッカーは 1 つだけです。ステッカー パックから目的のステッカーをシングルクリックして選択します。ステッカー "
+"パック領域の上部にあるプレビュー領域に表示されるはずです。"
+
+#: ../../source/functions/input/sticker_pack.md:24
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/input/sticker_pack.md:26
+msgid ""
+"Press the key on the Flexbar to insert the defined sticker into the current "
+"active input box on the computer."
+msgstr "Flexbar のキーを押して、定義されたステッカーをコンピューター上の現在アクティブな入力ボックスに挿入します。"
+
+#: ../../source/functions/input/sticker_pack.md:28
+msgid "TIPS"
+msgstr "ヒント"
+
+#: ../../source/functions/input/sticker_pack.md:30
+msgid ""
+"While the software supports multiple formats, the compatibility is also "
+"subject to the target software (such as when inserting into messaging "
+"software that doesn't support GIF at all, the Flexbar won't be able to "
+"magically insert the animated GIF there). For maximum compatibility it's "
+"recommended to only use JPEG and GIF format."
+msgstr ""
+"ソフトウェアは複数の形式をサポートしていますが、互換性はターゲット ソフトウェアにも依存します（GIF をまったくサポートしていないメッセージング "
+"ソフトウェアに挿入する場合など、Flexbar は魔法のようにアニメーション GIF をそこに挿入できません）。互換性を最大限に高めるために、JPEG "
+"および GIF 形式のみを使用することをお勧めします。"

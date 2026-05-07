@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/obs/obs.md:1
+msgid "OBS Studio"
+msgstr "OBSスタジオ"
+
+#: ../../source/functions/obs/obs.md:3
+msgid "You can control OBS Studio quickly and easily using the Flexbar."
+msgstr "Flexbar を使用して、OBS Studio をすばやく簡単に制御できます。"
+
+#: ../../source/functions/obs/obs.md:5
+msgid "Set Up Your OBS Studio"
+msgstr "OBS Studio をセットアップする"
+
+#: ../../source/functions/obs/obs.md:7
+msgid ""
+"To get started, enable OBS Studio's WebSocket service via **Settings > "
+"Application > OBS**."
+msgstr ""
+"開始するには、**[設定] > [アプリケーション] > [OBS]** で OBS Studio の WebSocket サービスを有効にします。"
+
+#: ../../source/functions/obs/obs.md:9
+msgid "![1743307623980](image/obs/1743307623980.png)"
+msgstr "![1743307623980](image/obs/1743307623980.png)"
+
+#: ../../source/functions/obs/obs.md:9
+msgid "1743307623980"
+msgstr "1743307623980"
+
+#: ../../source/functions/obs/obs.md:11
+msgid "Open the WebSocket settings panel"
+msgstr "WebSocket設定パネルを開く"
+
+#: ../../source/functions/obs/obs.md:12
+msgid "Click **Show Connect Info**"
+msgstr "[**接続情報を表示**] をクリックします。"
+
+#: ../../source/functions/obs/obs.md:13
+msgid "Copy the **IP**, **Port**, and **Password**"
+msgstr "**IP**、**ポート**、**パスワード**をコピーします。"
+
+#: ../../source/functions/obs/obs.md:15
+msgid "![1743307637461](image/obs/1743307637461.png)"
+msgstr "![1743307637461](image/obs/1743307637461.png)"
+
+#: ../../source/functions/obs/obs.md:15
+msgid "1743307637461"
+msgstr "1743307637461"
+
+#: ../../source/functions/obs/obs.md:17
+msgid ""
+"Paste the IP, Port, and Password into the corresponding input fields, then "
+"click **Test Server**. You should see a “Connected” status if everything is "
+"set correctly."
+msgstr ""
+"IP、ポート、およびパスワードを対応する入力フィールドに貼り付け、**サーバーのテスト** "
+"をクリックします。すべてが正しく設定されている場合は、「接続済み」ステータスが表示されるはずです。"
+
+#: ../../source/functions/obs/obs.md:19
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/obs/obs.md:21
+msgid "![1743307818062](image/obs/1743307818062.png)"
+msgstr "![1743307818062](image/obs/1743307818062.png)"
+
+#: ../../source/functions/obs/obs.md:21
+msgid "1743307818062"
+msgstr "1743307818062"
+
+#: ../../source/functions/obs/obs.md:23
+msgid "You can find this feature under the \"OBS\" category in the Key Library."
+msgstr "この機能は、Key Library の「OBS」カテゴリにあります。"
+
+#: ../../source/functions/obs/obs.md:25
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/obs/obs.md:27
+msgid "![1743307840269](image/obs/1743307840269.png)"
+msgstr "![1743307840269](image/obs/1743307840269.png)"
+
+#: ../../source/functions/obs/obs.md:27
+msgid "1743307840269"
+msgstr "1743307840269"

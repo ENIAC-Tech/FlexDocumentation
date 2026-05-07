@@ -11,7 +11,7 @@ $SPHINXBUILD = "sphinx-build"
 $SOURCEDIR = "source"
 $BUILDDIR = "build"
 $GETTEXTDIR = "$BUILDDIR/gettext"
-$LANGUAGES = @("zh_CN")
+$LANGUAGES = @("zh_CN", "ja")
 
 # Change to script directory
 Push-Location $PSScriptRoot

@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/text_emoji.md:1
+msgid "Text/ Emoji"
+msgstr "テキスト/絵文字"
+
+#: ../../source/functions/input/text_emoji.md:3
+msgid ""
+"The text/ emoji key inserts text to the active input box on the computer. "
+"This key supports emoji, but requires the FlexDesigner to be running. Also "
+"see the text key which doesn't support emoji but also doesn't depend on the "
+"FlexDesigner."
+msgstr ""
+"テキスト/絵文字キーは、コンピュータ上のアクティブな入力ボックスにテキストを挿入します。このキーは絵文字をサポートしていますが、FlexDesigner"
+" が実行されている必要があります。絵文字をサポートしていないが、FlexDesigner に依存しないテキスト キーも参照してください。"
+
+#: ../../source/functions/input/text_emoji.md:5
+msgid "![1744984750189](image/text_emoji/1744984750189.png)"
+msgstr "![1744984750189](image/text_emoji/1744984750189.png)"
+
+#: ../../source/functions/input/text_emoji.md:5
+msgid "1744984750189"
+msgstr "1744984750189"
+
+#: ../../source/functions/input/text_emoji.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/input/text_emoji.md:9
+msgid "![1744984738429](image/text_emoji/1744984738429.png)"
+msgstr "![1744984738429](image/text_emoji/1744984738429.png)"
+
+#: ../../source/functions/input/text_emoji.md:9
+msgid "1744984738429"
+msgstr "1744984738429"
+
+#: ../../source/functions/input/text_emoji.md:11
+msgid ""
+"The text or emoji (or any combination of these in one or multiple lines) can"
+" be defined in the function tab in the FlexDesigner. Emoji can be inserted "
+"with third party input method/ panels (such as the emoji picker on the "
+"macOS), or using the emoji button to the right of the input box. To enlarge "
+"the input box, drag the dashed triangle to the lower right of the input box."
+msgstr ""
+"テキストまたは絵文字（または 1 行または複数行のこれらの組み合わせ）は、FlexDesigner "
+"の機能タブで定義できます。絵文字は、サードパーティの入力方法/パネル (macOS の絵文字ピッカーなど) "
+"を使用するか、入力ボックスの右側にある絵文字ボタンを使用して挿入できます。入力ボックスを拡大するには、破線の三角形を入力ボックスの右下にドラッグします。"
+
+#: ../../source/functions/input/text_emoji.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/input/text_emoji.md:15
+msgid ""
+"Press the key to insert the defined text/ emoji to the active input box."
+msgstr "キーを押して、定義されたテキスト/絵文字をアクティブな入力ボックスに挿入します。"

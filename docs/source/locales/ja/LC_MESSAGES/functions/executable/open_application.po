@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/executable/open_application.md:1
+msgid "Open Application"
+msgstr "アプリケーションを開く"
+
+#: ../../source/functions/executable/open_application.md:3
+msgid ""
+"The open application key opens a user defined application or folder when "
+"pressed."
+msgstr "アプリケーションを開くキーを押すと、ユーザー定義のアプリケーションまたはフォルダーが開きます。"
+
+#: ../../source/functions/executable/open_application.md:5
+msgid "![1744946027052](image/open_application/1744946027052.png)"
+msgstr "![1744946027052](image/open_application/1744946027052.png)"
+
+#: ../../source/functions/executable/open_application.md:5
+msgid "1744946027052"
+msgstr "1744946027052"
+
+#: ../../source/functions/executable/open_application.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/executable/open_application.md:9
+msgid ""
+"The application or folder to open can be defined in the function tab in the "
+"FlexDesigner. There are 3 buttons to the right of the path input box. The "
+"first allows selecting a folder, while the second allows selecting an "
+"application to launch. The third button allows doing a test run directly on "
+"the computer before uploading the new profile to the Flexbar. The test run "
+"should perform the same operation as if the key is pressed on the Flexbar."
+msgstr ""
+"開くアプリケーションまたはフォルダーは、FlexDesigner の機能タブで定義できます。パス入力ボックスの右側には 3 つのボタンがあります。 1 "
+"つ目ではフォルダーを選択でき、2 つ目では起動するアプリケーションを選択できます。 3 番目のボタンを使用すると、新しいプロファイルを Flexbar "
+"にアップロードする前に、コンピュータ上で直接テスト実行を行うことができます。テスト実行では、Flexbar のキーが押された場合と同じ操作を実行する必要があります。"
+
+#: ../../source/functions/executable/open_application.md:11
+msgid "![1744712900295](image/open_application/1744712900295.png)"
+msgstr "![1744712900295](image/open_application/1744712900295.png)"
+
+#: ../../source/functions/executable/open_application.md:11
+msgid "1744712900295"
+msgstr "1744712900295"
+
+#: ../../source/functions/executable/open_application.md:13
+msgid ""
+"Select a path to open, which will be opened with File Explorer on Windows, "
+"Finder on MacOS, and the default file manager on Linux"
+msgstr ""
+"開くパスを選択します。このパスは、Windows のファイル エクスプローラー、MacOS の Finder、Linux のデフォルトのファイル "
+"マネージャーで開きます。"
+
+#: ../../source/functions/executable/open_application.md:14
+msgid "Select a file or application to open"
+msgstr "開くファイルまたはアプリケーションを選択してください"
+
+#: ../../source/functions/executable/open_application.md:15
+msgid "Test run on your computer"
+msgstr "コンピューターでテストを実行する"
+
+#: ../../source/functions/executable/open_application.md:17
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/executable/open_application.md:19
+msgid ""
+"Press the key to launch the defined application or folder in the "
+"FlexDesigner."
+msgstr "キーを押して、FlexDesigner で定義されたアプリケーションまたはフォルダーを起動します。"

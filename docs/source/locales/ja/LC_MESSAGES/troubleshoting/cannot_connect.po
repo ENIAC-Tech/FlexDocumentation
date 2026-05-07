@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/cannot_connect.md:1
+msgid "Flexbar Connection Troubleshooting"
+msgstr "Flexbar 接続のトラブルシューティング"
+
+#: ../../source/troubleshoting/cannot_connect.md:3
+msgid ""
+"If FlexDesigner fails to recognize your Flexbar, follow these steps to "
+"identify and resolve the issue."
+msgstr "FlexDesigner が Flexbar を認識できない場合は、次の手順に従って問題を特定し、解決してください。"
+
+#: ../../source/troubleshoting/cannot_connect.md:5
+msgid "Verify Computer Recognition"
+msgstr "コンピュータの認識を確認する"
+
+#: ../../source/troubleshoting/cannot_connect.md:7
+msgid ""
+"Flexbar doesn't require additional USB drivers and should be automatically "
+"recognized when connected. Verify this through:"
+msgstr "Flexbar には追加の USB ドライバーは必要なく、接続時に自動的に認識されます。これを次のようにして確認します。"
+
+#: ../../source/troubleshoting/cannot_connect.md:9
+msgid "Method 1: Test Flexbar Functions"
+msgstr "方法 1: Flexbar 関数をテストする"
+
+#: ../../source/troubleshoting/cannot_connect.md:11
+msgid ""
+"**Access the Home Screen**: Press the \"🏠\" icon on the far left of Flexbar "
+"![Home Button](image/cannot_connect/1746349468296.png)"
+msgstr ""
+"**ホーム画面にアクセス**: "
+"Flexbar の左端にある「🏠」アイコンを押します![ホームボタン](image/cannot_connect/1746349468296.png)"
+
+#: ../../source/troubleshoting/cannot_connect.md:11
+msgid "Home Button"
+msgstr "ホームボタン"
+
+#: ../../source/troubleshoting/cannot_connect.md:14
+msgid ""
+"**Test Device Functions**: Rotate the volume wheel or press media control "
+"buttons and observe your computer's response ![Function "
+"Test](image/cannot_connect/1746349473776.png)"
+msgstr ""
+"**デバイスの機能をテスト**: ボリューム ホイールを回すか、メディア コントロール "
+"ボタンを押して、コンピュータの反応を観察します。![機能テスト](image/cannot_connect/1746349473776.png)"
+
+#: ../../source/troubleshoting/cannot_connect.md:14
+msgid "Function Test"
+msgstr "機能テスト"
+
+#: ../../source/troubleshoting/cannot_connect.md:18
+msgid ""
+"If your computer's volume changes or media controls respond, your system has"
+" successfully recognized the Flexbar."
+msgstr "コンピュータの音量が変化するか、メディア コントロールが反応する場合、システムは Flexbar を正常に認識しています。"
+
+#: ../../source/troubleshoting/cannot_connect.md:20
+msgid "Method 2: Check System Device Manager"
+msgstr "方法 2: システム デバイス マネージャーを確認する"
+
+#: ../../source/troubleshoting/cannot_connect.md:22
+msgid "Windows"
+msgstr "窓"
+
+#: ../../source/troubleshoting/cannot_connect.md:24
+msgid "Open Device Manager"
+msgstr "デバイスマネージャーを開く"
+
+#: ../../source/troubleshoting/cannot_connect.md:25
+msgid "Connect and disconnect Flexbar while watching the device list"
+msgstr "デバイスリストを見ながらFlexbarを接続および切断する"
+
+#: ../../source/troubleshoting/cannot_connect.md:26
+msgid "If a device appears or disappears, your system recognizes the Flexbar"
+msgstr "デバイスが表示されたり消えたりすると、システムは Flexbar を認識します。"
+
+#: ../../source/troubleshoting/cannot_connect.md:28
+msgid "macOS"
+msgstr "macOS"
+
+#: ../../source/troubleshoting/cannot_connect.md:30
+msgid "Click the Apple menu in the top left → Select \"About This Mac\""
+msgstr "左上のアップルメニューをクリック→「このMacについて」を選択"
+
+#: ../../source/troubleshoting/cannot_connect.md:31
+msgid "Click \"System Report\" to enter System Information"
+msgstr "「システムレポート」をクリックしてシステム情報を入力します"
+
+#: ../../source/troubleshoting/cannot_connect.md:32
+msgid "Select \"USB\" in the Hardware section"
+msgstr "ハードウェアセクションで「USB」を選択します"
+
+#: ../../source/troubleshoting/cannot_connect.md:33
+msgid "Look for Flexbar in the USB device list"
+msgstr "USB デバイスリストで Flexbar を探します"
+
+#: ../../source/troubleshoting/cannot_connect.md:35
+msgid "Computer Not Recognizing Flexbar?"
+msgstr "コンピュータが Flexbar を認識しない場合?"
+
+#: ../../source/troubleshoting/cannot_connect.md:37
+msgid "Try these solutions:"
+msgstr "以下の解決策を試してください。"
+
+#: ../../source/troubleshoting/cannot_connect.md:39
+msgid "Change USB ports (preferably using built-in computer ports)"
+msgstr "USB ポートを変更します (内蔵コンピューター ポートを使用することが望ましい)"
+
+#: ../../source/troubleshoting/cannot_connect.md:40
+msgid "Avoid connecting through USB hubs or docking stations"
+msgstr "USB ハブやドッキング ステーションを介した接続は避けてください"
+
+#: ../../source/troubleshoting/cannot_connect.md:41
+msgid "Try using a USB-A to USB-C cable"
+msgstr "USB-A - USB-C ケーブルを使用してみる"
+
+#: ../../source/troubleshoting/cannot_connect.md:43
+msgid "Flexbar Recognized by Computer but Not Connecting to FlexDesigner"
+msgstr "Flexbar はコンピュータに認識されるが、FlexDesigner に接続されない"
+
+#: ../../source/troubleshoting/cannot_connect.md:45
+msgid "Solution 1: Restart Devices"
+msgstr "解決策 1: デバイスを再起動する"
+
+#: ../../source/troubleshoting/cannot_connect.md:47
+msgid ""
+"Restarting your computer and FlexDesigner is the simplest and most effective"
+" way to resolve most connection issues."
+msgstr "コンピュータと FlexDesigner を再起動することが、ほとんどの接続の問題を解決する最も簡単で効果的な方法です。"
+
+#: ../../source/troubleshoting/cannot_connect.md:49
+msgid "Solution 2: Reinstall FlexDesigner"
+msgstr "解決策 2: FlexDesigner を再インストールする"
+
+#: ../../source/troubleshoting/cannot_connect.md:51
+msgid ""
+"Download and reinstall the latest software from the [official "
+"website](https://eniacelec.com/pages/software)."
+msgstr ""
+"[公式Webサイト](https://eniacelec.com/pages/software)から最新のソフトウェアをダウンロードして再インストールしてください。"
+
+#: ../../source/troubleshoting/cannot_connect.md:53
+msgid "Solution 3: Switch USB Protocol"
+msgstr "解決策 3: USB プロトコルを切り替える"
+
+#: ../../source/troubleshoting/cannot_connect.md:55
+msgid ""
+"In rare cases, your system may have trouble communicating with Flexbar using"
+" a specific protocol. Flexbar supports both HID and CDC USB protocols. To "
+"switch between them:"
+msgstr ""
+"まれに、システムで特定のプロトコルを使用した Flexbar との通信に問題が発生することがあります。 Flexbar は、HID と CDC USB "
+"プロトコルの両方をサポートします。それらを切り替えるには:"
+
+#: ../../source/troubleshoting/cannot_connect.md:57
+msgid ""
+"**Enter Safe Mode**: During startup, click the \"Enter SafeMode\" button on "
+"the left side of the LOGO screen ![Safe Mode "
+"Entry](image/safemode/1743991368473.png)"
+msgstr ""
+"**セーフモードに入る**: "
+"起動中に、ロゴ画面の左側にある「セーフモードに入る」ボタンをクリックします![セーフモードに入る](image/safemode/1743991368473.png)"
+
+#: ../../source/troubleshoting/cannot_connect.md:57
+msgid "Safe Mode Entry"
+msgstr "セーフモードへの移行"
+
+#: ../../source/troubleshoting/cannot_connect.md:60
+msgid ""
+"**Access Settings**: Click the gear icon on the far right of Flexbar "
+"![Settings Button](image/safemode/1743991410209.png)"
+msgstr ""
+"**設定にアクセス**: "
+"Flexbar の右端にある歯車アイコンをクリックします![設定ボタン](image/safemode/1743991410209.png)"
+
+#: ../../source/troubleshoting/cannot_connect.md:60
+msgid "Settings Button"
+msgstr "設定ボタン"
+
+#: ../../source/troubleshoting/cannot_connect.md:63
+msgid ""
+"**Switch USB Mode**: Press button 6 to toggle between CDC and HID modes "
+"![1746499904730](image/cannot_connect/1746499904730.png)"
+msgstr ""
+"**USB モードの切り替え**: ボタン 6 を押して CDC モードと HID "
+"モードを切り替えます![1746499904730](image/cannot_connect/1746499904730.png)"
+
+#: ../../source/troubleshoting/cannot_connect.md:63
+msgid "1746499904730"
+msgstr "1746499904730"
+
+#: ../../source/troubleshoting/cannot_connect.md:66
+msgid "**Reconnect Flexbar**"
+msgstr "**Flexbar を再接続**"
+
+#: ../../source/troubleshoting/cannot_connect.md:68
+msgid "Linux USB Permission Issues"
+msgstr "LinuxのUSB許可の問題"
+
+#: ../../source/troubleshoting/cannot_connect.md:70
+msgid ""
+"If you're using Linux and encounter \"Cannot access USB device, this may be "
+"due to permission issues\", follow these steps:"
+msgstr ""
+"Linux を使用していて、「USB "
+"デバイスにアクセスできません。権限の問題が原因である可能性があります」というメッセージが表示された場合は、次の手順に従ってください。"
+
+#: ../../source/troubleshoting/cannot_connect.md:72
+msgid "**Create udev rules** by running the following commands in terminal:"
+msgstr "**udev ルールを作成**するには、ターミナルで次のコマンドを実行します。"
+
+#: ../../source/troubleshoting/cannot_connect.md:82
+msgid "**Disconnect and reconnect your device**"
+msgstr "**デバイスを切断して再接続します**"
+
+#: ../../source/troubleshoting/cannot_connect.md:84
+msgid "**Restart the application**"
+msgstr "**アプリケーションを再起動します**"
+
+#: ../../source/troubleshoting/cannot_connect.md:86
+msgid "MacOS USB Permission Issues"
+msgstr "MacOS の USB 許可の問題"
+
+#: ../../source/troubleshoting/cannot_connect.md:88
+msgid ""
+"If you are using MacOS, make sure you have allowed accessories to connect in"
+" your system settings."
+msgstr "MacOS を使用している場合は、システム設定でアクセサリの接続を許可していることを確認してください。"
+
+#: ../../source/troubleshoting/cannot_connect.md:90
+msgid ""
+"You can refer to the [official Apple "
+"documentation](https://support.apple.com/en-us/102282) for more information."
+msgstr ""
+"詳細については、[Apple 公式ドキュメント](https://support.apple.com/en-us/102282) を参照してください。"
+
+#: ../../source/troubleshoting/cannot_connect.md:93
+msgid "Still Having Issues?"
+msgstr "まだ問題がありますか?"
+
+#: ../../source/troubleshoting/cannot_connect.md:95
+msgid ""
+"If the above methods don't resolve your problem, please email "
+"contact@eniacelec.com. Our technical support team will contact you promptly "
+"to help solve the issue."
+msgstr ""
+"上記の方法で問題が解決しない場合は、contact@eniacelec.com までメールでお問い合わせください。当社のテクニカル サポート "
+"チームが問題の解決を支援するために直ちにご連絡いたします。"

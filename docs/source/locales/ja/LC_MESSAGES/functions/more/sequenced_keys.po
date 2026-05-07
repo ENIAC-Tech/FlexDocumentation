@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/more/sequenced_keys.md:1
+msgid "Sequenced Keys"
+msgstr "シーケンスキー"
+
+#: ../../source/functions/more/sequenced_keys.md:3
+msgid ""
+"The sequenced-keys executes multiple keys when pressed, as if multiple keys "
+"are pressed sequentially. If only one key out of a list shall be executed at"
+" once, check out the 'cycled keys'."
+msgstr ""
+"sequenced-keys は、複数のキーが連続して押されたかのように、押されると複数のキーを実行します。リスト内の 1 "
+"つのキーだけを一度に実行する場合は、「循環キー」をチェックアウトします。"
+
+#: ../../source/functions/more/sequenced_keys.md:5
+msgid "![1744984981870](image/sequenced_keys/1744984981870.png)"
+msgstr "![1744984981870](image/sequenced_keys/1744984981870.png)"
+
+#: ../../source/functions/more/sequenced_keys.md:5
+msgid "1744984981870"
+msgstr "1744984981870"
+
+#: ../../source/functions/more/sequenced_keys.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/more/sequenced_keys.md:9
+msgid "![1744985000268](image/sequenced_keys/1744985000268.png)"
+msgstr "![1744985000268](image/sequenced_keys/1744985000268.png)"
+
+#: ../../source/functions/more/sequenced_keys.md:9
+msgid "1744985000268"
+msgstr "1744985000268"
+
+#: ../../source/functions/more/sequenced_keys.md:11
+msgid "The list of keys to be executed can be defined in the function page."
+msgstr "実行するキーのリストは機能ページで定義できます。"
+
+#: ../../source/functions/more/sequenced_keys.md:13
+msgid ""
+"To define the keys, drag and drop desired key from the right pane into the "
+"middle area. Note that when in the function tab, only keys that can be used "
+"with cycle buttons would be displayed."
+msgstr ""
+"キーを定義するには、目的のキーを右側のペインから中央の領域にドラッグ アンド ドロップします。 Note that when in the "
+"function tab, only keys that can be used with cycle buttons would be "
+"displayed."
+
+#: ../../source/functions/more/sequenced_keys.md:15
+msgid ""
+"Right top to the action list, there are several settings controlling its "
+"behavior:"
+msgstr "アクション リストの右上には、その動作を制御するいくつかの設定があります。"
+
+#: ../../source/functions/more/sequenced_keys.md:17
+msgid ""
+"Delay between actions: The actions are executed sequentially. After each "
+"action, the software waits for a certain amount of time (subject to "
+"influence of computer performance and other factors)."
+msgstr ""
+"アクション間の遅延: アクションは順番に実行されます。各アクションの後、ソフトウェアは一定時間待機します "
+"(コンピューターのパフォーマンスやその他の要因の影響を受ける可能性があります)。"
+
+#: ../../source/functions/more/sequenced_keys.md:18
+msgid ""
+"Add to schedule: The list of actions can be trigger according to schedule. "
+"Use this button to define the schedule (such as 9AM every Monday), then this"
+" sequence would be automatically executed according to the schedule. Use the"
+" delete button in the schedule page to cancel the schedule."
+msgstr ""
+"スケジュールに追加: スケジュールに従ってアクションのリストをトリガーできます。このボタンを使用してスケジュール (毎週月曜日の午前 9 時など) "
+"を定義すると、このシーケンスがスケジュールに従って自動的に実行されます。スケジュールをキャンセルするには、スケジュール ページの削除ボタンを使用します。"
+
+#: ../../source/functions/more/sequenced_keys.md:19
+msgid ""
+"Ordering: By default, keys are executed in order (sequentially). It's also "
+"possible to switch to random order by clicking on the ordering button top "
+"right to the action list."
+msgstr ""
+"順序: デフォルトでは、キーは順番に (順次に) "
+"実行されます。アクションリストの右上にある順序ボタンをクリックして、ランダムな順序に切り替えることもできます。"
+
+#: ../../source/functions/more/sequenced_keys.md:21
+msgid ""
+"In the sequenced keys, there are two additional flow control 'key's in the "
+"'more' category available (in the right key library pane):"
+msgstr ""
+"シーケンスされたキーでは、(右側の Key Library ペインにある) 利用可能な「more」カテゴリに 2 つの追加のフロー制御「キー」があります。"
+
+#: ../../source/functions/more/sequenced_keys.md:23
+msgid ""
+"Delay: Delay the execution of the next action by defined amount of time. The"
+" time is added on top of the global delay settings."
+msgstr "遅延: 定義された時間だけ次のアクションの実行を遅らせます。時間はグローバル遅延設定に加えて追加されます。"
+
+#: ../../source/functions/more/sequenced_keys.md:24
+msgid ""
+"Repeat: Repeat the execution of actions within the repeat group by defined "
+"amount of times. The number of iterations and be defined at the input box "
+"right top to the repeat group. Repeat group can be nested as well."
+msgstr ""
+"繰り返し: "
+"繰り返しグループ内のアクションの実行を、定義された回数繰り返します。反復回数は、反復グループの右上の入力ボックスで定義します。繰り返しグループは入れ子にすることもできます。"
+
+#: ../../source/functions/more/sequenced_keys.md:26
+msgid ""
+"The function tab of added keys can be opened by double-clicking on the key."
+msgstr "追加したキーの機能タブは、キーをダブルクリックすることで開きます。"
+
+#: ../../source/functions/more/sequenced_keys.md:28
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/more/sequenced_keys.md:30
+msgid ""
+"Press the button to execute the currently displayed key. Once done, the next"
+" key would be displayed on the button."
+msgstr "ボタンを押すと、現在表示されているキーが実行されます。完了すると、次のキーがボタンに表示されます。"

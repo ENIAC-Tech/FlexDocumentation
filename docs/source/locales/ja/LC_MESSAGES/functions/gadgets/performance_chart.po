@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/gadgets/performance_chart.md:1
+msgid "Performance Chart"
+msgstr "パフォーマンスチャート"
+
+#: ../../source/functions/gadgets/performance_chart.md:3
+msgid "The performance chart key shows computer performance data charts."
+msgstr "パフォーマンス チャート キーは、コンピューターのパフォーマンス データ チャートを表示します。"
+
+#: ../../source/functions/gadgets/performance_chart.md:5
+msgid ""
+"The monitoring feature is built into the FlexDesigner. Optionally it also "
+"supports AIDA64 as a data source. The chart can be displayed as line chart, "
+"series bar, progress bar, progress circle, or simply hidden (text label "
+"only)."
+msgstr ""
+"モニタリング機能は FlexDesigner に組み込まれています。オプションで、データ ソースとして AIDA64 "
+"もサポートします。グラフは、折れ線グラフ、系列棒、進行状況バー、進行状況円として表示することも、単に非表示にすることもできます (テキスト "
+"ラベルのみ)。"
+
+#: ../../source/functions/gadgets/performance_chart.md:7
+msgid ""
+"![1744719744654](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/performance_chart/1744719744654.png)"
+msgstr ""
+"![1744719744654](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/performance_chart/1744719744654.png)"
+
+#: ../../source/functions/gadgets/performance_chart.md:7
+msgid "1744719744654"
+msgstr "1744719744654"
+
+#: ../../source/functions/gadgets/performance_chart.md:9
+msgid "Windows Setup"
+msgstr "Windowsのセットアップ"
+
+#: ../../source/functions/gadgets/performance_chart.md:11
+msgid ""
+"On Windows, you need to configure the data source for Performance Chart in "
+"advance. You can find the relevant settings in `Setting->Application`:"
+msgstr ""
+"Windowsの場合、事前に性能グラフのデータソースを設定する必要があります。関連する設定は「設定 -> アプリケーション」で見つけることができます。"
+
+#: ../../source/functions/gadgets/performance_chart.md:13
+msgid "![1743732409096](image/performance_chart/1743732409096.png)"
+msgstr "![1743732409096](image/performance_chart/1743732409096.png)"
+
+#: ../../source/functions/gadgets/performance_chart.md:13
+msgid "1743732409096"
+msgstr "1743732409096"
+
+#: ../../source/functions/gadgets/performance_chart.md:15
+msgid ""
+"Built-in Source: The software's built-in hardware data source. Administrator"
+" privileges are required to enable this monitoring."
+msgstr "内蔵ソース: ソフトウェアの内蔵ハードウェア データ ソース。この監視を有効にするには、管理者権限が必要です。"
+
+#: ../../source/functions/gadgets/performance_chart.md:16
+msgid "AIDA64: Obtain data from AIDA64"
+msgstr "AIDA64: AIDA64からデータを取得します"
+
+#: ../../source/functions/gadgets/performance_chart.md:18
+msgid ""
+"You need to enable `Writing sensor values to Registry` in AIDA64's "
+"`Preferences->External Applications`"
+msgstr "AIDA64 の「設定 -> 外部アプリケーション」で「センサー値をレジストリに書き込む」を有効にする必要があります。"
+
+#: ../../source/functions/gadgets/performance_chart.md:21
+msgid "![1743732830596](image/performance_chart/1743732830596.png)"
+msgstr "![1743732830596](image/performance_chart/1743732830596.png)"
+
+#: ../../source/functions/gadgets/performance_chart.md:21
+msgid "1743732830596"
+msgstr "1743732830596"
+
+#: ../../source/functions/gadgets/performance_chart.md:23
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/gadgets/performance_chart.md:25
+msgid "There are various options in the FlexDesigner for this key."
+msgstr "FlexDesigner には、このキー用のさまざまなオプションがあります。"
+
+#: ../../source/functions/gadgets/performance_chart.md:27
+msgid "![1744945431898](image/performance_chart/1744945431898.png)"
+msgstr "![1744945431898](image/performance_chart/1744945431898.png)"
+
+#: ../../source/functions/gadgets/performance_chart.md:27
+msgid "1744945431898"
+msgstr "1744945431898"
+
+#: ../../source/functions/gadgets/performance_chart.md:29
+msgid ""
+"Data Source Selection: Choose the source of performance data that interests "
+"you"
+msgstr "データ ソースの選択: 興味のあるパフォーマンス データのソースを選択します。"
+
+#: ../../source/functions/gadgets/performance_chart.md:30
+msgid ""
+"Auto-scaling: When enabled, the chart will automatically adjust so that the "
+"minimum value in the current window becomes the chart's lowest point and the"
+" maximum value becomes the highest point. This is ideal for monitoring data "
+"trends"
+msgstr ""
+"自動スケール: "
+"有効にすると、現在のウィンドウの最小値がチャートの最低点になり、最大値が最高点になるようにチャートが自動的に調整されます。これはデータの傾向を監視するのに最適です"
+
+#: ../../source/functions/gadgets/performance_chart.md:31
+msgid ""
+"Manual Scaling: If auto-scaling is disabled, you can set custom minimum and "
+"maximum values for the chart. This is better for monitoring resource usage"
+msgstr ""
+"手動スケーリング: "
+"自動スケーリングが無効になっている場合は、グラフにカスタムの最小値と最大値を設定できます。これはリソースの使用状況を監視するのに適しています"
+
+#: ../../source/functions/gadgets/performance_chart.md:32
+msgid ""
+"Chart Type: Options include line chart, series bar chart, progress bar, "
+"progress circle, and text label"
+msgstr "グラフの種類: オプションには、折れ線グラフ、系列棒グラフ、進行状況バー、進行状況円、テキスト ラベルが含まれます。"
+
+#: ../../source/functions/gadgets/performance_chart.md:33
+msgid "Chart Width Ratio: Controls how much space the chart occupies"
+msgstr "グラフの幅の比率: グラフが占めるスペースの量を制御します。"
+
+#: ../../source/functions/gadgets/performance_chart.md:34
+msgid ""
+"Custom Data Name: Enter any name for your data, such as CPU, GPU, etc. "
+"*Note: Special symbols are not supported*"
+msgstr "カスタム データ名: CPU、GPU などのデータの名前を入力します。 *注: 特殊記号はサポートされていません*"
+
+#: ../../source/functions/gadgets/performance_chart.md:35
+msgid "Chart Colors: Set the foreground and background colors for the chart"
+msgstr "グラフの色: グラフの前景色と背景色を設定します。"
+
+#: ../../source/functions/gadgets/performance_chart.md:36
+msgid ""
+"Label Options: From left to right, toggle whether to display the custom name"
+" (entered in step 6), the data value, and the data unit"
+msgstr "ラベル オプション: 左から右に、カスタム名 (手順 6 で入力)、データ値、データ単位を表示するかどうかを切り替えます。"
+
+#: ../../source/functions/gadgets/performance_chart.md:37
+msgid ""
+"Label Position: Controls for adjusting the horizontal and vertical position "
+"of the label"
+msgstr "ラベルの位置: ラベルの水平および垂直位置を調整するためのコントロール"
+
+#: ../../source/functions/gadgets/performance_chart.md:39
+msgid ""
+"Label and chart and be enabled and disabled independently. To disable the "
+"label display, switch off the checkbox named 'Label'. To disable the chart, "
+"set the chart type to 'Label' in the list box named 'Chart Type'."
+msgstr ""
+"ラベルとグラフを個別に有効または無効にできます。ラベルの表示を無効にするには、「ラベル」という名前のチェックボックスをオフにします。グラフを無効にするには、「グラフの種類」という名前のリスト"
+" ボックスでグラフの種類を「ラベル」に設定します。"
+
+#: ../../source/functions/gadgets/performance_chart.md:41
+msgid ""
+"The auto-scale feature always scales the highest value in the chart to the "
+"maximum. This might be confusing as the chart could be a bit busy while the "
+"actual number is low. To avoid this, disable the auto-scale feature."
+msgstr ""
+"自動スケール機能は、常にグラフ内の最大値を最大値までスケールします。実際の数値は低いにもかかわらず、グラフが少し混雑している可能性があるため、混乱を招く可能性があります。これを回避するには、自動スケール機能を無効にします。"
+
+#: ../../source/functions/gadgets/performance_chart.md:43
+msgid ""
+"As the chart would be displayed in the allocated area, it's recommended to "
+"disable any foreground elements and keep background clear for this key."
+msgstr "チャートは割り当てられた領域に表示されるため、このキーの前景要素を無効にし、背景をクリアな状態に保つことをお勧めします。"
+
+#: ../../source/functions/gadgets/performance_chart.md:45
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/gadgets/performance_chart.md:47
+msgid ""
+"The selected chart would be displayed in the area allocated for this "
+"feature. This is no interactive actions for this key."
+msgstr "選択したチャートは、この機能に割り当てられた領域に表示されます。このキーに対する対話型アクションはありません。"
+
+#: ../../source/functions/gadgets/performance_chart.md:49
+msgid "![1744945760598](image/performance_chart/1744945760598.png)"
+msgstr "![1744945760598](image/performance_chart/1744945760598.png)"
+
+#: ../../source/functions/gadgets/performance_chart.md:49
+msgid "1744945760598"
+msgstr "1744945760598"

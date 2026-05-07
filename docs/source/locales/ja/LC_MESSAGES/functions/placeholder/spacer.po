@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/placeholder/spacer.md:1
+msgid "Spacer"
+msgstr "スペーサー"
+
+#: ../../source/functions/placeholder/spacer.md:3
+msgid "The spacer takes blank space between keys."
+msgstr "スペーサーはキー間の空白スペースを確保します。"
+
+#: ../../source/functions/placeholder/spacer.md:5
+msgid "![1745501958126](image/spacer/1745501958126.png)"
+msgstr "![1745501958126](image/spacer/1745501958126.png)"
+
+#: ../../source/functions/placeholder/spacer.md:5
+msgid "1745501958126"
+msgstr "1745501958126"
+
+#: ../../source/functions/placeholder/spacer.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/placeholder/spacer.md:9
+msgid ""
+"The spacer has background and foreground settings as well. By default, it's "
+"blank, with colors all set to black. But you can still customize it if you "
+"wish. Compared to the no-function-key, it additionally has an auto spacing "
+"feature in the function tab. It would automatically use up the remaining "
+"space in the page."
+msgstr ""
+"スペーサーには背景と前景の設定もあります。デフォルトでは空白で、色はすべて黒に設定されています。ただし、必要に応じてカスタマイズすることもできます。ファンクションキーなしの場合と比較して、ファンクションタブに自動スペース機能が追加されています。ページ内の残りのスペースが自動的に使用されてしまいます。"
+
+#: ../../source/functions/placeholder/spacer.md:11
+msgid "![1745501987168](image/spacer/1745501987168.png)"
+msgstr "![1745501987168](image/spacer/1745501987168.png)"
+
+#: ../../source/functions/placeholder/spacer.md:11
+msgid "1745501987168"
+msgstr "1745501987168"
+
+#: ../../source/functions/placeholder/spacer.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/placeholder/spacer.md:15
+msgid ""
+"The spacer is displayed on the Flexbar, occupying space just like other "
+"keys. But it cannot be pressed."
+msgstr "スペーサーは Flexbar 上に表示され、他のキーと同様にスペースを占有します。ただし、押下はできません。"

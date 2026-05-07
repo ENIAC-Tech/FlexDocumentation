@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/plugin_structure.md:1
+msgid "Plugin Structure"
+msgstr "プラグインの構造"
+
+#: ../../source/sdk/plugin_structure.md:3
+msgid ""
+"This document provides a detailed description of each part of a plugin."
+msgstr "このドキュメントでは、プラグインの各部分について詳細に説明します。"
+
+#: ../../source/sdk/plugin_structure.md:5
+msgid "manifest.json"
+msgstr "manifest.json"
+
+#: ../../source/sdk/plugin_structure.md:7
+msgid ""
+"This file describes the basic information about the plugin and what it "
+"contains. You need to specify the keys and language resources your plugin "
+"provides in `manifest.json`."
+msgstr ""
+"このファイルには、プラグインの基本情報と含まれる内容が記述されます。プラグインが提供するキーと言語リソースは "
+"`manifest.json` で指定する必要があります。"
+
+#: ../../source/sdk/plugin_structure.md:9
+msgid "Below are some important sections:"
+msgstr "以下にいくつかの重要なセクションを示します。"
+
+#: ../../source/sdk/plugin_structure.md:42
+msgid "keyLibrary"
+msgstr "keyLibrary"
+
+#: ../../source/sdk/plugin_structure.md:44
+msgid "In `keyLibrary`, you can add multiple keys or subpages."
+msgstr "`keyLibrary` では、複数のキーまたはサブページを追加できます。"
+
+#: ../../source/sdk/plugin_structure.md:46
+msgid "The following types are supported:"
+msgstr "次のタイプがサポートされています。"
+
+#: ../../source/sdk/plugin_structure.md:48
+msgid "Default Key"
+msgstr "デフォルトキー"
+
+#: ../../source/sdk/plugin_structure.md:50
+msgid ""
+"Creates a key that performs an action when pressed or displays a static "
+"image."
+msgstr "押されたときにアクションを実行するキー、または静止画像を表示するキーを作成します。"
+
+#: ../../source/sdk/plugin_structure.md:76
+msgid "Multi-State Key"
+msgstr "マルチステートキー"
+
+#: ../../source/sdk/plugin_structure.md:78
+msgid ""
+"Creates a key with multiple states that can be cycled through. For example, "
+"on/off, mode A/B/C, etc."
+msgstr "循環可能な複数の状態を持つキーを作成します。たとえば、オン/オフ、モード A/B/C など。"
+
+#: ../../source/sdk/plugin_structure.md:112
+msgid "Slider"
+msgstr "スライダー"
+
+#: ../../source/sdk/plugin_structure.md:114
+msgid ""
+"Creates a slider control, suitable for functions that require drag control "
+"with absolute values, such as volume control."
+msgstr "ボリューム コントロールなど、絶対値によるドラッグ コントロールが必要な機能に適したスライダー コントロールを作成します。"
+
+#: ../../source/sdk/plugin_structure.md:142
+msgid "Wheel"
+msgstr "ホイール"
+
+#: ../../source/sdk/plugin_structure.md:144
+msgid ""
+"Creates a wheel control, suitable for parameter adjustments that don't have "
+"absolute values."
+msgstr "絶対値を持たないパラメータ調整に適したホイール コントロールを作成します。"
+
+#: ../../source/sdk/plugin_structure.md:167
+msgid "Direct Draw (new)"
+msgstr "Direct Draw（新規）"
+
+#: ../../source/sdk/plugin_structure.md:169
+msgid "Requires FlexDesigner SDK 1.0.7+"
+msgstr "FlexDesigner SDK 1.0.7以降が必要です"
+
+#: ../../source/sdk/plugin_structure.md:171
+msgid ""
+"Creates an empty page that allows you to directly draw custom content at a "
+"relatively fast speed (depending on image content, approximately 15~45fps). "
+"You can use this feature to create complex UIs and even animations. You can "
+"also receive touch information reported by the device."
+msgstr ""
+"空のページを作成し、比較的高速 (画像コンテンツに応じて約 15 ～ 45fps) でカスタム "
+"コンテンツを直接描画できるようにします。この機能を使用すると、複雑な UI "
+"やアニメーションさえも作成できます。デバイスから報告されたタッチ情報を受信することもできます。"
+
+#: ../../source/sdk/plugin_structure.md:194
+msgid "Direct Draw API"
+msgstr "Direct Draw API"
+
+#: ../../source/sdk/plugin_structure.md:196
+msgid ""
+"The Direct Draw API is simple and straightforward, with only one directDraw "
+"method:"
+msgstr "Direct Draw API はシンプルで、`directDraw` メソッドのみを提供します。"
+
+#: ../../source/sdk/plugin_structure.md:201
+#: ../../source/sdk/plugin_structure.md:266
+#: ../../source/sdk/plugin_structure.md:276
+#: ../../source/sdk/plugin_structure.md:292
+#: ../../source/sdk/plugin_structure.md:302
+#: ../../source/sdk/plugin_structure.md:313
+#: ../../source/sdk/plugin_structure.md:328
+#: ../../source/sdk/plugin_structure.md:339
+#: ../../source/sdk/plugin_structure.md:350
+msgid "`serialNumber`: Device serial number"
+msgstr "`serialNumber`: デバイスのシリアル番号"
+
+#: ../../source/sdk/plugin_structure.md:202
+#: ../../source/sdk/plugin_structure.md:267
+#: ../../source/sdk/plugin_structure.md:277
+#: ../../source/sdk/plugin_structure.md:293
+#: ../../source/sdk/plugin_structure.md:303
+#: ../../source/sdk/plugin_structure.md:314
+#: ../../source/sdk/plugin_structure.md:329
+#: ../../source/sdk/plugin_structure.md:340
+#: ../../source/sdk/plugin_structure.md:351
+msgid ""
+"`key`: Key object received from the event `plugin.data` or `plugin.alive`."
+msgstr "`key`: イベント `plugin.data` または `plugin.alive` から受け取ったキー オブジェクト。"
+
+#: ../../source/sdk/plugin_structure.md:203
+msgid ""
+"`backgroundData`: Base64 encoded image data, such as "
+"canvas.toDataURL('image/png')"
+msgstr ""
+"`backgroundData`: Base64 エンコードされた画像データ（例: `canvas.toDataURL('image/png')`）"
+
+#: ../../source/sdk/plugin_structure.md:204
+msgid ""
+"`diffUpdate`: Whether to use partial updates, defaults to false. If true, it"
+" will compare differences between consecutive frames and only update changed"
+" parts. This feature can significantly improve frame rate for small area "
+"updates, but may occasionally cause screen tearing"
+msgstr ""
+"`diffUpdate`: 部分的な更新を使用するかどうか。デフォルトは false です。 true "
+"の場合、連続するフレーム間の差分を比較し、変更された部分のみを更新します。この機能により、狭い領域の更新のフレーム "
+"レートが大幅に向上しますが、画面のティアリングが発生する場合があります。"
+
+#: ../../source/sdk/plugin_structure.md:205
+msgid ""
+"`offsetX`: Horizontal coordinate of the image, range 0-2170. You can specify"
+" this parameter to manually refresh specific areas. The image height is "
+"fixed at 60px, and the width is specified by the encoded image base64."
+msgstr ""
+"`offsetX`: 画像の水平座標、範囲は 0 ～ 2170。このパラメータを指定すると、特定の領域を手動で更新できます。画像の高さは 60px "
+"に固定されており、幅はエンコードされた画像の Base64 によって指定されます。"
+
+#: ../../source/sdk/plugin_structure.md:207
+msgid "Touch Event API"
+msgstr "タッチイベント API"
+
+#: ../../source/sdk/plugin_structure.md:209
+msgid "When on a Direct Draw page, the device will report touch information:"
+msgstr "Direct Draw ページでは、デバイスはタッチ情報を報告します。"
+
+#: ../../source/sdk/plugin_structure.md:214
+msgid "`payload`: Touch data"
+msgstr "`payload`: タッチデータ"
+
+#: ../../source/sdk/plugin_structure.md:224
+msgid "Dynamic Key (new)"
+msgstr "Dynamic Key（新規）"
+
+#: ../../source/sdk/plugin_structure.md:226
+msgid "Requires FlexDesigner SDK 1.0.6+"
+msgstr "FlexDesigner SDK 1.0.6以降が必要です"
+
+#: ../../source/sdk/plugin_structure.md:228
+msgid ""
+"Creates a dynamic key that serves as a container. It has no functionality by"
+" itself, but you can use APIs to add/remove child keys. This is suitable for"
+" projects that require dynamic creation. Currently, a dynamic key can "
+"contain up to 16 child keys."
+msgstr ""
+"コンテナとして機能する動的キーを作成します。それ自体には機能はありませんが、API "
+"を使用して子キーを追加/削除できます。これは、動的な作成が必要なプロジェクトに適しています。現在、動的キーには最大 16 "
+"個の子キーを含めることができます。"
+
+#: ../../source/sdk/plugin_structure.md:253
+msgid "Dynamic Key API"
+msgstr "Dynamic Key API"
+
+#: ../../source/sdk/plugin_structure.md:255
+msgid ""
+"Here are some code snippets demonstrating how to interact with Dynamic Keys."
+" For more detailed examples, please refer to the Example Plugin."
+msgstr ""
+"以下に、Dynamic Key を操作するコード例をいくつか示します。詳細は Example プラグインを参照してください。"
+
+#: ../../source/sdk/plugin_structure.md:257
+msgid ""
+"index: Refers to the index of the child key. This index is specific to the "
+"Dynamic Key's internal independent indexing, starting from 0. If there are "
+"multiple Dynamic Keys, their indices are independent of each other."
+msgstr ""
+"index: 子キーのインデックスを指します。このインデックスは Dynamic Key 内部の独立した番号付け用で、0 "
+"から始まります。Dynamic Key が複数ある場合も、それぞれの index は互いに独立しています。"
+
+#: ../../source/sdk/plugin_structure.md:258
+msgid ""
+"userData: Refers to the user-defined data bound to the child key. When you "
+"press a child key, this data will be sent to the plugin. You can use this "
+"data to distinguish and define the functionality of child keys."
+msgstr ""
+"userData: 子キーに紐付くユーザー定義データです。子キーを押すとこのデータがプラグインに送られ、子キーごとの動作を区別するのに使えます。"
+
+#: ../../source/sdk/plugin_structure.md:260
+msgid "Set Key Width"
+msgstr "キー幅の設定"
+
+#: ../../source/sdk/plugin_structure.md:268
+msgid "`width`: New width value (in pixels)"
+msgstr "`width`: 新しい幅の値 (ピクセル単位)"
+
+#: ../../source/sdk/plugin_structure.md:270
+msgid "Add Child Key"
+msgstr "子キーの追加"
+
+#: ../../source/sdk/plugin_structure.md:278
+msgid "`index`: Insert position"
+msgstr "`index`: 挿入位置"
+
+#: ../../source/sdk/plugin_structure.md:279
+#: ../../source/sdk/plugin_structure.md:316
+msgid "`type`: Content type ('base64','draw')"
+msgstr "`type`: コンテンツタイプ ('base64','draw')"
+
+#: ../../source/sdk/plugin_structure.md:280
+#: ../../source/sdk/plugin_structure.md:317
+msgid ""
+"`content`: Key drawing content (base64 image or an Object describing key "
+"structure and Style)"
+msgstr "`content`: キー描画コンテンツ (base64 イメージまたはキー構造とスタイルを記述するオブジェクト)"
+
+#: ../../source/sdk/plugin_structure.md:281
+msgid "`width`: Key width"
+msgstr "`width`: キーの幅"
+
+#: ../../source/sdk/plugin_structure.md:282
+msgid "`userData`: User data object"
+msgstr "`userData`: ユーザーデータオブジェクト"
+
+#: ../../source/sdk/plugin_structure.md:284
+#: ../../source/sdk/plugin_structure.md:320
+msgid "The drawing part is similar to the plugin.draw method"
+msgstr "描画まわりは `plugin.draw` メソッドと同様です。"
+
+#: ../../source/sdk/plugin_structure.md:286
+msgid "Remove Child Key"
+msgstr "子キーの削除"
+
+#: ../../source/sdk/plugin_structure.md:294
+msgid "`index`: Index of the key to remove"
+msgstr "`index`: 削除するキーのインデックス"
+
+#: ../../source/sdk/plugin_structure.md:296
+msgid "Move Child Key Position"
+msgstr "子キーの位置を移動"
+
+#: ../../source/sdk/plugin_structure.md:304
+msgid "`fromIndex`: Source position"
+msgstr "`fromIndex`: 移動元の位置"
+
+#: ../../source/sdk/plugin_structure.md:305
+msgid "`toIndex`: Target position"
+msgstr "`toIndex`: 移動先の位置"
+
+#: ../../source/sdk/plugin_structure.md:307
+msgid "Redraw Child Key"
+msgstr "子キーの再描画"
+
+#: ../../source/sdk/plugin_structure.md:315
+#: ../../source/sdk/plugin_structure.md:330
+msgid "`index`: Key index"
+msgstr "`index`: キーインデックス"
+
+#: ../../source/sdk/plugin_structure.md:318
+msgid "`width`: New key width"
+msgstr "`width`: 新しいキーの幅"
+
+#: ../../source/sdk/plugin_structure.md:322
+msgid "Update Child Key User Data"
+msgstr "子キーのユーザーデータを更新する"
+
+#: ../../source/sdk/plugin_structure.md:331
+msgid "`userData`: New user data object"
+msgstr "`userData`: 新しいユーザー データ オブジェクト"
+
+#: ../../source/sdk/plugin_structure.md:333
+msgid "Refresh Key Display"
+msgstr "キー表示を更新"
+
+#: ../../source/sdk/plugin_structure.md:342
+msgid ""
+"After modifying the key width, it's recommended to wait 50ms for the update "
+"to complete before calling this method to refresh the display"
+msgstr "キー幅を変更した後、このメソッドを呼び出して表示を更新する前に、更新が完了するまで 50 ミリ秒待つことをお勧めします。"
+
+#: ../../source/sdk/plugin_structure.md:344
+msgid "Clear All Child Keys"
+msgstr "すべての子キーをクリア"
+
+#: ../../source/sdk/plugin_structure.md:353
+msgid "Subpage"
+msgstr "サブページ"
+
+#: ../../source/sdk/plugin_structure.md:355
+msgid ""
+"Adds a subpage/category. You can use this feature to categorize your "
+"plugin's keys."
+msgstr "サブページ/カテゴリを追加します。この機能を使用して、プラグインのキーを分類できます。"
+
+#: ../../source/sdk/plugin_structure.md:374
+msgid "style"
+msgstr "スタイル"
+
+#: ../../source/sdk/plugin_structure.md:376
+msgid ""
+"Defines the default style of a key. The following fields are supported:"
+msgstr "キーのデフォルトのスタイルを定義します。次のフィールドがサポートされています。"
+
+#: ../../source/sdk/plugin_structure.md:410
+msgid "flags"
+msgstr "フラグ"
+
+#: ../../source/sdk/plugin_structure.md:412
+msgid ""
+"Controls more detailed interaction behaviors, such as disabling background "
+"editing. Available flags:"
+msgstr "バックグラウンド編集の無効化など、より詳細なインタラクション動作を制御します。利用可能なフラグ:"
+
+#: ../../source/sdk/plugin_structure.md:415
+msgid "disable-bg: Disables the background editing window"
+msgstr "disable-bg: 背景編集ウィンドウを無効にします。"
+
+#: ../../source/sdk/plugin_structure.md:416
+msgid "disable-fg: Disables the foreground editing window"
+msgstr "disable-fg: 前景編集ウィンドウを無効にします。"
+
+#: ../../source/sdk/plugin_structure.md:417
+msgid "disable-func: Disables the function editing window"
+msgstr "disable-func: 関数編集ウィンドウを無効にします。"
+
+#: ../../source/sdk/plugin_structure.md:418
+msgid "disable-common: Disables the common function editing window"
+msgstr "disable-common: 共通機能編集ウィンドウを無効にします。"
+
+#: ../../source/sdk/plugin_structure.md:419
+msgid ""
+"disable-bg-styles: Disables background style editing, but retains width "
+"adjustment"
+msgstr "disable-bg-styles: 背景スタイルの編集を無効にしますが、幅の調整は保持します"
+
+#: ../../source/sdk/plugin_structure.md:420
+msgid "disable-icon-sel: Prevents icon selection"
+msgstr "disable-icon-sel: アイコンの選択を禁止します"
+
+#: ../../source/sdk/plugin_structure.md:421
+msgid "disable-layout-sel: Prevents layout selection"
+msgstr "disable-layout-sel: レイアウトの選択を禁止します"
+
+#: ../../source/sdk/plugin_structure.md:423
+msgid "local"
+msgstr "local"
+
+#: ../../source/sdk/plugin_structure.md:425
+msgid ""
+"Includes multilingual resources. Text starting with $ in the keyLibrary "
+"section or used with $t in .vue files is looked up here."
+msgstr ""
+"多言語リソースが含まれています。 keyLibrary セクション内の $ で始まるテキスト、または .vue ファイル内の $t "
+"とともに使用されるテキストがここで検索されます。"
+
+#: ../../source/sdk/plugin_structure.md:435
+msgid "Supported language code:"
+msgstr "サポートされている言語コード:"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Code"
+msgstr "コード"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Language"
+msgstr "言語"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "en"
+msgstr "en"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "English"
+msgstr "英語"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "de"
+msgstr "de"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "German"
+msgstr "ドイツ語"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "fr"
+msgstr "fr"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "French"
+msgstr "フランス語"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "ja"
+msgstr "ja"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Japanese"
+msgstr "日本語"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "zh-CN"
+msgstr "zh-CN"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Chinese (Simplified)"
+msgstr "中国語（簡体字）"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "zh-HK"
+msgstr "zh-HK"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Chinese (Traditional)"
+msgstr "中国語（繁体字）"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "ko"
+msgstr "ko"
+
+#: ../../source/sdk/plugin_structure.md
+msgid "Korean"
+msgstr "韓国語"
+
+#: ../../source/sdk/plugin_structure.md:447
+msgid "backend"
+msgstr "backend"
+
+#: ../../source/sdk/plugin_structure.md:449
+msgid ""
+"Holds the compiled script. The main process will launch this script via "
+"`manifest.entry`."
+msgstr "コンパイル済みスクリプトを格納します。メイン プロセスは `manifest.entry` からこのスクリプトを起動します。"
+
+#: ../../source/sdk/plugin_structure.md:451
+msgid "resources"
+msgstr "resources"
+
+#: ../../source/sdk/plugin_structure.md:453
+msgid "Stores resource files (e.g., images). You can access them as follows:"
+msgstr "リソース ファイル (画像など) を保存します。次のようにしてアクセスできます。"
+
+#: ../../source/sdk/plugin_structure.md:459
+msgid "ui"
+msgstr "ui"
+
+#: ../../source/sdk/plugin_structure.md:461
+msgid ""
+"Holds frontend `.vue` files. The `.vue` file name can match the one "
+"specified in `manifest.configPage` for the settings interface or match each "
+"key's `cid` in `keyLibrary`. For example, the key "
+"`com.eniac.example.counter` should have a corresponding "
+"`ui/com.eniac.example.counter.vue` file."
+msgstr ""
+"フロントエンドの `.vue` ファイルを置きます。ファイル名は設定画面の `manifest.configPage` で指定した名前と一致させるか、"
+"`keyLibrary` 内の各キーの `cid` と一致させます。例: キー `com.eniac.example.counter` には "
+"`ui/com.eniac.example.counter.vue` が対応します。"

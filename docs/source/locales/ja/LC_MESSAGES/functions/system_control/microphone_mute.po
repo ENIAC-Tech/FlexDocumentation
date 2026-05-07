@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/microphone_mute.md:1
+msgid "Microphone Mute"
+msgstr "マイクミュート"
+
+#: ../../source/functions/system_control/microphone_mute.md:3
+msgid ""
+"The microphone mute key allows you to quickly toggle your system's "
+"microphone on or off. When you press this key, your computer's microphone "
+"will switch between muted and unmuted."
+msgstr ""
+"マイク ミュート "
+"キーを使用すると、システムのマイクのオンとオフをすばやく切り替えることができます。このキーを押すと、コンピュータのマイクがミュートとミュート解除の間で切り替わります。"
+
+#: ../../source/functions/system_control/microphone_mute.md:5
+msgid ""
+"This function only operates when FlexDesigner is running. If you need "
+"microphone mute control without FlexDesigner, you may consider using your "
+"system's built-in multimedia mute key. Please note that these methods may "
+"not always stay synchronized with the Flexbar indicator."
+msgstr ""
+"この機能は、FlexDesigner が実行されている場合にのみ動作します。 FlexDesigner "
+"を使用せずにマイクのミュート制御が必要な場合は、システムに内蔵のマルチメディア ミュート キーの使用を検討してください。これらのメソッドは常に "
+"Flexbar インジケーターと同期しているとは限らないことに注意してください。"
+
+#: ../../source/functions/system_control/microphone_mute.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/system_control/microphone_mute.md:9
+msgid ""
+"Apart from appearance customization options, this key does not have any "
+"other settings in FlexDesigner."
+msgstr "外観のカスタマイズ オプションを除けば、このキーには FlexDesigner の他の設定はありません。"
+
+#: ../../source/functions/system_control/microphone_mute.md:11
+msgid "![20251023-123225](image/microphone_mute/20251023-123505.jpg)"
+msgstr "![20251023-123225](image/microphone_mute/20251023-123505.jpg)"
+
+#: ../../source/functions/system_control/microphone_mute.md:11
+msgid "20251023-123225"
+msgstr "20251023-123225"
+
+#: ../../source/functions/system_control/microphone_mute.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/system_control/microphone_mute.md:15
+msgid ""
+"Tap the microphone mute key on the Flexbar to toggle the microphone mute "
+"state. If the microphone mute status changes by other means (such as "
+"keyboard shortcuts or system tray), the Flexbar key will update to show the "
+"correct mute state."
+msgstr ""
+"Flexbar のマイク ミュート キーをタップして、マイクのミュート状態を切り替えます。マイクのミュート状態が他の手段 (キーボード "
+"ショートカットやシステム トレイなど) によって変更された場合、Flexbar キーが更新されて正しいミュート状態が表示されます。"

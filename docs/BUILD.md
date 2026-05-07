@@ -58,7 +58,7 @@ cd docs
 
 This will:
 1. Extract translatable messages from source files
-2. Update all `.po` files in `source/locales/zh_CN/LC_MESSAGES/`
+2. Update all `.po` files in `source/locales/zh_CN/LC_MESSAGES/` and `source/locales/ja/LC_MESSAGES/`
 
 ### 3. Build All Language Versions
 
@@ -70,6 +70,7 @@ cd docs
 Output:
 - English: `build/html/en/index.html`
 - Chinese: `build/html/zh_CN/index.html`
+- Japanese: `build/html/ja/index.html`
 
 ### 4. Complete Build Pipeline (Recommended)
 
@@ -83,7 +84,7 @@ cd docs
 This will:
 1. Extract translatable messages
 2. Update translation catalogs
-3. Build HTML for all languages (English + Chinese)
+3. Build HTML for all languages (English, Chinese, and Japanese)
 
 ## Translation Workflow
 
@@ -98,8 +99,8 @@ This will:
    ```
 
 3. **Translate content**
-   - Open `.po` files in `source/locales/zh_CN/LC_MESSAGES/`
-   - Edit the `msgstr` fields with Chinese translations
+   - Open `.po` files in `source/locales/zh_CN/LC_MESSAGES/` (Chinese) or `source/locales/ja/LC_MESSAGES/` (Japanese)
+   - Edit the `msgstr` fields with translations
    - Example:
      ```po
      #: ../../source/index.rst:2
@@ -115,6 +116,7 @@ This will:
 5. **Preview**
    - Open `build/html/en/index.html` for English
    - Open `build/html/zh_CN/index.html` for Chinese
+   - Open `build/html/ja/index.html` for Japanese
 
 ## Directory Structure
 
@@ -124,10 +126,13 @@ docs/
 ├── source/                     # Source documentation files
 │   ├── conf.py                # Sphinx configuration
 │   ├── locales/               # Translation files
-│   │   └── zh_CN/
+│   │   ├── zh_CN/
+│   │   │   └── LC_MESSAGES/
+│   │   │       ├── index.po
+│   │   │       ├── getting_started.po
+│   │   │       └── ...
+│   │   └── ja/
 │   │       └── LC_MESSAGES/
-│   │           ├── index.po
-│   │           ├── getting_started.po
 │   │           └── ...
 │   ├── *.md                   # Markdown source files
 │   └── *.rst                  # reStructuredText source files
@@ -135,7 +140,8 @@ docs/
     ├── gettext/               # Translation templates (.pot)
     └── html/                  # HTML output
         ├── en/                # English version
-        └── zh_CN/             # Chinese version
+        ├── zh_CN/           # Chinese version
+        └── ja/                # Japanese version
 ```
 
 ## Troubleshooting
@@ -174,19 +180,16 @@ Clean the build directory and try again:
 
 ## Adding New Languages
 
-To add support for a new language (e.g., Japanese):
+Japanese (`ja`) is already included in `make.ps1`, `build_all_languages.py`, and the docs i18n workflow. To add another language:
 
-1. Edit `make.ps1` and add the language code to `$LANGUAGES`:
-   ```powershell
-   $LANGUAGES = @("zh_CN", "ja")
-   ```
+1. Edit `make.ps1` and append the language code to `$LANGUAGES` (and mirror the same list in `build_all_languages.py` and `.github/workflows/docs-i18n.yml` if you use CI).
 
 2. Initialize the new language:
    ```powershell
    .\make.ps1 i18n
    ```
 
-3. Translate the `.po` files in `source/locales/ja/LC_MESSAGES/`
+3. Translate the `.po` files under `source/locales/<language>/LC_MESSAGES/`.
 
 4. Build all versions:
    ```powershell

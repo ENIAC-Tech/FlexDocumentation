@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/microphone_control.md:1
+msgid "Microphone Control"
+msgstr "マイクコントロール"
+
+#: ../../source/functions/system_control/microphone_control.md:3
+msgid ""
+"The microphone control key allows controlling system audio input volume."
+msgstr "マイク制御キーを使用すると、システムのオーディオ入力音量を制御できます。"
+
+#: ../../source/functions/system_control/microphone_control.md:5
+msgid ""
+"This key only works when the FlexDesigner is running. This key is only "
+"present in the Windows version of the FlexDesigner at the moment."
+msgstr ""
+"このキーは、FlexDesigner の実行中にのみ機能します。このキーは、現時点では Windows バージョンの FlexDesigner "
+"にのみ存在します。"
+
+#: ../../source/functions/system_control/microphone_control.md:7
+msgid "![1745502389085](image/microphone_control/1745502389085.png)"
+msgstr "![1745502389085](image/microphone_control/1745502389085.png)"
+
+#: ../../source/functions/system_control/microphone_control.md:7
+msgid "1745502389085"
+msgstr "1745502389085"
+
+#: ../../source/functions/system_control/microphone_control.md:9
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/system_control/microphone_control.md:11
+msgid ""
+"Other than the standard visual options, this key doesn't have any additional"
+" configurable functions in the FlexDesigner."
+msgstr "標準のビジュアル オプション以外に、このキーには FlexDesigner で追加の構成可能な機能はありません。"
+
+#: ../../source/functions/system_control/microphone_control.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/system_control/microphone_control.md:15
+msgid ""
+"Drag the slider on the Flexbar to adjust system input volume (typically "
+"microphone volume)."
+msgstr "Flexbar のスライダーをドラッグして、システム入力音量 (通常はマイクの音量) を調整します。"

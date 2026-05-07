@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/index.rst:2
+msgid "Welcome to FlexDocumentation!"
+msgstr "FlexDocumentation へようこそ!"
+
+#: ../../source/index.rst:4
+msgid ""
+"**Flexbar** is a powerful and customizable tool that allows you to create "
+"custom profiles and automate tasks."
+msgstr "**Flexbar** は、カスタム プロファイルを作成してタスクを自動化できる、強力でカスタマイズ可能なツールです。"
+
+#: ../../source/index.rst:6
+msgid "Check out the :doc:`getting_started` section for further information"
+msgstr "詳細については、:doc:`getting_started` セクションを参照してください。"
+
+#: ../../source/index.rst:10
+msgid "This project is under active development."
+msgstr "このプロジェクトは現在鋭意開発中です。"
+
+#: ../../source/index.rst:13
+msgid "Contents"
+msgstr "コンテンツ"

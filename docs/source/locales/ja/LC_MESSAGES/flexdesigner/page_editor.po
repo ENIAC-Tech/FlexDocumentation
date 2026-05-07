@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/page_editor.md:1
+msgid "Page Editor"
+msgstr "ページエディター"
+
+#: ../../source/flexdesigner/page_editor.md:3
+msgid ""
+"In the page editor, you can manage Flexbar devices, preview and edit pages. "
+"You can use the mouse wheel to zoom and drag the virtual Flexbar."
+msgstr ""
+"ページエディターでは Flexbar を管理し、ページのプレビューと編集ができます。マウスホイールでズームし、"
+"Virtual Flexbar をドラッグして操作できます。"
+
+#: ../../source/flexdesigner/page_editor.md:5
+msgid ""
+"![1742261812783](image/getting_started/1742261812783.png) Feature "
+"descriptions:"
+msgstr "![1742261812783](image/getting_started/1742261812783.png) 機能の説明:"
+
+#: ../../source/flexdesigner/page_editor.md:5
+msgid "1742261812783"
+msgstr "1742261812783"
+
+#: ../../source/flexdesigner/page_editor.md:7
+msgid "Fit to screen: Click to reset Flexbar's zoom level and position"
+msgstr "画面に合わせる: Flexbar のズームと表示位置をリセットします。"
+
+#: ../../source/flexdesigner/page_editor.md:8
+msgid ""
+"Tree view: Click to browse all subpages and keys in a tree structure for "
+"quick navigation between multiple subpages"
+msgstr "ツリービュー: ページとキーを階層表示し、サブページ間を素早く移動できます。"
+
+#: ../../source/flexdesigner/page_editor.md:9
+msgid "Save your changes"
+msgstr "変更を保存"
+
+#: ../../source/flexdesigner/page_editor.md:10
+msgid "Undo"
+msgstr "元に戻す"
+
+#: ../../source/flexdesigner/page_editor.md:11
+msgid "Redo"
+msgstr "やり直し"
+
+#: ../../source/flexdesigner/page_editor.md:12
+msgid ""
+"Key temporary storage: You can temporarily store keys here for later use"
+msgstr "キーの一時置き場: あとで使うキーをここに退避できます。"
+
+#: ../../source/flexdesigner/page_editor.md:13
+msgid "Device overview: Select devices to upload here"
+msgstr "デバイス一覧: アップロード先の Flexbar を選びます"
+
+#: ../../source/flexdesigner/page_editor.md:14
+msgid "Upload configuration to device"
+msgstr "設定をデバイスへアップロード"
+
+#: ../../source/flexdesigner/page_editor.md:15
+msgid ""
+"Page scroll: When elements exceed page width, use the scroll buttons on both"
+" sides to browse the interface"
+msgstr "ページの横スクロール: 幅が足りないときは左右のボタンで表示範囲を移動します。"
+
+#: ../../source/flexdesigner/page_editor.md:16
+msgid ""
+"Drawer button: Click to open the drawer. Keys in the drawer won't change "
+"with the main page and can be used for frequently used keys"
+msgstr "ドロワー: 開くとメインページとは独立した領域にキーを置けます（常用キー向け）"
+
+#: ../../source/flexdesigner/page_editor.md:17
+msgid ""
+"Preview interface: Drag to reorder keys or drag new keys from the key "
+"library"
+msgstr "プレビュー領域: キーをドラッグして並べ替え、Key Library から新しいキーを追加"
+
+#: ../../source/flexdesigner/page_editor.md:18
+msgid ""
+"Storage status indicator: Your configuration is saved to Flexbar, showing "
+"storage space usage. Keys don't use much storage, but GIFs do"
+msgstr ""
+"ストレージ表示: Flexbar 上の保存容量の使用状況です。キー自体は軽量ですが、GIF は容量を使います"
+
+#: ../../source/flexdesigner/page_editor.md:20
+msgid "Key Submenu"
+msgstr "キーのサブメニュー"
+
+#: ../../source/flexdesigner/page_editor.md:22
+msgid "Right-click on a key to open the menu."
+msgstr "キーを右クリックしてメニューを開きます。"
+
+#: ../../source/flexdesigner/page_editor.md:24
+msgid "![1742262258711](image/getting_started/1742262258711.png)"
+msgstr "![1742262258711](image/getting_started/1742262258711.png)"
+
+#: ../../source/flexdesigner/page_editor.md:24
+msgid "1742262258711"
+msgstr "1742262258711"
+
+#: ../../source/flexdesigner/page_editor.md:26
+#: ../../source/flexdesigner/page_editor.md:42
+msgid "Functions in order:"
+msgstr "機能の順序:"
+
+#: ../../source/flexdesigner/page_editor.md:28
+msgid "Copy current key"
+msgstr "現在のキーをコピーする"
+
+#: ../../source/flexdesigner/page_editor.md:29
+msgid "Create a duplicate of current key on current page"
+msgstr "現在のページに現在のキーの複製を作成します"
+
+#: ../../source/flexdesigner/page_editor.md:30
+msgid "Cut current key"
+msgstr "現在のキーをカットする"
+
+#: ../../source/flexdesigner/page_editor.md:31
+msgid "Copy current key's appearance"
+msgstr "現在のキーの外観をコピーします"
+
+#: ../../source/flexdesigner/page_editor.md:32
+msgid "Paste copied appearance to current key"
+msgstr "コピーした外観を現在のキーに貼り付けます"
+
+#: ../../source/flexdesigner/page_editor.md:33
+msgid "Delete current key"
+msgstr "現在のキーを削除します"
+
+#: ../../source/flexdesigner/page_editor.md:34
+msgid "Save current key as image (not applicable to some keys)"
+msgstr "現在のキーを画像として保存 (一部のキーには適用されません)"
+
+#: ../../source/flexdesigner/page_editor.md:36
+msgid "Page Submenu"
+msgstr "ページのサブメニュー"
+
+#: ../../source/flexdesigner/page_editor.md:38
+msgid "Right-click anywhere in the page editor to open the page submenu."
+msgstr "ページ エディター内の任意の場所を右クリックして、ページのサブメニューを開きます。"
+
+#: ../../source/flexdesigner/page_editor.md:40
+msgid "![1742262402981](image/getting_started/1742262402981.png)"
+msgstr "![1742262402981](image/getting_started/1742262402981.png)"
+
+#: ../../source/flexdesigner/page_editor.md:40
+msgid "1742262402981"
+msgstr "1742262402981"
+
+#: ../../source/flexdesigner/page_editor.md:44
+msgid "Paste copied keys to current page"
+msgstr "コピーしたキーを現在のページに貼り付けます"
+
+#: ../../source/flexdesigner/page_editor.md:45
+msgid "Clear auto-remembered styles"
+msgstr "自動記憶されたスタイルをクリアする"
+
+#: ../../source/flexdesigner/page_editor.md:46
+msgid "Close virtual UI"
+msgstr "仮想 UI を閉じる"
+
+#: ../../source/flexdesigner/page_editor.md:47
+msgid "Save current page as image (not applicable to some keys)"
+msgstr "現在のページを画像として保存 (一部のキーには適用されません)"
+
+#: ../../source/flexdesigner/page_editor.md:48
+msgid "Save each key as a separate image (not applicable to some keys)"
+msgstr "各キーを個別の画像として保存（一部のキーでは利用できません）"

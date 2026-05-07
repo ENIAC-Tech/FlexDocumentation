@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:1
+msgid "Audio Spectrum"
+msgstr "オーディオスペクトル"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:3
+msgid ""
+"The audio spectrum key displays the real-time audio spectrum on the Flexbar."
+msgstr "オーディオ スペクトル キーは、Flexbar にリアルタイムのオーディオ スペクトルを表示します。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:5
+msgid "![1744945837496](image/audio_spectrum/1744945837496.png)"
+msgstr "![1744945837496](image/audio_spectrum/1744945837496.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:5
+msgid "1744945837496"
+msgstr "1744945837496"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:9
+msgid ""
+"There are 5 settings for this key, available in the function tab in the "
+"FlexDesigner:"
+msgstr "このキーには 5 つの設定があり、FlexDesigner の機能タブで利用できます。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:11
+msgid "![1744718971816](image/audio_spectrum/1744718971816.png)"
+msgstr "![1744718971816](image/audio_spectrum/1744718971816.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:11
+msgid "1744718971816"
+msgstr "1744718971816"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:13
+msgid ""
+"Input Device: Select the audio source for the audio spectrum key. Select "
+"loop back for visualization of the current playing audio on the host "
+"computer."
+msgstr ""
+"入力デバイス: オーディオ スペクトラム キーのオーディオ ソースを選択します。ホスト "
+"コンピューター上で現在再生中のオーディオを視覚化するには、ループバックを選択します。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:14
+msgid ""
+"Spectrum Mode: Select between the available visual styles of the spectrum "
+"display."
+msgstr "スペクトル モード: スペクトル表示の利用可能な表示スタイルから選択します。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:15
+msgid "Color: Select the color for the spectrum display."
+msgstr "カラー: スペクトル表示の色を選択します。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:16
+msgid ""
+"Color Mode: The interpolation method for gradient colors, supporting both "
+"HSV and RGB modes."
+msgstr "カラー モード: グラデーション カラーの補間方法で、HSV モードと RGB モードの両方をサポートします。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:17
+msgid "Peak Hold Bar: Show a running peak bar for the spectrum."
+msgstr "Peak Hold Bar: スペクトルの実行中のピーク バーを表示します。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:19
+msgid ""
+"For macOS users: Currently it only supports microphone input. To display "
+"spectrum of the audio on your Mac, it's currently required to use third-"
+"party software (such as blackhole) to create virtual device for audio loop "
+"back. Check documentations of relavent third-party software for installation"
+" guides."
+msgstr ""
+"macOS ユーザーの場合: 現在、マイク入力のみをサポートしています。 Mac でオーディオのスペクトルを表示するには、現在、サードパーティ "
+"ソフトウェア (ブラックホールなど) を使用してオーディオ ループバック用の仮想デバイスを作成する必要があります。インストール "
+"ガイドについては、関連するサードパーティ ソフトウェアのドキュメントを確認してください。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:21
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:23
+msgid ""
+"The spectrum would be displayed in the area allocated for this feature. This"
+" is no interactive actions for this key."
+msgstr "スペクトルは、この機能に割り当てられた領域に表示されます。このキーに対する対話型アクションはありません。"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:25
+msgid "Bar Mode"
+msgstr "バーモード"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:27
+msgid "![1744719172101](image/audio_spectrum/1744719172101.png)"
+msgstr "![1744719172101](image/audio_spectrum/1744719172101.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:27
+msgid "1744719172101"
+msgstr "1744719172101"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:29
+msgid "Waterfall Mode"
+msgstr "ウォーターフォールモード"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:31
+msgid "![1744719211079](image/audio_spectrum/1744719211079.png)"
+msgstr "![1744719211079](image/audio_spectrum/1744719211079.png)"
+
+#: ../../source/functions/gadgets/audio_spectrum.md:31
+msgid "1744719211079"
+msgstr "1744719211079"

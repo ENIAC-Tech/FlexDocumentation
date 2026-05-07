@@ -1,0 +1,844 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/sdk_api_reference.md:1
+msgid "FlexDesigner SDK"
+msgstr "FlexDesigner SDK"
+
+#: ../../source/sdk/sdk_api_reference.md:3
+msgid ""
+"A comprehensive SDK for developing plugins for FlexDesigner, providing "
+"seamless integration with Flexbar devices and rich interaction capabilities."
+msgstr ""
+"FlexDesigner 向けプラグイン開発のための包括的な SDK で、Flexbar との連携と多彩なインタラクション機能を提供します。"
+
+#: ../../source/sdk/sdk_api_reference.md:5
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../source/sdk/sdk_api_reference.md:7
+msgid "Prerequisites"
+msgstr "前提条件"
+
+#: ../../source/sdk/sdk_api_reference.md:9
+msgid "Node.js version 20 or higher"
+msgstr "Node.js 20 以降"
+
+#: ../../source/sdk/sdk_api_reference.md:10
+msgid "FlexDesigner version 1.0.0 or higher."
+msgstr "FlexDesigner 1.0.0 以降。"
+
+#: ../../source/sdk/sdk_api_reference.md:12
+msgid "Setup"
+msgstr "設定"
+
+#: ../../source/sdk/sdk_api_reference.md:14
+msgid "Add FlexDesigner SDK to your project"
+msgstr "FlexDesigner SDK をプロジェクトに追加する"
+
+#: ../../source/sdk/sdk_api_reference.md:16
+msgid ""
+"In typical cases, you only need to create a plugin project using `flexcli`, "
+"and the FlexDesigner SDK will be automatically installed."
+msgstr ""
+"通常は `flexcli` でプラグイン プロジェクトを作成するだけで、FlexDesigner SDK が自動的にインストールされます。"
+
+#: ../../source/sdk/sdk_api_reference.md:22
+msgid "Quick Start"
+msgstr "クイックスタート"
+
+#: ../../source/sdk/sdk_api_reference.md:41
+msgid "Core Concepts"
+msgstr "主要な概念"
+
+#: ../../source/sdk/sdk_api_reference.md:43
+msgid "Plugin Lifecycle"
+msgstr "プラグインのライフサイクル"
+
+#: ../../source/sdk/sdk_api_reference.md:45
+msgid "**Initialization**: Plugin starts and connects to FlexDesigner"
+msgstr "**初期化**: プラグインが起動し、FlexDesigner に接続します。"
+
+#: ../../source/sdk/sdk_api_reference.md:46
+msgid "**Alive Event**: Triggered when keys are loaded and ready"
+msgstr "**Alive イベント**: キーが読み込まれ、操作可能になったときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:47
+msgid "**Data Events**: Triggered when users interact with keys"
+msgstr "**データ イベント**: ユーザーがキーを操作したときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:48
+msgid "**Configuration**: Plugin can read/write configuration data"
+msgstr "**設定**: プラグインは設定データの読み書きができます。"
+
+#: ../../source/sdk/sdk_api_reference.md:50
+msgid "Key Types"
+msgstr "キーの種類"
+
+#: ../../source/sdk/sdk_api_reference.md:52
+msgid "**Standard Keys**: Basic button functionality"
+msgstr "**標準キー**: 基本的なボタン機能"
+
+#: ../../source/sdk/sdk_api_reference.md:53
+msgid "**Multi-State Keys**: Cycle through different states"
+msgstr "**マルチステート キー**: 複数の状態を切り替えます。"
+
+#: ../../source/sdk/sdk_api_reference.md:54
+msgid "**Slider Keys**: Continuous value adjustment"
+msgstr "**スライダー キー**: 連続値調整"
+
+#: ../../source/sdk/sdk_api_reference.md:55
+msgid "**Dynamic Keys**: Dynamically managed key collections"
+msgstr "**ダイナミック キー**: 動的に管理するキーの集合です。"
+
+#: ../../source/sdk/sdk_api_reference.md:56
+msgid "**Wheel Keys**: Rotary encoder support"
+msgstr "**ホイール キー**: ロータリー エンコーダーのサポート"
+
+#: ../../source/sdk/sdk_api_reference.md:58
+msgid "API Reference"
+msgstr "API リファレンス"
+
+#: ../../source/sdk/sdk_api_reference.md:60
+msgid "Built-in Modules"
+msgstr "組み込みモジュール"
+
+#: ../../source/sdk/sdk_api_reference.md:62
+msgid ""
+"To simplify the plugin development process, we have pre-integrated several "
+"modules that can be used directly:"
+msgstr "プラグイン開発を簡単にするため、すぐに使えるモジュールをあらかじめ組み込んでいます。"
+
+#: ../../source/sdk/sdk_api_reference.md:64
+msgid "[@napi-rs/canvas](https://www.npmjs.com/package/@napi-rs/canvas)"
+msgstr "[@napi-rs/canvas](https://www.npmjs.com/package/@napi-rs/canvas)"
+
+#: ../../source/sdk/sdk_api_reference.md:65
+msgid "[express](https://www.npmjs.com/package/express)"
+msgstr "[express](https://www.npmjs.com/package/express)"
+
+#: ../../source/sdk/sdk_api_reference.md:66
+msgid "[axios](https://www.npmjs.com/package/axios)"
+msgstr "[axios](https://www.npmjs.com/package/axios)"
+
+#: ../../source/sdk/sdk_api_reference.md:68
+msgid "If you need integration of other modules, please let us know"
+msgstr "他のモジュールの組み込みが必要な場合はお知らせください。"
+
+#: ../../source/sdk/sdk_api_reference.md:70
+msgid "Core Plugin APIs"
+msgstr "コア プラグイン API"
+
+#: ../../source/sdk/sdk_api_reference.md:72
+msgid "plugin.start()"
+msgstr "plugin.start()"
+
+#: ../../source/sdk/sdk_api_reference.md:74
+msgid "Starts the WebSocket connection and initializes the plugin."
+msgstr "WebSocket 接続を開始し、プラグインを初期化します。"
+
+#: ../../source/sdk/sdk_api_reference.md:80
+msgid "plugin.on(event, handler)"
+msgstr "plugin.on(event, handler)"
+
+#: ../../source/sdk/sdk_api_reference.md:82
+msgid "Registers an event handler for specific events."
+msgstr "指定したイベントのハンドラーを登録します。"
+
+#: ../../source/sdk/sdk_api_reference.md:84
+#: ../../source/sdk/sdk_api_reference.md:111
+#: ../../source/sdk/sdk_api_reference.md:133
+#: ../../source/sdk/sdk_api_reference.md:148
+#: ../../source/sdk/sdk_api_reference.md:164
+#: ../../source/sdk/sdk_api_reference.md:184
+#: ../../source/sdk/sdk_api_reference.md:208
+#: ../../source/sdk/sdk_api_reference.md:340
+#: ../../source/sdk/sdk_api_reference.md:375
+#: ../../source/sdk/sdk_api_reference.md:408
+msgid "**Parameters:**"
+msgstr "**パラメータ:**"
+
+#: ../../source/sdk/sdk_api_reference.md:86
+msgid "`event` (string): Event type"
+msgstr "`event` (文字列): イベントの種類"
+
+#: ../../source/sdk/sdk_api_reference.md:87
+msgid "`handler` (function): Event handler function"
+msgstr "`handler` (関数): イベントハンドラー関数"
+
+#: ../../source/sdk/sdk_api_reference.md:97
+msgid "plugin.off(event)"
+msgstr "plugin.off(event)"
+
+#: ../../source/sdk/sdk_api_reference.md:99
+msgid "Unregisters an event handler."
+msgstr "イベント ハンドラーの登録を解除します。"
+
+#: ../../source/sdk/sdk_api_reference.md:105
+msgid "Drawing and Visual Updates"
+msgstr "描画と表示の更新"
+
+#: ../../source/sdk/sdk_api_reference.md:107
+msgid "plugin.draw(serialNumber, key, type?, base64?)"
+msgstr "plugin.draw(serialNumber, key, type?, base64?)"
+
+#: ../../source/sdk/sdk_api_reference.md:109
+msgid "Updates the visual appearance of a key."
+msgstr "キーの見た目を更新します。"
+
+#: ../../source/sdk/sdk_api_reference.md:113
+#: ../../source/sdk/sdk_api_reference.md:135
+#: ../../source/sdk/sdk_api_reference.md:150
+#: ../../source/sdk/sdk_api_reference.md:166
+#: ../../source/sdk/sdk_api_reference.md:186
+#: ../../source/sdk/sdk_api_reference.md:210
+msgid "`serialNumber` (string): Device serial number"
+msgstr "`serialNumber` (文字列): デバイスのシリアル番号"
+
+#: ../../source/sdk/sdk_api_reference.md:114
+msgid "`key` (object): Key object from events"
+msgstr "`key` (オブジェクト): イベントからのキーオブジェクト"
+
+#: ../../source/sdk/sdk_api_reference.md:115
+msgid "`type` (string): 'draw' (default) or 'base64'"
+msgstr "`type` (文字列): 'draw' (デフォルト) または 'base64'"
+
+#: ../../source/sdk/sdk_api_reference.md:116
+msgid "`base64` (string): Base64 image data (when type is 'base64')"
+msgstr "`base64` (文字列): Base64画像データ(型が'base64'の場合)"
+
+#: ../../source/sdk/sdk_api_reference.md:127
+msgid "Key State Management"
+msgstr "キー状態の管理"
+
+#: ../../source/sdk/sdk_api_reference.md:129
+msgid "plugin.setMultiState(serialNumber, key, state, message?)"
+msgstr "plugin.setMultiState(serialNumber, key, state, message?)"
+
+#: ../../source/sdk/sdk_api_reference.md:131
+msgid "Sets the state for multi-state keys."
+msgstr "マルチステートキーの状態を設定します。"
+
+#: ../../source/sdk/sdk_api_reference.md:136
+#: ../../source/sdk/sdk_api_reference.md:151
+msgid "`key` (object): Key object"
+msgstr "`key` (オブジェクト): キーオブジェクト"
+
+#: ../../source/sdk/sdk_api_reference.md:137
+msgid "`state` (number): Target state index"
+msgstr "`state` (数値): ターゲット状態インデックス"
+
+#: ../../source/sdk/sdk_api_reference.md:138
+msgid "`message` (string, optional): Display message"
+msgstr "`message` (string, 任意): 表示するメッセージ"
+
+#: ../../source/sdk/sdk_api_reference.md:144
+msgid "plugin.setSlider(serialNumber, key, value)"
+msgstr "plugin.setSlider(serialNumber, key, value)"
+
+#: ../../source/sdk/sdk_api_reference.md:146
+msgid "Sets the value for slider keys."
+msgstr "スライダー キーの値を設定します。"
+
+#: ../../source/sdk/sdk_api_reference.md:152
+msgid "`value` (number): Slider value"
+msgstr "`value` (数値): スライダーの値"
+
+#: ../../source/sdk/sdk_api_reference.md:158
+msgid "Device Configuration & Control"
+msgstr "デバイス設定と制御"
+
+#: ../../source/sdk/sdk_api_reference.md:160
+msgid "plugin.sendControlCommand(serialNumber, command)"
+msgstr "plugin.sendControlCommand(serialNumber, command)"
+
+#: ../../source/sdk/sdk_api_reference.md:162
+msgid "Sends control commands to the device"
+msgstr "デバイスに制御コマンドを送信します。"
+
+#: ../../source/sdk/sdk_api_reference.md:167
+msgid "`command` (string): The command to send. One of the following:"
+msgstr "`command` (文字列): 送信するコマンド。次のいずれか:"
+
+#: ../../source/sdk/sdk_api_reference.md:168
+msgid "\"sys.sleep\": Put the device to sleep"
+msgstr "\"sys.sleep\": デバイスをスリープ状態にします。"
+
+#: ../../source/sdk/sdk_api_reference.md:169
+msgid "\"sys.wake\": Wake up the device"
+msgstr "\"sys.wake\": デバイスをスリープから復帰させます。"
+
+#: ../../source/sdk/sdk_api_reference.md:170
+msgid "\"hapic.click\": Trigger a click vibration"
+msgstr "\"hapic.click\": クリックに相当する振動フィードバックを出します。"
+
+#: ../../source/sdk/sdk_api_reference.md:180
+msgid "plugin.setDeviceConfig(serialNumber, config)"
+msgstr "plugin.setDeviceConfig(serialNumber, config)"
+
+#: ../../source/sdk/sdk_api_reference.md:182
+msgid "Configures device settings."
+msgstr "デバイスの設定を行います。"
+
+#: ../../source/sdk/sdk_api_reference.md:187
+msgid "`config` (object): Configuration object"
+msgstr "`config` (オブジェクト): 設定オブジェクト"
+
+#: ../../source/sdk/sdk_api_reference.md:202
+msgid "Messaging and Notifications"
+msgstr "メッセージと通知"
+
+#: ../../source/sdk/sdk_api_reference.md:204
+msgid ""
+"plugin.showFlexbarSnackbarMessage(serialNumber, msg, level, icon?, timeout?,"
+" waitUser?)"
+msgstr ""
+"plugin.showFlexbarSnackbarMessage(serialNumber, msg, level, icon?, timeout?,"
+" waitUser?)"
+
+#: ../../source/sdk/sdk_api_reference.md:206
+msgid "Displays a message on the Flexbar device."
+msgstr "Flexbar デバイスにメッセージを表示します。"
+
+#: ../../source/sdk/sdk_api_reference.md:211
+msgid "`msg` (string): Message content (max 64 characters)"
+msgstr "`msg` (文字列): メッセージの内容 (最大 64 文字)"
+
+#: ../../source/sdk/sdk_api_reference.md:212
+msgid ""
+"`level` (string): Message level ('info', 'warning', 'error', 'success')"
+msgstr "`level` (文字列): メッセージ レベル ('info'、'warning'、'error'、'success')"
+
+#: ../../source/sdk/sdk_api_reference.md:213
+msgid "`icon` (string, optional): Icon name"
+msgstr "`icon` (文字列、オプション): アイコン名"
+
+#: ../../source/sdk/sdk_api_reference.md:214
+msgid ""
+"`timeout` (number, optional): Duration in ms (500-10000, default: 2000)"
+msgstr "`timeout` (数値、オプション): ミリ秒単位の継続時間 (500 ～ 10000、デフォルト: 2000)"
+
+#: ../../source/sdk/sdk_api_reference.md:215
+msgid "`waitUser` (boolean, optional): Wait for user interaction"
+msgstr "`waitUser` (boolean, 任意): ユーザー操作を待つかどうか"
+
+#: ../../source/sdk/sdk_api_reference.md:227
+msgid "plugin.showSnackbarMessage(color, message, timeout?)"
+msgstr "plugin.showSnackbarMessage(color, message, timeout?)"
+
+#: ../../source/sdk/sdk_api_reference.md:229
+msgid "Shows a message in the FlexDesigner application."
+msgstr "FlexDesigner アプリケーションにメッセージを表示します。"
+
+#: ../../source/sdk/sdk_api_reference.md:235
+msgid "System Integration"
+msgstr "システム統合"
+
+#: ../../source/sdk/sdk_api_reference.md:237
+msgid "plugin.electronAPI(api, ...args)"
+msgstr "plugin.electronAPI(api, ...args)"
+
+#: ../../source/sdk/sdk_api_reference.md:239
+msgid "Calls Electron APIs for system integration."
+msgstr "システム統合のために Electron API を呼び出します。"
+
+#: ../../source/sdk/sdk_api_reference.md:241
+msgid "**Supported APIs:**"
+msgstr "**サポートされている API:**"
+
+#: ../../source/sdk/sdk_api_reference.md:243
+msgid "`dialog.showOpenDialog`"
+msgstr "`dialog.showOpenDialog`"
+
+#: ../../source/sdk/sdk_api_reference.md:244
+msgid "`dialog.showSaveDialog`"
+msgstr "`dialog.showSaveDialog`"
+
+#: ../../source/sdk/sdk_api_reference.md:245
+msgid "`dialog.showMessageBox`"
+msgstr "`dialog.showMessageBox`"
+
+#: ../../source/sdk/sdk_api_reference.md:246
+msgid "`dialog.showErrorBox`"
+msgstr "`dialog.showErrorBox`"
+
+#: ../../source/sdk/sdk_api_reference.md:247
+msgid "`app.getAppPath`"
+msgstr "`app.getAppPath`"
+
+#: ../../source/sdk/sdk_api_reference.md:248
+msgid "`app.getPath`"
+msgstr "`app.getPath`"
+
+#: ../../source/sdk/sdk_api_reference.md:249
+msgid "`screen.getCursorScreenPoint`"
+msgstr "`screen.getCursorScreenPoint`"
+
+#: ../../source/sdk/sdk_api_reference.md:250
+msgid "`screen.getPrimaryDisplay`"
+msgstr "`screen.getPrimaryDisplay`"
+
+#: ../../source/sdk/sdk_api_reference.md:251
+msgid "`screen.getAllDisplays`"
+msgstr "`screen.getAllDisplays`"
+
+#: ../../source/sdk/sdk_api_reference.md:264
+msgid "File Operations"
+msgstr "ファイル操作"
+
+#: ../../source/sdk/sdk_api_reference.md:266
+msgid "plugin.openFile(path)"
+msgstr "plugin.openFile(path)"
+
+#: ../../source/sdk/sdk_api_reference.md:268
+msgid "Reads a file from the filesystem."
+msgstr "ファイルシステムからファイルを読み取ります。"
+
+#: ../../source/sdk/sdk_api_reference.md:274
+msgid "plugin.saveFile(path, data)"
+msgstr "plugin.saveFile(path, data)"
+
+#: ../../source/sdk/sdk_api_reference.md:276
+msgid "Saves data to a file."
+msgstr "データをファイルに保存します。"
+
+#: ../../source/sdk/sdk_api_reference.md:282
+msgid "Application Information"
+msgstr "アプリケーション情報"
+
+#: ../../source/sdk/sdk_api_reference.md:284
+msgid "plugin.getAppInfo()"
+msgstr "plugin.getAppInfo()"
+
+#: ../../source/sdk/sdk_api_reference.md:286
+msgid "Gets FlexDesigner application information."
+msgstr "FlexDesigner アプリケーション情報を取得します。"
+
+#: ../../source/sdk/sdk_api_reference.md:293
+msgid "plugin.getOpenedWindows()"
+msgstr "plugin.getOpenedWindows()"
+
+#: ../../source/sdk/sdk_api_reference.md:295
+msgid "Gets list of opened windows on the system."
+msgstr "システム上で開いているウィンドウのリストを取得します。"
+
+#: ../../source/sdk/sdk_api_reference.md:304
+msgid "plugin.getDeviceStatus()"
+msgstr "plugin.getDeviceStatus()"
+
+#: ../../source/sdk/sdk_api_reference.md:306
+msgid "Gets status of connected devices."
+msgstr "接続されているデバイスのステータスを取得します。"
+
+#: ../../source/sdk/sdk_api_reference.md:315
+msgid "Configuration Management"
+msgstr "設定の管理"
+
+#: ../../source/sdk/sdk_api_reference.md:317
+msgid "plugin.getConfig()"
+msgstr "plugin.getConfig()"
+
+#: ../../source/sdk/sdk_api_reference.md:319
+msgid "Retrieves plugin configuration."
+msgstr "プラグインの設定を取得します。"
+
+#: ../../source/sdk/sdk_api_reference.md:326
+msgid "plugin.setConfig(config)"
+msgstr "plugin.setConfig(config)"
+
+#: ../../source/sdk/sdk_api_reference.md:328
+msgid "Updates plugin configuration."
+msgstr "プラグインの設定を更新します。"
+
+#: ../../source/sdk/sdk_api_reference.md:334
+msgid "Performance Monitoring"
+msgstr "パフォーマンスの監視"
+
+#: ../../source/sdk/sdk_api_reference.md:336
+msgid "plugin.sendChartData(chartDataArray)"
+msgstr "plugin.sendChartData(chartDataArray)"
+
+#: ../../source/sdk/sdk_api_reference.md:338
+msgid "Sends performance metrics for display in FlexDesigner."
+msgstr "パフォーマンス指標を FlexDesigner 側の表示用に送ります。"
+
+#: ../../source/sdk/sdk_api_reference.md:342
+msgid "`chartDataArray` (array): Array of chart data objects"
+msgstr "`chartDataArray` (配列): チャート データ オブジェクトの配列"
+
+#: ../../source/sdk/sdk_api_reference.md:369
+msgid "Shortcuts Management"
+msgstr "ショートカット管理"
+
+#: ../../source/sdk/sdk_api_reference.md:371
+msgid "plugin.updateShortcuts(shortcuts)"
+msgstr "plugin.updateShortcuts(shortcuts)"
+
+#: ../../source/sdk/sdk_api_reference.md:373
+msgid "Registers or unregisters keyboard shortcuts."
+msgstr "キーボード ショートカットを登録または登録解除します。"
+
+#: ../../source/sdk/sdk_api_reference.md:377
+msgid "`shortcuts` (array): Array of shortcut objects"
+msgstr "`shortcuts` (配列): ショートカット オブジェクトの配列"
+
+#: ../../source/sdk/sdk_api_reference.md:392
+msgid "Dynamic Key Management"
+msgstr "ダイナミック キーの管理"
+
+#: ../../source/sdk/sdk_api_reference.md:394
+msgid ""
+"The `plugin.dynamickey` object provides advanced key management "
+"capabilities."
+msgstr "`plugin.dynamickey` オブジェクトが、高度なキー管理機能を提供します。"
+
+#: ../../source/sdk/sdk_api_reference.md:396
+msgid "plugin.dynamickey.clear(serialNumber, key)"
+msgstr "plugin.dynamickey.clear(serialNumber, key)"
+
+#: ../../source/sdk/sdk_api_reference.md:398
+msgid "Removes all dynamic keys from a container."
+msgstr "コンテナ内のダイナミック キーをすべて削除します。"
+
+#: ../../source/sdk/sdk_api_reference.md:404
+msgid ""
+"plugin.dynamickey.add(serialNumber, key, index, backgroundType, "
+"backgroundData, width, userData)"
+msgstr ""
+"plugin.dynamickey.add(serialNumber, key, index, backgroundType, "
+"backgroundData, width, userData)"
+
+#: ../../source/sdk/sdk_api_reference.md:406
+msgid "Adds a new dynamic key."
+msgstr "新しいダイナミック キーを追加します。"
+
+#: ../../source/sdk/sdk_api_reference.md:410
+msgid "`index` (number): Position to insert the key"
+msgstr "`index` (number): キーを挿入する位置"
+
+#: ../../source/sdk/sdk_api_reference.md:411
+msgid "`backgroundType` (string): 'base64' or 'draw'"
+msgstr "`backgroundType` (文字列): 'base64' または 'draw'"
+
+#: ../../source/sdk/sdk_api_reference.md:412
+msgid "`backgroundData` (string): Image data or key object"
+msgstr "`backgroundData` (文字列): 画像データまたはキーオブジェクト"
+
+#: ../../source/sdk/sdk_api_reference.md:413
+msgid "`width` (number): Key width in pixels (60-1000)"
+msgstr "`width` (数値): キーの幅 (ピクセル単位) (60 ～ 1000)"
+
+#: ../../source/sdk/sdk_api_reference.md:414
+msgid "`userData` (object): Custom data associated with the key"
+msgstr "`userData` (オブジェクト): キーに関連付けられたカスタム データ"
+
+#: ../../source/sdk/sdk_api_reference.md:428
+msgid "plugin.dynamickey.remove(serialNumber, key, index)"
+msgstr "plugin.dynamickey.remove(serialNumber, key, index)"
+
+#: ../../source/sdk/sdk_api_reference.md:430
+msgid "Removes a dynamic key at the specified index."
+msgstr "指定したインデックスのダイナミック キーを削除します。"
+
+#: ../../source/sdk/sdk_api_reference.md:436
+msgid "plugin.dynamickey.move(serialNumber, key, srcIndex, dstIndex)"
+msgstr "plugin.dynamickey.move(serialNumber, key, srcIndex, dstIndex)"
+
+#: ../../source/sdk/sdk_api_reference.md:438
+msgid "Moves a dynamic key from one position to another."
+msgstr "ダイナミック キーの位置を移動します。"
+
+#: ../../source/sdk/sdk_api_reference.md:444
+msgid "plugin.dynamickey.setWidth(serialNumber, key, width)"
+msgstr "plugin.dynamickey.setWidth(serialNumber, key, width)"
+
+#: ../../source/sdk/sdk_api_reference.md:446
+msgid "Changes the width of the dynamic key container."
+msgstr "ダイナミック キー コンテナの幅を変更します。"
+
+#: ../../source/sdk/sdk_api_reference.md:452
+msgid ""
+"plugin.dynamickey.draw(serialNumber, key, index, backgroundType, "
+"backgroundData, width)"
+msgstr ""
+"plugin.dynamickey.draw(serialNumber, key, index, backgroundType, "
+"backgroundData, width)"
+
+#: ../../source/sdk/sdk_api_reference.md:454
+msgid "Updates the visual appearance of a specific dynamic key."
+msgstr "指定したダイナミック キーの見た目を更新します。"
+
+#: ../../source/sdk/sdk_api_reference.md:467
+msgid "plugin.dynamickey.update(serialNumber, key, index, userData)"
+msgstr "plugin.dynamickey.update(serialNumber, key, index, userData)"
+
+#: ../../source/sdk/sdk_api_reference.md:469
+msgid "Updates the user data for a dynamic key."
+msgstr "ダイナミック キーのユーザーデータを更新します。"
+
+#: ../../source/sdk/sdk_api_reference.md:475
+msgid "plugin.dynamickey.refresh(serialNumber, key)"
+msgstr "plugin.dynamickey.refresh(serialNumber, key)"
+
+#: ../../source/sdk/sdk_api_reference.md:477
+msgid "Refreshes the dynamic key display (recommended after width changes)."
+msgstr "ダイナミック キーの表示を更新します（幅変更後の呼び出しを推奨）。"
+
+#: ../../source/sdk/sdk_api_reference.md:483
+msgid "Event Handling"
+msgstr "イベント処理"
+
+#: ../../source/sdk/sdk_api_reference.md:485
+msgid "Plugin Events"
+msgstr "プラグイン イベント"
+
+#: ../../source/sdk/sdk_api_reference.md:487
+msgid "'plugin.alive'"
+msgstr "'plugin.alive'"
+
+#: ../../source/sdk/sdk_api_reference.md:489
+msgid "Triggered when keys are loaded and ready for interaction."
+msgstr "キーが読み込まれ、操作可能になったときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:508
+msgid "'plugin.dead'"
+msgstr "'plugin.dead'"
+
+#: ../../source/sdk/sdk_api_reference.md:510
+msgid "Triggered when plugin keys are destroyed"
+msgstr "プラグインのキーが破棄されたときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:523
+msgid "'plugin.data'"
+msgstr "'plugin.data'"
+
+#: ../../source/sdk/sdk_api_reference.md:525
+msgid "Triggered when users interact with keys."
+msgstr "ユーザーがキーを操作したときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:543
+msgid "'plugin.config.updated'"
+msgstr "'plugin.config.updated'"
+
+#: ../../source/sdk/sdk_api_reference.md:545
+msgid "Triggered when plugin configuration changes."
+msgstr "プラグインの設定が変わったときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:553
+msgid "System Events"
+msgstr "システム イベント"
+
+#: ../../source/sdk/sdk_api_reference.md:555
+msgid "'system.shortcut'"
+msgstr "'system.shortcut'"
+
+#: ../../source/sdk/sdk_api_reference.md:557
+msgid "Triggered when registered shortcuts are pressed."
+msgstr "登録したショートカットが押されたときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:565
+msgid "'system.actwin'"
+msgstr "'system.actwin'"
+
+#: ../../source/sdk/sdk_api_reference.md:567
+msgid "Triggered when the active window changes."
+msgstr "アクティブ ウィンドウが切り替わったときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:576
+msgid "Device Events"
+msgstr "デバイス イベント"
+
+#: ../../source/sdk/sdk_api_reference.md:578
+msgid "'device.status'"
+msgstr "'device.status'"
+
+#: ../../source/sdk/sdk_api_reference.md:580
+msgid "Triggered when device connection status changes."
+msgstr "デバイスの接続状態が変わったときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:597
+msgid "UI Events"
+msgstr "UI イベント"
+
+#: ../../source/sdk/sdk_api_reference.md:599
+msgid "'ui.message'"
+msgstr "'ui.message'"
+
+#: ../../source/sdk/sdk_api_reference.md:601
+msgid "Triggered when receiving messages from the plugin's UI."
+msgstr "プラグインの UI からメッセージを受け取ったときに発火します。"
+
+#: ../../source/sdk/sdk_api_reference.md:617
+msgid "'ui.log'"
+msgstr "'ui.log'"
+
+#: ../../source/sdk/sdk_api_reference.md:619
+msgid "Handles log messages from the plugin's UI (automatically handled)."
+msgstr "プラグインの UI からのログを扱います（自動処理）。"
+
+#: ../../source/sdk/sdk_api_reference.md:621
+msgid "Utilities and Helpers"
+msgstr "ユーティリティとヘルパー"
+
+#: ../../source/sdk/sdk_api_reference.md:623
+msgid "Logger"
+msgstr "ロガー"
+
+#: ../../source/sdk/sdk_api_reference.md:625
+msgid "The SDK provides a logger instance for debugging and monitoring."
+msgstr "SDK は、デバッグと監視のためのロガー インスタンスを提供します。"
+
+#: ../../source/sdk/sdk_api_reference.md:636
+msgid "Path Utilities"
+msgstr "パス関連ユーティリティ"
+
+#: ../../source/sdk/sdk_api_reference.md:638
+msgid "Access to plugin-specific paths."
+msgstr "プラグイン専用のパスにアクセスできます。"
+
+#: ../../source/sdk/sdk_api_reference.md:647
+msgid "Complete Example"
+msgstr "完全な例"
+
+#: ../../source/sdk/sdk_api_reference.md:649
+msgid "Here's a comprehensive example demonstrating various SDK features:"
+msgstr "以下は、SDK の主な機能を示す包括的な例です。"
+
+#: ../../source/sdk/sdk_api_reference.md:789
+msgid "Best Practices"
+msgstr "ベストプラクティス"
+
+#: ../../source/sdk/sdk_api_reference.md:791
+msgid "Performance"
+msgstr "パフォーマンス"
+
+#: ../../source/sdk/sdk_api_reference.md:793
+msgid "Use `plugin.dynamickey.refresh()` after width changes"
+msgstr "幅を変更したあとは `plugin.dynamickey.refresh()` を呼び出します。"
+
+#: ../../source/sdk/sdk_api_reference.md:794
+msgid "Batch multiple dynamic key operations when possible"
+msgstr "可能ならダイナミック キー操作はまとめて行います。"
+
+#: ../../source/sdk/sdk_api_reference.md:795
+msgid "Optimize image sizes for better performance"
+msgstr "画像サイズを最適化してパフォーマンスを高めます。"
+
+#: ../../source/sdk/sdk_api_reference.md:797
+msgid "Error Handling"
+msgstr "エラーハンドリング"
+
+#: ../../source/sdk/sdk_api_reference.md:799
+msgid "Always wrap async operations in try-catch blocks"
+msgstr "非同期処理は常に try-catch で囲みます。"
+
+#: ../../source/sdk/sdk_api_reference.md:800
+msgid "Validate key types before calling type-specific methods"
+msgstr "型固有のメソッドを呼ぶ前にキーの種類を確認します。"
+
+#: ../../source/sdk/sdk_api_reference.md:801
+msgid "Handle device disconnection gracefully"
+msgstr "デバイス切断時も落ち着いて扱えるようにします。"
+
+#: ../../source/sdk/sdk_api_reference.md:803
+msgid "User Experience"
+msgstr "ユーザー体験"
+
+#: ../../source/sdk/sdk_api_reference.md:805
+msgid "Provide visual feedback for user interactions"
+msgstr "操作に応じた視覚的フィードバックを返します。"
+
+#: ../../source/sdk/sdk_api_reference.md:806
+msgid "Use appropriate message levels for notifications"
+msgstr "通知には適切なメッセージ レベルを使います。"
+
+#: ../../source/sdk/sdk_api_reference.md:807
+msgid "Keep snackbar messages concise and informative"
+msgstr "スナックバーの文言は短く、内容が伝わるようにします。"
+
+#: ../../source/sdk/sdk_api_reference.md:809
+msgid "Development"
+msgstr "開発"
+
+#: ../../source/sdk/sdk_api_reference.md:811
+msgid "Use the logger for debugging instead of console.log"
+msgstr "デバッグは console.log ではなくロガーを使います。"
+
+#: ../../source/sdk/sdk_api_reference.md:812
+msgid "Test with multiple device connections"
+msgstr "複数台接続した状態でもテストします。"
+
+#: ../../source/sdk/sdk_api_reference.md:813
+msgid "Validate configuration before applying changes"
+msgstr "変更を反映する前に設定内容を検証します。"
+
+#: ../../source/sdk/sdk_api_reference.md:815
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
+#: ../../source/sdk/sdk_api_reference.md:817
+msgid "Common Issues"
+msgstr "よくある問題"
+
+#: ../../source/sdk/sdk_api_reference.md:819
+msgid ""
+"**Plugin not starting**: Ensure correct command-line arguments are provided"
+msgstr ""
+"**プラグインが起動しない**: コマンドライン引数が正しく渡されているか確認します。"
+
+#: ../../source/sdk/sdk_api_reference.md:820
+msgid "**Keys not updating**: Check if the correct serial number is used"
+msgstr "**キーが更新されない**: シリアル番号が正しいか確認します。"
+
+#: ../../source/sdk/sdk_api_reference.md:821
+msgid "**Dynamic keys not displaying**: Call `refresh()` after width changes"
+msgstr "**ダイナミック キーが表示されない**: 幅変更後に `refresh()` を呼び出します。"
+
+#: ../../source/sdk/sdk_api_reference.md:822
+msgid "**Events not firing**: Verify event handler registration"
+msgstr "**イベントが発火しない**: イベント ハンドラーの登録を確認します。"
+
+#: ../../source/sdk/sdk_api_reference.md:824
+msgid "Debugging"
+msgstr "デバッグ"
+
+#: ../../source/sdk/sdk_api_reference.md:826
+msgid "Enable debug logging by setting the appropriate log level:"
+msgstr "ログ レベルを適切に設定してデバッグ出力を有効にします。"
+
+#: ../../source/sdk/sdk_api_reference.md:832
+msgid ""
+"Monitor WebSocket connections and ensure the plugin can communicate with "
+"FlexDesigner."
+msgstr ""
+"WebSocket 接続を確認し、プラグインが FlexDesigner と通信できる状態か検証します。"
+
+#: ../../source/sdk/sdk_api_reference.md:834
+msgid "License"
+msgstr "ライセンス"
+
+#: ../../source/sdk/sdk_api_reference.md:836
+msgid ""
+"This SDK is provided under the terms specified by EniacTech. Please refer to"
+" your license agreement for usage terms and conditions."
+msgstr ""
+"この SDK は、EniacTech が指定する条件に基づいて提供されます。使用条件については、"
+"ライセンス契約を参照してください。"

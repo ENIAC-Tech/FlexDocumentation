@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/toolbar.md:1
+msgid "Toolbar"
+msgstr "ツールバー"
+
+#: ../../source/flexdesigner/toolbar.md:3
+msgid ""
+"The toolbar contains file management, software configuration, and other "
+"functions."
+msgstr "ツールバーから、ファイル操作や FlexDesigner の設定などにアクセスできます。"
+
+#: ../../source/flexdesigner/toolbar.md:5
+msgid "File"
+msgstr "ファイル"
+
+#: ../../source/flexdesigner/toolbar.md:7
+msgid "![1742266545659](image/getting_started/1742266545659.png)"
+msgstr "![1742266545659](image/getting_started/1742266545659.png)"
+
+#: ../../source/flexdesigner/toolbar.md:7
+msgid "1742266545659"
+msgstr "1742266545659"
+
+#: ../../source/flexdesigner/toolbar.md:9
+msgid "Functions in order:"
+msgstr "機能の順序:"
+
+#: ../../source/flexdesigner/toolbar.md:11
+msgid "Create a new project file (.flexbar)"
+msgstr "新しいプロジェクトファイル（.flexbar）を作成"
+
+#: ../../source/flexdesigner/toolbar.md:12
+msgid "Open a project file"
+msgstr "プロジェクトを開く"
+
+#: ../../source/flexdesigner/toolbar.md:13
+msgid "Save current changes to file"
+msgstr "変更をファイルに保存"
+
+#: ../../source/flexdesigner/toolbar.md:14
+msgid "Save as"
+msgstr "名前を付けて保存"
+
+#: ../../source/flexdesigner/toolbar.md:15
+msgid "Export current page to file (.flexpage)"
+msgstr "現在のページをファイル（.flexpage）に書き出す"
+
+#: ../../source/flexdesigner/toolbar.md:16
+msgid "Will use the parent page's title and icon"
+msgstr "親ページのタイトルとアイコンを使用します"
+
+#: ../../source/flexdesigner/toolbar.md:18
+msgid "Import a page from file"
+msgstr "ファイルからページをインポートする"
+
+#: ../../source/flexdesigner/toolbar.md:20
+msgid "Settings"
+msgstr "設定"
+
+#: ../../source/flexdesigner/toolbar.md:22
+msgid ""
+"In the settings interface, you can manage software, projects, devices, and "
+"more."
+msgstr "設定では、ソフトウェア・プロジェクト・デバイスなどを管理できます。"
+
+#: ../../source/flexdesigner/toolbar.md:24
+msgid "System"
+msgstr "システム"
+
+#: ../../source/flexdesigner/toolbar.md:26
+msgid "![1742266967336](image/getting_started/1742266967336.png)"
+msgstr "![1742266967336](image/getting_started/1742266967336.png)"
+
+#: ../../source/flexdesigner/toolbar.md:26
+msgid "1742266967336"
+msgstr "1742266967336"
+
+#: ../../source/flexdesigner/toolbar.md:28
+msgid "Set software language"
+msgstr "表示言語の設定"
+
+#: ../../source/flexdesigner/toolbar.md:29
+msgid "Set software theme color"
+msgstr "テーマカラーの設定"
+
+#: ../../source/flexdesigner/toolbar.md:30
+msgid "Set auto-start on boot"
+msgstr "OS ログイン時に自動起動"
+
+#: ../../source/flexdesigner/toolbar.md:31
+msgid ""
+"If checked, new keys will use the last edited appearance; otherwise, default"
+" appearance will be maintained"
+msgstr "オンにすると、新規キーは直前に編集した外観を引き継ぎます。オフのときはデフォルト外観のままです"
+
+#: ../../source/flexdesigner/toolbar.md:33
+msgid "Application"
+msgstr "アプリケーション"
+
+#: ../../source/flexdesigner/toolbar.md:35
+msgid ""
+"Manage global settings for different applications and your logged-in "
+"accounts."
+msgstr "連携アプリやログインアカウントごとの全体設定を管理します。"
+
+#: ../../source/flexdesigner/toolbar.md:37
+msgid "![1742267064399](image/getting_started/1742267064399.png)"
+msgstr "![1742267064399](image/getting_started/1742267064399.png)"
+
+#: ../../source/flexdesigner/toolbar.md:37
+msgid "1742267064399"
+msgstr "1742267064399"
+
+#: ../../source/flexdesigner/toolbar.md:39
+msgid "Project"
+msgstr "プロジェクト"
+
+#: ../../source/flexdesigner/toolbar.md:41
+msgid "Browse and modify project settings on this page."
+msgstr "プロジェクト設定の確認と変更"
+
+#: ../../source/flexdesigner/toolbar.md:43
+msgid "![1742267257127](image/getting_started/1742267257127.png)"
+msgstr "![1742267257127](image/getting_started/1742267257127.png)"
+
+#: ../../source/flexdesigner/toolbar.md:43
+msgid "1742267257127"
+msgstr "1742267257127"
+
+#: ../../source/flexdesigner/toolbar.md:45
+msgid "Vertical Mode: When enabled, all key icons and titles will rotate 90°"
+msgstr "縦置きモード: 有効にすると、すべてのキーのアイコンとタイトルが 90° 回転します。"
+
+#: ../../source/flexdesigner/toolbar.md:46
+msgid "This mode may cause issues with some keys"
+msgstr "このモードでは一部のキーで問題が発生する可能性があります"
+
+#: ../../source/flexdesigner/toolbar.md:48
+msgid "List of plugins installed in the current project"
+msgstr "このプロジェクトで使っているプラグイン一覧"
+
+#: ../../source/flexdesigner/toolbar.md:50
+msgid "Device"
+msgstr "デバイス"
+
+#: ../../source/flexdesigner/toolbar.md:52
+msgid "Manage connected devices on this page."
+msgstr "接続中の Flexbar などを管理します。"
+
+#: ../../source/flexdesigner/toolbar.md:54
+msgid "![1742272903108](image/getting_started/1742272903108.png)"
+msgstr "![1742272903108](image/getting_started/1742272903108.png)"
+
+#: ../../source/flexdesigner/toolbar.md:54
+msgid "1742272903108"
+msgstr "1742272903108"
+
+#: ../../source/flexdesigner/toolbar.md:56
+msgid "Interface description:"
+msgstr "インターフェースの説明:"
+
+#: ../../source/flexdesigner/toolbar.md:58
+msgid "Connected device list"
+msgstr "接続機器一覧"
+
+#: ../../source/flexdesigner/toolbar.md:59
+msgid "Device information overview"
+msgstr "デバイス情報の概要"
+
+#: ../../source/flexdesigner/toolbar.md:60
+msgid "Device settings"
+msgstr "デバイス設定"
+
+#: ../../source/flexdesigner/toolbar.md:61
+msgid "Manual firmware update"
+msgstr "ファームウェアの手動アップデート"
+
+#: ../../source/flexdesigner/toolbar.md:62
+msgid "You typically don't need to manually update firmware"
+msgstr "通常、ファームウェアを手動で更新する必要はありません"
+
+#: ../../source/flexdesigner/toolbar.md:65
+msgid ""
+"Device settings page ③ is shown below, where you can change the device name "
+"and color."
+msgstr "以下のデバイス設定ページ③では、デバイス名と色を変更できます。"
+
+#: ../../source/flexdesigner/toolbar.md:67
+msgid "![1742272980556](image/getting_started/1742272980556.png)"
+msgstr "![1742272980556](image/getting_started/1742272980556.png)"
+
+#: ../../source/flexdesigner/toolbar.md:67
+msgid "1742272980556"
+msgstr "1742272980556"
+
+#: ../../source/flexdesigner/toolbar.md:69
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: ../../source/flexdesigner/toolbar.md:71
+msgid "![1742272768488](image/getting_started/1742272768488.png)"
+msgstr "![1742272768488](image/getting_started/1742272768488.png)"
+
+#: ../../source/flexdesigner/toolbar.md:71
+msgid "1742272768488"
+msgstr "1742272768488"
+
+#: ../../source/flexdesigner/toolbar.md:73
+msgid "Help"
+msgstr "ヘルプ"
+
+#: ../../source/flexdesigner/toolbar.md:75
+msgid ""
+"Access the tutorial guide, online documentation, or report bugs on this "
+"page."
+msgstr "チュートリアル、オンラインドキュメントの参照、不具合の報告など"
+
+#: ../../source/flexdesigner/toolbar.md:77
+msgid "![1742285668653](image/getting_started/1742285668653.png)"
+msgstr "![1742285668653](image/getting_started/1742285668653.png)"
+
+#: ../../source/flexdesigner/toolbar.md:77
+msgid "1742285668653"
+msgstr "1742285668653"
+
+#: ../../source/flexdesigner/toolbar.md:79
+msgid "About"
+msgstr "バージョン情報"
+
+#: ../../source/flexdesigner/toolbar.md:81
+msgid "Check for software version updates on this page."
+msgstr "ソフトウェアのバージョン確認と更新チェック"
+
+#: ../../source/flexdesigner/toolbar.md:83
+msgid "![1742285756204](image/getting_started/1742285756204.png)"
+msgstr "![1742285756204](image/getting_started/1742285756204.png)"
+
+#: ../../source/flexdesigner/toolbar.md:83
+msgid "1742285756204"
+msgstr "1742285756204"

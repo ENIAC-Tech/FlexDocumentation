@@ -1,0 +1,510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/getting_started.md:1
+msgid "Flexbar Quick Start Guide"
+msgstr "Flexbar クイック スタート ガイド"
+
+#: ../../source/getting_started.md:3
+msgid "![1743993324834](image/getting_started/1743993324834.png)"
+msgstr "![1743993324834](image/getting_started/1743993324834.png)"
+
+#: ../../source/getting_started.md:3
+msgid "1743993324834"
+msgstr "1743993324834"
+
+#: ../../source/getting_started.md:5
+msgid "What is Flexbar?"
+msgstr "Flexbar とは何ですか?"
+
+#: ../../source/getting_started.md:7
+msgid ""
+"Flexbar is your versatile, fully customizable shortcut management system. It"
+" represents a new type of shortcut keyboard, equipped with multifunctional "
+"keys capable of executing operations that typically require complex mouse "
+"and keyboard actions. From simple commands like sending Ctrl+Z, to "
+"complicated professional software shortcuts that are hard to remember—once "
+"set up, Flexbar can handle them effortlessly. Unlike traditional keyboards, "
+"Flexbar can even perform actions that normal keyboards cannot, such as "
+"inserting entire text paragraphs, emojis, or even GIFs, all achievable with "
+"a single touch. Its convenient hierarchical pages and scrolling functions "
+"let you configure countless buttons. Additionally, there are many more "
+"functions awaiting your exploration."
+msgstr ""
+"Flexbar "
+"は、多用途で完全にカスタマイズ可能なショートカット管理システムです。これは、通常は複雑なマウスとキーボードの操作を必要とする操作を実行できる多機能キーを備えた、新しいタイプのショートカット"
+" キーボードです。 Ctrl+Z "
+"の送信などの単純なコマンドから、覚えるのが難しい複雑な専門的なソフトウェアのショートカットまで、一度設定すれば、Flexbar "
+"はそれらを簡単に処理できます。従来のキーボードとは異なり、Flexbar は、テキスト段落全体、絵文字、さらには GIF "
+"の挿入など、通常のキーボードでは実行できないアクションも実行でき、すべてワンタッチで実行できます。便利な階層ページとスクロール機能により、無数のボタンを設定できます。さらに、さらに多くの機能が探索を待っています。"
+
+#: ../../source/getting_started.md:9
+msgid "**Flexbar = Keyboard + Mouse + More**"
+msgstr "**Flexbar = キーボード + マウス + その他**"
+
+#: ../../source/getting_started.md:11
+msgid "Where can I use Flexbar?"
+msgstr "Flexbar はどこで使用できますか?"
+
+#: ../../source/getting_started.md:13
+msgid ""
+"As you can see, Flexbar is designed as a slim touchscreen bar, perfect for "
+"placement above or below your keyboard or monitor, suitable for both laptops"
+" and desktops. The included magnetic stand allows you to position it at a "
+"comfortable angle anywhere convenient, adding stability through its weight."
+msgstr ""
+"ご覧のとおり、Flexbar はスリムなタッチスクリーン "
+"バーとして設計されており、キーボードやモニターの上または下に配置するのに最適で、ラップトップとデスクトップの両方に適しています。付属のマグネットスタンドを使用すると、どこにでも快適な角度で設置でき、重量により安定性が高まります。"
+
+#: ../../source/getting_started.md:15
+msgid "![1743982169966](image/getting_started/1743982169966.png)"
+msgstr "![1743982169966](image/getting_started/1743982169966.png)"
+
+#: ../../source/getting_started.md:15
+msgid "1743982169966"
+msgstr "1743982169966"
+
+#: ../../source/getting_started.md:17
+msgid ""
+"The detachable angled stand includes built-in magnets that attach securely "
+"to the middle of Flexbar’s back panel. Note that the Flexbar itself doesn't "
+"contain magnets."
+msgstr ""
+"取り外し可能な角度付きスタンドには磁石が内蔵されており、Flexbar "
+"のバックパネルの中央にしっかりと取り付けられます。Flexbar 自体には磁石が含まれていないことに注意してください。"
+
+#: ../../source/getting_started.md:19
+msgid ""
+"Included silicone pads can optionally be placed at both ends on the back of "
+"the Flexbar, improving friction on smooth surfaces and protecting your "
+"laptop’s finish."
+msgstr "付属のシリコン パッドはオプションで Flexbar の背面の両端に配置でき、滑らかな表面での摩擦を改善し、ラップトップの仕上げを保護します。"
+
+#: ../../source/getting_started.md:21
+msgid "Check Your Accessories"
+msgstr "付属品を確認してください"
+
+#: ../../source/getting_started.md:23
+msgid "Your package should contain the following items:"
+msgstr "パッケージには次のものが含まれている必要があります。"
+
+#: ../../source/getting_started.md:25
+msgid "Flexbar"
+msgstr "Flexbar"
+
+#: ../../source/getting_started.md:26
+msgid "Type-C to Type-C Cable"
+msgstr "Type-C - Type-C ケーブル"
+
+#: ../../source/getting_started.md:27
+msgid "Magnetic Base"
+msgstr "マグネットベース"
+
+#: ../../source/getting_started.md:29
+msgid "Connecting Flexbar to Your Device"
+msgstr "Flexbar をデバイスに接続する"
+
+#: ../../source/getting_started.md:31
+msgid ""
+"Use the provided USB Type-C data cable (or any USB cable capable of data "
+"transmission, regardless of connector type) to connect your Flexbar to your "
+"device. Flexbar only requires basic USB 2.0 data communication and a 5V "
+"power supply under 500mA. Theoretically, any device supporting external USB "
+"keyboards and mice can use Flexbar, including but not limited to PCs, "
+"tablets like iPads, smartphones, and industrial control hosts."
+msgstr ""
+"付属の USB Type-C データ ケーブル (または、コネクタの種類に関係なく、データ送信が可能な任意の USB ケーブル) "
+"を使用して、Flexbar をデバイスに接続します。 Flexbar には、基本的な USB 2.0 データ通信と 500mA 未満の 5V "
+"電源のみが必要です。理論的には、外部 USB キーボードとマウスをサポートするあらゆるデバイス (PC、iPad "
+"などのタブレット、スマートフォン、産業用制御ホストなど) で Flexbar を使用できますが、これらに限定されません。"
+
+#: ../../source/getting_started.md:33
+msgid ""
+"Initial configuration of Flexbar requires a device supporting the "
+"FlexDesigner software (Windows, Mac, Linux). Once configured and uploaded, "
+"the button configurations are stored on the Flexbar itself, allowing it to "
+"be moved freely between different devices. (Limited to basic keyboard/mouse "
+"shortcuts.)"
+msgstr ""
+"Flexbar の初期設定には、FlexDesigner ソフトウェア (Windows、Mac、Linux) "
+"をサポートするデバイスが必要です。設定してアップロードすると、ボタン設定は Flexbar "
+"自体に保存され、異なるデバイス間で自由に移動できるようになります。 (基本的なキーボード/マウスのショートカットに限定されます。)"
+
+#: ../../source/getting_started.md:35
+msgid "Using Flexbar and FlexDesigner for the First Time"
+msgstr "Flexbar と FlexDesigner を初めて使用する"
+
+#: ../../source/getting_started.md:37
+msgid ""
+"Flexbar comes with a simple tutorial pre-installed to help you get started. "
+"Later, you can customize your own unique shortcut profiles using our desktop"
+" software [FlexDesigner](https://eniacelec.com/pages/software), and upload "
+"them to your Flexbar."
+msgstr ""
+"Flexbar には、使い始めるのに役立つ簡単なチュートリアルがプリインストールされています。後で、デスクトップ ソフトウェア "
+"[FlexDesigner](https://eniacelec.com/pages/software) を使用して独自の固有のショートカット "
+"プロファイルをカスタマイズし、Flexbar にアップロードできます。"
+
+#: ../../source/getting_started.md:39
+msgid "![1743993683833](image/getting_started/1743993683833.png)"
+msgstr "![1743993683833](image/getting_started/1743993683833.png)"
+
+#: ../../source/getting_started.md:39
+msgid "1743993683833"
+msgstr "1743993683833"
+
+#: ../../source/getting_started.md:41
+msgid ""
+"To help you quickly get started, a factory-default profile without the "
+"tutorial is also available [factory.flexbar](../assets/factory-v1.flexbar). "
+"Additional profiles and functional key sets are provided on our online "
+"platform [FlexGate](https://flexgate.enilinx.com/), where you can freely "
+"download, import, and kickstart your shortcut journey."
+msgstr ""
+"すぐに使い始めることができるように、チュートリアルのない工場出荷時のデフォルトのプロファイルも利用可能です "
+"[factory.flexbar](../assets/factory-v1.flexbar)。追加のプロファイルとファンクション キー "
+"セットは、オンライン プラットフォーム [FlexGate](https://flexgate.enilinx.com/) "
+"で提供されており、自由にダウンロード、インポートし、ショートカット ジャーニーを開始できます。"
+
+#: ../../source/getting_started.md:43
+msgid ""
+"Due to its multifunctional nature, we strongly recommend thoroughly reading "
+"the [FlexDesigner documentation](./flexdesigner/getting_started.md)."
+msgstr ""
+"多機能であるため、[FlexDesigner ドキュメント](./flexdesigner/getting_started.md) "
+"をよく読むことを強くお勧めします。"
+
+#: ../../source/getting_started.md:45
+msgid ""
+"Individual pages within profiles can be separately exported and imported, "
+"allowing you to use only the parts you need."
+msgstr "プロファイル内の個々のページを個別にエクスポートおよびインポートできるため、必要な部分だけを使用できます。"
+
+#: ../../source/getting_started.md:47
+msgid "Support"
+msgstr "サポート"
+
+#: ../../source/getting_started.md:49
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ../../source/getting_started.md:51
+msgid ""
+"We recommend submitting bugs or feature requests to our [GitHub "
+"repository](https://github.com/ENIAC-Tech/FlexDesigner/issues), where you "
+"can easily track their progress."
+msgstr ""
+"バグや機能リクエストは、[GitHub リポジトリ](https://github.com/ENIAC-"
+"Tech/FlexDesigner/issues) に送信することをお勧めします。これにより、進捗状況を簡単に追跡できます。"
+
+#: ../../source/getting_started.md:53
+msgid "Community"
+msgstr "コミュニティ"
+
+#: ../../source/getting_started.md:55
+msgid ""
+"We strongly encourage you to join our [Discord "
+"community](https://discord.com/invite/7STSjmBpKT), where you can discuss and"
+" share experiences with many Flexbar users. This is also the fastest and "
+"most direct way to receive official support."
+msgstr ""
+"[Discord コミュニティ](https://discord.com/invite/7STSjmBpKT) "
+"に参加することを強くお勧めします。そこでは、多くの Flexbar "
+"ユーザーとディスカッションし、経験を共有できます。これは、公式サポートを受ける最も早くて直接的な方法でもあります。"
+
+#: ../../source/getting_started.md:57
+msgid "Email"
+msgstr "電子メール"
+
+#: ../../source/getting_started.md:59
+msgid ""
+"Of course, you can also contact us via email, and we typically respond "
+"within 48 hours."
+msgstr "もちろん、電子メールでお問い合わせいただくこともできます。通常は 48 時間以内に返信いたします。"
+
+#: ../../source/getting_started.md:61
+msgid "`contact@eniacelec.com`"
+msgstr "`contact@eniacelec.com`"
+
+#: ../../source/getting_started.md:63
+msgid "Terminology"
+msgstr "用語"
+
+#: ../../source/getting_started.md:65
+msgid "FlexDesigner"
+msgstr "FlexDesigner"
+
+#: ../../source/getting_started.md:67
+msgid "[Download](https://eniacelec.com/pages/software)"
+msgstr "[ダウンロード](https://eniacelec.com/pages/software)"
+
+#: ../../source/getting_started.md:69
+msgid ""
+"FlexDesigner is software provided by us for customizing Flexbar "
+"functionalities, software updates, and supporting advanced features. "
+"Available for Windows, Mac, and Linux, it does not affect your ability to "
+"use basic keyboard and mouse functions on devices without FlexDesigner "
+"installed."
+msgstr ""
+"FlexDesigner は、Flexbar "
+"機能のカスタマイズ、ソフトウェアのアップデート、および高度な機能のサポートのために当社が提供するソフトウェアです。 Windows、Mac、Linux "
+"で利用でき、FlexDesigner がインストールされていないデバイスでの基本的なキーボードとマウスの機能の使用には影響しません。"
+
+#: ../../source/getting_started.md:71
+msgid ""
+"Visit the [FlexDesigner documentation](./flexdesigner/getting_started.md) to"
+" learn how to customize your Flexbar"
+msgstr ""
+"Flexbar をカスタマイズする方法については、[FlexDesigner "
+"ドキュメント](./flexdesigner/getting_started.md) にアクセスしてください。"
+
+#: ../../source/getting_started.md:73
+msgid "Profile"
+msgstr "プロフィール"
+
+#: ../../source/getting_started.md:75
+msgid ""
+"A profile contains all the keys' appearance, functionality, and page logic "
+"configured for display on the Flexbar via FlexDesigner. Profiles can be "
+"shared and edited, and uploaded to compatible Flexbar devices through "
+"FlexDesigner, but cannot be downloaded back from Flexbar to your computer."
+msgstr ""
+"プロファイルには、すべてのキーの外観、機能、および FlexDesigner を介して Flexbar に表示するように設定されたページ "
+"ロジックが含まれています。プロファイルは、FlexDesigner を介して共有および編集し、互換性のある Flexbar "
+"デバイスにアップロードできますが、Flexbar からコンピュータにダウンロードして戻すことはできません。"
+
+#: ../../source/getting_started.md:77
+msgid ""
+"Factory profile download: [factory.flexbar](../assets/factory-v1.flexbar)"
+msgstr "工場出荷時のプロファイルのダウンロード: [factory.flexbar](../assets/factory-v1.flexbar)"
+
+#: ../../source/getting_started.md:79
+msgid ""
+"*Please note that the Factory Profile is for demonstration purposes only, "
+"and some functions may not be compatible with your computer*"
+msgstr ""
+"*工場出荷時のプロファイルはデモンストレーションのみを目的としており、一部の機能はお使いのコンピュータと互換性がない可能性があることに注意してください*"
+
+#: ../../source/getting_started.md:81
+msgid "Keys"
+msgstr "キー"
+
+#: ../../source/getting_started.md:83
+msgid ""
+"Small square-shaped functional components displayed on Flexbar are called "
+"\"keys\". Depending on their specific functions, not all keys necessarily "
+"perform interactive \"button-like\" actions."
+msgstr ""
+"Flexbar上に表示される小さな正方形の機能部品を「キー」と呼びます。特定の機能に応じて、すべてのキーが必ずしもインタラクティブな「ボタンのような」アクションを実行するわけではありません。"
+
+#: ../../source/getting_started.md:85
+msgid "[Add your first key to Flexbar](./flexdesigner/getting_started.md)"
+msgstr "[最初のキーを Flexbar に追加](./flexdesigner/getting_started.md)"
+
+#: ../../source/getting_started.md:87
+msgid "Firmware"
+msgstr "ファームウェア"
+
+#: ../../source/getting_started.md:89
+msgid ""
+"Firmware refers to the embedded software written into Flexbar’s internal "
+"microcontroller, pre-installed at the factory. Updates to firmware are "
+"prompted via FlexDesigner when available. We recommend regularly updating to"
+" ensure access to the latest features and improved stability. Firmware can "
+"also be manually rolled back or updated in special cases—details available "
+"at [firmware documention](troubleshoting/firmware.md)."
+msgstr ""
+"ファームウェアとは、工場でプレインストールされた、Flexbar "
+"の内部マイクロコントローラーに書き込まれた組み込みソフトウェアを指します。ファームウェアのアップデートが可能な場合は、FlexDesigner "
+"経由でプロンプトが表示されます。最新の機能にアクセスし、安定性を向上させるために、定期的に更新することをお勧めします。特殊な場合には、ファームウェアを手動でロールバックまたは更新することもできます。詳細については、[ファームウェア"
+" ドキュメント](troubleshoting/firmware.md) を参照してください。"
+
+#: ../../source/getting_started.md:91
+msgid "FlexGate"
+msgstr "FlexGate"
+
+#: ../../source/getting_started.md:93
+msgid ""
+"[FlexGate](https://flexgate.enilinx.com/) is our official platform dedicated"
+" to sharing profiles and plug-ins for Flex series products. Users can upload"
+" and download pre-configured shortcut sets. Officially provided sets are "
+"also available for convenience. After downloading, you can freely combine or"
+" edit them via FlexDesigner’s page import/export functions and integrate "
+"them into your Flexbar Profile."
+msgstr ""
+"[FlexGate](https://flexgate.enilinx.com/) は、Flex "
+"シリーズ製品のプロファイルとプラグインの共有に特化した公式プラットフォームです。ユーザーは、事前設定されたショートカット "
+"セットをアップロードおよびダウンロードできます。公式に提供されている便利なセットも用意されています。ダウンロード後、FlexDesigner のページ "
+"インポート/エクスポート機能を使用して自由に組み合わせたり編集したり、Flexbar プロファイルに統合したりできます。"
+
+#: ../../source/getting_started.md:95
+msgid "[How to use FlexGate](./troubleshoting/flexgate.md)"
+msgstr "[FlexGate の使用方法](./troubleshoting/flexgate.md)"
+
+#: ../../source/getting_started.md:97
+msgid "Plug-in"
+msgstr "プラグイン"
+
+#: ../../source/getting_started.md:99
+msgid ""
+"The plug-in system is an open-source software platform designed to allow "
+"developers and users with additional needs to create and integrate new "
+"functionalities into Flexbar. Users can independently develop and run "
+"features alongside built-in functionalities, optionally sharing their "
+"creations on the FlexGate platform for community use."
+msgstr ""
+"プラグイン システムは、追加のニーズを持つ開発者やユーザーが新しい機能を作成して Flexbar に統合できるように設計されたオープンソース "
+"ソフトウェア "
+"プラットフォームです。ユーザーは、組み込み機能と並行して機能を独自に開発および実行でき、オプションで作成したものをコミュニティで使用するために "
+"FlexGate プラットフォーム上で共有できます。"
+
+#: ../../source/getting_started.md:101
+msgid ""
+"Check out the [SDK documentation](sdk/index.rst) to learn how to create "
+"custom plugins"
+msgstr "カスタム プラグインの作成方法については、[SDK ドキュメント](sdk/index.rst) を参照してください。"
+
+#: ../../source/getting_started.md:103
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: ../../source/getting_started.md:105
+msgid "**Q:** **Why doesn't flexbar work on iPad?**"
+msgstr "**Q:** **iPad では Flexbar が機能しないのはなぜですか?**"
+
+#: ../../source/getting_started.md:107
+msgid ""
+"**A:** On iPad, only basic keyboard, mouse, and text input functions that do"
+" not require FlexDesigner to be running are supported."
+msgstr ""
+"**A:** iPad では、FlexDesigner "
+"を実行する必要のない基本的なキーボード、マウス、およびテキスト入力機能のみがサポートされています。"
+
+#: ../../source/getting_started.md:109
+msgid "**Q:** **Why are Flexbar keys called \"keys\" instead of \"buttons\"?**"
+msgstr "**Q:** **Flexbar キーが「ボタン」ではなく「キー」と呼ばれるのはなぜですか?**"
+
+#: ../../source/getting_started.md:111
+msgid ""
+"**A:** Because we define Flexbar as a specialized multifunctional "
+"touchscreen keyboard, rather than a \"button board\"."
+msgstr "**A:** Flexbar を「ボタン ボード」ではなく、特殊な多機能タッチスクリーン キーボードとして定義しているためです。"
+
+#: ../../source/getting_started.md:113
+msgid "**Q:** **Why is it called \"Flex\" when Flexbar itself isn't flexible?**"
+msgstr "**Q:** **Flexbar 自体は柔軟性がないのに、なぜ「Flex」と呼ばれるのですか?**"
+
+#: ../../source/getting_started.md:115
+msgid ""
+"**A:** Although physically rigid, Flexbar’s functionality is highly "
+"flexible, hence the name \"Flexbar\"."
+msgstr "**A:** 物理的には硬いですが、Flexbar の機能は非常に柔軟であるため、「Flexbar」という名前が付けられています。"
+
+#: ../../source/getting_started.md:117
+msgid "**Q:** **Why is there no wireless version available?**"
+msgstr "**Q:** **ワイヤレス バージョンがないのはなぜですか?**"
+
+#: ../../source/getting_started.md:119
+msgid ""
+"**A:** Due to size limitations designed for laptop compatibility, Flexbar is"
+" already as compact as possible. With current battery technology, achieving "
+"reasonable battery life for a screen of this size is not yet feasible. "
+"However, we continue researching new forms and possibilities, potentially "
+"including a wireless version in the future."
+msgstr ""
+"**A:** ラップトップとの互換性を考慮して設計されたサイズ制限により、Flexbar "
+"はすでに可能な限りコンパクトになっています。現在のバッテリー技術では、このサイズの画面で妥当なバッテリー寿命を達成することはまだ実現可能ではありません。ただし、私たちは新しい形式と可能性の研究を続けており、将来的にはワイヤレスバージョンも含まれる可能性があります。"
+
+#: ../../source/getting_started.md:121
+msgid "**Q:** **What is ENIAC?**"
+msgstr "**Q:** **ENIAC とは何ですか?**"
+
+#: ../../source/getting_started.md:123
+msgid ""
+"**A:** ENIAC (Electronic Numerical Integrator and Computer) was the world's "
+"first digital electronic general-purpose computer. Built in 1954 using "
+"vacuum tubes and relays, it weighed many tons and offered the performance of"
+" about half a modern portable calculator. It is also the longtime online "
+"pseudonym used by our founder."
+msgstr ""
+"**A:** ENIAC (Electronic Numerical Integrator and Computer) "
+"は、世界初のデジタル電子汎用コンピューターです。真空管とリレーを使用して 1954 "
+"年に製造されたこの製品は、重量が数トンあり、現代のポータブル電卓の約半分の性能を備えていました。これは、当社の創設者が長年使用してきたオンラインのペンネームでもあります。"
+
+#: ../../source/getting_started.md:125
+msgid "**Q:** **Is Flexbar or the Flex series open-source?**"
+msgstr "**Q:** **Flexbar または Flex シリーズはオープンソースですか?**"
+
+#: ../../source/getting_started.md:127
+msgid ""
+"**A:** We are a small developer team that wishes to open-source our work, "
+"but commercial considerations prevent immediate full open-sourcing. "
+"Currently, we provide an open-source plug-in system for users to customize "
+"Flexbar functionality, and we closely collaborate with the open-source "
+"community. More components may be gradually open-sourced in the future, and "
+"possibly entirely open-source products will be released."
+msgstr ""
+"**A:** "
+"私たちは小規模な開発者チームであり、作業をオープンソース化したいと考えていますが、商業的な考慮事項により、直ちに完全なオープンソース化はできません。現在、当社はユーザーが"
+" Flexbar 機能をカスタマイズできるオープンソース プラグイン システムを提供しており、オープンソース "
+"コミュニティと緊密に連携しています。将来的にはさらに多くのコンポーネントが徐々にオープンソース化される可能性があり、完全にオープンソースの製品がリリースされる可能性もあります。"
+
+#: ../../source/getting_started.md:129
+msgid "**Q**: **2D/3D Models?**"
+msgstr "**Q**: **2D/3D モデル?**"
+
+#: ../../source/getting_started.md:131
+msgid ""
+"**A**: We provide a 3D reference file detailing the dimensions and magnetic "
+"positions of the Flexbar for your convenience."
+msgstr "**A**: 利便性のために、Flexbar の寸法と磁気位置を詳しく説明した 3D リファレンス ファイルを提供しています。"
+
+#: ../../source/getting_started.md:133
+msgid "[flexbar.dwg](../assets/flexbar.dwg)"
+msgstr "[flexbar.dwg](../assets/flexbar.dwg)"
+
+#: ../../source/getting_started.md:135
+msgid "[flexbar.stp](../assets/flexbar.stp)"
+msgstr "[flexbar.stp](../assets/flexbar.stp)"
+
+#: ../../source/getting_started.md:137
+msgid "Next Steps"
+msgstr "次のステップ"
+
+#: ../../source/getting_started.md:139
+msgid ""
+"Check out the [SDK documentation](sdk/getting_started.md) to learn how to "
+"create custom plugins"
+msgstr "カスタム プラグインの作成方法については、[SDK ドキュメント](sdk/getting_started.md) を参照してください。"
+
+#: ../../source/getting_started.md:140
+msgid ""
+"Explore the [Functions documentation](functions/index.rst) to see what you "
+"can do with Flexbar"
+msgstr "[関数ドキュメント](functions/index.rst) を参照して、Flexbar で何ができるかを確認してください。"
+
+#: ../../source/getting_started.md:141
+msgid ""
+"Visit the [FlexDesigner documentation](flexdesigner/getting_started.md) to "
+"learn how to customize your Flexbar"
+msgstr ""
+"Flexbar をカスタマイズする方法については、[FlexDesigner "
+"ドキュメント](flexdesigner/getting_started.md) にアクセスしてください。"

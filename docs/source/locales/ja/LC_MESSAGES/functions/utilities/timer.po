@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/timer.md:1
+msgid "Timer"
+msgstr "タイマー"
+
+#: ../../source/functions/utilities/timer.md:3
+msgid ""
+"A countdown timer that can perform a sequence of actions when the timer "
+"starts or ends. You can configure alarms for when the timer finishes."
+msgstr "タイマーの開始時または終了時に一連のアクションを実行できるカウントダウン タイマー。タイマーが終了したときのアラームを設定できます。"
+
+#: ../../source/functions/utilities/timer.md:5
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/utilities/timer.md:7
+msgid "![1745511449741](image/timer/1745511449741.png)"
+msgstr "![1745511449741](image/timer/1745511449741.png)"
+
+#: ../../source/functions/utilities/timer.md:7
+msgid "1745511449741"
+msgstr "1745511449741"
+
+#: ../../source/functions/utilities/timer.md:9
+msgid "Set the countdown duration"
+msgstr "カウントダウン期間を設定する"
+
+#: ../../source/functions/utilities/timer.md:10
+msgid ""
+"Choose the alarm type when countdown ends: disabled, button alarm, or full-"
+"screen alarm"
+msgstr "カウントダウン終了時のアラームの種類を選択します: 無効、ボタンアラーム、または全画面アラーム"
+
+#: ../../source/functions/utilities/timer.md:11
+msgid "Option to hide the countdown time display"
+msgstr "カウントダウン時間表示を非表示にするオプション"
+
+#: ../../source/functions/utilities/timer.md:12
+msgid "Position of the countdown time display"
+msgstr "カウントダウン時間表示の位置"
+
+#: ../../source/functions/utilities/timer.md:13
+msgid ""
+"Actions to execute when the countdown starts/ends, configured the same way "
+"as [Sequenced Keys](../more/sequenced_keys.md)"
+msgstr ""
+"カウントダウンの開始/終了時に実行するアクション。[シーケンスキー](../more/sequenced_keys.md) と同じ方法で構成されます。"
+
+#: ../../source/functions/utilities/timer.md:15
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/utilities/timer.md:17
+msgid ""
+"When the countdown starts, a semi-transparent black overlay shows the "
+"progress. An alarm will sound when the countdown ends."
+msgstr "カウントダウンが始まると、半透明の黒いオーバーレイに進行状況が表示されます。カウントダウンが終了するとアラームが鳴ります。"
+
+#: ../../source/functions/utilities/timer.md:19
+msgid "![1745511701014](image/timer/1745511701014.png)"
+msgstr "![1745511701014](image/timer/1745511701014.png)"
+
+#: ../../source/functions/utilities/timer.md:19
+msgid "1745511701014"
+msgstr "1745511701014"
+
+#: ../../source/functions/utilities/timer.md:21
+msgid "Full-screen alarm:"
+msgstr "全画面アラーム:"
+
+#: ../../source/functions/utilities/timer.md:23
+msgid "![1745511776545](image/timer/1745511776545.png)"
+msgstr "![1745511776545](image/timer/1745511776545.png)"
+
+#: ../../source/functions/utilities/timer.md:23
+msgid "1745511776545"
+msgstr "1745511776545"
+
+#: ../../source/functions/utilities/timer.md:25
+msgid ""
+"Long-press the timer button on the Flexbar to quickly open the time "
+"settings. Drag the slider to adjust the countdown duration."
+msgstr "Flexbar のタイマー ボタンを長押しすると、時間設定がすぐに開きます。スライダーをドラッグしてカウントダウン時間を調整します。"
+
+#: ../../source/functions/utilities/timer.md:27
+msgid "![1745511887805](image/timer/1745511887805.png)"
+msgstr "![1745511887805](image/timer/1745511887805.png)"
+
+#: ../../source/functions/utilities/timer.md:27
+msgid "1745511887805"
+msgstr "1745511887805"

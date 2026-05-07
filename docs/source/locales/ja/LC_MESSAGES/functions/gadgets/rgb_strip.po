@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/gadgets/rgb_strip.md:1
+msgid "RGB Strip"
+msgstr "RGBストリップ"
+
+#: ../../source/functions/gadgets/rgb_strip.md:3
+msgid ""
+"The RGB strip feature displays a full-screen dynamic RGB rainbow strip on "
+"the Flexbar."
+msgstr "RGB ストリップ機能は、Flexbar 上に全画面のダイナミック RGB レインボー ストリップを表示します。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:5
+msgid ""
+"![1744945802319](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/rgb_strip/1744945802319.png)"
+msgstr ""
+"![1744945802319](https://file+.vscode-resource.vscode-"
+"cdn.net/c%3A/Users/tongy/Develop/FlexDocumentation/docs/source/functions/gadgets/image/rgb_strip/1744945802319.png)"
+
+#: ../../source/functions/gadgets/rgb_strip.md:5
+msgid "1744945802319"
+msgstr "1744945802319"
+
+#: ../../source/functions/gadgets/rgb_strip.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/gadgets/rgb_strip.md:9
+msgid "![1744945886816](image/rgb_strip/1744945886816.png)"
+msgstr "![1744945886816](image/rgb_strip/1744945886816.png)"
+
+#: ../../source/functions/gadgets/rgb_strip.md:9
+msgid "1744945886816"
+msgstr "1744945886816"
+
+#: ../../source/functions/gadgets/rgb_strip.md:11
+msgid ""
+"The FlexDesigner exposes several settings of the RGB strip in the function "
+"page:"
+msgstr "FlexDesigner は、関数ページで RGB ストリップのいくつかの設定を公開します。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:13
+msgid ""
+"Color Mode: The interpolation method for gradient colors, supporting both "
+"HSV and RGB modes"
+msgstr "カラー モード: グラデーション カラーの補間方法。HSV モードと RGB モードの両方をサポートします。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:14
+msgid ""
+"Set the start and end color of the RGB strip. The color mode would affect "
+"how colors are interpolated between the two."
+msgstr "RGB ストリップの開始カラーと終了カラーを設定します。カラー モードは、2 つの間でカラーがどのように補間されるかに影響します。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:15
+msgid "Direction: Set the direction of animation"
+msgstr "方向: アニメーションの方向を設定します。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:16
+msgid "Play Speed: Set the speed of animation"
+msgstr "再生速度: アニメーションの速度を設定します。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:17
+msgid "Color Width: Set the width/ length before the colors repeat"
+msgstr "色の幅: 色が繰り返される前の幅/長さを設定します。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:19
+msgid ""
+"Note: This is just an entrance to the RGB strip screen. So you can customize"
+" its appearance (background and foreground) to your own like."
+msgstr "注: これは RGB ストリップ画面への単なる入り口です。そのため、外観 (背景と前景) を自分好みにカスタマイズできます。"
+
+#: ../../source/functions/gadgets/rgb_strip.md:21
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/gadgets/rgb_strip.md:23
+msgid ""
+"Press the key on the Flexbar to enter the RGB strip screen. Press either the"
+" back or home key to exit."
+msgstr "Flexbar のキーを押して、RGB ストリップ画面に入ります。戻るキーまたはホームキーを押して終了します。"

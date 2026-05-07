@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/release_plugin.md:1
+msgid "Release Your Plugin"
+msgstr "プラグインをリリースする"
+
+#: ../../source/sdk/release_plugin.md:3
+msgid "This guide explains how to publish your plugin."
+msgstr "このガイドでは、プラグインを公開する方法について説明します。"
+
+#: ../../source/sdk/release_plugin.md:5
+msgid "GitHub Actions"
+msgstr "GitHub Actions"
+
+#: ../../source/sdk/release_plugin.md:7
+msgid ""
+"Plugins created with `flexcli` come pre-configured with GitHub Actions. To "
+"publish your plugin, simply push your code to a GitHub repository and create"
+" a Release. Note that your Release Tag must match the plugin version "
+"specified in the `manifest.json` file. The GitHub CI will automatically "
+"compile and publish the `*.flexplugin` file to the Release assets."
+msgstr ""
+"`flexcli` で作成したプラグインには、GitHub Actions があらかじめ設定されています。公開するにはコードを GitHub "
+"リポジトリにプッシュし、Release を作成します。Release のタグは `manifest.json` "
+"で指定したプラグインのバージョンと一致させてください。GitHub CI が自動的に `*.flexplugin` をビルドし、Release のアセットとして公開します。"
+
+#: ../../source/sdk/release_plugin.md:9
+msgid ""
+"You can then share the `*.flexplugin` file or the GitHub repository link for"
+" users to import the plugin in the key library."
+msgstr ""
+"その後、ユーザーに `*.flexplugin` または GitHub リポジトリの URL を共有し、Key Library からプラグインをインポートしてもらえます。"
+
+#: ../../source/sdk/release_plugin.md:11
+msgid "Multi-Platform Support"
+msgstr "マルチプラットフォームのサポート"
+
+#: ../../source/sdk/release_plugin.md:13
+msgid ""
+"In some cases, different operating systems may require different backend "
+"programs."
+msgstr "場合によっては、オペレーティング システムが異なれば、異なるバックエンド プログラムが必要になる場合があります。"
+
+#: ../../source/sdk/release_plugin.md:15
+msgid ""
+"You can modify GitHub Actions to package your plugin in the following "
+"format:"
+msgstr "GitHub Actions を変更し、プラグインを次の形式でパッケージ化できます。"
+
+#: ../../source/sdk/release_plugin.md:17
+msgid "`xxx.<OS NAME>.<ARCH>.flexplugin`"
+msgstr "`xxx.<OS名>.<ARCH>.flexplugin`"
+
+#: ../../source/sdk/release_plugin.md:19
+msgid ""
+"Where OS NAME supports `win32, darwin, linux`; ARCH supports `x64, arm64`. "
+"The ARCH segment is optional and can be omitted."
+msgstr ""
+"ここで、OS NAME は `win32`、`darwin`、`linux` をサポートします。ARCH は `x64`、`arm64` をサポートします。ARCH "
+"の区切りは省略できます。"
+
+#: ../../source/sdk/release_plugin.md:21
+msgid ""
+"FlexDesigner will automatically find and install the appropriate plugin "
+"backend. If it cannot find a file with the required naming format, it will "
+"use the first .flexplugin file it encounters."
+msgstr ""
+"FlexDesigner は適切なプラグイン バックエンドを自動的に見つけてインストールします。必要な命名規則のファイルがない場合は、最初に見つかった "
+"`.flexplugin` が使われます。"
+
+#: ../../source/sdk/release_plugin.md:23
+msgid "Submit to FlexGate"
+msgstr "FlexGate に提出する"
+
+#: ../../source/sdk/release_plugin.md:25
+msgid ""
+"If you want to share your plugin with a broader audience, you can publish it"
+" to FlexGate."
+msgstr "プラグインをより幅広いユーザーと共有したい場合は、プラグインを FlexGate に公開できます。"
+
+#: ../../source/sdk/release_plugin.md:27
+msgid "See [Uploading Plugins to FlexGate](../troubleshoting/flexgate.md)"
+msgstr "[FlexGate へのプラグインのアップロード](../troubleshoting/flexgate.md) を参照してください。"

@@ -28,7 +28,7 @@ jobs:
         run: |
           cd docs
           sphinx-build -b gettext source/ _build/gettext
-          sphinx-intl update -p _build/gettext -l zh_CN
+          sphinx-intl update -p _build/gettext -l zh_CN -l ja
           
       - name: Commit updated PO templates
         run: |

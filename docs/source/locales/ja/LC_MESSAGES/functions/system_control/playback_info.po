@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/playback_info.md:1
+msgid "Playback Info"
+msgstr "再生情報"
+
+#: ../../source/functions/system_control/playback_info.md:3
+msgid "**Windows only**"
+msgstr "**Windows のみ**"
+
+#: ../../source/functions/system_control/playback_info.md:5
+msgid ""
+"Displays the playback status of your current media, including cover art, "
+"playback progress, title, and artist. The displayed information is "
+"synchronized with Windows media info."
+msgstr ""
+"カバーアート、再生の進行状況、タイトル、アーティストなど、現在のメディアの再生ステータスが表示されます。表示される情報は Windows "
+"のメディア情報と同期されます。"
+
+#: ../../source/functions/system_control/playback_info.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/system_control/playback_info.md:9
+msgid ""
+"Apart from standard appearance customization options, this key does not have"
+" any additional settings in FlexDesigner."
+msgstr "標準の外観カスタマイズ オプションとは別に、このキーには FlexDesigner での追加設定はありません。"
+
+#: ../../source/functions/system_control/playback_info.md:11
+msgid "![20251023-124246](image/playback_info/20251023-124246.jpg)"
+msgstr "![20251023-124246](image/playback_info/20251023-124246.jpg)"
+
+#: ../../source/functions/system_control/playback_info.md:11
+msgid "20251023-124246"
+msgstr "20251023-124246"
+
+#: ../../source/functions/system_control/playback_info.md:14
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/system_control/playback_info.md:16
+msgid "![playback_info](image/playback_info/playback_info.png)"
+msgstr "![playback_info](image/playback_info/playback_info.png)"
+
+#: ../../source/functions/system_control/playback_info.md:16
+msgid "playback_info"
+msgstr "再生情報"
+
+#: ../../source/functions/system_control/playback_info.md:18
+msgid ""
+"Tap the play/pause key on the Flexbar to control playback in your media "
+"application. If playback is paused or resumed by other means (such as "
+"keyboard shortcuts or clicking in the media player), the Flexbar key will "
+"update to show the correct play/pause state."
+msgstr ""
+"Flexbar の再生/一時停止キーをタップして、メディア アプリケーションでの再生を制御します。他の手段 (キーボード ショートカットやメディア "
+"プレーヤーのクリックなど) で再生を一時停止または再開すると、Flexbar キーが更新されて、正しい再生/一時停止状態が表示されます。"
+
+#: ../../source/functions/system_control/playback_info.md:20
+msgid "You can freely customize the appearance of the play and pause states."
+msgstr "再生状態と一時停止状態の外観を自由にカスタマイズできます。"

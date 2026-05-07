@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/multimedia.md:1
+msgid "Multimedia"
+msgstr "マルチメディア"
+
+#: ../../source/functions/input/multimedia.md:3
+msgid ""
+"The multimedia key sends multimedia key presses as if they are pressed on a "
+"physical keyboard."
+msgstr "マルチメディア キーは、マルチメディア キーの押下を物理キーボードで押されたかのように送信します。"
+
+#: ../../source/functions/input/multimedia.md:5
+msgid ""
+"This feature emulates a standard USB keyboard with multimedia keys. It works"
+" on any devices without having FlexDesigner running."
+msgstr ""
+"この機能は、マルチメディア キーを備えた標準の USB キーボードをエミュレートします。 FlexDesigner "
+"を実行していなくても、どのデバイスでも動作します。"
+
+#: ../../source/functions/input/multimedia.md:7
+msgid "![1744984037291](image/multimedia/1744984037291.png)"
+msgstr "![1744984037291](image/multimedia/1744984037291.png)"
+
+#: ../../source/functions/input/multimedia.md:7
+msgid "1744984037291"
+msgstr "1744984037291"
+
+#: ../../source/functions/input/multimedia.md:9
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/input/multimedia.md:11
+msgid "![1744984021980](image/multimedia/1744984021980.png)"
+msgstr "![1744984021980](image/multimedia/1744984021980.png)"
+
+#: ../../source/functions/input/multimedia.md:11
+msgid "1744984021980"
+msgstr "1744984021980"
+
+#: ../../source/functions/input/multimedia.md:13
+msgid ""
+"The key to press can be configured in the key tab in the FlexDesigner. Click"
+" on the menu button to select a key."
+msgstr "押すキーは、FlexDesigner のキータブで設定できます。メニュー ボタンをクリックしてキーを選択します。"
+
+#: ../../source/functions/input/multimedia.md:15
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/input/multimedia.md:17
+msgid "Press the key on the Flexbar to trigger the defined action."
+msgstr "Flexbar のキーを押して、定義されたアクションをトリガーします。"

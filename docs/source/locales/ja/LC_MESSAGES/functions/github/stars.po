@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/github/stars.md:1
+msgid "Stars"
+msgstr "星"
+
+#: ../../source/functions/github/stars.md:3
+msgid "The stars feature displays stars of a specific repository."
+msgstr "スター機能は、特定のリポジトリのスターを表示します。"
+
+#: ../../source/functions/github/stars.md:5
+msgid "![1744983551066](image/stars/1744983551066.png)"
+msgstr "![1744983551066](image/stars/1744983551066.png)"
+
+#: ../../source/functions/github/stars.md:5
+msgid "1744983551066"
+msgstr "1744983551066"
+
+#: ../../source/functions/github/stars.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/github/stars.md:9
+msgid "The FlexDesigner exposes the following settings in the key tab:"
+msgstr "FlexDesigner では、キー タブに次の設定が表示されます。"
+
+#: ../../source/functions/github/stars.md:11
+msgid ""
+"Format: Set the format of the string. The text '`<STARS>`' would be replaced"
+" by the number of stars. If '`<STARS>`' is not present in the format string,"
+" it would be appended to the end of the string."
+msgstr ""
+"形式: 文字列の形式を設定します。テキスト「<STARS>」は星の数に置き換えられます。 '<STARS>`' "
+"がフォーマット文字列に存在しない場合は、文字列の末尾に追加されます。"
+
+#: ../../source/functions/github/stars.md:12
+msgid "Owner/ Repository: Set the source repository to display the data for."
+msgstr "所有者/リポジトリ: データを表示するソース リポジトリを設定します。"
+
+#: ../../source/functions/github/stars.md:14
+msgid ""
+"Additionally, you can click on the star icon to manually refresh the data."
+msgstr "さらに、星のアイコンをクリックしてデータを手動で更新することもできます。"
+
+#: ../../source/functions/github/stars.md:16
+msgid "![1744983726528](image/stars/1744983726528.png)"
+msgstr "![1744983726528](image/stars/1744983726528.png)"
+
+#: ../../source/functions/github/stars.md:16
+msgid "1744983726528"
+msgstr "1744983726528"
+
+#: ../../source/functions/github/stars.md:18
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/github/stars.md:20
+msgid ""
+"The star count would be displayed in the area allocated for this feature. "
+"This is no interactive actions for this key."
+msgstr "星の数は、この機能に割り当てられた領域に表示されます。このキーに対する対話型アクションはありません。"
+
+#: ../../source/functions/github/stars.md:22
+msgid "![1744983730599](image/stars/1744983730599.png)"
+msgstr "![1744983730599](image/stars/1744983730599.png)"
+
+#: ../../source/functions/github/stars.md:22
+msgid "1744983730599"
+msgstr "1744983730599"

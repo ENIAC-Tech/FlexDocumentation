@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/more/cycled_keys.md:1
+msgid "Cycled Keys"
+msgstr "循環キー"
+
+#: ../../source/functions/more/cycled_keys.md:3
+msgid ""
+"The cycled-keys cycles between multiple keys when pressed. Only the "
+"currently displayed key would be executed. If you need executing multiple "
+"operations at once, check out the 'Sequenced Keys'."
+msgstr ""
+"循環キーは、押されると複数のキー間を循環します。現在表示されているキーのみが実行されます。複数の操作を一度に実行する必要がある場合は、「シーケンスキー」を確認してください。"
+
+#: ../../source/functions/more/cycled_keys.md:5
+msgid "![1744984891965](image/cycled_keys/1744984891965.png)"
+msgstr "![1744984891965](image/cycled_keys/1744984891965.png)"
+
+#: ../../source/functions/more/cycled_keys.md:5
+msgid "1744984891965"
+msgstr "1744984891965"
+
+#: ../../source/functions/more/cycled_keys.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/more/cycled_keys.md:9
+msgid "![1744985015552](image/cycled_keys/1744985015552.png)"
+msgstr "![1744985015552](image/cycled_keys/1744985015552.png)"
+
+#: ../../source/functions/more/cycled_keys.md:9
+msgid "1744985015552"
+msgstr "1744985015552"
+
+#: ../../source/functions/more/cycled_keys.md:11
+msgid ""
+"Because the cycled-keys is merely a container for other keys, it doesn't "
+"have the usual background and foreground settings. The only available tab is"
+" the function tab, where the list of keys to cycle through can be defined."
+msgstr ""
+"循環キーは他のキーの単なるコンテナであるため、通常の背景および前景の設定はありません。使用できる唯一のタブは関数タブであり、循環するキーのリストを定義できます。"
+
+#: ../../source/functions/more/cycled_keys.md:13
+msgid ""
+"To define the keys, drag and drop desired key from the right pane into the "
+"middle area. Note that when in the function tab, only keys that can be used "
+"with the cycle key would be displayed. **You can double-click a key to "
+"further edit its specific functions.**"
+msgstr ""
+"キーを定義するには、目的のキーを右側のペインから中央の領域にドラッグ アンド ドロップします。機能タブでは、サイクル "
+"キーと一緒に使用できるキーのみが表示されることに注意してください。 **キーをダブルクリックすると、その特定の機能をさらに編集できます。**"
+
+#: ../../source/functions/more/cycled_keys.md:15
+msgid ""
+"By default, keys are cycled through in order. It's also possible to switch "
+"to random order by clicking on the ordering button top right to the action "
+"list."
+msgstr "デフォルトでは、キーは順番に循環されます。アクションリストの右上にある順序ボタンをクリックして、ランダムな順序に切り替えることもできます。"
+
+#: ../../source/functions/more/cycled_keys.md:17
+msgid ""
+"For each added key, the appearance can be customized individually. Highlight"
+" the desired key by clicking it, then switch to the foreground and "
+"background tab to customize it. The function tab of added keys can be opened"
+" by double-clicking on the key."
+msgstr ""
+"追加されたキーごとに、外観を個別にカスタマイズできます。目的のキーをクリックして強調表示し、前景と背景のタブに切り替えてカスタマイズします。追加したキーの機能タブは、キーをダブルクリックすることで開きます。"
+
+#: ../../source/functions/more/cycled_keys.md:19
+msgid ""
+"The most typical application of Cycled Keys is to control media play and "
+"pause. You can drag two media keys from the right side into the Cycled Keys "
+"list, and set the corresponding icons and colors"
+msgstr ""
+"Cycled Keys の最も一般的な用途は、メディアの再生と一時停止を制御することです。右側から 2 つのメディア キーを [Cycled Keys]"
+" リストにドラッグし、対応するアイコンと色を設定できます。"
+
+#: ../../source/functions/more/cycled_keys.md:21
+msgid "![1745471597951](image/cycled_keys/1745471597951.png)"
+msgstr "![1745471597951](image/cycled_keys/1745471597951.png)"
+
+#: ../../source/functions/more/cycled_keys.md:21
+msgid "1745471597951"
+msgstr "1745471597951"
+
+#: ../../source/functions/more/cycled_keys.md:23
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/more/cycled_keys.md:25
+msgid ""
+"Press the key to execute the currently displayed key. Once done, the next "
+"key would be displayed on the key."
+msgstr "キーを押すと、現在表示されているキーが実行されます。完了すると、キー上に次のキーが表示されます。"

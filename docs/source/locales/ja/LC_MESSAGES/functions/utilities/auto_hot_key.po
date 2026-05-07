@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/auto_hot_key.md:1
+msgid "Auto Hot Key"
+msgstr "自動ホットキー"
+
+#: ../../source/functions/utilities/auto_hot_key.md:3
+msgid ""
+"This function allows you to execute an [Auto Hot "
+"Key](https://www.autohotkey.com/) V2 script with a single click."
+msgstr "[オートホットキー](https://www.autohotkey.com/) V2スクリプトをワンクリックで実行できる機能です。"
+
+#: ../../source/functions/utilities/auto_hot_key.md:5
+msgid ""
+"[Auto Hot Key](https://www.autohotkey.com/) is a powerful Windows utility "
+"that can control your mouse, keyboard, applications, system media, and more."
+msgstr ""
+"[自動ホットキー](https://www.autohotkey.com/) は、マウス、キーボード、アプリケーション、システム "
+"メディアなどを制御できる強力な Windows ユーティリティです。"
+
+#: ../../source/functions/utilities/auto_hot_key.md:7
+msgid "![1745502544477](image/auto_hot_key/1745502544477.png)"
+msgstr "![1745502544477](image/auto_hot_key/1745502544477.png)"
+
+#: ../../source/functions/utilities/auto_hot_key.md:7
+msgid "1745502544477"
+msgstr "1745502544477"
+
+#: ../../source/functions/utilities/auto_hot_key.md:9
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/utilities/auto_hot_key.md:11
+msgid "![1745502618520](image/auto_hot_key/1745502618520.png)"
+msgstr "![1745502618520](image/auto_hot_key/1745502618520.png)"
+
+#: ../../source/functions/utilities/auto_hot_key.md:11
+msgid "1745502618520"
+msgstr "1745502618520"
+
+#: ../../source/functions/utilities/auto_hot_key.md:13
+msgid ""
+"The Function Tab provides a simple code editor where you can edit your AHK "
+"script."
+msgstr "[関数] タブには、AHK スクリプトを編集できるシンプルなコード エディターが用意されています。"
+
+#: ../../source/functions/utilities/auto_hot_key.md:15
+msgid ""
+"A test run button is available in the top-right corner of the editor for "
+"quickly testing if your script works properly."
+msgstr "エディターの右上隅にあるテスト実行ボタンを使用して、スクリプトが適切に動作するかどうかをすばやくテストできます。"
+
+#: ../../source/functions/utilities/auto_hot_key.md:17
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/utilities/auto_hot_key.md:19
+msgid "Clicking this key will immediately run the AHK script you've entered."
+msgstr "このキーをクリックすると、入力した AHK スクリプトがすぐに実行されます。"

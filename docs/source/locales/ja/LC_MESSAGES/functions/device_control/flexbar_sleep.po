@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:1
+msgid "Flexbar Sleep"
+msgstr "Flexbar Sleep"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:3
+msgid ""
+"The Flexbar sleep key allows putting the device into sleep mode manually. To"
+" put the computer to sleep, check out the 'Sleep' key in the 'Power Control'"
+" category."
+msgstr ""
+"Flexbar Sleep キーを使用すると、デバイスを手動でスリープ "
+"モードにできます。コンピューターをスリープ状態にするには、「電源制御」カテゴリの「スリープ」キーを確認します。"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:5
+msgid ""
+"Note that it's possible to set any page (other than the home page) or "
+"certain keys as screen saver (displayed after the device enters sleep mode),"
+" in the common tab. See 'Navigation' section for details."
+msgstr ""
+"共通タブでは、任意のページ (ホームページ以外) または特定のキーをスクリーン セーバー (デバイスがスリープ モードに入った後に表示される) "
+"として設定できることに注意してください。詳細については、「ナビゲーション」セクションを参照してください。"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:7
+msgid "![1744946008265](image/flexbar_sleep/1744946008265.png)"
+msgstr "![1744946008265](image/flexbar_sleep/1744946008265.png)"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:7
+msgid "1744946008265"
+msgstr "1744946008265"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:9
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:11
+msgid ""
+"Other than the standard visual options, this key doesn't have any additional"
+" configurable functions in the FlexDesigner."
+msgstr "標準のビジュアル オプション以外に、このキーには FlexDesigner で追加の構成可能な機能はありません。"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/device_control/flexbar_sleep.md:15
+msgid "Press the key to put the device into sleep mode."
+msgstr "キーを押してデバイスをスリープ モードにします。"

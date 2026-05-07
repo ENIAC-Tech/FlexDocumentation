@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/play_pause.md:1
+msgid "Play/Pause"
+msgstr "再生/一時停止"
+
+#: ../../source/functions/system_control/play_pause.md:3
+msgid "**Windows only**"
+msgstr "**Windows のみ**"
+
+#: ../../source/functions/system_control/play_pause.md:5
+msgid ""
+"The play/pause key allows you to quickly toggle media playback on your "
+"system. When you press this key, it will send a play/pause command to your "
+"currently active media application (such as music or video players), "
+"switching between playback and pause states."
+msgstr ""
+"再生/一時停止キーを使用すると、システムでのメディア再生をすばやく切り替えることができます。このキーを押すと、現在アクティブなメディア アプリケーション"
+" (音楽プレーヤーやビデオ プレーヤーなど) に再生/一時停止コマンドが送信され、再生状態と一時停止状態が切り替わります。"
+
+#: ../../source/functions/system_control/play_pause.md:7
+msgid ""
+"This function only operates when FlexDesigner is running. If you need "
+"play/pause functionality without FlexDesigner, you may use your system's "
+"built-in media keys, but those may not always stay synchronized with the "
+"Flexbar indicator."
+msgstr ""
+"この機能は、FlexDesigner が実行されている場合にのみ動作します。 FlexDesigner "
+"を使用せずに再生/一時停止機能が必要な場合は、システムの組み込みメディア キーを使用できますが、これらのメディア キーは常に Flexbar "
+"インジケーターと同期しているとは限りません。"
+
+#: ../../source/functions/system_control/play_pause.md:9
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/system_control/play_pause.md:11
+msgid ""
+"Apart from standard appearance customization options, this key does not have"
+" any additional settings in FlexDesigner."
+msgstr "標準の外観カスタマイズ オプションとは別に、このキーには FlexDesigner での追加設定はありません。"
+
+#: ../../source/functions/system_control/play_pause.md:13
+msgid "![20251023-123225](image/play_pause/20251023-123822.jpg)"
+msgstr "![20251023-123225](image/play_pause/20251023-123822.jpg)"
+
+#: ../../source/functions/system_control/play_pause.md:13
+msgid "20251023-123225"
+msgstr "20251023-123225"
+
+#: ../../source/functions/system_control/play_pause.md:15
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/system_control/play_pause.md:19
+msgid ""
+"Tap the play/pause key on the Flexbar to control playback in your media "
+"application. If playback is paused or resumed by other means (such as "
+"keyboard shortcuts or clicking in the media player), the Flexbar key will "
+"update to show the correct play/pause state."
+msgstr ""
+"Flexbar の再生/一時停止キーをタップして、メディア アプリケーションでの再生を制御します。他の手段 (キーボード ショートカットやメディア "
+"プレーヤーのクリックなど) で再生を一時停止または再開すると、Flexbar キーが更新されて、正しい再生/一時停止状態が表示されます。"
+
+#: ../../source/functions/system_control/play_pause.md:21
+msgid "You can freely customize the appearance of the play and pause states."
+msgstr "再生状態と一時停止状態の外観を自由にカスタマイズできます。"

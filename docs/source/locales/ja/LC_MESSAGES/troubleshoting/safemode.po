@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/troubleshoting/safemode.md:1
+msgid "Safe Mode"
+msgstr "Safe Mode"
+
+#: ../../source/troubleshoting/safemode.md:3
+msgid ""
+"When in Safe Mode, Flexbar doesn't load any profiles. This mode is "
+"designed to prevent the device from becoming unusable due to crashes "
+"caused by profile loading failures, ensuring you can still update "
+"firmware or profiles."
+msgstr ""
+"Safe Mode では、Flexbar はどの Profile も読み込みません。このモードは、Profile "
+"の読み込み失敗によるクラッシュでデバイスが使用不能になるのを防ぎ、引き続き"
+"ファームウェアや Profile を更新できるようにするためのものです。"
+
+#: ../../source/troubleshoting/safemode.md:5
+msgid "![1743991410209](image/safemode/1743991410209.png)"
+msgstr "![1743991410209](image/safemode/1743991410209.png)"
+
+#: ../../source/troubleshoting/safemode.md:5
+msgid "1743991410209"
+msgstr "1743991410209"
+
+#: ../../source/troubleshoting/safemode.md:7
+msgid "How to Enter Safe Mode"
+msgstr "Safe Mode への入り方"
+
+#: ../../source/troubleshoting/safemode.md:9
+msgid "Automatic Entry"
+msgstr "自動で入る場合"
+
+#: ../../source/troubleshoting/safemode.md:11
+msgid ""
+"The device automatically enters Safe Mode after updating to new firmware."
+" You'll need to download your profiles again."
+msgstr ""
+"新しいファームウェアへ更新したあと、デバイスは自動的に Safe Mode に入ります。"
+"Profile を再度ダウンロードする必要があります。"
+
+#: ../../source/troubleshoting/safemode.md:12
+msgid ""
+"If the device detects a crash, it will automatically enter Safe Mode. You"
+" can try downloading your profiles again. If crashes persist, please "
+"submit your profile to `contact@eniacelec.com` for support and to help us"
+" improve."
+msgstr ""
+"デバイスがクラッシュを検出すると、自動的に Safe Mode に入ります。Profile を"
+"再度ダウンロードしてみてください。クラッシュが続く場合は、サポートおよび改善の"
+"ため、`contact@eniacelec.com` に Profile を送付してください。"
+
+#: ../../source/troubleshoting/safemode.md:14
+msgid "Manual Entry"
+msgstr "手動で入る場合"
+
+#: ../../source/troubleshoting/safemode.md:16
+msgid ""
+"During the startup LOGO screen, you can find a subtle `Enter SafeMode` "
+"button on the left side. Tap this button to manually enter Safe Mode."
+msgstr ""
+"起動時の LOGO 画面では、左側に目立たない `Enter SafeMode` ボタンがあります。"
+"このボタンをタップすると、手動で Safe Mode に入れます。"
+
+#: ../../source/troubleshoting/safemode.md:18
+msgid "![1743991368473](image/safemode/1743991368473.png)"
+msgstr "![1743991368473](image/safemode/1743991368473.png)"
+
+#: ../../source/troubleshoting/safemode.md:18
+msgid "1743991368473"
+msgstr "1743991368473"
+

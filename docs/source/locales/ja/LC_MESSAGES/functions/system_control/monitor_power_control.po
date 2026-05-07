@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/system_control/monitor_power_control.md:1
+msgid "Monitor Power Control"
+msgstr "モニターの電源制御"
+
+#: ../../source/functions/system_control/monitor_power_control.md:3
+msgid ""
+"This key allows turning off external monitors using the DDC/CI protocol. "
+"Most of the monitors supports this protocol to some degree. This key also "
+"allows controlling multiple monitors simultaneously. Note that this key "
+"won't be able to turn the monitor back on, as the connection to the monitor "
+"is lost after it has been turned off. This key only works when the "
+"FlexDesigner is running."
+msgstr ""
+"このキーを使用すると、DDC/CI "
+"プロトコルを使用して外部モニターをオフにすることができます。ほとんどのモニターはこのプロトコルをある程度サポートしています。このキーを使用すると、複数のモニターを同時に制御することもできます。モニターの電源がオフになった後は、モニターへの接続が失われるため、このキーでモニターの電源をオンに戻すことはできないことに注意してください。このキーは、FlexDesigner"
+" の実行中にのみ機能します。"
+
+#: ../../source/functions/system_control/monitor_power_control.md:5
+msgid "![1745502329080](image/monitor_power_control/1745502329080.png)"
+msgstr "![1745502329080](image/monitor_power_control/1745502329080.png)"
+
+#: ../../source/functions/system_control/monitor_power_control.md:5
+msgid "1745502329080"
+msgstr "1745502329080"
+
+#: ../../source/functions/system_control/monitor_power_control.md:7
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/system_control/monitor_power_control.md:9
+msgid "![1745502353165](image/monitor_power_control/1745502353165.png)"
+msgstr "![1745502353165](image/monitor_power_control/1745502353165.png)"
+
+#: ../../source/functions/system_control/monitor_power_control.md:9
+msgid "1745502353165"
+msgstr "1745502353165"
+
+#: ../../source/functions/system_control/monitor_power_control.md:11
+msgid ""
+"A list of connected monitors would show up in the function tab of this key. "
+"It also shows the control supported by the monitor. Of each monitor, there "
+"is a checkbox to the right. Only checked monitors would be controlled by "
+"this key."
+msgstr ""
+"接続されているモニターのリストがこのキーの機能タブに表示されます。モニターがサポートしているコントロールも表示されます。各モニターの右側にチェックボックスがあります。チェックされたモニターのみがこのキーで制御されます。"
+
+#: ../../source/functions/system_control/monitor_power_control.md:13
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/system_control/monitor_power_control.md:15
+msgid "Press the key to turn off the selected monitor."
+msgstr "キーを押すと、選択したモニターの電源がオフになります。"

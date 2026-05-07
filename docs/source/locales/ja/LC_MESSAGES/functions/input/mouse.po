@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/input/mouse.md:1
+msgid "Mouse"
+msgstr "ねずみ"
+
+#: ../../source/functions/input/mouse.md:3
+msgid "The mouse key sends mouse actions as if on an actual mouse."
+msgstr "マウス キーは、実際のマウスと同じようにマウス アクションを送信します。"
+
+#: ../../source/functions/input/mouse.md:5
+msgid ""
+"This feature emulates a standard USB mouse. It works on any devices without "
+"having FlexDesigner running."
+msgstr "この機能は標準の USB マウスをエミュレートします。 FlexDesigner を実行していなくても、どのデバイスでも動作します。"
+
+#: ../../source/functions/input/mouse.md:7
+msgid "![1744983987017](image/mouse/1744983987017.png)"
+msgstr "![1744983987017](image/mouse/1744983987017.png)"
+
+#: ../../source/functions/input/mouse.md:7
+msgid "1744983987017"
+msgstr "1744983987017"
+
+#: ../../source/functions/input/mouse.md:9
+msgid "In the FlexDesigner"
+msgstr "FlexDesigner で"
+
+#: ../../source/functions/input/mouse.md:11
+msgid "![1744984004083](image/mouse/1744984004083.png)"
+msgstr "![1744984004083](image/mouse/1744984004083.png)"
+
+#: ../../source/functions/input/mouse.md:11
+msgid "1744984004083"
+msgstr "1744984004083"
+
+#: ../../source/functions/input/mouse.md:13
+msgid "The FlexDesigner exposes the following settings for this key:"
+msgstr "FlexDesigner は、このキーの次の設定を公開します。"
+
+#: ../../source/functions/input/mouse.md:15
+msgid ""
+"Buttons: Includes the 'Left', 'Right', 'Middle', 'Back', and 'Forward' "
+"checkboxes. These specify if any of those buttons should be pressed in the "
+"mouse event."
+msgstr ""
+"ボタン: 「左」、「右」、「中央」、「戻る」、および「進む」チェックボックスが含まれます。これらは、マウス "
+"イベントでこれらのボタンのいずれかを押すかどうかを指定します。"
+
+#: ../../source/functions/input/mouse.md:16
+msgid ""
+"Movement: Specify how much the mouse should move when triggered. The 'wheel'"
+" and 'pan' specifies the movement of the vertical scroll wheel and the "
+"horizontal scroll wheel respectively."
+msgstr ""
+"移動: トリガーされたときにマウスをどのくらい動かすかを指定します。 「ホイール」と「パン」はそれぞれ垂直スクロール ホイールと水平スクロール "
+"ホイールの動きを指定します。"
+
+#: ../../source/functions/input/mouse.md:17
+msgid ""
+"Absolute Position: When checked, the movement would be sent as absolute "
+"movement instead of relative. Which means the mouse would be moved to the "
+"specified location, instead of move by the specified distance."
+msgstr ""
+"絶対位置: "
+"チェックすると、移動は相対的ではなく絶対的移動として送信されます。つまり、マウスは指定された距離だけ移動するのではなく、指定された位置に移動されます。"
+
+#: ../../source/functions/input/mouse.md:18
+msgid "Double Click: Check if the click needs to be a double click"
+msgstr "ダブルクリック: クリックをダブルクリックする必要があるかどうかを確認します。"
+
+#: ../../source/functions/input/mouse.md:19
+msgid ""
+"Release After Click: Check if the mouse buttons should be released after "
+"click. Otherwise, the mouse button would be in the pressed state"
+msgstr ""
+"クリック後に放す: クリック後にマウス ボタンを放す必要があるかどうかをチェックします。それ以外の場合、マウス ボタンは押された状態になります。"
+
+#: ../../source/functions/input/mouse.md:21
+msgid "On the Flexbar"
+msgstr "Flexbar 上で"
+
+#: ../../source/functions/input/mouse.md:23
+msgid "Press the key on the Flexbar to trigger the defined action."
+msgstr "Flexbar のキーを押して、定義されたアクションをトリガーします。"

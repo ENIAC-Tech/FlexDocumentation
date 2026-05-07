@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/functions/utilities/utilities.md:1
+msgid "Utilities (Calculator, Timer, etc.)"
+msgstr "ユーティリティ (電卓、タイマーなど)"
+
+#: ../../source/functions/utilities/utilities.md:3
+msgid "This page describes other on-device utilities provided in the Flexbar."
+msgstr "このページでは、Flexbar で提供される他のオンデバイス ユーティリティについて説明します。"
+
+#: ../../source/functions/utilities/utilities.md:5
+msgid "Calculator"
+msgstr "電卓"
+
+#: ../../source/functions/utilities/utilities.md:7
+msgid "This key opens a basic calculator on the device."
+msgstr "このキーは、デバイス上で基本的な計算機を開きます。"
+
+#: ../../source/functions/utilities/utilities.md:9
+msgid "![1745503235322](image/utilities/1745503235322.png)"
+msgstr "![1745503235322](image/utilities/1745503235322.png)"
+
+#: ../../source/functions/utilities/utilities.md:9
+msgid "1745503235322"
+msgstr "1745503235322"
+
+#: ../../source/functions/utilities/utilities.md:11
+msgid "Click on the result area to send the result to your computer."
+msgstr "結果領域をクリックして結果をコンピュータに送信します。"
+
+#: ../../source/functions/utilities/utilities.md:13
+msgid "Binary Calculator"
+msgstr "バイナリ計算機"
+
+#: ../../source/functions/utilities/utilities.md:15
+msgid ""
+"This key opens a binary calculator on the device with the following "
+"features:"
+msgstr "このキーは、次の機能を備えたデバイス上でバイナリ計算機を開きます。"
+
+#: ../../source/functions/utilities/utilities.md:17
+msgid "Converts between binary, decimal, and hexadecimal"
+msgstr "2進数、10進数、16進数間の変換"
+
+#: ../../source/functions/utilities/utilities.md:18
+msgid "Touch the decimal/hexadecimal display to switch input mode"
+msgstr "10進数/16進数表示をタッチして入力モードを切り替えます"
+
+#: ../../source/functions/utilities/utilities.md:19
+msgid "Touch to modify bits directly (up to 16-bits)"
+msgstr "タッチしてビットを直接変更します (最大 16 ビット)"
+
+#: ../../source/functions/utilities/utilities.md:20
+msgid ""
+"Left shift, right shift, bitwise invert, increment, and decrement functions"
+msgstr "左シフト、右シフト、ビットごとの反転、インクリメント、デクリメント関数"
+
+#: ../../source/functions/utilities/utilities.md:21
+msgid "Long press the result area to send the result to your computer"
+msgstr "結果エリアを長押しして結果をコンピュータに送信します"
+
+#: ../../source/functions/utilities/utilities.md:23
+msgid "Binary 16 bits Mode"
+msgstr "バイナリ16ビットモード"
+
+#: ../../source/functions/utilities/utilities.md:25
+msgid ""
+"The binary calculator operates in this mode by default, supporting 16-bit "
+"binary input"
+msgstr "バイナリ計算機はデフォルトでこのモードで動作し、16 ビット バイナリ入力をサポートします。"
+
+#: ../../source/functions/utilities/utilities.md:27
+msgid "![1745503682320](image/utilities/1745503682320.png)"
+msgstr "![1745503682320](image/utilities/1745503682320.png)"
+
+#: ../../source/functions/utilities/utilities.md:27
+msgid "1745503682320"
+msgstr "1745503682320"
+
+#: ../../source/functions/utilities/utilities.md:29
+msgid "Binary 8 bits Mode"
+msgstr "バイナリ8ビットモード"
+
+#: ../../source/functions/utilities/utilities.md:31
+msgid ""
+"In 16 bits Mode, press the `16` button to switch to 8 bits Mode, which "
+"supports 8-bit binary input"
+msgstr "16 ビット モードで、「16」ボタンを押すと、8 ビット バイナリ入力をサポートする 8 ビット モードに切り替わります。"
+
+#: ../../source/functions/utilities/utilities.md:33
+msgid "Press the `8` button again to switch back to 16-bit mode"
+msgstr "もう一度「8」ボタンを押すと、16 ビット モードに戻ります。"
+
+#: ../../source/functions/utilities/utilities.md:35
+msgid "![1745504411144](image/utilities/1745504411144.png)"
+msgstr "![1745504411144](image/utilities/1745504411144.png)"
+
+#: ../../source/functions/utilities/utilities.md:35
+msgid "1745504411144"
+msgstr "1745504411144"
+
+#: ../../source/functions/utilities/utilities.md:37
+msgid "Hexadecimal Mode"
+msgstr "16 進モード"
+
+#: ../../source/functions/utilities/utilities.md:39
+msgid ""
+"Touch the HEX result area to enter hexadecimal mode. In this mode, you can "
+"input hexadecimal values up to 4 digits. You can still press the `8` or `16`"
+" buttons to switch the bit width of the hexadecimal value"
+msgstr ""
+"HEX 結果エリアをタッチして 16 進モードに入ります。このモードでは、最大 4 桁の 16 進数値を入力できます。 "
+"「8」または「16」ボタンを押して、16 進値のビット幅を切り替えることもできます。"
+
+#: ../../source/functions/utilities/utilities.md:41
+msgid "![1745504457201](image/utilities/1745504457201.png)"
+msgstr "![1745504457201](image/utilities/1745504457201.png)"
+
+#: ../../source/functions/utilities/utilities.md:41
+msgid "1745504457201"
+msgstr "1745504457201"
+
+#: ../../source/functions/utilities/utilities.md:43
+msgid "Decimal Mode"
+msgstr "10 進モード"
+
+#: ../../source/functions/utilities/utilities.md:45
+msgid ""
+"Touch the DEC result area to enter decimal mode. In this mode, you can input"
+" decimal values up to 65535. You can still press the `8` or `16` buttons to "
+"switch the bit width of the value"
+msgstr ""
+"DEC 結果エリアをタッチして 10 進モードに入ります。このモードでは、65535 までの 10 "
+"進数値を入力できます。「8」または「16」ボタンを押して値のビット幅を切り替えることもできます。"
+
+#: ../../source/functions/utilities/utilities.md:47
+msgid "Ruler"
+msgstr "ルーラー"
+
+#: ../../source/functions/utilities/utilities.md:49
+msgid ""
+"This key opens a real sized ruler on the device. Touch to switch between "
+"imperial unit and metric unit."
+msgstr "このキーは、デバイス上で実際のサイズのルーラーを開きます。タッチして帝国単位とメートル単位を切り替えます。"

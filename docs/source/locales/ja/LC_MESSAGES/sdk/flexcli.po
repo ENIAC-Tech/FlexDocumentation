@@ -1,0 +1,367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/sdk/flexcli.md:1
+msgid "FlexCLI Tool Documentation"
+msgstr "FlexCLI ツールのドキュメント"
+
+#: ../../source/sdk/flexcli.md:3
+msgid ""
+"This document provides an overview and guide for using the CLI tool that "
+"interacts with plugins and FlexDesigner. The tool provides various commands "
+"for managing plugins such as linking, restarting, debugging, installing, and"
+" uninstalling plugins. It also supports creating a plugin project and "
+"validating the plugin structure."
+msgstr ""
+"このドキュメントでは、プラグインおよび FlexDesigner と対話する CLI "
+"ツールの使用に関する概要とガイドを提供します。このツールは、プラグインのリンク、再起動、デバッグ、インストール、アンインストールなど、プラグインを管理するためのさまざまなコマンドを提供します。また、プラグイン"
+" プロジェクトの作成とプラグイン構造の検証もサポートされています。"
+
+#: ../../source/sdk/flexcli.md:5
+msgid "Installation"
+msgstr "インストール"
+
+#: ../../source/sdk/flexcli.md:7
+msgid "Prerequisites"
+msgstr "前提条件"
+
+#: ../../source/sdk/flexcli.md:9
+msgid "Node.js version 18 or higher"
+msgstr "Node.js バージョン 18 以降"
+
+#: ../../source/sdk/flexcli.md:10
+msgid "FlexDesigner version 1.0.0 or higher."
+msgstr "FlexDesigner バージョン 1.0.0 以降。"
+
+#: ../../source/sdk/flexcli.md:12
+msgid "Setup"
+msgstr "設定"
+
+#: ../../source/sdk/flexcli.md:14
+msgid "Install the FlexDesigner CLI Tool by running the following command."
+msgstr ""
+"次のコマンドを実行して、FlexDesigner の CLI ツール（FlexCLI）をインストールします。"
+
+#: ../../source/sdk/flexcli.md:20
+msgid "Commands"
+msgstr "コマンド"
+
+#: ../../source/sdk/flexcli.md:22
+msgid "`plugin link`"
+msgstr "`plugin link`"
+
+#: ../../source/sdk/flexcli.md:24
+msgid "Links a plugin to the FlexDesigner."
+msgstr "プラグインを FlexDesigner にリンクします。"
+
+#: ../../source/sdk/flexcli.md:26 ../../source/sdk/flexcli.md:45
+#: ../../source/sdk/flexcli.md:59 ../../source/sdk/flexcli.md:74
+#: ../../source/sdk/flexcli.md:98 ../../source/sdk/flexcli.md:114
+#: ../../source/sdk/flexcli.md:129 ../../source/sdk/flexcli.md:143
+msgid "Options:"
+msgstr "オプション:"
+
+#: ../../source/sdk/flexcli.md:28 ../../source/sdk/flexcli.md:100
+#: ../../source/sdk/flexcli.md:145
+msgid "`--path <path>`: Path to the plugin directory (required)"
+msgstr "`--path <path>`: プラグイン ディレクトリへのパス (必須)"
+
+#: ../../source/sdk/flexcli.md:29
+msgid "`--uuid <uuid>`: UUID of the plugin (required)"
+msgstr "`--uuid <uuid>`: プラグインの UUID (必須)"
+
+#: ../../source/sdk/flexcli.md:30
+msgid "`--debug <debug>`: Enable or disable debug mode (default: false)"
+msgstr "`--debug <debug>`: デバッグ モードを有効または無効にします (デフォルト: false)"
+
+#: ../../source/sdk/flexcli.md:31
+msgid "`--skip-validate`: Skip the validation step (default: false)"
+msgstr "`--skip-validate`: 検証ステップをスキップします (デフォルト: false)"
+
+#: ../../source/sdk/flexcli.md:32
+msgid "`--force`: Force override of an existing plugin (default: false)"
+msgstr "`--force`: 既存のプラグインを強制的にオーバーライドします (デフォルト: false)"
+
+#: ../../source/sdk/flexcli.md:33
+msgid ""
+"`--start <start>`: Whether to start the plugin after linking (default: true)"
+msgstr "`--start <start>`: リンク後にプラグインを起動するかどうか (デフォルト: true)"
+
+#: ../../source/sdk/flexcli.md:35 ../../source/sdk/flexcli.md:49
+#: ../../source/sdk/flexcli.md:64 ../../source/sdk/flexcli.md:78
+#: ../../source/sdk/flexcli.md:88 ../../source/sdk/flexcli.md:104
+#: ../../source/sdk/flexcli.md:119 ../../source/sdk/flexcli.md:133
+#: ../../source/sdk/flexcli.md:147 ../../source/sdk/flexcli.md:157
+#: ../../source/sdk/flexcli.md:179
+msgid "Description:"
+msgstr "説明:"
+
+#: ../../source/sdk/flexcli.md:37
+msgid ""
+"This command links a plugin to the FlexDesigner by specifying its path and "
+"UUID. It also provides options to enable debug mode, skip validation, force "
+"override, and start the plugin after linking."
+msgstr ""
+"このコマンドは、プラグインのパスと UUID を指定して、プラグインを FlexDesigner にリンクします。また、デバッグ "
+"モードを有効にし、検証をスキップし、強制的にオーバーライドし、リンク後にプラグインを開始するオプションも提供します。"
+
+#: ../../source/sdk/flexcli.md:41
+msgid "`plugin restart`"
+msgstr "`plugin restart`"
+
+#: ../../source/sdk/flexcli.md:43
+msgid "Restarts a plugin."
+msgstr "プラグインを再起動します。"
+
+#: ../../source/sdk/flexcli.md:47
+msgid "`--uuid <uuid>`: UUID of the plugin to restart (required)"
+msgstr "`--uuid <uuid>`: 再起動するプラグインの UUID (必須)"
+
+#: ../../source/sdk/flexcli.md:51
+msgid "This command restarts a plugin using the provided UUID."
+msgstr "このコマンドは、指定された UUID を使用してプラグインを再起動します。"
+
+#: ../../source/sdk/flexcli.md:55
+msgid "`plugin unlink`"
+msgstr "`plugin unlink`"
+
+#: ../../source/sdk/flexcli.md:57
+msgid "Unlinks a plugin from the FlexDesigner."
+msgstr "FlexDesigner からプラグインのリンクを解除します。"
+
+#: ../../source/sdk/flexcli.md:61
+msgid "`--uuid <uuid>`: UUID of the plugin to unlink (required)"
+msgstr "`--uuid <uuid>`: リンクを解除するプラグインの UUID (必須)"
+
+#: ../../source/sdk/flexcli.md:62
+msgid "`--silent`: Run in silent mode without output (default: false)"
+msgstr "`--silent`: 出力なしでサイレント モードで実行します (デフォルト: false)"
+
+#: ../../source/sdk/flexcli.md:66
+msgid ""
+"This command unlinks a plugin from the FlexDesigner using the specified "
+"UUID."
+msgstr "このコマンドは、指定された UUID を使用して FlexDesigner からプラグインのリンクを解除します。"
+
+#: ../../source/sdk/flexcli.md:70
+msgid "`plugin debug`"
+msgstr "`plugin debug`"
+
+#: ../../source/sdk/flexcli.md:72
+msgid "Debugs a plugin."
+msgstr "プラグインをデバッグします。"
+
+#: ../../source/sdk/flexcli.md:76
+msgid "`--uuid <uuid>`: UUID of the plugin to debug (required)"
+msgstr "`--uuid <uuid>`: デバッグするプラグインの UUID (必須)"
+
+#: ../../source/sdk/flexcli.md:80
+msgid ""
+"This command is used to debug a plugin using its UUID. It connects to the "
+"plugin and provides debugging information."
+msgstr ""
+"このコマンドは、UUID を指定してプラグインをデバッグするために使用します。プラグインに接続し、デバッグ情報を取得できます。"
+
+#: ../../source/sdk/flexcli.md:84
+msgid "`plugin list`"
+msgstr "`plugin list`"
+
+#: ../../source/sdk/flexcli.md:86
+msgid "Lists all the installed plugins."
+msgstr "インストールされているすべてのプラグインをリストします。"
+
+#: ../../source/sdk/flexcli.md:90
+msgid ""
+"This command lists all the plugins currently installed in the FlexDesigner."
+msgstr "このコマンドは、FlexDesigner に現在インストールされているすべてのプラグインを一覧表示します。"
+
+#: ../../source/sdk/flexcli.md:94
+msgid "`plugin pack`"
+msgstr "`plugin pack`"
+
+#: ../../source/sdk/flexcli.md:96
+msgid "Packs a plugin into a `.flexplugin` file."
+msgstr "プラグインを `.flexplugin` ファイルにパックします。"
+
+#: ../../source/sdk/flexcli.md:101
+msgid "`--output <output>`: Output path for the `.flexplugin` file"
+msgstr "`--output <output>`: `.flexplugin` ファイルの出力パス"
+
+#: ../../source/sdk/flexcli.md:102
+msgid "`--skip-validate`: Skip validation (default: false)"
+msgstr "`--skip-validate`: 検証をスキップします (デフォルト: false)"
+
+#: ../../source/sdk/flexcli.md:106
+msgid ""
+"This command packages the plugin into a `.flexplugin` file, with options for"
+" specifying the output path and skipping validation."
+msgstr ""
+"このコマンドは、出力パスの指定と検証のスキップのオプションを使用して、プラグインを `.flexplugin` ファイルにパッケージ化します。"
+
+#: ../../source/sdk/flexcli.md:110
+msgid "`plugin install`"
+msgstr "`plugin install`"
+
+#: ../../source/sdk/flexcli.md:112
+msgid "Installs a plugin from a `.flexplugin` file."
+msgstr "`.flexplugin` ファイルからプラグインをインストールします。"
+
+#: ../../source/sdk/flexcli.md:116
+msgid "`--path <path>`: Path to the `.flexplugin` file (required)"
+msgstr "`--path <path>`: `.flexplugin` ファイルへのパス (必須)"
+
+#: ../../source/sdk/flexcli.md:117
+msgid "`--force`: Force the installation (default: false)"
+msgstr "`--force`: インストールを強制します (デフォルト: false)"
+
+#: ../../source/sdk/flexcli.md:121
+msgid ""
+"This command installs a plugin using the `.flexplugin` file. If the file "
+"extension is not `.flexplugin`, an error will be shown. The `--force` option"
+" allows forcing the installation."
+msgstr ""
+"このコマンドは、`.flexplugin` ファイルを使ってプラグインをインストールします。拡張子が `.flexplugin` "
+"でない場合はエラーが表示されます。`--force` オプションでインストールを強制できます。"
+
+#: ../../source/sdk/flexcli.md:125
+msgid "`plugin uninstall`"
+msgstr "`plugin uninstall`"
+
+#: ../../source/sdk/flexcli.md:127
+msgid "Uninstalls a plugin."
+msgstr "プラグインをアンインストールします。"
+
+#: ../../source/sdk/flexcli.md:131
+msgid "`--uuid <uuid>`: UUID of the plugin to uninstall (required)"
+msgstr "`--uuid <uuid>`: アンインストールするプラグインの UUID (必須)"
+
+#: ../../source/sdk/flexcli.md:135
+msgid "This command uninstalls the plugin using the specified UUID."
+msgstr "このコマンドは、指定された UUID を使用してプラグインをアンインストールします。"
+
+#: ../../source/sdk/flexcli.md:139
+msgid "`plugin validate`"
+msgstr "`plugin validate`"
+
+#: ../../source/sdk/flexcli.md:141
+msgid "Validates the structure and manifest of a plugin."
+msgstr "プラグインの構造とマニフェストを検証します。"
+
+#: ../../source/sdk/flexcli.md:149
+msgid ""
+"This command validates the plugin directory and its manifest to ensure that "
+"it follows the correct structure."
+msgstr "このコマンドは、プラグイン ディレクトリとそのマニフェストを検証して、正しい構造に従っていることを確認します。"
+
+#: ../../source/sdk/flexcli.md:153
+msgid "`plugin create`"
+msgstr "`plugin create`"
+
+#: ../../source/sdk/flexcli.md:155
+msgid "Creates a basic plugin workspace."
+msgstr "基本的なプラグイン ワークスペースを作成します。"
+
+#: ../../source/sdk/flexcli.md:159
+msgid ""
+"This command creates a basic workspace for a new plugin, allowing you to "
+"specify details like the plugin path, name, version, author, description, "
+"and repository URL."
+msgstr ""
+"このコマンドは、新しいプラグインの基本的なワークスペースを作成し、プラグインのパス、名前、バージョン、作成者、説明、リポジトリ URL "
+"などの詳細を指定できるようにします。"
+
+#: ../../source/sdk/flexcli.md:161
+msgid "It will prompt you for the following information:"
+msgstr "次の情報の入力を求められます。"
+
+#: ../../source/sdk/flexcli.md:163
+msgid "Plugin path"
+msgstr "プラグインのパス"
+
+#: ../../source/sdk/flexcli.md:164
+msgid "Plugin name"
+msgstr "プラグイン名"
+
+#: ../../source/sdk/flexcli.md:165
+msgid "Author name"
+msgstr "著者名"
+
+#: ../../source/sdk/flexcli.md:166
+msgid "Reversed domain UUID (e.g., `com.author.myplugin`)"
+msgstr "逆引きドメイン UUID (例: `com.author.myplugin`)"
+
+#: ../../source/sdk/flexcli.md:167
+msgid "Version (in format `x.y.z`)"
+msgstr "バージョン（`x.y.z` 形式）"
+
+#: ../../source/sdk/flexcli.md:168
+msgid "Description"
+msgstr "説明"
+
+#: ../../source/sdk/flexcli.md:169
+msgid "Repository URL"
+msgstr "リポジトリ URL"
+
+#: ../../source/sdk/flexcli.md:171
+msgid ""
+"The created workspace will be initialized with the provided information."
+msgstr "作成されたワークスペースは、指定された情報で初期化されます。"
+
+#: ../../source/sdk/flexcli.md:175
+msgid "`plugin kill`"
+msgstr "`plugin kill`"
+
+#: ../../source/sdk/flexcli.md:177
+msgid "Kill plugin thread."
+msgstr "プラグインスレッドを強制終了します。"
+
+#: ../../source/sdk/flexcli.md:181
+msgid "This command kills the Plugin thread in FlexDesigner"
+msgstr "このコマンドは、FlexDesigner のプラグイン スレッドを強制終了します。"
+
+#: ../../source/sdk/flexcli.md:185
+msgid "General Options"
+msgstr "共通オプション"
+
+#: ../../source/sdk/flexcli.md:187
+msgid ""
+"`--port <number>`: Specifies the WebSocket server port (default: 60109)"
+msgstr "`--port <number>`: WebSocket サーバーのポートを指定します (デフォルト: 60109)"
+
+#: ../../source/sdk/flexcli.md:191
+msgid "Example Usage"
+msgstr "使用例"
+
+#: ../../source/sdk/flexcli.md:193
+msgid "To link a plugin:"
+msgstr "プラグインをリンクするには:"
+
+#: ../../source/sdk/flexcli.md:199
+msgid "To restart a plugin:"
+msgstr "プラグインを再起動するには:"
+
+#: ../../source/sdk/flexcli.md:205
+msgid "To list all plugins:"
+msgstr "すべてのプラグインを一覧表示するには:"
+
+#: ../../source/sdk/flexcli.md:211
+msgid "To create a new plugin workspace:"
+msgstr "新しいプラグイン ワークスペースを作成するには:"

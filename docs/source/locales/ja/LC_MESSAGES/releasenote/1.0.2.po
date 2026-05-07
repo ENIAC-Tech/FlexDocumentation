@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/releasenote/1.0.2.md:1
+msgid "Release Note 1.0.2"
+msgstr "リリースノート 1.0.2"
+
+#: ../../source/releasenote/1.0.2.md:3
+msgid ""
+"Hello everyone, FlexDesigner has been updated to version 1.0.2, and the "
+"latest version is now available for download on our [official "
+"website](https://eniacelec.com/pages/software). A big thanks to all our beta"
+" users for your awesome feedback! We couldn't do this without your support "
+"and trust - you guys are really helping us make this thing better every day!"
+msgstr ""
+"皆さん、こんにちは。FlexDesigner がバージョン 1.0.2 に更新され、最新バージョンが当社の [公式 Web "
+"サイト](https://eniacelec.com/pages/software) "
+"からダウンロードできるようになりました。素晴らしいフィードバックをくださったベータ "
+"ユーザーの皆様に心より感謝いたします。皆様のご支援と信頼なしにはこれを実現することはできませんでした。皆さんは、私たちがこの状況をより良くするために毎日助けてくれています。"
+
+#: ../../source/releasenote/1.0.2.md:7
+msgid "Major Functional Updates"
+msgstr "主要な機能アップデート"
+
+#: ../../source/releasenote/1.0.2.md:9
+msgid "Plugin support"
+msgstr "プラグインのサポート"
+
+#: ../../source/releasenote/1.0.2.md:10
+msgid "Multi-device support"
+msgstr "マルチデバイスのサポート"
+
+#: ../../source/releasenote/1.0.2.md:11
+msgid "Optimized software performance"
+msgstr "最適化されたソフトウェアパフォーマンス"
+
+#: ../../source/releasenote/1.0.2.md:12
+msgid ""
+"Multi-language support (currently available in English, Chinese, Japanese, "
+"French, and German)"
+msgstr "多言語サポート (現在、英語、中国語、日本語、フランス語、ドイツ語で利用可能)"
+
+#: ../../source/releasenote/1.0.2.md:13
+msgid "Optimized page auto-switching logic (from Beta User feedback)"
+msgstr "最適化されたページ自動切り替えロジック (ベータ ユーザーのフィードバックから)"
+
+#: ../../source/releasenote/1.0.2.md:14
+msgid ""
+"New USB-CDC protocol with 3x faster to the previous USB-HID protocol; users "
+"can switch between both modes"
+msgstr ""
+"以前の USB-HID プロトコルと比べて 3 倍高速な新しい USB-CDC プロトコル。ユーザーは両方のモードを切り替えることができます"
+
+#: ../../source/releasenote/1.0.2.md:15
+msgid ""
+"Added AutoHotKey support for one-click AHK script execution (from Beta User "
+"feedback)"
+msgstr "ワンクリックで AHK スクリプトを実行できる AutoHotKey サポートを追加しました (ベータ版ユーザーのフィードバックから)"
+
+#: ../../source/releasenote/1.0.2.md:17
+msgid "Minor Functional Updates"
+msgstr "マイナーな機能アップデート"
+
+#: ../../source/releasenote/1.0.2.md:19
+msgid "Imperial unit ruler (from Beta User feedback)"
+msgstr "インペリアル単位定規 (ベータ版ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:20
+msgid ""
+"On MacOS, relocated ToolBar to the system menu bar (from Beta User feedback)"
+msgstr "MacOS では、ツールバーをシステム メニュー バーに再配置しました (ベータ ユーザーのフィードバックから)"
+
+#: ../../source/releasenote/1.0.2.md:21
+msgid "Music spectrum analyzer now automatically detects device changes"
+msgstr "音楽スペクトラム アナライザーがデバイスの変更を自動的に検出するようになりました"
+
+#: ../../source/releasenote/1.0.2.md:22
+msgid ""
+"Keyboard/mouse macro now supports playback speed and remaining time feedback"
+" (from Beta User feedback)"
+msgstr "キーボード/マウス マクロが再生速度と残り時間のフィードバックをサポートするようになりました (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:23
+msgid "Font search feature"
+msgstr "フォント検索機能"
+
+#: ../../source/releasenote/1.0.2.md:24
+msgid "Multi-line title support (from Beta User feedback)"
+msgstr "複数行のタイトルのサポート (ベータ ユーザーのフィードバックから)"
+
+#: ../../source/releasenote/1.0.2.md:25
+msgid ""
+"Separate vibration toggle settings for sliders/wheels (from Beta User "
+"feedback)"
+msgstr "スライダー/ホイールの個別の振動トグル設定 (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:26
+msgid "Spacer width auto-adjustment (from Beta User feedback)"
+msgstr "スペーサー幅の自動調整 (ベータユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:27
+msgid ""
+"Navigation path elements now clickable for direct page access (from Beta "
+"User feedback)"
+msgstr "ナビゲーション パス要素をクリックしてページに直接アクセスできるようになりました (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:28
+msgid "Improved icon pack rendering performance"
+msgstr "アイコンパックのレンダリングパフォーマンスの向上"
+
+#: ../../source/releasenote/1.0.2.md:29
+msgid "SVG icon import support (from Beta User feedback)"
+msgstr "SVG アイコンのインポートのサポート (ベータ ユーザーのフィードバックから)"
+
+#: ../../source/releasenote/1.0.2.md:30
+msgid "Window binding capability for main pages (from Beta User feedback)"
+msgstr "メインページのウィンドウバインディング機能 (ベータユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:31
+msgid "Standard MacOS shortcut key support (from Beta User feedback)"
+msgstr "標準の MacOS ショートカット キーのサポート (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:32
+msgid "Direction setting for RGB light strips"
+msgstr "RGBライトストリップの方向設定"
+
+#: ../../source/releasenote/1.0.2.md:33
+msgid "Added Emoji selector to text/Emoji input fields"
+msgstr "テキスト/絵文字入力フィールドに絵文字セレクターを追加しました"
+
+#: ../../source/releasenote/1.0.2.md:34
+msgid "System lock screen detection"
+msgstr "システムロック画面の検出"
+
+#: ../../source/releasenote/1.0.2.md:35
+msgid "Minimum sleep time is now 30 seconds"
+msgstr "最小スリープ時間は 30 秒になりました"
+
+#: ../../source/releasenote/1.0.2.md:36
+msgid "Modified MacOS tray icon style"
+msgstr "MacOSトレイアイコンのスタイルを変更"
+
+#: ../../source/releasenote/1.0.2.md:37
+msgid "Flexbar preview color now automatically changes based on device color"
+msgstr "Flexbar のプレビューの色がデバイスの色に基づいて自動的に変更されるようになりました"
+
+#: ../../source/releasenote/1.0.2.md:38
+msgid "Device name and color customization"
+msgstr "デバイス名と色のカスタマイズ"
+
+#: ../../source/releasenote/1.0.2.md:39
+msgid "Added bug report page"
+msgstr "バグレポートページを追加しました"
+
+#: ../../source/releasenote/1.0.2.md:40
+msgid "Cycle Button now supports AB key feature"
+msgstr "Cycle Button が AB キー機能をサポートするようになりました"
+
+#: ../../source/releasenote/1.0.2.md:41
+msgid "Various UI adjustments and usability improvements"
+msgstr "各種UIの調整と操作性の向上"
+
+#: ../../source/releasenote/1.0.2.md:43
+msgid "Bug Fixes"
+msgstr "バグ修正"
+
+#: ../../source/releasenote/1.0.2.md:45
+msgid "Memory leak during key dragging"
+msgstr "キードラッグ中のメモリリーク"
+
+#: ../../source/releasenote/1.0.2.md:46
+msgid "Timer allowing negative time values, causing crashes"
+msgstr "負の時間値を許可するタイマーによりクラッシュが発生する"
+
+#: ../../source/releasenote/1.0.2.md:47
+msgid "Binary calculator display errors when switching between 8/16-bit modes"
+msgstr "8/16 ビット モードを切り替えるときのバイナリ計算機の表示エラー"
+
+#: ../../source/releasenote/1.0.2.md:48
+msgid "Music spectrum analyzer failure after computer sleep/hibernation"
+msgstr "コンピュータのスリープ/休止状態後の音楽スペクトラム アナライザの障害"
+
+#: ../../source/releasenote/1.0.2.md:49
+msgid "Abnormal rendering of dotted/dashed borders and double solid borders"
+msgstr "点線/破線の境界線と二重実線の境界線のレンダリングが異常になる"
+
+#: ../../source/releasenote/1.0.2.md:50
+msgid "Issue with disabling startup auto-launch"
+msgstr "スタートアップの自動起動を無効にする場合の問題"
+
+#: ../../source/releasenote/1.0.2.md:51
+msgid ""
+"Text rendering alignment inconsistency between Flexbar and FlexDesigner"
+msgstr "Flexbar と FlexDesigner の間でテキスト レンダリングの位置が一致しない"
+
+#: ../../source/releasenote/1.0.2.md:52
+msgid ""
+"Keyboard/mouse macro recording not stopping when exiting the recording page"
+msgstr "記録ページを終了してもキーボード/マウスマクロ記録が停止しない"
+
+#: ../../source/releasenote/1.0.2.md:53
+msgid ""
+"MacOS application exit error: \"libc++abi: terminating due to uncaught "
+"exception of type Napi::Error\""
+msgstr ""
+"MacOS アプリケーション終了エラー: 「libc++abi: Napi::Error タイプの例外がキャッチされなかったため終了します」"
+
+#: ../../source/releasenote/1.0.2.md:54
+msgid "Page navigation feature"
+msgstr "ページナビゲーション機能"
+
+#: ../../source/releasenote/1.0.2.md:55
+msgid ""
+"Music spectrum analyzer not working after page switching (from Beta User "
+"feedback)"
+msgstr "ページ切り替え後に音楽スペクトラム アナライザーが動作しない (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:56
+msgid ""
+"FlexDesigner shutdown dialog blocking on MacOS (from Beta User feedback)"
+msgstr "MacOS での FlexDesigner シャットダウン ダイアログのブロック (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:57
+msgid "MacOS microphone permission request failures (from Beta User feedback)"
+msgstr "MacOS マイク許可リクエストの失敗 (ベータ版ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:58
+msgid "Hardware performance data truncation when exceeding 65535 bytes"
+msgstr "65535バイトを超える場合のハードウェアパフォーマンスデータの切り捨て"
+
+#: ../../source/releasenote/1.0.2.md:59
+msgid "Incorrect RGB color order in the plugin SDK's draw method"
+msgstr "プラグイン SDK の描画メソッドの RGB カラー順序が正しくない"
+
+#: ../../source/releasenote/1.0.2.md:60
+msgid "Ineffective foreground transparency"
+msgstr "前景の透明度が効果的でない"
+
+#: ../../source/releasenote/1.0.2.md:61
+msgid ""
+"MacOS version requiring Dock presence, unable to work in system tray (from "
+"Beta User feedback)"
+msgstr "MacOS バージョンでは Dock の存在が必要で、システム トレイでは動作できません (ベータ ユーザーのフィードバックより)"
+
+#: ../../source/releasenote/1.0.2.md:62
+msgid "Thread crashes when accessing volume on computers without microphones"
+msgstr "マイクのないコンピューターでボリュームにアクセスするとスレッドがクラッシュする"
+
+#: ../../source/releasenote/1.0.2.md:63
+msgid "CDC interface issues on MacOS"
+msgstr "MacOS での CDC インターフェイスの問題"
+
+#: ../../source/releasenote/1.0.2.md:64
+msgid ""
+"Removed unnecessary permission requests for GitHub login (from Beta User "
+"feedback)"
+msgstr "GitHub ログインのための不要な権限リクエストを削除しました (ベータ ユーザーのフィードバックから)"
+
+#: ../../source/releasenote/1.0.2.md:65
+msgid "Various minor bug fixes"
+msgstr "さまざまなマイナーなバグ修正"
+
+#: ../../source/releasenote/1.0.2.md:67
+msgid "Next Steps"
+msgstr "次のステップ"
+
+#: ../../source/releasenote/1.0.2.md:69
+msgid ""
+"Publishing the Adobe plugin on Adobe Marketplace has encountered obstacles "
+"that need time to resolve. Currently, enabling Adobe-related features "
+"requires manually activating developer mode in Adobe software."
+msgstr ""
+"Adobe Marketplace で Adob​​e プラグインを公開する際に、解決に時間がかかる障害が発生しました。現在、Adobe "
+"関連の機能を有効にするには、Adobe ソフトウェアの開発者モードを手動でアクティブにする必要があります。"
+
+#: ../../source/releasenote/1.0.2.md:70
+msgid "Linux version adaptation expected by the end of March"
+msgstr "Linux バージョンへの対応は 3 月末までに予定"
+
+#: ../../source/releasenote/1.0.2.md:71
+msgid ""
+"FlexGate development is nearly complete and currently in testing phase, "
+"expected to launch in early April"
+msgstr "FlexGate の開発はほぼ完了し、現在テスト段階にあり、4 月初旬に発売される予定です"
+
+#: ../../source/releasenote/1.0.2.md:72
+msgid ""
+"Additional software integrations planned (DaVinci Resolve, Streamlabs, "
+"Discord, etc.)"
+msgstr "追加のソフトウェア統合が計画されています (DaVinci Resolve、Streamlabs、Discord など)"

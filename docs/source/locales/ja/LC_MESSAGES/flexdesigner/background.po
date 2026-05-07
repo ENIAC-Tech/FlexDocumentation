@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/background.md:1
+msgid "Edit Background"
+msgstr "背景の編集"
+
+#: ../../source/flexdesigner/background.md:3
+msgid ""
+"This document describes how to customize a button's background, including "
+"background images, borders, colors, and other parameters."
+msgstr "このドキュメントでは、背景画像・枠線・色などのパラメータを含め、キーの背景をカスタマイズする方法を説明します。"
+
+#: ../../source/flexdesigner/background.md:5
+msgid "Interface Overview"
+msgstr "画面の概要"
+
+#: ../../source/flexdesigner/background.md:7
+msgid "![1742124250018](image/background/1742124250018.png)"
+msgstr "![1742124250018](image/background/1742124250018.png)"
+
+#: ../../source/flexdesigner/background.md:7
+msgid "1742124250018"
+msgstr "1742124250018"
+
+#: ../../source/flexdesigner/background.md:9
+#: ../../source/flexdesigner/background.md:31
+#: ../../source/flexdesigner/background.md:47
+msgid "The following features are available:"
+msgstr "利用できる機能は次のとおりです。"
+
+#: ../../source/flexdesigner/background.md:11
+msgid "Background color selection"
+msgstr "背景色の選択"
+
+#: ../../source/flexdesigner/background.md:12
+msgid "Open an image file as background (supports jpg, png, and gif formats)"
+msgstr "画像ファイルを背景として開く（jpg / png / gif に対応）"
+
+#: ../../source/flexdesigner/background.md:13
+msgid "Import image from clipboard as background"
+msgstr "クリップボードの画像を背景として取り込む"
+
+#: ../../source/flexdesigner/background.md:14
+msgid "Capture a portion of the screen as background"
+msgstr "画面の一部を切り取って背景にする"
+
+#: ../../source/flexdesigner/background.md:15
+msgid ""
+"Current image filename with delete button to remove the background image"
+msgstr "現在の画像ファイル名と、背景画像を削除するボタン"
+
+#: ../../source/flexdesigner/background.md:16
+msgid ""
+"Border style selection (supports single solid line, double solid line, "
+"dotted line, and 3D styles)"
+msgstr "枠線スタイルの選択（実線・二重線・点線・3D など）"
+
+#: ../../source/flexdesigner/background.md:17
+msgid "Border color selection"
+msgstr "枠線の色の選択"
+
+#: ../../source/flexdesigner/background.md:18
+msgid "Border width slider"
+msgstr "枠線幅スライダー"
+
+#: ../../source/flexdesigner/background.md:19
+msgid "Button width slider"
+msgstr "キー幅のスライダー"
+
+#: ../../source/flexdesigner/background.md:20
+msgid "Toggle button width slider step size (switches between 60px and 10px)"
+msgstr "キー幅スライダーのステップを切り替える（60px と 10px）"
+
+#: ../../source/flexdesigner/background.md:21
+msgid ""
+"Toggle maximum adjustable button width (switches between 600px and 2170px)"
+msgstr "調整できるキー幅の上限を切り替える（600px と 2170px）"
+
+#: ../../source/flexdesigner/background.md:22
+msgid ""
+"Imported background image gallery with delete buttons for individual images"
+msgstr "取り込んだ背景画像のギャラリー（各画像を個別に削除可能）"
+
+#: ../../source/flexdesigner/background.md:23
+msgid "Delete all imported images"
+msgstr "取り込んだ画像をすべて削除"
+
+#: ../../source/flexdesigner/background.md:25
+msgid "Image Editing"
+msgstr "画像編集"
+
+#: ../../source/flexdesigner/background.md:27
+msgid "When importing a background image, you can crop the image"
+msgstr "背景画像を取り込む際にトリミングできます"
+
+#: ../../source/flexdesigner/background.md:29
+msgid "![1742136232365](image/background/1742136232365.png)"
+msgstr "![1742136232365](image/background/1742136232365.png)"
+
+#: ../../source/flexdesigner/background.md:29
+msgid "1742136232365"
+msgstr "1742136232365"
+
+#: ../../source/flexdesigner/background.md:33
+msgid ""
+"Image cropping frame (dimensions match current button width, height is "
+"fixed)"
+msgstr "トリミング枠（幅は現在のキー幅に合わせ、高さは固定）"
+
+#: ../../source/flexdesigner/background.md:34
+msgid "Image zoom slider (mouse wheel can also be used for zooming)"
+msgstr "画像のズーム用スライダー（マウスホイールでも操作可能）"
+
+#: ../../source/flexdesigner/background.md:35
+msgid "Auto-scale image to fit"
+msgstr "画像に合わせて自動でスケール調整"
+
+#: ../../source/flexdesigner/background.md:36
+msgid "Horizontal image flip"
+msgstr "画像の水平反転"
+
+#: ../../source/flexdesigner/background.md:37
+msgid "Vertical image flip"
+msgstr "画像の垂直反転"
+
+#: ../../source/flexdesigner/background.md:38
+msgid "Clockwise image rotation"
+msgstr "画像を時計回りに回転"
+
+#: ../../source/flexdesigner/background.md:39
+msgid ""
+"Use original image without cropping or modifications (useful when your "
+"prepared image matches the button dimensions exactly)"
+msgstr "トリミングや加工をせず元画像のまま使う（キー寸法にぴったり合わせた画像を用意している場合に便利）"
+
+#: ../../source/flexdesigner/background.md:40
+msgid "Apply changes and import image"
+msgstr "変更を適用して画像を取り込む"
+
+#: ../../source/flexdesigner/background.md:41
+msgid "Discard changes"
+msgstr "変更を破棄する"
+
+#: ../../source/flexdesigner/background.md:43
+msgid ""
+"When importing a GIF animation, you can adjust playback speed and other "
+"parameters"
+msgstr "GIF アニメーションを取り込む際、再生速度などのパラメータを調整できます"
+
+#: ../../source/flexdesigner/background.md:45
+msgid "![1742136609404](image/background/1742136609404.png)"
+msgstr "![1742136609404](image/background/1742136609404.png)"
+
+#: ../../source/flexdesigner/background.md:45
+msgid "1742136609404"
+msgstr "1742136609404"
+
+#: ../../source/flexdesigner/background.md:49
+msgid "Frame rate adjustment (up to 30fps)"
+msgstr "フレームレートの調整（最大 30fps）"
+
+#: ../../source/flexdesigner/background.md:51
+msgid "Note: Due to performance limitations, higher frame rates may cause lag"
+msgstr "注: 性能上の理由で、フレームレートを高くしすぎると動作が重くなることがあります。"
+
+#: ../../source/flexdesigner/background.md:53
+msgid "Speed adjustment for GIF playback"
+msgstr "GIF 再生速度の調整"
+
+#: ../../source/flexdesigner/background.md:54
+msgid "GIF adjustment strategy:"
+msgstr "GIF の調整方式:"
+
+#: ../../source/flexdesigner/background.md:55
+msgid ""
+"Drop frames: Excess keyframes will be discarded when adjusting frame rate"
+msgstr "フレーム間引き: フレームレートを合わせるために、余分なコマを破棄します。"
+
+#: ../../source/flexdesigner/background.md:56
+msgid ""
+"Extend frames: No frames will be discarded, but the final GIF playback "
+"duration may be longer than expected"
+msgstr "フレーム延長: コマを破棄せず、再生時間が想定より長くなる場合があります。"

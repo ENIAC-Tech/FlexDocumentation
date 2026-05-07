@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/flexdesigner/foreground.md:1
+msgid "Edit Foreground"
+msgstr "前景の編集"
+
+#: ../../source/flexdesigner/foreground.md:3
+msgid ""
+"This document describes how to customize the foreground of a key, including "
+"its icon, text, shadow, and other visual elements."
+msgstr "このドキュメントでは、アイコン、テキスト、影、その他の視覚要素を含むキーの前景をカスタマイズする方法について説明します。"
+
+#: ../../source/flexdesigner/foreground.md:5
+msgid "Interface Overview"
+msgstr "画面の概要"
+
+#: ../../source/flexdesigner/foreground.md:7
+msgid "![1742137377460](image/foreground/1742137377460.png)"
+msgstr "![1742137377460](image/foreground/1742137377460.png)"
+
+#: ../../source/flexdesigner/foreground.md:7
+msgid "1742137377460"
+msgstr "1742137377460"
+
+#: ../../source/flexdesigner/foreground.md:9
+#: ../../source/flexdesigner/foreground.md:33
+#: ../../source/flexdesigner/foreground.md:45
+#: ../../source/flexdesigner/foreground.md:83
+msgid "Feature Overview:"
+msgstr "機能一覧:"
+
+#: ../../source/flexdesigner/foreground.md:11
+msgid "Foreground Color Settings"
+msgstr "前景色の設定"
+
+#: ../../source/flexdesigner/foreground.md:12
+#: ../../source/flexdesigner/foreground.md:25
+msgid "Built-in Icon Selector"
+msgstr "内蔵アイコン選択"
+
+#: ../../source/flexdesigner/foreground.md:13
+#: ../../source/flexdesigner/foreground.md:39
+msgid "Custom Icon Selector"
+msgstr "カスタムアイコン選択"
+
+#: ../../source/flexdesigner/foreground.md:14
+#: ../../source/flexdesigner/foreground.md:63
+msgid "Emoji Selector"
+msgstr "絵文字の選択"
+
+#: ../../source/flexdesigner/foreground.md:15
+#: ../../source/flexdesigner/foreground.md:71
+msgid "Preset Layout Selector"
+msgstr "プリセットレイアウトの選択"
+
+#: ../../source/flexdesigner/foreground.md:16
+msgid "Show Icon (mutually exclusive with Show Emoji)"
+msgstr "アイコンを表示（「絵文字を表示」と排他）"
+
+#: ../../source/flexdesigner/foreground.md:17
+msgid "Show Emoji (mutually exclusive with Show Icon)"
+msgstr "絵文字を表示（「アイコンを表示」と排他）"
+
+#: ../../source/flexdesigner/foreground.md:18
+msgid "Show Title"
+msgstr "タイトルを表示"
+
+#: ../../source/flexdesigner/foreground.md:19
+msgid "Show Shadow"
+msgstr "影を表示"
+
+#: ../../source/flexdesigner/foreground.md:20
+msgid ""
+"Icon Parameter Settings - Adjust icon size, rotation, and XY-axis position "
+"using sliders"
+msgstr "アイコン設定（サイズ・回転・XY 位置をスライダーで調整）"
+
+#: ../../source/flexdesigner/foreground.md:21
+msgid "Title Edit Box - Supports multi-line text"
+msgstr "タイトル編集欄（複数行入力に対応）"
+
+#: ../../source/flexdesigner/foreground.md:22
+msgid "Title Font Settings - Adjust title font, bold, and italic styles"
+msgstr "タイトルのフォント設定（書体・太字・斜体など）"
+
+#: ../../source/flexdesigner/foreground.md:23
+msgid ""
+"Title Parameter Settings - Adjust title size, rotation, and XY-axis position"
+" using sliders"
+msgstr "タイトル設定（サイズ・回転・XY 位置をスライダーで調整）"
+
+#: ../../source/flexdesigner/foreground.md:27
+msgid ""
+"Click ② in the foreground editing interface to open the built-in icon "
+"selector."
+msgstr "前景の編集画面で ② をクリックし、内蔵アイコン選択を開きます。"
+
+#: ../../source/flexdesigner/foreground.md:29
+msgid ""
+"The built-in icon selector contains over 7,000 icons organized by category."
+msgstr "内蔵アイコンは 7,000 種類以上あり、カテゴリ別に閲覧できます。"
+
+#: ../../source/flexdesigner/foreground.md:31
+msgid "![1742258436213](image/foreground/1742258436213.png)"
+msgstr "![1742258436213](image/foreground/1742258436213.png)"
+
+#: ../../source/flexdesigner/foreground.md:31
+msgid "1742258436213"
+msgstr "1742258436213"
+
+#: ../../source/flexdesigner/foreground.md:35
+msgid "Icon Search - Search by icon code or keywords"
+msgstr "アイコン検索（コード名やキーワード）"
+
+#: ../../source/flexdesigner/foreground.md:36
+msgid "Icon History - Recently selected icons appear here"
+msgstr "アイコン履歴（最近使ったアイコン）"
+
+#: ../../source/flexdesigner/foreground.md:37
+msgid ""
+"Icon Category Browser - Click to open icon categories, scroll down to view "
+"more categories"
+msgstr "カテゴリ一覧（クリックで開き、下にスクロールして追加カテゴリを表示）"
+
+#: ../../source/flexdesigner/foreground.md:41
+msgid ""
+"Click ③ in the foreground editing interface to open the custom icon "
+"selector."
+msgstr "前景の編集画面で ③ をクリックし、カスタムアイコン選択を開きます。"
+
+#: ../../source/flexdesigner/foreground.md:43
+msgid "![1742259897464](image/foreground/1742259897464.png)"
+msgstr "![1742259897464](image/foreground/1742259897464.png)"
+
+#: ../../source/flexdesigner/foreground.md:43
+msgid "1742259897464"
+msgstr "1742259897464"
+
+#: ../../source/flexdesigner/foreground.md:47
+msgid "Create a new icon pack"
+msgstr "新しいアイコンパックを作成する"
+
+#: ../../source/flexdesigner/foreground.md:48
+msgid "Import an icon pack from file (.iconpack)"
+msgstr "ファイル（.iconpack）からアイコンパックを取り込む"
+
+#: ../../source/flexdesigner/foreground.md:49
+msgid "Icon Pack List - Click to enter the respective icon pack"
+msgstr "アイコンパック一覧（クリックして各パックを開く）"
+
+#: ../../source/flexdesigner/foreground.md:51
+msgid "![1742259846244](image/foreground/1742259846244.png)"
+msgstr "![1742259846244](image/foreground/1742259846244.png)"
+
+#: ../../source/flexdesigner/foreground.md:51
+msgid "1742259846244"
+msgstr "1742259846244"
+
+#: ../../source/flexdesigner/foreground.md:53
+msgid ""
+"After clicking ③ on the previous page, you'll enter the icon selection page."
+" Feature Overview:"
+msgstr "ひとつ前の画面で ③ を押すと、アイコン選択ページへ進みます。機能一覧:"
+
+#: ../../source/flexdesigner/foreground.md:55
+msgid "Return to previous page"
+msgstr "前のページに戻る"
+
+#: ../../source/flexdesigner/foreground.md:56
+msgid ""
+"Open image files to add as icons - supports adding multiple icons at once"
+msgstr "画像ファイルを開いてアイコンとして追加（複数ファイルを一度に追加可能）"
+
+#: ../../source/flexdesigner/foreground.md:57
+msgid "Import images from clipboard to add as icons"
+msgstr "クリップボードの画像をアイコンとして追加"
+
+#: ../../source/flexdesigner/foreground.md:58
+msgid "Export current icon pack to file (.iconpack)"
+msgstr "現在のアイコンパックをファイル（.iconpack）に書き出す"
+
+#: ../../source/flexdesigner/foreground.md:59
+msgid "Edit current icon pack title and description"
+msgstr "現在のアイコンパックのタイトルと説明を編集"
+
+#: ../../source/flexdesigner/foreground.md:60
+msgid ""
+"Hover over any icon to click and use, or use selection box for multiple icon"
+" selection"
+msgstr "アイコンにカーソルを合わせてクリックして使う／範囲選択で複数選択"
+
+#: ../../source/flexdesigner/foreground.md:61
+msgid ""
+"Right-click on icons to open menu - delete current icon or multiple selected"
+" icons"
+msgstr "アイコンを右クリックしてメニュー表示（現在または選択中のアイコンを削除）"
+
+#: ../../source/flexdesigner/foreground.md:65
+msgid ""
+"Click ④ in the foreground editing interface to open the Emoji selector, "
+"where you can choose your favorite Emojis to use as icons."
+msgstr ""
+"前景の編集画面で ④ をクリックすると絵文字の選択が開き、"
+"好きな絵文字をアイコンとして使えます。"
+
+#: ../../source/flexdesigner/foreground.md:67
+msgid "Note: Emoji appearance may vary across different operating systems"
+msgstr "注: 絵文字の見た目は OS によって異なる場合があります。"
+
+#: ../../source/flexdesigner/foreground.md:69
+msgid "![1742260291774](image/foreground/1742260291774.png)"
+msgstr "![1742260291774](image/foreground/1742260291774.png)"
+
+#: ../../source/flexdesigner/foreground.md:69
+msgid "1742260291774"
+msgstr "1742260291774"
+
+#: ../../source/flexdesigner/foreground.md:73
+msgid ""
+"Click ⑤ in the foreground editing interface to open the preset layout "
+"selector, which offers several common icon-title layouts for direct use."
+msgstr ""
+"前景の編集画面で ⑤ をクリックするとプリセットレイアウト選択が開き、よく使うアイコン＋タイトルの配置をそのまま使えます。"
+
+#: ../../source/flexdesigner/foreground.md:75
+msgid "![1742260351306](image/foreground/1742260351306.png)"
+msgstr "![1742260351306](image/foreground/1742260351306.png)"
+
+#: ../../source/flexdesigner/foreground.md:75
+msgid "1742260351306"
+msgstr "1742260351306"
+
+#: ../../source/flexdesigner/foreground.md:77
+msgid "Font Selector"
+msgstr "フォントの選択"
+
+#: ../../source/flexdesigner/foreground.md:79
+msgid "Click ⑫ in the foreground editing interface to open the font selector."
+msgstr "前景の編集画面で ⑫ をクリックし、フォント選択を開きます。"
+
+#: ../../source/flexdesigner/foreground.md:81
+msgid "![1742260618802](image/foreground/1742260618802.png)"
+msgstr "![1742260618802](image/foreground/1742260618802.png)"
+
+#: ../../source/flexdesigner/foreground.md:81
+msgid "1742260618802"
+msgstr "1742260618802"
+
+#: ../../source/flexdesigner/foreground.md:85
+msgid "Font Search Box - Search for font names"
+msgstr "フォント検索（名前で絞り込み）"
+
+#: ../../source/flexdesigner/foreground.md:86
+msgid "Recently Used Fonts - Your recently selected fonts appear here"
+msgstr "最近使ったフォント"
+
+#: ../../source/flexdesigner/foreground.md:87
+msgid ""
+"Font List - Preview font appearances directly, with multiple font styles "
+"shown in submenus if available"
+msgstr "フォント一覧（見た目をプレビュー。スタイルが複数ある場合はサブメニューに表示）"

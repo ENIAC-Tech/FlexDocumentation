@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, ENIAC
+# This file is distributed under the same license as the FlexDocumentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FlexDocumentation 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-23 12:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/releasenote/1.0.3.md:1
+msgid "Release Version 1.0.3"
+msgstr "リリースバージョン 1.0.3"
+
+#: ../../source/releasenote/1.0.3.md:3
+msgid "New Features"
+msgstr "新機能"
+
+#: ../../source/releasenote/1.0.3.md:5
+msgid "Icon packs now support selecting a cover icon"
+msgstr "アイコン パックでカバー アイコンの選択がサポートされるようになりました"
+
+#: ../../source/releasenote/1.0.3.md:6
+msgid "UI improvements for a smoother and more intuitive experience"
+msgstr "よりスムーズで直感的なエクスペリエンスを実現するための UI の改善"
+
+#: ../../source/releasenote/1.0.3.md:7
+msgid "Frist release Linux x86 version"
+msgstr "最初のリリース Linux x86 バージョン"
+
+#: ../../source/releasenote/1.0.3.md:9
+msgid "Bug Fixes"
+msgstr "バグ修正"
+
+#: ../../source/releasenote/1.0.3.md:11
+msgid "Fixed import errors with icon packs"
+msgstr "アイコンパックのインポートエラーを修正"
+
+#: ../../source/releasenote/1.0.3.md:12
+msgid "Resolved plugin version check failure"
+msgstr "プラグインのバージョンチェックの失敗を解決しました"
+
+#: ../../source/releasenote/1.0.3.md:13
+msgid "Fixed issue with language switching"
+msgstr "言語切り替えに関する問題を修正"
+
+#: ../../source/releasenote/1.0.3.md:14
+msgid ""
+"KeyLibrary no longer displays libraries from unsupported operating systems"
+msgstr "KeyLibrary はサポートされていないオペレーティング システムのライブラリを表示しなくなりました"
+
+#: ../../source/releasenote/1.0.3.md:15
+msgid "Fixed inability to drag keys into sequence and cycle buttons"
+msgstr "キーをシーケンスボタンやサイクルボタンにドラッグできない問題を修正"
+
+#: ../../source/releasenote/1.0.3.md:16
+msgid "Resolved launch issues when the username contains spaces"
+msgstr "ユーザー名にスペースが含まれている場合の起動の問題を解決しました"
