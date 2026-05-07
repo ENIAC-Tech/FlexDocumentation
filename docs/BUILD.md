@@ -25,7 +25,7 @@ npm run docs:translate
 npm run docs:dev
 ```
 
-Open the URL printed in the terminal (default Vite port). The site is built for the GitHub **project** path `/FlexDocumentation/`, so local dev and preview use that prefix (for example `http://localhost:5173/FlexDocumentation/en/`). Use the language menu for English, 简体中文, and 日本語.
+Open the URL printed in the terminal (default Vite port). The site is built for the published path `/document/flexbar/`, so local dev and preview use that prefix (for example `http://localhost:5173/document/flexbar/en/`). Use the language menu for English, 简体中文, and 日本語.
 
 ## Production build
 
@@ -56,7 +56,7 @@ npm run docs:preview
 
 ## GitHub Pages
 
-The published URL is `https://eniac-tech.github.io/FlexDocumentation/` (VitePress `base` is `/FlexDocumentation/`). Enable **GitHub Pages** with source **GitHub Actions** in the repository settings.
+The published URL is `https://eniac-tech.github.io/document/flexbar` (VitePress `base` is `/document/flexbar/`). Enable **GitHub Pages** with source **GitHub Actions** in the repository settings. Ensure the Pages deployment serves this repository’s build output at that path (see your org/site Pages configuration if the URL is not the default project-site path).
 
 ## Site base URL
 
