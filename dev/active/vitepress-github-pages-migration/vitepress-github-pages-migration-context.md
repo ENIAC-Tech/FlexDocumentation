@@ -29,7 +29,7 @@
 |------|------|------|
 | 2026-05-07 | 一次性迁移英文、中文、日文到 VitePress | 避免新旧站长期并行，确保上线时三语言体验完整 |
 | 2026-05-07 | 使用 `docs/` 作为 VitePress 项目根 | 复用当前文档边界，不污染仓库根目录 |
-| 2026-05-07 | GitHub Pages 子路径 `/document/flexbar/` | 线上：`https://eniac-tech.github.io/document/flexbar`；Markdown 公共资源路径仍为 `/image/`、`/assets/`，由 VitePress 拼接 `base` |
+| 2026-05-07 | GitHub Pages 路径 `/FlexDocumentation/flexbar/` | 线上：`https://eniac-tech.github.io/FlexDocumentation/flexbar/`；Actions 将 `dist` 放进 artifact 的 `flexbar/`；Markdown 仍用 `/image/`、`/assets/`，由 VitePress 拼接 `base` |
 | 2026-05-07 | 使用 `npm` | 减少额外工具要求，仓库当前无既有 Node 约定 |
 | 2026-05-07 | 提交生成后的三语言 Markdown | 构建简单，可人工修正翻译，GitHub Pages 不依赖 gettext 运行时 |
 | 2026-05-07 | 本次只保留 HTML 输出 | VitePress/GitHub Pages 原生适合静态 HTML，PDF/EPUB 后续单独处理 |
