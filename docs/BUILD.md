@@ -25,7 +25,7 @@ npm run docs:translate
 npm run docs:dev
 ```
 
-Open the URL printed in the terminal (default Vite port). Use the language menu for English, 简体中文, and 日本語.
+Open the URL printed in the terminal (default Vite port). The site is built for the GitHub **project** path `/FlexDocumentation/`, so local dev and preview use that prefix (for example `http://localhost:5173/FlexDocumentation/en/`). Use the language menu for English, 简体中文, and 日本語.
 
 ## Production build
 
@@ -56,7 +56,7 @@ npm run docs:preview
 
 ## GitHub Pages
 
-The workflow `.github/workflows/docs-pages.yml` runs on pushes to `main` that touch `docs/**`. Enable **GitHub Pages** in the repository settings with the **GitHub Actions** source. The site assumes a user or organization root (`base: '/'` in VitePress).
+The published URL is `https://eniac-tech.github.io/FlexDocumentation/` (VitePress `base` is `/FlexDocumentation/`). Enable **GitHub Pages** with source **GitHub Actions** in the repository settings.
 
 ## Legacy Sphinx tree
 

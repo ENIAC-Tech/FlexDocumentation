@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitepress'
 import { buildSidebar } from './sidebar'
 
+/** GitHub Project Pages: https://eniac-tech.github.io/FlexDocumentation/ */
+const BASE = '/FlexDocumentation/'
+
 export default defineConfig({
   title: 'FlexDocumentation',
   description: 'Flexbar product documentation',
-  base: '/',
+  base: BASE,
   srcDir: '.',
   srcExclude: ['**/source/**'],
   ignoreDeadLinks: [/^\/assets\//, /^\/image\//],
