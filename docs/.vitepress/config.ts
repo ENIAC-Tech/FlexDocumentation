@@ -14,6 +14,9 @@ export default defineConfig({
   base: BASE,
   srcDir: '.',
   srcExclude: ['**/source/**'],
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: `${BASE}enlinx.png` }],
+  ],
   /**
    * Markdown uses root-absolute `/image/` and `/assets/`; VitePress rewrites them with `base` for the browser.
    * The static file checker does not always match `public/` the same way; these patterns avoid false build failures.
@@ -29,6 +32,7 @@ export default defineConfig({
       lang: 'en',
       link: '/en/',
       themeConfig: {
+        logo: '/enlinx.png',
         siteTitle: 'FlexDocumentation',
         nav: [
           { text: 'Home', link: '/en/' },
@@ -42,6 +46,7 @@ export default defineConfig({
       lang: 'zh-CN',
       link: '/zh_CN/',
       themeConfig: {
+        logo: '/enlinx.png',
         siteTitle: 'Flex 文档',
         nav: [
           { text: '首页', link: '/zh_CN/' },
@@ -55,6 +60,7 @@ export default defineConfig({
       lang: 'ja',
       link: '/ja/',
       themeConfig: {
+        logo: '/enlinx.png',
         siteTitle: 'Flex ドキュメント',
         nav: [
           { text: 'ホーム', link: '/ja/' },
