@@ -1,40 +1,24 @@
 # FlexDocumentation
 
-This repository is used to manage and maintain documentation for Flexbar products.
+This repository manages documentation for Flexbar products. The published site is built with **VitePress** and deployed to **GitHub Pages**.
 
-## Getting Started
+## Quick start (local docs)
 
-### Prerequisites
+1. Install [Node.js](https://nodejs.org/) 20+ and clone this repository.
+2. From the `docs` folder:
 
-Before you begin, ensure you have the following installed:
+   ```powershell
+   cd docs
+   npm ci
+   npm run docs:sync-en
+   npm run docs:translate
+   npm run docs:dev
+   ```
 
-- Python 3.10 or higher
-- pip (Python package installer)
-- Git
+3. Open the local URL shown in the terminal to browse English, Chinese, and Japanese pages.
 
-### Clone the Repository
+For a production build and further detail, see [docs/BUILD.md](docs/BUILD.md).
 
-```
-git clone https://github.com/ENIAC-Tech/FlexDocumentation.git
-cd FlexDocumentation/docs
-```
+## Contributing
 
-### Install Requirements
-
-Install the required Python packages using pip:
-```
-pip install -r requirements.txt
-```
-
-### Build the Documentation
-
-To build the documentation locally, run:
-```
-./make.bat html
-```
-or
-```
-make html
-```
-
-
+After editing Markdown under `docs/source/`, run `npm run docs:sync-en` and `npm run docs:translate` in `docs/` so `docs/en/`, `docs/zh_CN/`, and `docs/ja/` stay in sync before you commit (unless you rely on CI to regenerate them on `main`).

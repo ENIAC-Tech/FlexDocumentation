@@ -1,0 +1,15 @@
+/* Migrated from docs/source/_static/css/custom.css (Sphinx RTD) */
+
+.vp-doc blockquote {
+  padding: 0.6em 1em;
+  margin: 0.8em 0;
+  color: #555;
+  border-left: 0.25em solid #dfe2e5;
+  background-color: #f8f9fa;
+}
+
+.dark .vp-doc blockquote {
+  color: #cfcfcf;
+  border-color: #444c56;
+  background-color: #272b30;
+}
