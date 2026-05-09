@@ -37,16 +37,20 @@ jobs:
 
       # Project Pages maps artifact root → https://eniac-tech.github.io/<repo>/
       # Nest dist under flexbar/ so the site matches base /FlexDocumentation/flexbar/
+      # Bare repo root shows this once; prefer JS redirect in <head> so body never paints.
       - name: Layout Pages artifact (flexbar subdirectory)
         run: |
           mkdir -p _pages
           mv docs/.vitepress/dist _pages/flexbar
-          printf '%s\n' '<!DOCTYPE html>' '<html lang="en"><head><meta charset="utf-8">' \
-            '<meta http-equiv="refresh" content="0; url=flexbar/en/">' \
+          printf '%s\n' \
+            '<!DOCTYPE html>' \
+            '<html lang="en"><head><meta charset="utf-8">' \
             '<meta name="viewport" content="width=device-width,initial-scale=1">' \
-            '<title>FlexDocumentation</title></head><body>' \
-            '<p><a href="flexbar/en/">Continue to documentation</a></p>' \
-            '</body></html>' > _pages/index.html
+            '<title>FlexDocumentation</title>' \
+            "<script>location.replace('/FlexDocumentation/flexbar/en/')</script>" \
+            '<noscript><meta http-equiv="refresh" content="0; url=flexbar/en/"></noscript>' \
+            '</head><body></body></html>' \
+            > _pages/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:
