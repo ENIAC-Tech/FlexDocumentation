@@ -287,8 +287,8 @@ msgid "\"sys.wake\": Wake up the device"
 msgstr "\"sys.wake\": デバイスをスリープから復帰させます。"
 
 #: ../../source/sdk/sdk_api_reference.md:170
-msgid "\"hapic.click\": Trigger a click vibration"
-msgstr "\"hapic.click\": クリックに相当する振動フィードバックを出します。"
+msgid "\"haptic.click\": Trigger a click vibration"
+msgstr "\"haptic.click\": クリックに相当する振動フィードバックを出します。"
 
 #: ../../source/sdk/sdk_api_reference.md:180
 msgid "plugin.setDeviceConfig(serialNumber, config)"

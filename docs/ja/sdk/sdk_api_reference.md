@@ -167,12 +167,12 @@ plugin.setSlider(serialNumber, key, 75)
 - `command` (文字列): 送信するコマンド。次のいずれか:
     - "sys.sleep": デバイスをスリープ状態にします。
     - "sys.wake": デバイスをスリープから復帰させます。
-    - "hapic.click": クリックに相当する振動フィードバックを出します。
+    - "haptic.click": クリックに相当する振動フィードバックを出します。
 
 ```javascript
 plugin.sendControlCommand(serialNumber, 'sys.sleep') // Put the device to sleep
 plugin.sendControlCommand(serialNumber, 'sys.wake') // Wake up the device
-plugin.sendControlCommand(serialNumber, 'hapic.click') // Trigger a click vibration
+plugin.sendControlCommand(serialNumber, 'haptic.click') // Trigger a click vibration
 ```
 
 

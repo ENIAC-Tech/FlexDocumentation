@@ -167,12 +167,12 @@ Sends control commands to the device
 - `command` (string): The command to send. One of the following:
     - "sys.sleep": Put the device to sleep
     - "sys.wake": Wake up the device
-    - "hapic.click": Trigger a click vibration
+    - "haptic.click": Trigger a click vibration
 
 ```javascript
 plugin.sendControlCommand(serialNumber, 'sys.sleep') // Put the device to sleep
 plugin.sendControlCommand(serialNumber, 'sys.wake') // Wake up the device
-plugin.sendControlCommand(serialNumber, 'hapic.click') // Trigger a click vibration
+plugin.sendControlCommand(serialNumber, 'haptic.click') // Trigger a click vibration
 ```
 
 
