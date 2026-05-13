@@ -75,13 +75,22 @@ Flexbar 不需要额外的 USB 驱动程序，连接时应该自动识别。通�
    SUBSYSTEM=="hidraw", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd", MODE="0666", GROUP="plugdev"
    SUBSYSTEM=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"
    SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"' > /tmp/99-flexbar.rules
-   sudo cp /tmp/99-flexbar.rules /etc/udev/rules.d/
-   sudo udevadm control --reload-rules && sudo udevadm trigger
+   sudo cp /tmp/99-flexbar.rules /etc/udev/rules.d/99-flexbar.rules
    ```
 
-2. **断开并重新连接您的设备**
+2. **根据需要调整用户或用户组**
 
-3. **重启应用程序**
+   某些发行版（包括部分基于 Arch 的发行版）可能没有 `plugdev` 用户组。如果创建设备规则后仍然无法访问设备，请编辑 `/etc/udev/rules.d/99-flexbar.rules`，并将所有 `GROUP="plugdev"` 替换为 `OWNER="<your-linux-username>"`，例如 `OWNER="alex"`。
+
+3. **重新加载 udev 规则**，运行以下命令：
+   ```bash
+   sudo udevadm control --reload-rules
+   sudo udevadm trigger
+   ```
+
+4. **断开并重新连接您的设备**
+
+5. **重启应用程序**
 
 ## MacOS USB Permission Issues
 

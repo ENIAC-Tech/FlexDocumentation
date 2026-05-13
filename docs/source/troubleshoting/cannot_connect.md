@@ -75,13 +75,22 @@ If you're using Linux and encounter "Cannot access USB device, this may be due t
    SUBSYSTEM=="hidraw", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd", MODE="0666", GROUP="plugdev"
    SUBSYSTEM=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"
    SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"' > /tmp/99-flexbar.rules
-   sudo cp /tmp/99-flexbar.rules /etc/udev/rules.d/
-   sudo udevadm control --reload-rules && sudo udevadm trigger
+   sudo cp /tmp/99-flexbar.rules /etc/udev/rules.d/99-flexbar.rules
    ```
 
-2. **Disconnect and reconnect your device**
+2. **Adjust the user or group if needed**
 
-3. **Restart the application**
+   Some distributions, including some Arch-based distributions, may not have a `plugdev` group. If the device still cannot be accessed after creating the rule, edit `/etc/udev/rules.d/99-flexbar.rules` and replace every `GROUP="plugdev"` with `OWNER="<your-linux-username>"`, for example `OWNER="alex"`.
+
+3. **Reload udev rules** by running the following commands:
+   ```bash
+   sudo udevadm control --reload-rules
+   sudo udevadm trigger
+   ```
+
+4. **Disconnect and reconnect your device**
+
+5. **Restart the application**
 
 ## MacOS USB Permission Issues
 

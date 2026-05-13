@@ -228,6 +228,26 @@ msgid "**Create udev rules** by running the following commands in terminal:"
 msgstr "**创建 udev 规则**通过在终端中运行以下命令："
 
 #: ../../source/troubleshoting/cannot_connect.md:82
+msgid "**Adjust the user or group if needed**"
+msgstr "**根据需要调整用户或用户组**"
+
+#: ../../source/troubleshoting/cannot_connect.md:84
+msgid ""
+"Some distributions, including some Arch-based distributions, may not have a "
+"`plugdev` group. If the device still cannot be accessed after creating the "
+"rule, edit `/etc/udev/rules.d/99-flexbar.rules` and replace every "
+"`GROUP=\"plugdev\"` with `OWNER=\"<your-linux-username>\"`, for example "
+"`OWNER=\"alex\"`."
+msgstr ""
+"某些发行版（包括部分基于 Arch 的发行版）可能没有 `plugdev` 用户组。如果创建设备规则后仍然无法访问设备，请编辑 "
+"`/etc/udev/rules.d/99-flexbar.rules`，并将所有 `GROUP=\"plugdev\"` 替换为 "
+"`OWNER=\"<your-linux-username>\"`，例如 `OWNER=\"alex\"`。"
+
+#: ../../source/troubleshoting/cannot_connect.md:86
+msgid "**Reload udev rules** by running the following commands:"
+msgstr "**重新加载 udev 规则**，运行以下命令："
+
+#: ../../source/troubleshoting/cannot_connect.md:82
 msgid "**Disconnect and reconnect your device**"
 msgstr "**断开并重新连接您的设备**"
 
@@ -269,4 +289,3 @@ msgstr "如果上述方法无法解决您的问题，请发送电子邮件至 co
 
 #~ msgid "您可以参考[苹果官方文档](https://support.apple.com/en-us/102282)"
 #~ msgstr ""
-

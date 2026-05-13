@@ -230,6 +230,27 @@ msgid "**Create udev rules** by running the following commands in terminal:"
 msgstr "**udev ルールを作成**するには、ターミナルで次のコマンドを実行します。"
 
 #: ../../source/troubleshoting/cannot_connect.md:82
+msgid "**Adjust the user or group if needed**"
+msgstr "**必要に応じてユーザーまたはグループを調整します**"
+
+#: ../../source/troubleshoting/cannot_connect.md:84
+msgid ""
+"Some distributions, including some Arch-based distributions, may not have a "
+"`plugdev` group. If the device still cannot be accessed after creating the "
+"rule, edit `/etc/udev/rules.d/99-flexbar.rules` and replace every "
+"`GROUP=\"plugdev\"` with `OWNER=\"<your-linux-username>\"`, for example "
+"`OWNER=\"alex\"`."
+msgstr ""
+"一部の Arch ベースのディストリビューションを含む一部のディストリビューションでは、`plugdev` グループが存在しない場合があります。"
+"ルールを作成してもデバイスにアクセスできない場合は、`/etc/udev/rules.d/99-flexbar.rules` を編集し、"
+"すべての `GROUP=\"plugdev\"` を `OWNER=\"<your-linux-username>\"` に置き換えてください。"
+"例: `OWNER=\"alex\"`。"
+
+#: ../../source/troubleshoting/cannot_connect.md:86
+msgid "**Reload udev rules** by running the following commands:"
+msgstr "**udev ルールを再読み込み**するには、次のコマンドを実行します。"
+
+#: ../../source/troubleshoting/cannot_connect.md:82
 msgid "**Disconnect and reconnect your device**"
 msgstr "**デバイスを切断して再接続します**"
 
