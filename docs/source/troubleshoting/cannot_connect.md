@@ -67,21 +67,43 @@ In rare cases, your system may have trouble communicating with Flexbar using a s
 
 ## Linux USB Permission Issues
 
-If you're using Linux and encounter "Cannot access USB device, this may be due to permission issues", follow these steps:
+If you're using Linux and encounter ```Cannot access USB device, this may be due to permission issues```, follow these steps:
 
-1. **Create udev rules** by running the following commands in terminal:
+1. **Close the application**
+
+2. **Disconnect Flexbar**
+
+3. **Create udev rules** by running the following command in terminal:
    ```bash
-   echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd", MODE="0666", GROUP="plugdev"
-   SUBSYSTEM=="hidraw", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd", MODE="0666", GROUP="plugdev"
-   SUBSYSTEM=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"
-   SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0666", GROUP="plugdev"' > /tmp/99-flexbar.rules
-   sudo cp /tmp/99-flexbar.rules /etc/udev/rules.d/
+   echo '# Flexbar USB rules v2
+   SUBSYSTEM=="usb", ATTR{idVendor}=="303a", ATTR{idProduct}=="82bd|82bf|82c0|ff80", MODE="0660", TAG+="uaccess"
+   SUBSYSTEM=="hidraw", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bd|ff80", MODE="0660", TAG+="uaccess"
+   SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="82bf", MODE="0660", TAG+="uaccess"' | sudo tee /etc/udev/rules.d/70-flexbar.rules > /dev/null
+   ```
+   
+4. **Reload udev rules** by running the following command in terminal.
+   ```bash
    sudo udevadm control --reload-rules && sudo udevadm trigger
    ```
 
-2. **Disconnect and reconnect your device**
+6. **Reconnect Flexbar**
 
-3. **Restart the application**
+7. **Restart the application**
+
+## Linux CDC / TTY Permission Issues
+
+If you're using Linux and encounter errors with CDC / TTY connections (such as: ```Error: Permission denied, cannot open /dev/ttyACM0```), follow these steps:
+
+1. **Add your user account to the ```dialout``` group** by running the following command in terminal.
+   ```bash
+   sudo usermod -aG dialout $USER
+   ```
+   This gives your account permission to use TTY connections
+   
+2. **Log out and log back in** to apply the new permissions.
+
+3. **Restart the application.**
+
 
 ## MacOS USB Permission Issues
 
